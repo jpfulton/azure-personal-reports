@@ -50,5 +50,5 @@ jobs:
         run: |
           git pull
           git add -A .
-          git commit -m "Generated examples [skip ci]"
+          git commit -m "Generated reports [skip ci]"
           git push
