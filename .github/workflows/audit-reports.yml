@@ -1,4 +1,4 @@
-name: Audit Reporting Workflow
+name: "Audit Reporting Workflow"
 
 on:
   workflow_call:

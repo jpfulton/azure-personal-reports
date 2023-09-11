@@ -1,4 +1,4 @@
-name: "Scheduled Examples Generation"
+name: "Report Generation Workflow"
 
 on:
   schedule: # 06:00 CST == 11:00 UTC
