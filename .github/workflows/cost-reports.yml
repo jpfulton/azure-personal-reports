@@ -1,0 +1,53 @@
+name: "Audit Reporting Workflow"
+
+on:
+  workflow_call:
+    secrets:
+      azure-sp-credentials:
+        required: true
+
+jobs:
+  audit:
+    name: Audit Report Job
+
+    permissions:
+      contents: write
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Checkout GitHub Action"
+        uses: actions/checkout@v3
+
+      - name: "Setup DotNet Environment"
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 7.0.x
+
+      - name: "Install Latest azure-audit-cli Tool from MS Nuget"
+        run: dotnet tool install --global azure-cost-cli
+
+      - name: "Login via Azure CLI"
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.azure-sp-credentials }}
+
+      - name: "Run Daily Cost Report"
+        run: azure-cost dailyCosts --dimension ResourceGroup --output Markdown > ./cost-reports/daily-costs.md
+
+      - name: "Run Cost by Resource Report"
+        run: azure-cost costByResource --output Markdown > ./cost-reports/cost-by-resource.md
+
+      - name: "Run Accumulated Cost Report"
+        run: azure-cost accumulatedCost --output Markdown > ./cost-reports/accumulated-cost.md
+
+      - name: "Configure Git"
+        run: |
+          git config user.name jpfulton
+          git config user.email jpatrick.fulton@gmail.com
+
+      - name: "Commit and Push Command Outputs"
+        run: |
+          git add -A .
+          git commit -m "Generated examples [skip ci]"
+          git push
