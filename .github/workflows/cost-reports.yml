@@ -7,8 +7,8 @@ on:
         required: true
 
 jobs:
-  audit:
-    name: Audit Report Job
+  cost:
+    name: Cost Report Job
 
     permissions:
       contents: write
