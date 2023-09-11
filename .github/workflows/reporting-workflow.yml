@@ -1,0 +1,15 @@
+name: "Scheduled Examples Generation"
+
+on:
+  schedule: # 06:00 CST == 11:00 UTC
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+
+jobs:
+  audit-reports:
+    name: "Generate Audit Reports"
+    permissions:
+      contents: write
+    uses: ./.github/workflows/audit-reports.yml
+    secrets:
+      azure-sp-credentials: ${{ secrets.AZURE_SP_CREDENTIALS }}
