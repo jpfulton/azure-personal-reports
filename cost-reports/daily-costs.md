@@ -13,8 +13,9 @@ Fetching daily cost data...
 | **2023-09-08** | **6.26** | **personal-network**: `3.11` (_49.65%_), **personal-site**: `1.57` (_25.14%_), ****: `1.05` (_16.71%_), **cloud-shell-storage-eastus**: `0.50` (_7.99%_), **personal-dns**: `0.03` (_0.52%_), **defaultresourcegroup-ncus**: `0.00` (_0.00%_), **Other**: `0.00` (_0.00%_) |
 | **2023-09-09** | **6.13** | **personal-network**: `2.99` (_48.72%_), **personal-site**: `1.57` (_25.64%_), ****: `1.04` (_16.97%_), **cloud-shell-storage-eastus**: `0.50` (_8.15%_), **personal-dns**: `0.03` (_0.53%_), **defaultresourcegroup-ncus**: `0.00` (_0.00%_), **Other**: `0.00` (_0.00%_) |
 | **2023-09-10** | **5.91** | **personal-network**: `2.76` (_46.64%_), **personal-site**: `1.57` (_26.63%_), ****: `1.05` (_17.72%_), **cloud-shell-storage-eastus**: `0.50` (_8.46%_), **personal-dns**: `0.03` (_0.55%_), **defaultresourcegroup-ncus**: `0.00` (_0.00%_), **Other**: `0.00` (_0.00%_) |
-| **2023-09-11** | **5.40** | **personal-network**: `2.57` (_47.60%_), **personal-site**: `1.42` (_26.26%_), ****: `0.92` (_17.10%_), **cloud-shell-storage-eastus**: `0.46` (_8.49%_), **personal-dns**: `0.03` (_0.55%_), **Other**: `0.00` (_0.00%_) |
-| **2023-09-12** | **0.12** | **personal-network**: `0.12` (_100.00%_), **Other**: `0.00` (_0.00%_) |
+| **2023-09-11** | **5.94** | **personal-network**: `2.77` (_46.64%_), **personal-site**: `1.57` (_26.49%_), ****: `1.06` (_17.90%_), **cloud-shell-storage-eastus**: `0.50` (_8.42%_), **personal-dns**: `0.03` (_0.55%_), **defaultresourcegroup-ncus**: `0.00` (_0.00%_), **Other**: `0.00` (_0.00%_) |
+| **2023-09-12** | **7.37** | **personal-network**: `6.74` (_91.40%_), **personal-site**: `0.54` (_7.28%_), ****: `0.04` (_0.54%_), **cloud-shell-storage-eastus**: `0.03` (_0.39%_), **personal-dns**: `0.03` (_0.39%_), **Other**: `0.00` (_0.00%_) |
+| **2023-09-13** | **0.10** | **personal-network**: `0.10` (_100.00%_), **Other**: `0.00` (_0.00%_) |
 
 
-<sup>Generated at 2023-09-12 11:02:09 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-13 11:01:37 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
