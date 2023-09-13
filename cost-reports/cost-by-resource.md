@@ -36,11 +36,11 @@ Fetching cost data for resources...
 |ubuntu-backup-server-spot | microsoft.compute/virtualmachines | US North Central | personal-network |  Bandwidth |  | Standard Data Transfer Out | 0.00 USD |
 |ubuntu-backup-server-spot | microsoft.compute/virtualmachines | US North Central | personal-network |  Bandwidth | Inter-Region | Intra Continent Data Transfer Out | 0.00 USD |
 |ubuntu-backup-server-spot | microsoft.compute/virtualmachines | US North Central | personal-network |  Security Center | Microsoft Defender CSPM | Standard Node | 1.84 USD |
-|ubuntu-backup-server-spot | microsoft.compute/virtualmachines | US North Central | personal-network |  Virtual Machines | DSv2 Series VM | DS1 v2 Spot | 2.18 USD |
+|ubuntu-backup-server-spot | microsoft.compute/virtualmachines | US North Central | personal-network |  Virtual Machines | DSv2 Series VM | DS1 v2 Spot | 2.20 USD |
 |ubuntu-vpn-server-spot | microsoft.compute/virtualmachines | US North Central | personal-network |  Bandwidth |  | Standard Data Transfer Out | 2.68 USD |
 |ubuntu-vpn-server-spot | microsoft.compute/virtualmachines | US North Central | personal-network |  Bandwidth | Inter-Region | Intra Continent Data Transfer Out | 0.00 USD |
 |ubuntu-vpn-server-spot | microsoft.compute/virtualmachines | US North Central | personal-network |  Security Center | Microsoft Defender CSPM | Standard Node | 1.84 USD |
-|ubuntu-vpn-server-spot | microsoft.compute/virtualmachines | US North Central | personal-network |  Virtual Machines | DSv2 Series VM | DS1 v2 Spot | 2.18 USD |
+|ubuntu-vpn-server-spot | microsoft.compute/virtualmachines | US North Central | personal-network |  Virtual Machines | DSv2 Series VM | DS1 v2 Spot | 2.20 USD |
 |win-dev | microsoft.compute/virtualmachines | US North Central | personal-network |  Bandwidth |  | Standard Data Transfer Out | 0.00 USD |
 |win-dev | microsoft.compute/virtualmachines | Intercontinental | personal-network |  Bandwidth | Inter-Region | Inter Continent Data Transfer Out - NAM or EU To Any | 0.00 USD |
 |win-dev | microsoft.compute/virtualmachines | US North Central | personal-network |  Bandwidth | Inter-Region | Intra Continent Data Transfer Out | 0.00 USD |
