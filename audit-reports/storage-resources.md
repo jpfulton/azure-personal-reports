@@ -1,8 +1,8 @@
 # Audit Rule Outputs
 
-> Rendered on: Wednesday, September 13, 2023 6:03 PM <br/>
+> Rendered on: Wednesday, September 13, 2023 6:06 PM <br/>
 > Using command: azure-audit storage <br/>
-> Version: 0.0.43.0 <br/>
+> Version: 0.0.44.0 <br/>
 > Resource groups and resources without rule findings will be omitted.
 
 ## JPF Pay-As-You-Go (4913be3f-a345-4652-9bba-767418dd25e3)
