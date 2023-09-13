@@ -32,6 +32,11 @@ jobs:
         with:
           creds: ${{ secrets.azure-sp-credentials }}
 
+      - name: "Upgrade Azure CLI to Latest Version"
+        run: |
+          az upgrade --yes
+          az --version
+
       - name: "Run Audit CLI on All Resources"
         run: azure-audit all --output Markdown > ./audit-reports/all-resources.md
 
