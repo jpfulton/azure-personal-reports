@@ -27,22 +27,28 @@ jobs:
       - name: "Install Latest azure-audit-cli Tool from MS Nuget"
         run: dotnet tool install --global azure-audit-cli
 
+      - name: "Upgrade Azure CLI"
+        continue-on-error: true
+        run: az upgrade
+
       - name: "Login via Azure CLI"
         uses: azure/login@v1
         with:
           creds: ${{ secrets.azure-sp-credentials }}
 
       - name: "Show Azure CLI Version"
-        run: |
-          az --version
+        run: az --version
 
       - name: "Run Audit CLI on All Resources"
+        continue-on-error: true
         run: azure-audit all --output Markdown > ./audit-reports/all-resources.md
 
       - name: "Run Audit CLI on Networking Resources"
+        continue-on-error: true
         run: azure-audit all --output Markdown > ./audit-reports/networking-resources.md
 
       - name: "Run Audit CLI on Storage Resources"
+        continue-on-error: true
         run: azure-audit all --output Markdown > ./audit-reports/storage-resources.md
 
       - name: "Configure Git"
