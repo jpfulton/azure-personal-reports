@@ -120,4 +120,4 @@ pie
    "personal-dns" : 0.22
 ```
 
-<sup>Generated at 2023-09-14 20:01:41 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-14 21:56:53 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

@@ -30,12 +30,12 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Storage|0.01 USD|
+|Storage|0.02 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.01
+   "Storage" : 0.02
 ```
 
 ## By Location
@@ -54,12 +54,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.01 USD|
+|personal-network|0.02 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.01
+   "personal-network" : 0.02
 ```
 
-<sup>Generated at 2023-09-14 19:10:18 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-14 22:04:03 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

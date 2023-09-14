@@ -19,4 +19,4 @@ Fetching daily cost data...
 | **2023-09-14** | **13.85** | **personal-network**: `13.68` (_98.75%_), **personal-site**: `0.15` (_1.07%_), ****: `0.01` (_0.08%_), **personal-dns**: `0.01` (_0.07%_), **cloud-shell-storage-eastus**: `0.00` (_0.02%_), **Other**: `0.00` (_0.00%_) |
 
 
-<sup>Generated at 2023-09-14 19:06:18 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-14 21:50:48 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

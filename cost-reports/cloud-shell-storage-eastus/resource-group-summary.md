@@ -13,9 +13,9 @@ Fetching cost data by resource group...
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.00 USD|
-|Last 7 days|0.00 USD|
-|Last 30 days|0.00 USD|
+|Yesterday|0.01 USD|
+|Last 7 days|2.54 USD|
+|Last 30 days|5.53 USD|
 
 ```mermaid
 gantt
@@ -23,105 +23,105 @@ gantt
    dateFormat  X
    axisFormat %s
    section 01 Sep
-   USD 0.00 :0, 0
+   USD 0.50 :0, 50
    section 02 Sep
-   USD 0.00 :0, 0
+   USD 1.00 :0, 100
    section 03 Sep
-   USD 0.00 :0, 0
+   USD 1.50 :0, 150
    section 04 Sep
-   USD 0.00 :0, 0
+   USD 2.00 :0, 200
    section 05 Sep
-   USD 0.00 :0, 0
+   USD 2.49 :0, 249
    section 06 Sep
-   USD 0.00 :0, 0
+   USD 2.98 :0, 298
    section 07 Sep
-   USD 0.00 :0, 0
+   USD 3.48 :0, 348
    section 08 Sep
-   USD 0.00 :0, 0
+   USD 3.98 :0, 398
    section 09 Sep
-   USD 0.00 :0, 0
+   USD 4.48 :0, 448
    section 10 Sep
-   USD 0.00 :0, 0
+   USD 4.98 :0, 498
    section 11 Sep
-   USD 0.00 :0, 0
+   USD 5.48 :0, 548
    section 12 Sep
-   USD 0.00 :0, 0
+   USD 5.51 :0, 551
    section 13 Sep
-   USD 0.00 :0, 0
+   USD 5.52 :0, 552
    section 14 Sep
-   USD 0.00 :0, 0
+   USD 5.53 :0, 553
    section 15 Sep
-   USD 0.00 : done, 0, 0
+   USD 6.06 : done, 0, 606
    section 16 Sep
-   USD 0.00 : done, 0, 0
+   USD 6.59 : done, 0, 659
    section 17 Sep
-   USD 0.00 : done, 0, 0
+   USD 7.14 : done, 0, 714
    section 18 Sep
-   USD 0.00 : done, 0, 0
+   USD 7.68 : done, 0, 768
    section 19 Sep
-   USD 0.00 : done, 0, 0
+   USD 8.23 : done, 0, 823
    section 20 Sep
-   USD 0.00 : done, 0, 0
+   USD 8.79 : done, 0, 879
    section 21 Sep
-   USD 0.00 : done, 0, 0
+   USD 9.35 : done, 0, 935
    section 22 Sep
-   USD 0.00 : done, 0, 0
+   USD 9.92 : done, 0, 992
    section 23 Sep
-   USD 0.00 : done, 0, 0
+   USD 10.50 : done, 0, 1050
    section 24 Sep
-   USD 0.00 : done, 0, 0
+   USD 11.08 : done, 0, 1108
    section 25 Sep
-   USD 0.00 : done, 0, 0
+   USD 11.66 : done, 0, 1166
    section 26 Sep
-   USD 0.00 : done, 0, 0
+   USD 12.25 : done, 0, 1225
    section 27 Sep
-   USD 0.00 : done, 0, 0
+   USD 12.84 : done, 0, 1284
    section 28 Sep
-   USD 0.00 : done, 0, 0
+   USD 13.45 : done, 0, 1345
    section 29 Sep
-   USD 0.00 : done, 0, 0
+   USD 14.06 : done, 0, 1406
    section 30 Sep
-   USD 0.00 : done, 0, 0
+   USD 14.67 : done, 0, 1467
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Bandwidth|0.00 USD|
-|Azure App Service|0.00 USD|
-|Functions|0.00 USD|
+|Advanced Threat Protection|3.55 USD|
+|Security Center|1.84 USD|
+|Storage|0.13 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Bandwidth" : 0.00
-   "Azure App Service" : 0.00
-   "Functions" : 0.00
+   "Advanced Threat Protection" : 3.55
+   "Security Center" : 1.84
+   "Storage" : 0.13
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US Central|0.00 USD|
+|US East|5.53 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 0.00
+   "US East" : 5.53
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|0.00 USD|
+|cloud-shell-storage-eastus|5.53 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 0.00
+   "cloud-shell-storage-eastus" : 5.53
 ```
 
-<sup>Generated at 2023-09-14 22:31:20 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-14 21:55:52 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
