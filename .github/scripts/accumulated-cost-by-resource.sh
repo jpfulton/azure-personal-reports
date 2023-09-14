@@ -18,7 +18,8 @@ sort_by(
     type != 'Microsoft.Network/networkWatchers' &&
     type != 'Microsoft.ManagedIdentity/userAssignedIdentities' &&
     type != 'Microsoft.OperationalInsights/workspaces' &&
-    type != 'Microsoft.OperationsManagement/solutions'
+    type != 'Microsoft.OperationsManagement/solutions' &&
+    type != 'Microsoft.Portal/dashboards'
   ].{id: id, name: name},
   &name) | [].id
 ";
