@@ -9,9 +9,12 @@ SUMMARY_FILE="${COST_REPORTS_DIR}/README.md";
 JMES_QUERY="
 sort_by(
   [?
+    type != 'microsoft.alertsmanagement/smartDetectorAlertRules' &&
     type != 'Microsoft.Compute/sshPublicKeys' &&
     type != 'Microsoft.Compute/virtualMachines/extensions' &&
+    type != 'microsoft.insights/actiongroups' &&
     type != 'Microsoft.Insights/activityLogAlerts' &&
+    type != 'microsoft.insights/components' &&
     type != 'Microsoft.Insights/dataCollectionRules' &&
     type != 'Microsoft.Network/networkInterfaces' &&
     type != 'Microsoft.Network/networkSecurityGroups' &&
@@ -20,7 +23,8 @@ sort_by(
     type != 'Microsoft.ManagedIdentity/userAssignedIdentities' &&
     type != 'Microsoft.OperationalInsights/workspaces' &&
     type != 'Microsoft.OperationsManagement/solutions' &&
-    type != 'Microsoft.Portal/dashboards'
+    type != 'Microsoft.Portal/dashboards' &&
+    type != 'Microsoft.Web/serverFarms'
   ].{id: id, name: name},
   &name) | [].id
 ";
