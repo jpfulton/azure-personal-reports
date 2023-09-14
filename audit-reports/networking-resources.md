@@ -1,6 +1,6 @@
 # Audit Rule Outputs
 
-> Rendered on: Wednesday, September 13, 2023 6:06 PM <br/>
+> Rendered on: Thursday, September 14, 2023 11:04 AM <br/>
 > Using command: azure-audit networking <br/>
 > Version: 0.0.44.0 <br/>
 > Resource groups and resources without rule findings will be omitted.
@@ -8,13 +8,13 @@
 ## JPF Pay-As-You-Go (4913be3f-a345-4652-9bba-767418dd25e3)
 
 - Total resource groups: 11
-- Total evaluated resources: 8
+- Total evaluated resources: 10
 - Total rule findings: 2
 
 ### personal-network
 
 - Location: northcentralus
-- Total evaluated resources: 8
+- Total evaluated resources: 10
 - Total resources with rule findings: 2
 - Total rule findings: 2
 
