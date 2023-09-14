@@ -15,8 +15,8 @@ Fetching daily cost data...
 | **2023-09-10** | **5.91** | **personal-network**: `2.76` (_46.64%_), **personal-site**: `1.57` (_26.63%_), ****: `1.05` (_17.72%_), **cloud-shell-storage-eastus**: `0.50` (_8.46%_), **personal-dns**: `0.03` (_0.55%_), **defaultresourcegroup-ncus**: `0.00` (_0.00%_), **Other**: `0.00` (_0.00%_) |
 | **2023-09-11** | **5.94** | **personal-network**: `2.77` (_46.64%_), **personal-site**: `1.57` (_26.49%_), ****: `1.06` (_17.90%_), **cloud-shell-storage-eastus**: `0.50` (_8.42%_), **personal-dns**: `0.03` (_0.55%_), **defaultresourcegroup-ncus**: `0.00` (_0.00%_), **Other**: `0.00` (_0.00%_) |
 | **2023-09-12** | **13.27** | **personal-network**: `12.52` (_94.38%_), **personal-site**: `0.64` (_4.79%_), ****: `0.05` (_0.36%_), **personal-dns**: `0.03` (_0.25%_), **cloud-shell-storage-eastus**: `0.03` (_0.23%_), **defaultresourcegroup-ncus**: `0.00` (_0.00%_), **Other**: `0.00` (_0.00%_) |
-| **2023-09-13** | **44.74** | **personal-network**: `44.14` (_98.67%_), **personal-site**: `0.52` (_1.16%_), ****: `0.04` (_0.08%_), **personal-dns**: `0.03` (_0.07%_), **cloud-shell-storage-eastus**: `0.01` (_0.02%_), **Other**: `0.00` (_0.00%_) |
-| **2023-09-14** | **0.16** | **personal-network**: `0.16` (_100.00%_), **Other**: `0.00` (_0.00%_) |
+| **2023-09-13** | **46.80** | **personal-network**: `46.13` (_98.56%_), **personal-site**: `0.59` (_1.27%_), ****: `0.04` (_0.08%_), **personal-dns**: `0.03` (_0.07%_), **cloud-shell-storage-eastus**: `0.01` (_0.02%_), **defaultresourcegroup-ncus**: `0.00` (_0.00%_), **Other**: `0.00` (_0.00%_) |
+| **2023-09-14** | **13.85** | **personal-network**: `13.68` (_98.75%_), **personal-site**: `0.15` (_1.07%_), ****: `0.01` (_0.08%_), **personal-dns**: `0.01` (_0.07%_), **cloud-shell-storage-eastus**: `0.00` (_0.02%_), **Other**: `0.00` (_0.00%_) |
 
 
-<sup>Generated at 2023-09-14 11:02:08 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-14 19:06:18 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
