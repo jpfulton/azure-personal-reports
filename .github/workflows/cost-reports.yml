@@ -24,7 +24,7 @@ jobs:
         with:
           dotnet-version: 7.0.x
 
-      - name: "Install Latest azure-audit-cli Tool from MS Nuget"
+      - name: "Install Latest azure-cost-cli Tool from MS Nuget"
         run: dotnet tool install --global azure-cost-cli
 
       - name: "Login via Azure CLI"
