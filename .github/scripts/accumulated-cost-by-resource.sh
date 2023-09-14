@@ -81,6 +81,9 @@ for rg in ${RESOURCE_GROUPS[@]}; do
           echo "Error running accumulated cost report for group: ${rg}.";
           echo "---";
       fi
+    else
+      echo "No 'cost-able' resources found in resource group. Moving on...";
+      echo "---";
   fi
 
   echo "" >> $SUMMARY_FILE;
