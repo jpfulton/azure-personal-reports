@@ -38,7 +38,7 @@ jobs:
       - name: "Run Cost by Resource Report"
         run: azure-cost costByResource --output Markdown > ./cost-reports/cost-by-resource.md
 
-      - name: "Run Accumulated Cost Report"
+      - name: "Run Accumulated Cost Report for All Resources"
         run: azure-cost accumulatedCost --output Markdown > ./cost-reports/accumulated-cost.md
 
       - name: "Run Accumulated Cost Report for Each Resource"
