@@ -16,6 +16,7 @@ sort_by(
     type != 'Microsoft.Network/networkInterfaces' &&
     type != 'Microsoft.Network/networkSecurityGroups' &&
     type != 'Microsoft.Network/networkWatchers' &&
+    type != 'Microsoft.Network/privateDnsZones/virtualNetworkLinks' &&
     type != 'Microsoft.ManagedIdentity/userAssignedIdentities' &&
     type != 'Microsoft.OperationalInsights/workspaces' &&
     type != 'Microsoft.OperationsManagement/solutions' &&
