@@ -32,6 +32,10 @@ sort_by(
 echo "# Resource Costs Index" > $SUMMARY_FILE;
 echo "" >> $SUMMARY_FILE;
 
+echo "> Generated on: {$(date)} <br />" >> $SUMMARY_FILE;
+echo "> Resources and resource groups with no costs are ommited." >> $SUMMARY_FILE;
+echo "" >> $SUMMARY_FILE;
+
 echo "- [Total Accumulated Costs](./accumulated-cost.md)" >> $SUMMARY_FILE;
 echo "- [Total Cost by Resource](./cost-by-resource.md)" >> $SUMMARY_FILE;
 echo "- [Total Daily Costs](./daily-costs.md)" >> $SUMMARY_FILE;
@@ -41,15 +45,34 @@ echo "Fetching resource groups...";
 RESOURCE_GROUPS=( $(az group list --query "sort_by([].{name: name}, &name)" --output tsv ) );
 
 for rg in ${RESOURCE_GROUPS[@]}; do
-  echo "## ${rg}" >> $SUMMARY_FILE;
-  echo "" >> $SUMMARY_FILE;
-
   RG_DIR="${COST_REPORTS_DIR}/${rg}";
   mkdir -p $RG_DIR;
 
   echo "Fetching resources for group ${rg}...";
-  #RESOURCES_IDS=( $(az resource list --resource-group $rg --query "$JMES_QUERY" --output tsv) );
   readarray -t RESOURCES_IDS < <(az resource list --resource-group $rg --query "$JMES_QUERY" --output tsv);
+
+  # if there are "cost-able" resources generate the resouce group level report
+  if [ ${#RESOURCES_IDS[@]} -ne 0 ];
+    then
+      echo "## ${rg}" >> $SUMMARY_FILE;
+      echo "" >> $SUMMARY_FILE;
+
+      echo "Building resource group level cost report for group ${rg}...";
+      OUTPUT=$(azure-cost accumulatedCost --filter "ResourceGroupName=$rg" --output Markdown)
+      if [ $? -eq 0 ];
+        then
+          echo "- [Summary](./${rg}/resource-group-summary.md)" >> $SUMMARY_FILE;
+
+          echo "Writing accumulated cost report for ${rg}.";
+          echo "$OUTPUT" > ${RG_DIR}/resource-group-summary.md; 
+        else
+          echo "Error running accumulated cost report for group: ${rg}.";
+          echo "---";
+      fi
+    else
+      echo "No 'cost-able' resources found in resource group. Moving on...";
+      echo "---";
+  fi
 
   for id in "${RESOURCES_IDS[@]}"; do
     RESOURCE_NAME=$(echo $id | rev | cut -d "/" -f 1 | rev);
@@ -70,26 +93,6 @@ for rg in ${RESOURCE_GROUPS[@]}; do
         echo "---";
     fi
   done
-
-  # if there are "cost-able" resources generate the resouce group level report
-  if [ ${#RESOURCES_IDS[@]} -ne 0 ];
-    then
-      echo "Building resource group level cost report for group ${rg}...";
-      OUTPUT=$(azure-cost accumulatedCost --filter "ResourceGroupName=$rg" --output Markdown)
-      if [ $? -eq 0 ];
-        then
-          echo "- [Resource Group Summary](./${rg}/resource-group-summary.md)" >> $SUMMARY_FILE;
-
-          echo "Writing accumulated cost report for ${rg}.";
-          echo "$OUTPUT" > ${RG_DIR}/resource-group-summary.md; 
-        else
-          echo "Error running accumulated cost report for group: ${rg}.";
-          echo "---";
-      fi
-    else
-      echo "No 'cost-able' resources found in resource group. Moving on...";
-      echo "---";
-  fi
 
   echo "" >> $SUMMARY_FILE;
 done
