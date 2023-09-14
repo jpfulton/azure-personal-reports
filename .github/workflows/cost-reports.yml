@@ -41,6 +41,9 @@ jobs:
       - name: "Run Accumulated Cost Report"
         run: azure-cost accumulatedCost --output Markdown > ./cost-reports/accumulated-cost.md
 
+      - name: "Run Accumulated Cost Report for Each Resource"
+        run: ./.github/scripts/accumulated-cost-by-resource.sh
+
       - name: "Configure Git"
         run: |
           git config user.name jpfulton
