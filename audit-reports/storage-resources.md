@@ -1,6 +1,6 @@
 # Audit Rule Outputs
 
-> Rendered on: Thursday, September 14, 2023 11:04 AM <br/>
+> Rendered on: Thursday, September 14, 2023 7:07 PM <br/>
 > Using command: azure-audit storage <br/>
 > Version: 0.0.44.0 <br/>
 > Resource groups and resources without rule findings will be omitted.
@@ -8,8 +8,8 @@
 ## JPF Pay-As-You-Go (4913be3f-a345-4652-9bba-767418dd25e3)
 
 - Total resource groups: 11
-- Total evaluated resources: 12
-- Total rule findings: 51
+- Total evaluated resources: 10
+- Total rule findings: 38
 
 ### cloud-shell-storage-eastus
 
@@ -68,9 +68,9 @@ Storage account Web service is enabled.
 ### personal-network
 
 - Location: northcentralus
-- Total evaluated resources: 9
-- Total resources with rule findings: 9
-- Total rule findings: 33
+- Total evaluated resources: 7
+- Total resources with rule findings: 7
+- Total rule findings: 20
 
 <table>
 <tr>
@@ -199,96 +199,11 @@ Managed disk is reserved. Its managing virtual machine is currently deallocated.
 </tr>
 <tr>
 <td><em>Microsoft.Storage/storageAccounts</em></td>
-<td><strong>backupstoraged765</strong></td>
+<td><strong>backupstoragea973</strong></td>
 </tr>
 <tr>
 <td colspan="2">
 <ul>
-<li>
-:large_blue_circle:
-<strong>[Info]</strong>
-Storage account is accessible via 1 virtual network rule(s).
-</li>
-<li>
-:large_blue_circle:
-<strong>[Info]</strong>
-Storage account uses infrastructure encryption for double encryption.
-</li>
-<li>
-:green_circle:
-<strong>[Note]</strong>
-Storage account Blob service is enabled.
-</li>
-<li>
-:green_circle:
-<strong>[Note]</strong>
-Storage account Dfs service is enabled.
-</li>
-<li>
-:green_circle:
-<strong>[Note]</strong>
-Storage account File service is enabled.
-</li>
-<li>
-:green_circle:
-<strong>[Note]</strong>
-Storage account Queue service is enabled.
-</li>
-<li>
-:green_circle:
-<strong>[Note]</strong>
-Storage account Table service is enabled.
-</li>
-<li>
-:green_circle:
-<strong>[Note]</strong>
-Storage account Web service is enabled.
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><em>Microsoft.Storage/storageAccounts</em></td>
-<td><strong>jpfbackupstorage</strong></td>
-</tr>
-<tr>
-<td colspan="2">
-<ul>
-<li>
-:yellow_circle:
-<strong>[Warn]</strong>
-Storage account allows HTTP access in addition to HTTPS.
-</li>
-<li>
-:large_blue_circle:
-<strong>[Info]</strong>
-Storage account is accessible via 1 virtual network rule(s).
-</li>
-<li>
-:large_blue_circle:
-<strong>[Info]</strong>
-Storage account uses infrastructure encryption for double encryption.
-</li>
-<li>
-:green_circle:
-<strong>[Note]</strong>
-Storage account File service is enabled.
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><em>Microsoft.Storage/storageAccounts</em></td>
-<td><strong>jpfteststorageacct</strong></td>
-</tr>
-<tr>
-<td colspan="2">
-<ul>
-<li>
-:large_blue_circle:
-<strong>[Info]</strong>
-Storage account is accessible via 1 IP rule(s).
-</li>
 <li>
 :large_blue_circle:
 <strong>[Info]</strong>
