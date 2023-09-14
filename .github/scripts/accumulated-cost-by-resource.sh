@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 
+OUTPUT="";
 COST_REPORTS_DIR="./cost-reports";
 
 echo "Fetching resource groups...";
 RESOURCE_GROUPS=( $(az group list --query "[].name" --output tsv ) );
 
 for rg in ${RESOURCE_GROUPS[@]}; do
-  echo "Fetching resources for group: ${rg}...";
+  echo "Fetching resources for group ${rg}...";
   RESOURCES_IDS=( $(az resource list --resource-group $rg --query "[].id" --output tsv) );
 
   RG_DIR="${COST_REPORTS_DIR}/${rg}";
@@ -16,7 +17,7 @@ for rg in ${RESOURCE_GROUPS[@]}; do
     RESOURCE_NAME=$(echo $id | rev | cut -d "/" -f 1 | rev);
     OUTPUT_FILE_NAME="${RG_DIR}/${RESOURCE_NAME}.md";
 
-    echo "Building cost report for ${RESOURCE_NAME} in group: ${rg}...";
+    echo "Building cost report for ${RESOURCE_NAME} in group ${rg}...";
     OUTPUT=$(azure-cost accumulatedCost --filter ResourceId=$id --output Markdown);
 
     if [ $? -eq 0 ]; 
