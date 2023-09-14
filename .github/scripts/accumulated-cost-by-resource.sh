@@ -11,8 +11,14 @@ sort_by(
   [?
     type != 'Microsoft.Compute/sshPublicKeys' &&
     type != 'Microsoft.Compute/virtualMachines/extensions' &&
+    type != 'Microsoft.Insights/activityLogAlerts' &&
+    type != 'Microsoft.Insights/dataCollectionRules' &&
     type != 'Microsoft.Network/networkInterfaces' &&
-    type != 'Microsoft.Network/networkSecurityGroups'
+    type != 'Microsoft.Network/networkSecurityGroups' &&
+    type != 'Microsoft.Network/networkWatchers' &&
+    type != 'Microsoft.ManagedIdentity/userAssignedIdentities' &&
+    type != 'Microsoft.OperationalInsights/workspaces' &&
+    type != 'Microsoft.OperationsManagement/solutions'
   ].{id: id, name: name},
   &name) | [].id
 ";
@@ -35,24 +41,11 @@ for rg in ${RESOURCE_GROUPS[@]}; do
   RG_DIR="${COST_REPORTS_DIR}/${rg}";
   mkdir -p $RG_DIR;
 
-  echo "Build resource group level cost report for group ${rg}...";
-  OUTPUT=$(azure-cost accumulatedCost --filter "ResourceGroupName=$rg" --output Markdown)
-  if [ $? -eq 0 ];
-    then
-      echo "- [Resource Group Summary](./${rg}/resource-group-summary.md)" >> $SUMMARY_FILE;
-
-      echo "Writing accumulated cost report for ${rg}.";
-      echo "$OUTPUT" > ${RG_DIR}/resource-group-summary.md; 
-    else
-      echo "Error running accumulated cost report for group: ${rg}.";
-      echo "---";
-  fi
-
   echo "Fetching resources for group ${rg}...";
   #RESOURCES_IDS=( $(az resource list --resource-group $rg --query "$JMES_QUERY" --output tsv) );
   readarray -t RESOURCES_IDS < <(az resource list --resource-group $rg --query "$JMES_QUERY" --output tsv);
 
-  for id in ${RESOURCES_IDS[@]}; do
+  for id in "${RESOURCES_IDS[@]}"; do
     RESOURCE_NAME=$(echo $id | rev | cut -d "/" -f 1 | rev);
     OUTPUT_FILE_NAME="${RG_DIR}/${RESOURCE_NAME}.md";
 
@@ -71,6 +64,23 @@ for rg in ${RESOURCE_GROUPS[@]}; do
         echo "---";
     fi
   done
+
+  # if there are "cost-able" resources generate the resouce group level report
+  if [ ${#RESOURCES_IDS[@]} -ne 0 ];
+    then
+      echo "Building resource group level cost report for group ${rg}...";
+      OUTPUT=$(azure-cost accumulatedCost --filter "ResourceGroupName=$rg" --output Markdown)
+      if [ $? -eq 0 ];
+        then
+          echo "- [Resource Group Summary](./${rg}/resource-group-summary.md)" >> $SUMMARY_FILE;
+
+          echo "Writing accumulated cost report for ${rg}.";
+          echo "$OUTPUT" > ${RG_DIR}/resource-group-summary.md; 
+        else
+          echo "Error running accumulated cost report for group: ${rg}.";
+          echo "---";
+      fi
+  fi
 
   echo "" >> $SUMMARY_FILE;
 done
