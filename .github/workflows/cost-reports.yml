@@ -31,7 +31,7 @@ jobs:
           echo "EOF" >> $GITHUB_OUTPUT;
 
       - name: "Echo Output"
-        run: echo "${{ steps.get-resource-groups.outputs.resource-groups }}"
+        run: echo '${{ steps.get-resource-groups.outputs.resource-groups }}'
 
   cost:
     name: "Cost Report Job for Group: ${{ matrix.group }}"
