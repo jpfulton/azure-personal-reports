@@ -12,9 +12,9 @@ Fetching cost data by resource group...
 
 |Period|Amount|
 |---|---:|
-|Today|0.01 USD|
+|Today|0.00 USD|
 |Yesterday|0.02 USD|
-|Last 7 days|0.12 USD|
+|Last 7 days|0.11 USD|
 |Last 30 days|0.22 USD|
 
 ```mermaid
@@ -51,37 +51,37 @@ gantt
    section 14 Sep
    USD 0.22 :0, 22
    section 15 Sep
-   USD 0.23 : done, 0, 23
+   USD 0.24 : done, 0, 24
    section 16 Sep
-   USD 0.25 : done, 0, 25
+   USD 0.26 : done, 0, 26
    section 17 Sep
    USD 0.27 : done, 0, 27
    section 18 Sep
-   USD 0.28 : done, 0, 28
+   USD 0.29 : done, 0, 29
    section 19 Sep
    USD 0.30 : done, 0, 30
    section 20 Sep
-   USD 0.31 : done, 0, 31
+   USD 0.32 : done, 0, 32
    section 21 Sep
-   USD 0.33 : done, 0, 33
+   USD 0.34 : done, 0, 34
    section 22 Sep
    USD 0.35 : done, 0, 35
    section 23 Sep
-   USD 0.36 : done, 0, 36
+   USD 0.37 : done, 0, 37
    section 24 Sep
-   USD 0.38 : done, 0, 38
-   section 25 Sep
    USD 0.39 : done, 0, 39
+   section 25 Sep
+   USD 0.40 : done, 0, 40
    section 26 Sep
-   USD 0.41 : done, 0, 41
+   USD 0.42 : done, 0, 42
    section 27 Sep
    USD 0.43 : done, 0, 43
    section 28 Sep
-   USD 0.44 : done, 0, 44
+   USD 0.45 : done, 0, 45
    section 29 Sep
-   USD 0.46 : done, 0, 46
-   section 30 Sep
    USD 0.47 : done, 0, 47
+   section 30 Sep
+   USD 0.48 : done, 0, 48
 ```
 
 ## By Service Name
@@ -120,4 +120,4 @@ pie
    "personal-network" : 0.22
 ```
 
-<sup>Generated at 2023-09-14 23:27:36 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-15 11:22:55 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

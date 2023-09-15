@@ -12,8 +12,8 @@ Fetching cost data by resource group...
 
 |Period|Amount|
 |---|---:|
-|Today|0.13 USD|
-|Yesterday|0.00 USD|
+|Today|0.00 USD|
+|Yesterday|0.13 USD|
 |Last 7 days|0.13 USD|
 |Last 30 days|0.13 USD|
 
@@ -64,4 +64,4 @@ pie
    "personal-network" : 0.13
 ```
 
-<sup>Generated at 2023-09-14 23:11:37 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-15 11:12:49 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

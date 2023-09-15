@@ -14,7 +14,7 @@ Fetching cost data by resource group...
 |---|---:|
 |Today|0.00 USD|
 |Yesterday|0.01 USD|
-|Last 7 days|2.54 USD|
+|Last 7 days|2.05 USD|
 |Last 30 days|5.53 USD|
 
 ```mermaid
@@ -51,37 +51,37 @@ gantt
    section 14 Sep
    USD 5.53 :0, 553
    section 15 Sep
-   USD 6.06 : done, 0, 606
+   USD 5.96 : done, 0, 596
    section 16 Sep
-   USD 6.60 : done, 0, 660
+   USD 6.39 : done, 0, 639
    section 17 Sep
-   USD 7.14 : done, 0, 714
+   USD 6.82 : done, 0, 682
    section 18 Sep
-   USD 7.69 : done, 0, 769
+   USD 7.25 : done, 0, 725
    section 19 Sep
-   USD 8.23 : done, 0, 823
+   USD 7.67 : done, 0, 767
    section 20 Sep
-   USD 8.79 : done, 0, 879
+   USD 8.09 : done, 0, 809
    section 21 Sep
-   USD 9.35 : done, 0, 935
+   USD 8.51 : done, 0, 851
    section 22 Sep
-   USD 9.92 : done, 0, 992
+   USD 8.94 : done, 0, 894
    section 23 Sep
-   USD 10.50 : done, 0, 1050
+   USD 9.37 : done, 0, 937
    section 24 Sep
-   USD 11.08 : done, 0, 1108
+   USD 9.79 : done, 0, 979
    section 25 Sep
-   USD 11.66 : done, 0, 1166
+   USD 10.21 : done, 0, 1021
    section 26 Sep
-   USD 12.25 : done, 0, 1225
+   USD 10.63 : done, 0, 1063
    section 27 Sep
-   USD 12.84 : done, 0, 1284
+   USD 11.05 : done, 0, 1105
    section 28 Sep
-   USD 13.45 : done, 0, 1345
+   USD 11.47 : done, 0, 1147
    section 29 Sep
-   USD 14.06 : done, 0, 1406
+   USD 11.90 : done, 0, 1190
    section 30 Sep
-   USD 14.67 : done, 0, 1467
+   USD 12.32 : done, 0, 1232
 ```
 
 ## By Service Name
@@ -124,4 +124,4 @@ pie
    "cloud-shell-storage-eastus" : 5.53
 ```
 
-<sup>Generated at 2023-09-14 23:01:18 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-15 11:04:49 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

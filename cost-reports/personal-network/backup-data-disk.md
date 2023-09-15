@@ -12,10 +12,10 @@ Fetching cost data by resource group...
 
 |Period|Amount|
 |---|---:|
-|Today|0.64 USD|
-|Yesterday|1.41 USD|
-|Last 7 days|10.41 USD|
-|Last 30 days|18.80 USD|
+|Today|0.00 USD|
+|Yesterday|1.32 USD|
+|Last 7 days|9.68 USD|
+|Last 30 days|19.48 USD|
 
 ```mermaid
 gantt
@@ -49,75 +49,75 @@ gantt
    section 13 Sep
    USD 18.16 :0, 1816
    section 14 Sep
-   USD 18.80 :0, 1880
+   USD 19.48 :0, 1948
    section 15 Sep
-   USD 20.22 : done, 0, 2022
+   USD 20.90 : done, 0, 2090
    section 16 Sep
-   USD 21.63 : done, 0, 2163
+   USD 22.32 : done, 0, 2232
    section 17 Sep
-   USD 23.04 : done, 0, 2304
+   USD 23.73 : done, 0, 2373
    section 18 Sep
-   USD 24.47 : done, 0, 2447
+   USD 25.16 : done, 0, 2516
    section 19 Sep
-   USD 25.88 : done, 0, 2588
+   USD 26.58 : done, 0, 2658
    section 20 Sep
-   USD 27.28 : done, 0, 2728
+   USD 27.99 : done, 0, 2799
    section 21 Sep
-   USD 28.69 : done, 0, 2869
+   USD 29.40 : done, 0, 2940
    section 22 Sep
-   USD 30.13 : done, 0, 3013
+   USD 30.84 : done, 0, 3084
    section 23 Sep
-   USD 31.55 : done, 0, 3155
+   USD 32.27 : done, 0, 3227
    section 24 Sep
-   USD 32.98 : done, 0, 3298
+   USD 33.70 : done, 0, 3370
    section 25 Sep
-   USD 34.43 : done, 0, 3443
+   USD 35.14 : done, 0, 3514
    section 26 Sep
-   USD 35.85 : done, 0, 3585
+   USD 36.58 : done, 0, 3658
    section 27 Sep
-   USD 37.27 : done, 0, 3727
+   USD 38.01 : done, 0, 3801
    section 28 Sep
-   USD 38.70 : done, 0, 3870
+   USD 39.44 : done, 0, 3944
    section 29 Sep
-   USD 40.15 : done, 0, 4015
+   USD 40.89 : done, 0, 4089
    section 30 Sep
-   USD 41.59 : done, 0, 4159
+   USD 42.34 : done, 0, 4234
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|18.80 USD|
+|Storage|19.48 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 18.80
+   "Storage" : 19.48
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|18.80 USD|
+|US North Central|19.48 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 18.80
+   "US North Central" : 19.48
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|18.80 USD|
+|personal-network|19.48 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 18.80
+   "personal-network" : 19.48
 ```
 
-<sup>Generated at 2023-09-14 23:09:39 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-15 11:10:52 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

@@ -12,10 +12,10 @@ Fetching cost data by resource group...
 
 |Period|Amount|
 |---|---:|
-|Today|0.06 USD|
+|Today|0.00 USD|
 |Yesterday|0.12 USD|
-|Last 7 days|0.90 USD|
-|Last 30 days|1.62 USD|
+|Last 7 days|0.84 USD|
+|Last 30 days|1.68 USD|
 
 ```mermaid
 gantt
@@ -49,75 +49,75 @@ gantt
    section 13 Sep
    USD 1.56 :0, 156
    section 14 Sep
-   USD 1.62 :0, 162
+   USD 1.68 :0, 168
    section 15 Sep
-   USD 1.74 : done, 0, 174
+   USD 1.80 : done, 0, 180
    section 16 Sep
-   USD 1.86 : done, 0, 186
+   USD 1.92 : done, 0, 192
    section 17 Sep
-   USD 1.98 : done, 0, 198
+   USD 2.04 : done, 0, 204
    section 18 Sep
-   USD 2.10 : done, 0, 210
+   USD 2.16 : done, 0, 216
    section 19 Sep
-   USD 2.22 : done, 0, 222
+   USD 2.28 : done, 0, 228
    section 20 Sep
-   USD 2.34 : done, 0, 234
+   USD 2.40 : done, 0, 240
    section 21 Sep
-   USD 2.46 : done, 0, 246
+   USD 2.52 : done, 0, 252
    section 22 Sep
-   USD 2.58 : done, 0, 258
+   USD 2.64 : done, 0, 264
    section 23 Sep
-   USD 2.70 : done, 0, 270
+   USD 2.76 : done, 0, 276
    section 24 Sep
-   USD 2.82 : done, 0, 282
+   USD 2.88 : done, 0, 288
    section 25 Sep
-   USD 2.94 : done, 0, 294
+   USD 3.00 : done, 0, 300
    section 26 Sep
-   USD 3.06 : done, 0, 306
+   USD 3.12 : done, 0, 312
    section 27 Sep
-   USD 3.18 : done, 0, 318
+   USD 3.24 : done, 0, 324
    section 28 Sep
-   USD 3.30 : done, 0, 330
+   USD 3.36 : done, 0, 336
    section 29 Sep
-   USD 3.42 : done, 0, 342
+   USD 3.48 : done, 0, 348
    section 30 Sep
-   USD 3.54 : done, 0, 354
+   USD 3.60 : done, 0, 360
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Network|1.62 USD|
+|Virtual Network|1.68 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Network" : 1.62
+   "Virtual Network" : 1.68
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|1.62 USD|
+|US North Central|1.68 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 1.62
+   "US North Central" : 1.68
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|1.62 USD|
+|personal-network|1.68 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 1.62
+   "personal-network" : 1.68
 ```
 
-<sup>Generated at 2023-09-14 23:30:48 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-15 11:23:56 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

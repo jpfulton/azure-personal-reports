@@ -12,10 +12,10 @@ Fetching cost data by resource group...
 
 |Period|Amount|
 |---|---:|
-|Today|0.01 USD|
-|Yesterday|0.00 USD|
-|Last 7 days|0.01 USD|
-|Last 30 days|0.01 USD|
+|Today|0.00 USD|
+|Yesterday|0.06 USD|
+|Last 7 days|0.06 USD|
+|Last 30 days|0.06 USD|
 
 ```mermaid
 gantt
@@ -23,43 +23,43 @@ gantt
    dateFormat  X
    axisFormat %s
    section 14 Sep
-   USD 0.01 :0, 1
+   USD 0.06 :0, 6
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|0.02 USD|
+|Storage|0.06 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.02
+   "Storage" : 0.06
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|0.01 USD|
+|US North Central|0.06 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 0.01
+   "US North Central" : 0.06
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.02 USD|
+|personal-network|0.06 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.02
+   "personal-network" : 0.06
 ```
 
-<sup>Generated at 2023-09-14 22:04:03 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-15 11:14:53 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

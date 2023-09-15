@@ -12,10 +12,10 @@ Fetching cost data by resource group...
 
 |Period|Amount|
 |---|---:|
-|Today|21.46 USD|
-|Yesterday|46.13 USD|
-|Last 7 days|94.82 USD|
-|Last 30 days|113.33 USD|
+|Today|0.00 USD|
+|Yesterday|33.54 USD|
+|Last 7 days|103.81 USD|
+|Last 30 days|125.41 USD|
 
 ```mermaid
 gantt
@@ -49,48 +49,48 @@ gantt
    section 13 Sep
    USD 91.87 :0, 9187
    section 14 Sep
-   USD 113.33 :0, 11333
+   USD 125.41 :0, 12541
    section 15 Sep
-   USD 117.89 : done, 0, 11789
+   USD 136.10 : done, 0, 13610
    section 16 Sep
-   USD 122.36 : done, 0, 12236
+   USD 146.98 : done, 0, 14698
    section 17 Sep
-   USD 126.95 : done, 0, 12695
+   USD 158.28 : done, 0, 15828
    section 18 Sep
-   USD 131.58 : done, 0, 13158
+   USD 169.91 : done, 0, 16991
    section 19 Sep
-   USD 136.40 : done, 0, 13640
+   USD 181.96 : done, 0, 18196
    section 20 Sep
-   USD 141.14 : done, 0, 14114
+   USD 194.32 : done, 0, 19432
    section 21 Sep
-   USD 145.93 : done, 0, 14593
+   USD 207.00 : done, 0, 20700
    section 22 Sep
-   USD 150.96 : done, 0, 15096
+   USD 220.21 : done, 0, 22021
    section 23 Sep
-   USD 155.88 : done, 0, 15588
+   USD 233.61 : done, 0, 23361
    section 24 Sep
-   USD 160.94 : done, 0, 16094
+   USD 247.43 : done, 0, 24743
    section 25 Sep
-   USD 166.02 : done, 0, 16602
+   USD 261.57 : done, 0, 26157
    section 26 Sep
-   USD 171.31 : done, 0, 17131
+   USD 276.13 : done, 0, 27613
    section 27 Sep
-   USD 176.51 : done, 0, 17651
+   USD 291.02 : done, 0, 29102
    section 28 Sep
-   USD 181.77 : done, 0, 18177
+   USD 306.21 : done, 0, 30621
    section 29 Sep
-   USD 187.25 : done, 0, 18725
+   USD 321.93 : done, 0, 32193
    section 30 Sep
-   USD 192.64 : done, 0, 19264
+   USD 337.85 : done, 0, 33785
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|96.80 USD|
+|Storage|108.65 USD|
+|Virtual Network|5.14 USD|
 |Virtual Machines|5.00 USD|
-|Virtual Network|4.92 USD|
 |Security Center|3.70 USD|
 |Bandwidth|2.69 USD|
 |Azure DNS|0.22 USD|
@@ -99,9 +99,9 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 96.80
+   "Storage" : 108.65
+   "Virtual Network" : 5.14
    "Virtual Machines" : 5.00
-   "Virtual Network" : 4.92
    "Security Center" : 3.70
    "Bandwidth" : 2.69
    "Azure DNS" : 0.22
@@ -112,14 +112,14 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|113.11 USD|
+|US North Central|125.18 USD|
 |Unknown|0.22 USD|
 |Intercontinental|0.00 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 113.11
+   "US North Central" : 125.18
    "Unknown" : 0.22
    "Intercontinental" : 0.00
 ```
@@ -128,12 +128,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|113.33 USD|
+|personal-network|125.41 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 113.33
+   "personal-network" : 125.41
 ```
 
-<sup>Generated at 2023-09-14 23:07:40 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-15 11:10:03 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

@@ -12,10 +12,10 @@ Fetching cost data by resource group...
 
 |Period|Amount|
 |---|---:|
-|Today|0.27 USD|
-|Yesterday|0.59 USD|
-|Last 7 days|9.37 USD|
-|Last 30 days|18.81 USD|
+|Today|0.00 USD|
+|Yesterday|0.54 USD|
+|Last 7 days|8.07 USD|
+|Last 30 days|19.08 USD|
 
 ```mermaid
 gantt
@@ -49,46 +49,46 @@ gantt
    section 13 Sep
    USD 18.53 :0, 1853
    section 14 Sep
-   USD 18.81 :0, 1881
+   USD 19.08 :0, 1908
    section 15 Sep
-   USD 20.44 : done, 0, 2044
+   USD 20.51 : done, 0, 2051
    section 16 Sep
-   USD 22.09 : done, 0, 2209
+   USD 21.94 : done, 0, 2194
    section 17 Sep
-   USD 23.75 : done, 0, 2375
+   USD 23.37 : done, 0, 2337
    section 18 Sep
-   USD 25.42 : done, 0, 2542
+   USD 24.80 : done, 0, 2480
    section 19 Sep
-   USD 27.10 : done, 0, 2710
+   USD 26.23 : done, 0, 2623
    section 20 Sep
-   USD 28.79 : done, 0, 2879
+   USD 27.65 : done, 0, 2765
    section 21 Sep
-   USD 30.49 : done, 0, 3049
+   USD 29.07 : done, 0, 2907
    section 22 Sep
-   USD 32.21 : done, 0, 3221
+   USD 30.50 : done, 0, 3050
    section 23 Sep
-   USD 33.94 : done, 0, 3394
+   USD 31.92 : done, 0, 3192
    section 24 Sep
-   USD 35.67 : done, 0, 3567
+   USD 33.35 : done, 0, 3335
    section 25 Sep
-   USD 37.42 : done, 0, 3742
+   USD 34.77 : done, 0, 3477
    section 26 Sep
-   USD 39.18 : done, 0, 3918
+   USD 36.19 : done, 0, 3619
    section 27 Sep
-   USD 40.95 : done, 0, 4095
+   USD 37.60 : done, 0, 3760
    section 28 Sep
-   USD 42.73 : done, 0, 4273
+   USD 39.02 : done, 0, 3902
    section 29 Sep
-   USD 44.53 : done, 0, 4453
+   USD 40.44 : done, 0, 4044
    section 30 Sep
-   USD 46.33 : done, 0, 4633
+   USD 41.86 : done, 0, 4186
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|7.96 USD|
+|Azure App Service|8.23 USD|
 |Advanced Threat Protection|7.10 USD|
 |Security Center|3.68 USD|
 |Storage|0.06 USD|
@@ -100,7 +100,7 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 7.96
+   "Azure App Service" : 8.23
    "Advanced Threat Protection" : 7.10
    "Security Center" : 3.68
    "Storage" : 0.06
@@ -114,7 +114,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|18.81 USD|
+|US Central|19.08 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |Unknown|0.00 USD|
@@ -124,7 +124,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 18.81
+   "US Central" : 19.08
    "AP East" : 0.00
    "EU West" : 0.00
    "Unknown" : 0.00
@@ -136,12 +136,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|18.81 USD|
+|personal-site|19.08 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 18.81
+   "personal-site" : 19.08
 ```
 
-<sup>Generated at 2023-09-14 22:37:18 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-15 11:36:15 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

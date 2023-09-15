@@ -1,6 +1,6 @@
 # Resource Costs Index
 
-> Generated on: {Thu Sep 14 22:57:18 UTC 2023} <br />
+> Generated on: {Fri Sep 15 11:02:08 UTC 2023} <br />
 > Resources and resource groups with no costs are ommited.
 
 - [Total Accumulated Costs](./accumulated-cost.md)
@@ -35,10 +35,12 @@
 - [backup-data-disk](./personal-network/backup-data-disk.md)
 - [backup-server](./personal-network/backup-server.md)
 - [backup-server-public-ip](./personal-network/backup-server-public-ip.md)
+- [backup-server_OsDisk](./personal-network/backup-server_OsDisk.md)
 - [linux-dev](./personal-network/linux-dev.md)
 - [linux-dev-public-ip](./personal-network/linux-dev-public-ip.md)
 - [linux-dev_OsDisk](./personal-network/linux-dev_OsDisk.md)
 - [private.jpatrickfulton.com](./personal-network/private.jpatrickfulton.com.md)
+- [ubuntu-backup-server-spot](./personal-network/ubuntu-backup-server-spot.md)
 - [ubuntu-backup-server-spot-ip](./personal-network/ubuntu-backup-server-spot-ip.md)
 - [ubuntu-backup-server-spot_OsDisk_1_82ad58ea1b864609a678571faedee9b3](./personal-network/ubuntu-backup-server-spot_OsDisk_1_82ad58ea1b864609a678571faedee9b3.md)
 - [ubuntu-vpn-server-ip](./personal-network/ubuntu-vpn-server-ip.md)
@@ -46,15 +48,18 @@
 - [ubuntu-vpn-server-spot_OsDisk](./personal-network/ubuntu-vpn-server-spot_OsDisk.md)
 - [win-dev](./personal-network/win-dev.md)
 - [win-dev-public-ip](./personal-network/win-dev-public-ip.md)
+- [win-dev_OsDisk](./personal-network/win-dev_OsDisk.md)
 
 ## personal-site
 
+- [Summary](./personal-site/resource-group-summary.md)
 - [jpatrickfulton.onmicrosoft.com](./personal-site/jpatrickfulton.onmicrosoft.com.md)
 - [personal-site](./personal-site/personal-site.md)
 - [personal-site-api](./personal-site/personal-site-api.md)
 - [personal-site-api-preview](./personal-site/personal-site-api-preview.md)
 - [staging](./personal-site/staging.md)
 - [staging](./personal-site/staging.md)
+- [personal-site-preview](./personal-site/personal-site-preview.md)
 - [personalsiteapipreview](./personal-site/personalsiteapipreview.md)
 - [personalsiteapistorage](./personal-site/personalsiteapistorage.md)
 
