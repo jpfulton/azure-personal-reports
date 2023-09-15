@@ -11,7 +11,7 @@ for index in ${!RESOURCE_GROUPS[@]}; do
 
   echo "\"${RESOURCE_GROUPS[$index]}\"";
 
-  if [ "$(($index + 1))"e "${#RESOURCE_GROUPS[@]}" ];
+  if [ "$(($index + 1))" -ne "${#RESOURCE_GROUPS[@]}" ];
     then
       echo ",";
   fi
