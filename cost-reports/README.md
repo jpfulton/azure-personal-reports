@@ -1,6 +1,6 @@
 # Resource Costs Index
 
-> Generated on: Fri Sep 15 18:50:11 UTC 2023 <br />
+> Generated on: Fri Sep 15 19:00:39 UTC 2023 <br />
 > Resources and resource groups with no costs are omitted from details reports. <br />
 > Resources that have been deleted will be included in summary calculations but will not have details reports.
 
