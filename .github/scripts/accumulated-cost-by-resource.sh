@@ -32,8 +32,9 @@ sort_by(
 echo "# Resource Costs Index" > $SUMMARY_FILE;
 echo "" >> $SUMMARY_FILE;
 
-echo "> Generated on: {$(date)} <br />" >> $SUMMARY_FILE;
-echo "> Resources and resource groups with no costs are ommited." >> $SUMMARY_FILE;
+echo "> Generated on: $(date) <br />" >> $SUMMARY_FILE;
+echo "> Resources and resource groups with no costs are omitted from details reports. <br />" >> $SUMMARY_FILE;
+echo "> Resources that have been deleted will be included in summary calculations but will not have details reports." >> $SUMMARY_FILE;
 echo "" >> $SUMMARY_FILE;
 
 echo "- [Total Accumulated Costs](./accumulated-cost.md)" >> $SUMMARY_FILE;
