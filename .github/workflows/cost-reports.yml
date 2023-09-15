@@ -23,16 +23,18 @@ jobs:
           creds: ${{ secrets.azure-sp-credentials }}
 
       - name: "Get Resource Groups"
-        id: get-resource-groups
         run: |
           RESOURCE_GROUPS_JSON=$(./.github/scripts/resource-groups-as-json.sh);
           echo "::add-mask::$RESOURCE_GROUPS_JSON";
-          echo "resource-groups<<EOF" >> $GITHUB_OUTPUT;
-          echo $RESOURCE_GROUPS_JSON >> $GITHUB_OUTPUT;
-          echo "EOF" >> $GITHUB_OUTPUT;
+          echo "resource-groups-json<<EOF" >> $GITHUB_ENV;
+          echo "$RESOURCE_GROUPS_JSON" >> $GITHUB_ENV;
+          echo "EOF" >> $GITHUB_ENV;
 
       - name: "Echo Output"
-        run: echo '${{ steps.get-resource-groups.outputs.resource-groups }}'
+        id: get-resource-groups
+        run: |
+          echo '${{ env.resource-groups-json }}'
+          echo "resource-groups=$resource-groups-json" >> $GITHUB_OUTPUT;
 
   cost:
     name: "Cost Report Job for Group: ${{ matrix.group }}"

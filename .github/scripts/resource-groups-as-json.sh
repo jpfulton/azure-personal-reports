@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-#RESOURCE_GROUPS=( $(az group list --query "sort_by([].{name: name}, &name)" --output tsv ) );
-readarray -t RESOURCE_GROUPS < <(az group list --query "sort_by([].{name: name}, &name)" --output tsv);
+RESOURCE_GROUPS=( $(az group list --query "sort_by([].{name: name}, &name)" --output tsv ) );
+#readarray -t RESOURCE_GROUPS < <(az group list --query "sort_by([].{name: name}, &name)" --output tsv);
 
 echo "{";
 echo "\"group\":";
@@ -9,7 +9,7 @@ echo "[";
 
 for index in ${!RESOURCE_GROUPS[@]}; do
 
-  echo "\"${RESOURCE_GROUPS[$index]}\"";
+  echo -n "\"${RESOURCE_GROUPS[$index]}\"";
 
   if [ "$(($index + 1))" -ne "${#RESOURCE_GROUPS[@]}" ];
     then
@@ -18,5 +18,6 @@ for index in ${!RESOURCE_GROUPS[@]}; do
 
 done
 
+echo "";
 echo "]";
 echo "}";
