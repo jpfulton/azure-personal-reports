@@ -76,7 +76,7 @@ jobs:
         run: |
           RESOURCE_GROUPS_JSON=$(./.github/scripts/resource-groups-as-json.sh);
           echo "$RESOUCE_GROUPS_JSON";
-          echo "::set-output name=resource-groups::$RESOURCE_GROUPS_JSON";
+          echo "::set-output name=resource-groups::${RESOURCE_GROUPS_JSON}";
 
   cost:
     name: "Cost Report Job for Group: ${{ matrix.group }}"
