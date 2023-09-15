@@ -3,13 +3,17 @@
 #RESOURCE_GROUPS=( $(az group list --query "sort_by([].{name: name}, &name)" --output tsv ) );
 readarray -t RESOURCE_GROUPS < <(az group list --query "sort_by([].{name: name}, &name)" --output tsv);
 
-echo "[";
+echo -n "[";
 
-for rg in ${RESOURCE_GROUPS[@]}; do
+for index in ${!RESOURCE_GROUPS[@]}; do
 
-  echo "  \"${rg}\",";
+  echo -n "\"${RESOURCE_GROUPS[$index]}\"";
+
+  if [ "$(($index + 1))" -ne "${#RESOURCE_GROUPS[@]}" ];
+    then
+      echo -n ",";
+  fi
 
 done
 
 echo "]";
-echo;
