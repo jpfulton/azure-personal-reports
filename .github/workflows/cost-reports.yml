@@ -39,7 +39,7 @@ jobs:
       - name: "Run Accumulated Cost Report for All Resources"
         run: azure-cost accumulatedCost --output Markdown > ./cost-reports/accumulated-cost.md
 
-      - name: "Run Accumulated Cost Report for Each Resource"
+      - name: "Run Summary Report Generation"
         run: ./.github/scripts/accumulated-cost-by-resource.sh "summary-only"
 
       - name: "Configure Git"

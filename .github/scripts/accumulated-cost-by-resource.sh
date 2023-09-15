@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ "$#" -ne 1 ];
+if [ "$#" -eq 1 ];
   then
 
     if [ "$1" == "summary-only" ];
