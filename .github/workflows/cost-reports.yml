@@ -75,6 +75,7 @@ jobs:
         id: get-resource-groups
         run: |
           RESOURCE_GROUPS_JSON=$(./.github/scripts/resource-groups-as-json.sh);
+          echo "$RESOUCE_GROUPS_JSON";
           echo "::set-output name=resource-groups::$RESOURCE_GROUPS_JSON";
 
   cost:
