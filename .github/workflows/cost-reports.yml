@@ -26,7 +26,7 @@ jobs:
         id: get-resource-groups
         run: |
           RESOURCE_GROUPS_JSON=$(./.github/scripts/resource-groups-as-json.sh);
-          echo "resoure-groups<<EOF" >> $GITHUB_OUTPUT;
+          echo "resource-groups<<EOF" >> $GITHUB_OUTPUT;
           echo $RESOURCE_GROUPS_JSON >> $GITHUB_OUTPUT;
           echo "EOF" >> $GITHUB_OUTPUT;
 
