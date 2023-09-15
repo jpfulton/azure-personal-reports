@@ -57,6 +57,7 @@ jobs:
 
   create-matrix:
     name: "Create Resource Group Matrix"
+    needs: create-summary-reports
     runs-on: ubuntu-latest
     outputs:
       resource-groups: ${{ steps.get-resource-groups.outputs.resource-groups }}
