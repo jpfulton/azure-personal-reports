@@ -7,8 +7,72 @@ on:
         required: true
 
 jobs:
+  create-matrix:
+    name: "Create Resource Group Matrix"
+    runs-on: ubuntu-latest
+    outputs:
+      resource-groups: ${{ steps.get-resource-groups.outputs.resource-groups }}
+
+    steps:
+      - name: "Checkout GitHub Action"
+        uses: actions/checkout@v3
+
+      - name: "Login via Azure CLI"
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.azure-sp-credentials }}
+
+      - name: "Get Resource Groups"
+        id: get-resource-groups
+        run: |
+          RESOURCE_GROUPS_JSON=$(./.github/scripts/resource-groups-as-json.sh);
+          echo $RESOURCE_GROUPS_JSON;
+          echo "resource-groups=$RESOURCE_GROUPS_JSON" >> $GITHUB_OUTPUT;
+
+  cost:
+    name: "Cost Report Job for Group: ${{ matrix.group }}"
+    needs: create-matrix
+    strategy:
+      matrix: ${{ fromJson(needs.create-matrix.outputs.resource-groups) }}
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Checkout GitHub Action"
+        uses: actions/checkout@v3
+
+      - name: "Setup DotNet Environment"
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 7.0.x
+
+      - name: "Install Latest azure-cost-cli Tool from MS Nuget"
+        run: dotnet tool install --global azure-cost-cli
+
+      - name: "Login via Azure CLI"
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.azure-sp-credentials }}
+
+      - name: "Run Accumulated Cost Report for Each Resource"
+        run: ./.github/scripts/accumulated-cost-by-resource.sh "${{ matrix.group }}"
+
+      - name: "Configure Git"
+        run: |
+          git config user.name jpfulton
+          git config user.email jpatrick.fulton@gmail.com
+
+      - name: "Commit and Push Command Outputs"
+        run: |
+          git pull
+          git add -A .
+          git commit -m "Generated reports [skip ci]"
+          git push
+
   create-summary-reports:
     name: "Create Summary Reports"
+    needs: cost
     permissions:
       contents: write
     runs-on: ubuntu-latest
@@ -54,67 +118,4 @@ jobs:
           git commit -m "Generated reports [skip ci]"
           git push
 
-
-  create-matrix:
-    name: "Create Resource Group Matrix"
-    needs: create-summary-reports
-    runs-on: ubuntu-latest
-    outputs:
-      resource-groups: ${{ steps.get-resource-groups.outputs.resource-groups }}
-
-    steps:
-      - name: "Checkout GitHub Action"
-        uses: actions/checkout@v3
-
-      - name: "Login via Azure CLI"
-        uses: azure/login@v1
-        with:
-          creds: ${{ secrets.azure-sp-credentials }}
-
-      - name: "Get Resource Groups"
-        id: get-resource-groups
-        run: |
-          RESOURCE_GROUPS_JSON=$(./.github/scripts/resource-groups-as-json.sh);
-          echo $RESOURCE_GROUPS_JSON;
-          echo "resource-groups=\"${RESOURCE_GROUPS_JSON}\"" >> $GITHUB_OUTPUT;
-
-  cost:
-    name: "Cost Report Job for Group: ${{ matrix.group }}"
-    needs: create-matrix
-    strategy:
-      matrix: ${{ fromJson(needs.create-matrix.outputs.resource-groups) }}
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: "Checkout GitHub Action"
-        uses: actions/checkout@v3
-
-      - name: "Setup DotNet Environment"
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: 7.0.x
-
-      - name: "Install Latest azure-cost-cli Tool from MS Nuget"
-        run: dotnet tool install --global azure-cost-cli
-
-      - name: "Login via Azure CLI"
-        uses: azure/login@v1
-        with:
-          creds: ${{ secrets.azure-sp-credentials }}
-
-      - name: "Run Accumulated Cost Report for Each Resource"
-        run: ./.github/scripts/accumulated-cost-by-resource.sh "${{ matrix.group }}"
-
-      - name: "Configure Git"
-        run: |
-          git config user.name jpfulton
-          git config user.email jpatrick.fulton@gmail.com
-
-      - name: "Commit and Push Command Outputs"
-        run: |
-          git pull
-          git add -A .
-          git commit -m "Generated reports [skip ci]"
-          git push
+        
