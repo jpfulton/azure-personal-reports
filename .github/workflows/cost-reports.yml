@@ -25,11 +25,10 @@ jobs:
       - name: "Get Resource Groups"
         id: get-resource-groups
         run: |
-          {
-            echo 'resoure-groups<<EOF'
-            ./.github/scripts/resource-groups-as-json.sh
-            echo 'EOF'
-          } >> "$GITHUB_OUTPUT";
+          RESOURCE_GROUPS_JSON=$(./.github/scripts/resource-groups-as-json.sh);
+          echo "resoure-groups<<EOF" >> $GITHUB_OUTPUT;
+          echo $RESOURCE_GROUPS_JSON >> $GITHUB_OUPUT;
+          echo "EOF" >> $GITHUB_OUTPUT;
 
       - name: "Echo Output"
         run: echo "${{ steps.get-resource-groups.outputs.resource-groups }}"
