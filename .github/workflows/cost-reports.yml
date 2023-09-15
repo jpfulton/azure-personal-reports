@@ -82,8 +82,7 @@ jobs:
     name: "Cost Report Job for Group: ${{ matrix.group }}"
     needs: create-matrix
     strategy:
-      matrix:
-        group: ${{ fromJson(needs.create-matrix.outputs.resource-groups) }}
+      matrix: ${{ fromJson(needs.create-matrix.outputs.resource-groups) }}
     permissions:
       contents: write
     runs-on: ubuntu-latest
