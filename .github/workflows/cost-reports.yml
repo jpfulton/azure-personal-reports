@@ -26,8 +26,7 @@ jobs:
         id: get-resource-groups
         run: |
           RESOURCE_GROUPS_JSON=$(./.github/scripts/resource-groups-as-json.sh);
-          echo $RESOURCE_GROUPS_JSON;
-          echo "resource-groups=$RESOURCE_GROUPS_JSON" >> $GITHUB_OUTPUT;
+          echo "resource-groups='$RESOURCE_GROUPS_JSON'" >> $GITHUB_OUTPUT;
 
   cost:
     name: "Cost Report Job for Group: ${{ matrix.group }}"
