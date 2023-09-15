@@ -6,13 +6,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  audit-reports:
-    name: "Generate Audit Reports"
-    permissions:
-      contents: write
-    uses: ./.github/workflows/audit-reports.yml
-    secrets:
-      azure-sp-credentials: ${{ secrets.AZURE_SP_CREDENTIALS }}
+  #audit-reports:
+  #  name: "Generate Audit Reports"
+  #  permissions:
+  #    contents: write
+  #  uses: ./.github/workflows/audit-reports.yml
+  #  secrets:
+  #    azure-sp-credentials: ${{ secrets.AZURE_SP_CREDENTIALS }}
 
   cost-reports:
     name: "Generate Cost Reports"

@@ -33,8 +33,9 @@ jobs:
       - name: "Echo Output"
         id: get-resource-groups
         run: |
-          echo '${{ env.resource-groups-json }}'
-          echo "resource-groups=$resource-groups-json" >> $GITHUB_OUTPUT;
+          echo "resource-groups<<EOF" >> $GITHUB_OUTPUT;
+          echo '${{ env.resource-groups-json }}' >> $GITHUB_OUTPUT;
+          echo "EOF" >> $GITHUB_OUTPUT;
 
   cost:
     name: "Cost Report Job for Group: ${{ matrix.group }}"
