@@ -19,4 +19,4 @@ for index in ${!RESOURCE_GROUPS[@]}; do
 done
 
 echo -n "]";
-echo "}";
+echo -n "}";
