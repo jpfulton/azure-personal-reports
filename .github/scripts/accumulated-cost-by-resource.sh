@@ -9,7 +9,7 @@ if [ "$#" -ne 1 ];
 
         echo "Fetching resource groups...";
         RESOURCE_GROUPS=( $(az group list --query "sort_by([].{name: name}, &name)" --output tsv ) );
-        
+
         WRITE_SUMMARY=1;
         WRITE_RESOURCE_REPORTS=0;
       else
@@ -19,6 +19,7 @@ if [ "$#" -ne 1 ];
         RESOURCE_GROUPS=( "$1" );
         WRITE_SUMMARY=0;
         WRITE_RESOURCE_REPORTS=1;
+    fi
   else
     echo "Script requires one argument.";
     exit 1;
