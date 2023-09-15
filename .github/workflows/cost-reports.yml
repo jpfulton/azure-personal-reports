@@ -22,16 +22,14 @@ jobs:
         with:
           creds: ${{ secrets.azure-sp-credentials }}
 
-      - name: "Export JSON to Env Variable"
-        run: |
-          RESOURCE_GROUPS_JSON="$(./.github/scripts/resource-groups-as-json.sh)";
-          echo $RESOURCE_GROUPS_JSON;
-          echo "resource-group-json=$RESOURCE_GROUPS_JSON" >> "$GITHUB_ENV";
-
       - name: "Set JSON Env Variable to Step Output"
         id: get-resource-groups
         run: |
-          echo "resource-groups=$resource-group-json" >> "$GITHUB_OUTPUT";
+          {
+            echo 'resoure-groups<<EOF';
+            ./.github/scripts/resource-groups-as-json.sh;
+            echo EOF;
+          } >> "$GITHUB_OUTPUT";
 
   cost:
     name: "Cost Report Job for Group: ${{ matrix.group }}"
