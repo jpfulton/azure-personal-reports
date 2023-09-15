@@ -26,9 +26,9 @@ jobs:
         id: get-resource-groups
         run: |
           {
-            echo 'resoure-groups<<EOF
+            echo 'resoure-groups<<EOF'
             ./.github/scripts/resource-groups-as-json.sh
-            echo EOF'
+            echo 'EOF'
           } >> "$GITHUB_OUTPUT";
 
       - name: "Echo Output"
