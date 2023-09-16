@@ -71,8 +71,13 @@ jobs:
         with:
           dotnet-version: 7.0.x
 
-      - name: "Install Latest azure-cost-cli Tool from MS Nuget"
-        run: dotnet tool install --global azure-cost-cli
+      - name: "Add GitHub Nuget Package Source"
+        run: |
+          dotnet nuget add source --username jpfulton --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/jpfulton/index.json"
+
+      - name: "Install Latest Forked azure-cost-cli Tool from Github Nuget"
+        run: |
+          dotnet tool install --global azure-cost-cli --add-source "https://nuget.pkg.github.com/jpfulton/index.json"
 
       - name: "Login via Azure CLI"
         uses: azure/login@v1
@@ -116,9 +121,14 @@ jobs:
         with:
           dotnet-version: 7.0.x
 
-      - name: "Install Latest azure-cost-cli Tool from MS Nuget"
-        run: dotnet tool install --global azure-cost-cli
+      - name: "Add GitHub Nuget Package Source"
+        run: |
+          dotnet nuget add source --username jpfulton --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/jpfulton/index.json"
 
+      - name: "Install Latest Forked azure-cost-cli Tool from Github Nuget"
+        run: |
+          dotnet tool install --global azure-cost-cli --add-source "https://nuget.pkg.github.com/jpfulton/index.json"
+  
       - name: "Login via Azure CLI"
         uses: azure/login@v1
         with:
