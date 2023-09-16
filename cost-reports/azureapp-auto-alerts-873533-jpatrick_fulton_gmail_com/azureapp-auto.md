@@ -1,4 +1,4 @@
-# Azure Cost Overview
-
-No costs associated with azureapp-auto
-
+Fetching subscription details...
+Fetching cost data...
+[38;5;9mError:[0m The delegate executed asynchronously through TimeoutPolicy did not 
+complete within the timeout.
