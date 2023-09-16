@@ -55,7 +55,7 @@ jobs:
       - name: "Decode JSON"
         id: decode-json
         run: |
-          JSON="$(echo "${{ needs.create-matrix.outputs.resource-groups }}" | base64 -di);
+          JSON="$(echo '${{ needs.create-matrix.outputs.resource-groups }}' | base64 -di)";
           echo "resource-groups=$JSON" >> $GITHUB_OUTPUT;
     
   cost:
