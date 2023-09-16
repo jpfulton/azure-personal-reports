@@ -52,36 +52,6 @@ gantt
    USD 4.14 :0, 414
    section 15 Sep
    USD 4.31 :0, 431
-   section 16 Sep
-   USD 4.61 : done, 0, 461
-   section 17 Sep
-   USD 4.91 : done, 0, 491
-   section 18 Sep
-   USD 5.20 : done, 0, 520
-   section 19 Sep
-   USD 5.50 : done, 0, 550
-   section 20 Sep
-   USD 5.79 : done, 0, 579
-   section 21 Sep
-   USD 6.09 : done, 0, 609
-   section 22 Sep
-   USD 6.39 : done, 0, 639
-   section 23 Sep
-   USD 6.68 : done, 0, 668
-   section 24 Sep
-   USD 6.98 : done, 0, 698
-   section 25 Sep
-   USD 7.27 : done, 0, 727
-   section 26 Sep
-   USD 7.57 : done, 0, 757
-   section 27 Sep
-   USD 7.86 : done, 0, 786
-   section 28 Sep
-   USD 8.16 : done, 0, 816
-   section 29 Sep
-   USD 8.46 : done, 0, 846
-   section 30 Sep
-   USD 8.75 : done, 0, 875
 ```
 
 ## By Service Name
@@ -128,4 +98,4 @@ pie
    "personal-site" : 4.31
 ```
 
-<sup>Generated at 2023-09-16 03:22:44 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-16 04:13:45 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
