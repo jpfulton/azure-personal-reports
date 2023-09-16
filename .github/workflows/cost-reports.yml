@@ -79,7 +79,7 @@ jobs:
 
       - name: "Install Latest Forked azure-cost-cli Tool from Github Nuget"
         run: |
-          dotnet tool install --global azure-cost-cli --add-source "https://nuget.pkg.github.com/jpfulton/index.json"
+          dotnet tool install --global azure-cost-cli
 
       - name: "Login via Azure CLI"
         uses: azure/login@v1
@@ -131,7 +131,7 @@ jobs:
 
       - name: "Install Latest Forked azure-cost-cli Tool from Github Nuget"
         run: |
-          dotnet tool install --global azure-cost-cli --add-source "https://nuget.pkg.github.com/jpfulton/index.json"
+          dotnet tool install --global azure-cost-cli
   
       - name: "Login via Azure CLI"
         uses: azure/login@v1
