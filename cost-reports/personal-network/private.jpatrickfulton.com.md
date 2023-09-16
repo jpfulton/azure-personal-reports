@@ -12,7 +12,7 @@ Fetching cost data by resource group...
 
 |Period|Amount|
 |---|---:|
-|Today|0.00 USD|
+|Today|0.01 USD|
 |Yesterday|0.02 USD|
 |Last 7 days|0.12 USD|
 |Last 30 days|0.25 USD|
@@ -59,23 +59,23 @@ gantt
    section 18 Sep
    USD 0.28 : done, 0, 28
    section 19 Sep
-   USD 0.29 : done, 0, 29
+   USD 0.30 : done, 0, 30
    section 20 Sep
    USD 0.31 : done, 0, 31
    section 21 Sep
    USD 0.33 : done, 0, 33
    section 22 Sep
-   USD 0.34 : done, 0, 34
+   USD 0.35 : done, 0, 35
    section 23 Sep
    USD 0.36 : done, 0, 36
    section 24 Sep
-   USD 0.37 : done, 0, 37
+   USD 0.38 : done, 0, 38
    section 25 Sep
    USD 0.39 : done, 0, 39
    section 26 Sep
    USD 0.41 : done, 0, 41
    section 27 Sep
-   USD 0.42 : done, 0, 42
+   USD 0.43 : done, 0, 43
    section 28 Sep
    USD 0.44 : done, 0, 44
    section 29 Sep
@@ -120,4 +120,4 @@ pie
    "personal-network" : 0.25
 ```
 
-<sup>Generated at 2023-09-16 18:19:18 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-16 23:40:36 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

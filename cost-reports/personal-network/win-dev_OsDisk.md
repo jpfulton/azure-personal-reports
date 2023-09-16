@@ -12,10 +12,10 @@ Fetching cost data by resource group...
 
 |Period|Amount|
 |---|---:|
-|Today|0.01 USD|
+|Today|0.02 USD|
 |Yesterday|0.05 USD|
-|Last 7 days|0.37 USD|
-|Last 30 days|0.79 USD|
+|Last 7 days|0.38 USD|
+|Last 30 days|0.80 USD|
 
 ```mermaid
 gantt
@@ -53,71 +53,71 @@ gantt
    section 15 Sep
    USD 0.78 :0, 78
    section 16 Sep
-   USD 0.79 :0, 79
+   USD 0.80 :0, 80
    section 17 Sep
-   USD 0.85 : done, 0, 85
+   USD 0.86 : done, 0, 86
    section 18 Sep
-   USD 0.90 : done, 0, 90
+   USD 0.91 : done, 0, 91
    section 19 Sep
-   USD 0.95 : done, 0, 95
+   USD 0.96 : done, 0, 96
    section 20 Sep
-   USD 1.00 : done, 0, 100
+   USD 1.01 : done, 0, 101
    section 21 Sep
-   USD 1.05 : done, 0, 105
+   USD 1.06 : done, 0, 106
    section 22 Sep
-   USD 1.10 : done, 0, 110
+   USD 1.11 : done, 0, 111
    section 23 Sep
-   USD 1.15 : done, 0, 115
+   USD 1.16 : done, 0, 116
    section 24 Sep
-   USD 1.21 : done, 0, 121
+   USD 1.22 : done, 0, 122
    section 25 Sep
-   USD 1.26 : done, 0, 126
+   USD 1.27 : done, 0, 127
    section 26 Sep
-   USD 1.31 : done, 0, 131
+   USD 1.32 : done, 0, 132
    section 27 Sep
-   USD 1.36 : done, 0, 136
+   USD 1.37 : done, 0, 137
    section 28 Sep
-   USD 1.41 : done, 0, 141
+   USD 1.42 : done, 0, 142
    section 29 Sep
-   USD 1.46 : done, 0, 146
+   USD 1.47 : done, 0, 147
    section 30 Sep
-   USD 1.51 : done, 0, 151
+   USD 1.52 : done, 0, 152
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|0.79 USD|
+|Storage|0.80 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.79
+   "Storage" : 0.80
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|0.79 USD|
+|US North Central|0.80 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 0.79
+   "US North Central" : 0.80
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.79 USD|
+|personal-network|0.80 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.79
+   "personal-network" : 0.80
 ```
 
-<sup>Generated at 2023-09-16 18:27:15 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-16 23:52:35 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
