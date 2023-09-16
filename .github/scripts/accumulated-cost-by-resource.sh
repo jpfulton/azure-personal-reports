@@ -59,7 +59,7 @@ sort_by(
   &name) | [].id
 ";
 
-echo "# Resource Costs Index" > $SUMMARY_FILE;
+echo "# Cost Reports Summary" > $SUMMARY_FILE;
 echo "" >> $SUMMARY_FILE;
 
 echo "> Generated on: $(date) <br />" >> $SUMMARY_FILE;
