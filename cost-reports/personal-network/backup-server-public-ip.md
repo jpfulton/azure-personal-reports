@@ -13,9 +13,9 @@ Fetching cost data by resource group...
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.06 USD|
-|Last 7 days|0.16 USD|
-|Last 30 days|0.16 USD|
+|Yesterday|0.07 USD|
+|Last 7 days|0.18 USD|
+|Last 30 days|0.18 USD|
 
 ```mermaid
 gantt
@@ -25,43 +25,43 @@ gantt
    section 14 Sep
    USD 0.11 :0, 11
    section 15 Sep
-   USD 0.16 :0, 16
+   USD 0.18 :0, 18
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Network|0.16 USD|
+|Virtual Network|0.18 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Network" : 0.16
+   "Virtual Network" : 0.18
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|0.16 USD|
+|US North Central|0.18 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 0.16
+   "US North Central" : 0.18
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.16 USD|
+|personal-network|0.18 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.16
+   "personal-network" : 0.18
 ```
 
-<sup>Generated at 2023-09-16 00:55:13 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-16 02:31:04 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
