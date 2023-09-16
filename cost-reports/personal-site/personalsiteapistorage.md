@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/15/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/16/2023**
 
 ## Totals
 
@@ -53,35 +53,35 @@ gantt
    section 15 Sep
    USD 5.42 :0, 542
    section 16 Sep
-   USD 5.74 : done, 0, 574
+   USD 5.42 :0, 542
    section 17 Sep
-   USD 6.06 : done, 0, 606
+   USD 5.74 : done, 0, 574
    section 18 Sep
-   USD 6.37 : done, 0, 637
+   USD 6.05 : done, 0, 605
    section 19 Sep
-   USD 6.67 : done, 0, 667
+   USD 6.35 : done, 0, 635
    section 20 Sep
-   USD 6.97 : done, 0, 697
+   USD 6.64 : done, 0, 664
    section 21 Sep
-   USD 7.26 : done, 0, 726
+   USD 6.93 : done, 0, 693
    section 22 Sep
-   USD 7.54 : done, 0, 754
+   USD 7.22 : done, 0, 722
    section 23 Sep
-   USD 7.82 : done, 0, 782
+   USD 7.49 : done, 0, 749
    section 24 Sep
-   USD 8.09 : done, 0, 809
+   USD 7.76 : done, 0, 776
    section 25 Sep
-   USD 8.35 : done, 0, 835
+   USD 8.03 : done, 0, 803
    section 26 Sep
-   USD 8.61 : done, 0, 861
+   USD 8.28 : done, 0, 828
    section 27 Sep
-   USD 8.86 : done, 0, 886
+   USD 8.53 : done, 0, 853
    section 28 Sep
-   USD 9.10 : done, 0, 910
+   USD 8.78 : done, 0, 878
    section 29 Sep
-   USD 9.34 : done, 0, 934
+   USD 9.01 : done, 0, 901
    section 30 Sep
-   USD 9.57 : done, 0, 957
+   USD 9.25 : done, 0, 925
 ```
 
 ## By Service Name
@@ -126,4 +126,4 @@ pie
    "personal-site" : 5.42
 ```
 
-<sup>Generated at 2023-09-16 11:21:12 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-16 18:19:12 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
