@@ -102,11 +102,18 @@ for rg in ${RESOURCE_GROUPS[@]}; do
             else
               echo "Error running accumulated cost report for group: ${rg}.";
               echo "---";
+
+              echo "# Azure Cost Overview" > ${RG_DIR}/README.md;
+              echo "" >> ${RG_DIR}/README.md;
+              echo "> An error occured building the summary report for the ${rg} resource group." >> ${RG_DIR}/README.md;
+              echo "" >> ${RG_DIR}/README.md;
           fi
         fi  
     else
-      echo "No 'cost-able' resources found in resource group. Moving on...";
+      echo "No 'cost-able' resources found in resource group. Removing directory and moving on...";
       echo "---";
+
+      rm -rf ${RG_DIR};
   fi
 
   for id in "${RESOURCES_IDS[@]}"; do
