@@ -10,6 +10,7 @@ jobs:
     name: "Generate Audit Reports"
     permissions:
       contents: write
+      packages: read
     uses: ./.github/workflows/audit-reports.yml
     secrets:
       azure-sp-credentials: ${{ secrets.AZURE_SP_CREDENTIALS }}
@@ -18,6 +19,7 @@ jobs:
     name: "Generate Cost Reports"
     permissions:
       contents: write
+      packages: read
     uses: ./.github/workflows/cost-reports.yml
     secrets:
       azure-sp-credentials: ${{ secrets.AZURE_SP_CREDENTIALS }}
