@@ -54,7 +54,8 @@ sort_by(
     type != 'Microsoft.OperationalInsights/workspaces' &&
     type != 'Microsoft.OperationsManagement/solutions' &&
     type != 'Microsoft.Portal/dashboards' &&
-    type != 'Microsoft.Web/serverFarms'
+    type != 'Microsoft.Web/serverFarms' &&
+    type != 'Microsoft.Web/sites/slots'
   ].{id: id, name: name},
   &name) | [].id
 ";
@@ -119,14 +120,17 @@ for rg in ${RESOURCE_GROUPS[@]}; do
         [ $WRITE_RESOURCE_REPORTS -eq 1 ] && echo "Writing accumulated cost report for ${RESOURCE_NAME} in group ${rg}.";
         [ $WRITE_RESOURCE_REPORTS -eq 1 ] && echo "$OUTPUT" > $OUTPUT_FILE_NAME; 
       else
-        echo "Error running accumulated cost report for ${RESOURCE_NAME} in group: ${rg}.";
-        echo "Resource ID: ${id}";
-        echo "---";
+        if [ $WRITE_RESOURCE_REPORTS -eq 1 ];
+          then
+            echo "Error running accumulated cost report for ${RESOURCE_NAME} in group: ${rg}.";
+            echo "Resource ID: ${id}";
+            echo "---";
 
-        echo "# Azure Cost Overview" > $OUTPUT_FILE_NAME;
-        echo "" >> $OUTPUT_FILE_NAME;
-        echo "No costs associated with ${RESOURCE_NAME}" >> $OUTPUT_FILE_NAME;
-        echo "" >> $OUTPUT_FILE_NAME;
+            echo "# Azure Cost Overview" > $OUTPUT_FILE_NAME;
+            echo "" >> $OUTPUT_FILE_NAME;
+            echo "No costs associated with ${RESOURCE_NAME}" >> $OUTPUT_FILE_NAME;
+            echo "" >> $OUTPUT_FILE_NAME;
+        fi
     fi
   done
 
