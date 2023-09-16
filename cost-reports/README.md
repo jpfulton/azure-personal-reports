@@ -1,6 +1,6 @@
 # Cost Reports Summary
 
-> Generated on: Sat Sep 16 03:46:58 UTC 2023 <br />
+> Generated on: Sat Sep 16 04:35:58 UTC 2023 <br />
 > Resources and resource groups with no costs are omitted from details reports. <br />
 > Resources that have been deleted will be included in summary calculations but will not have details reports.
 
@@ -16,23 +16,23 @@
 
 ## azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com
 
-- [Resource Group Summary](./azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com/resource-group-summary.md)
+- [Resource Group Summary](./azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com/README.md)
 - [azureapp-auto](./azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com/azureapp-auto.md)
 
 ## cloud-shell-storage-eastus
 
-- [Resource Group Summary](./cloud-shell-storage-eastus/resource-group-summary.md)
+- [Resource Group Summary](./cloud-shell-storage-eastus/README.md)
 - [cs2100300008c8d894b](./cloud-shell-storage-eastus/cs2100300008c8d894b.md)
 
 ## personal-dns
 
-- [Resource Group Summary](./personal-dns/resource-group-summary.md)
+- [Resource Group Summary](./personal-dns/README.md)
 - [jpatrickfulton.com](./personal-dns/jpatrickfulton.com.md)
 - [jpatrickfulton.dev](./personal-dns/jpatrickfulton.dev.md)
 
 ## personal-network
 
-- [Resource Group Summary](./personal-network/resource-group-summary.md)
+- [Resource Group Summary](./personal-network/README.md)
 - [backup-data-disk](./personal-network/backup-data-disk.md)
 - [backup-server](./personal-network/backup-server.md)
 - [backup-server-public-ip](./personal-network/backup-server-public-ip.md)
@@ -54,7 +54,7 @@
 
 ## personal-site
 
-- [Resource Group Summary](./personal-site/resource-group-summary.md)
+- [Resource Group Summary](./personal-site/README.md)
 - [jpatrickfulton.onmicrosoft.com](./personal-site/jpatrickfulton.onmicrosoft.com.md)
 - [personal-site](./personal-site/personal-site.md)
 - [personal-site-api](./personal-site/personal-site-api.md)
