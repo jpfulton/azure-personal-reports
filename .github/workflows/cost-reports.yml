@@ -51,6 +51,7 @@ jobs:
       matrix: ${{ fromJson(needs.decode.outputs.resource-groups) }}
     permissions:
       contents: write
+      packages: read
     runs-on: ubuntu-latest
 
     steps:
@@ -101,6 +102,7 @@ jobs:
     needs: cost
     permissions:
       contents: write
+      packages: read
     runs-on: ubuntu-latest
 
     steps:
