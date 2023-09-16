@@ -85,14 +85,14 @@ for rg in ${RESOURCE_GROUPS[@]}; do
       echo "## ${rg}" >> $SUMMARY_FILE;
       echo "" >> $SUMMARY_FILE;
 
+      echo "- [Resource Group Summary](./${rg}/resource-group-summary.md)" >> $SUMMARY_FILE;
+
       echo "Building resource group level cost report for group ${rg}...";
       if [ $WRITE_RESOURCE_REPORTS -eq 1 ];
         then
           OUTPUT=$(azure-cost accumulatedCost --filter "ResourceGroupName=$rg" --output Markdown);
           if [ $? -eq 0 ];
             then
-              echo "- [Summary](./${rg}/resource-group-summary.md)" >> $SUMMARY_FILE;
-
               echo "Writing accumulated cost report for ${rg}.";
               echo "$OUTPUT" > ${RG_DIR}/resource-group-summary.md; 
             else
