@@ -8,7 +8,7 @@ on:
 
 jobs:
   create-matrix:
-    name: "Create Resource Group Matrix"
+    name: "Create Resource Group JSON"
     runs-on: ubuntu-latest
     outputs:
       resource-groups: ${{ steps.get-resource-groups.outputs.resource-groups }}
@@ -22,7 +22,7 @@ jobs:
         with:
           creds: ${{ secrets.azure-sp-credentials }}
 
-      - name: "Get Resource Groups"
+      - name: "Get Resource Groups as JSON and Encode to Base64"
         id: get-resource-groups
         run: |
           RESOURCE_GROUPS_JSON=$(./.github/scripts/resource-groups-as-json.sh);
@@ -30,14 +30,14 @@ jobs:
           echo "resource-groups=$RG_JSON_B64" >> $GITHUB_OUTPUT;
 
   decode:
-    name: "Decode"
+    name: "Decode JSON"
     needs: create-matrix
     outputs:
       resource-groups: ${{ steps.decode-json.outputs.resource-groups }}
     runs-on: ubuntu-latest
 
     steps:
-      - name: "Decode JSON"
+      - name: "Decode JSON from Base64"
         id: decode-json
         run: |
           JSON="$(echo '${{ needs.create-matrix.outputs.resource-groups }}' | base64 -di)";
@@ -72,6 +72,7 @@ jobs:
           creds: ${{ secrets.azure-sp-credentials }}
 
       - name: "Run Accumulated Cost Report for Each Resource"
+        continue-on-error: true
         run: ./.github/scripts/accumulated-cost-by-resource.sh "${{ matrix.group }}"
 
       - name: "Configure Git"
@@ -112,15 +113,25 @@ jobs:
           creds: ${{ secrets.azure-sp-credentials }}
 
       - name: "Run Daily Cost Report"
-        run: azure-cost dailyCosts --dimension ResourceGroup --output Markdown > ./cost-reports/daily-costs.md
+        continue-on-error: true
+        run: |
+          OUTPUT=$(azure-cost dailyCosts --dimension ResourceGroup --output Markdown)
+          if [ $? -eq 0 ]; then echo "$OUTPUT" > ./cost-reports/daily-costs.md; fi
 
       - name: "Run Cost by Resource Report"
-        run: azure-cost costByResource --output Markdown > ./cost-reports/cost-by-resource.md
+        continue-on-error: true
+        run: |
+          OUTPUT=$(azure-cost costByResource --output Markdown)
+          if [ $? -eq 0 ]; then echo "$OUTPUT" > ./cost-reports/cost-by-resource.md; fi
 
       - name: "Run Accumulated Cost Report for All Resources"
-        run: azure-cost accumulatedCost --output Markdown > ./cost-reports/accumulated-cost.md
+        continue-on-error: true
+        run: |
+          OUTPUT=$(azure-cost accumulatedCost --output Markdown)
+          if [ $? -eq 0 ]; then echo "$OUTPUT" > ./cost-reports/accumulated-cost.md; fi
 
       - name: "Run Summary Report Generation"
+        continue-on-error: true
         run: ./.github/scripts/accumulated-cost-by-resource.sh "summary-only"
 
       - name: "Configure Git"
@@ -129,6 +140,7 @@ jobs:
           git config user.email jpatrick.fulton@gmail.com
 
       - name: "Commit and Push Command Outputs"
+        continue-on-error: true
         run: |
           git pull
           git add -A .

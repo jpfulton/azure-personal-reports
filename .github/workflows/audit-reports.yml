@@ -63,6 +63,7 @@ jobs:
           git config user.email jpatrick.fulton@gmail.com
 
       - name: "Commit and Push Command Outputs"
+        continue-on-error: true
         run: |
           git pull
           git add -A .
