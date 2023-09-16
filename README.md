@@ -10,7 +10,7 @@ scheduled Github Actions workflow and render markdown files that are then commit
 back to this repository. The workflows and supporting scripts are designed as an
 example of how to harness the utilities for reporting against any Azure subscription.
 
-- [azure-personal-reports](https://github.com/jpfulton/azure-personal-reports)
+- [azure-audit-cli](https://github.com/jpfulton/azure-audit-cli)
 - [azure-cost-cli](https://github.com/mivano/azure-cost-cli)
 
 ## Reports
