@@ -58,6 +58,15 @@ jobs:
       - name: "Checkout GitHub Action"
         uses: actions/checkout@v3
 
+      - name: "Configure Git"
+        run: |
+          git config user.name jpfulton
+          git config user.email jpatrick.fulton@gmail.com
+
+      - name: "Git Pull"
+        run: |
+          git pull
+
       - name: "Setup DotNet Environment"
         uses: actions/setup-dotnet@v3
         with:
@@ -74,11 +83,6 @@ jobs:
       - name: "Run Accumulated Cost Report for Each Resource"
         continue-on-error: true
         run: ./.github/scripts/accumulated-cost-by-resource.sh "${{ matrix.group }}"
-
-      - name: "Configure Git"
-        run: |
-          git config user.name jpfulton
-          git config user.email jpatrick.fulton@gmail.com
 
       - name: "Commit and Push Command Outputs"
         continue-on-error: true
@@ -98,6 +102,15 @@ jobs:
     steps:
       - name: "Checkout GitHub Action"
         uses: actions/checkout@v3
+
+      - name: "Configure Git"
+        run: |
+          git config user.name jpfulton
+          git config user.email jpatrick.fulton@gmail.com
+
+      - name: "Git Pull"
+        run: |
+          git pull
 
       - name: "Setup DotNet Environment"
         uses: actions/setup-dotnet@v3
@@ -133,11 +146,6 @@ jobs:
       - name: "Run Summary Report Generation"
         continue-on-error: true
         run: ./.github/scripts/accumulated-cost-by-resource.sh "summary-only"
-
-      - name: "Configure Git"
-        run: |
-          git config user.name jpfulton
-          git config user.email jpatrick.fulton@gmail.com
 
       - name: "Commit and Push Command Outputs"
         continue-on-error: true

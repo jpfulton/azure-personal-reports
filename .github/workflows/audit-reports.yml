@@ -19,6 +19,15 @@ jobs:
       - name: "Checkout GitHub Action"
         uses: actions/checkout@v3
 
+      - name: "Configure Git"
+        run: |
+          git config user.name jpfulton
+          git config user.email jpatrick.fulton@gmail.com
+
+      - name: "Git Pull"
+        run: |
+          git pull
+
       - name: "Setup DotNet Environment"
         uses: actions/setup-dotnet@v3
         with:
@@ -56,11 +65,6 @@ jobs:
         run: |
           OUTPUT=$(azure-audit storage --output Markdown)
           if [ $? -eq 0 ]; then echo "$OUTPUT" > ./audit-reports/storage-resources.md; fi
-
-      - name: "Configure Git"
-        run: |
-          git config user.name jpfulton
-          git config user.email jpatrick.fulton@gmail.com
 
       - name: "Commit and Push Command Outputs"
         continue-on-error: true
