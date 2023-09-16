@@ -30,7 +30,7 @@ jobs:
           echo "resource-groups=$RG_JSON_B64" >> $GITHUB_OUTPUT;
 
   decode:
-    name: "Decode JSON"
+    name: "Decode Resource Group JSON"
     needs: create-matrix
     outputs:
       resource-groups: ${{ steps.decode-json.outputs.resource-groups }}
