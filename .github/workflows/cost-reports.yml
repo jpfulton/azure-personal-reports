@@ -29,21 +29,6 @@ jobs:
           RG_JSON_B64="$(echo $RESOURCE_GROUPS_JSON | base64 -w0 -)";
           echo "resource-groups=$RG_JSON_B64" >> $GITHUB_OUTPUT;
 
-      #- name: "Get Resource Groups"
-      #  run: |
-      #    RESOURCE_GROUPS_JSON=$(./.github/scripts/resource-groups-as-json.sh);
-      #    echo "::add-mask::$RESOURCE_GROUPS_JSON";
-      #    echo "resource-groups-json<<EOF" >> $GITHUB_ENV;
-      #    echo "$RESOURCE_GROUPS_JSON" >> $GITHUB_ENV;
-      #    echo "EOF" >> $GITHUB_ENV;
-
-      #- name: "Echo Output"
-      #  id: get-resource-groups
-      #  run: |
-      #    echo "resource-groups<<EOF" >> $GITHUB_OUTPUT;
-      #    echo '${{ env.resource-groups-json }}' >> $GITHUB_OUTPUT;
-      #    echo "EOF" >> $GITHUB_OUTPUT;
-
   decode:
     name: "Decode"
     needs: create-matrix
@@ -63,6 +48,7 @@ jobs:
     name: "Cost Report Job for Group: ${{ matrix.group }}"
     needs: decode
     strategy:
+      fail-fast: false
       matrix: ${{ fromJson(needs.decode.outputs.resource-groups) }}
     permissions:
       contents: write
@@ -94,6 +80,7 @@ jobs:
           git config user.email jpatrick.fulton@gmail.com
 
       - name: "Commit and Push Command Outputs"
+        continue-on-error: true
         run: |
           git pull
           git add -A .
