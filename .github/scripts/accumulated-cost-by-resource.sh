@@ -64,6 +64,7 @@ echo "# Cost Reports Summary" > $SUMMARY_FILE;
 echo "" >> $SUMMARY_FILE;
 
 echo "> Generated on: $(date) <br />" >> $SUMMARY_FILE;
+echo "> Running $(azure-cost version) <br />" >> $SUMMARY_FILE;
 echo "> Resources and resource groups with no costs are omitted from details reports. <br />" >> $SUMMARY_FILE;
 echo "> Resources that have been deleted will be included in summary calculations but will not have details reports." >> $SUMMARY_FILE;
 echo "" >> $SUMMARY_FILE;
@@ -107,6 +108,7 @@ for rg in ${RESOURCE_GROUPS[@]}; do
               echo "# Azure Cost Overview" > ${RG_DIR}/README.md;
               echo "" >> ${RG_DIR}/README.md;
               echo "> An error occured building the summary report for the ${rg} resource group." >> ${RG_DIR}/README.md;
+              echo "> Running $(azure-cost version)" >> ${RG_DIR}/README.md;
               echo "" >> ${RG_DIR}/README.md;
           fi
         fi  
