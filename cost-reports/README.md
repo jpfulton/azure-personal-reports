@@ -1,12 +1,14 @@
 # Cost Reports Summary
 
-> Generated on: Sun Sep 17 11:03:02 UTC 2023 <br />
+> Generated on: Sun Sep 17 20:44:37 UTC 2023 <br />
+> Running Version: 0.0.5.0 <br />
 > Resources and resource groups with no costs are omitted from details reports. <br />
 > Resources that have been deleted will be included in summary calculations but will not have details reports.
 
 - [Total Accumulated Costs](./accumulated-cost.md)
 - [Total Cost by Resource](./cost-by-resource.md)
 - [Total Daily Costs](./daily-costs.md)
+- [Cost Anomalies by Resource](./anomalies-by-resource.md)
 
 
 
