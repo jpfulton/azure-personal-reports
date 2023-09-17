@@ -1,4 +1,127 @@
+Fetching subscription details...
+Fetching cost data...
+Fetching forecasted cost data...
+Fetching cost data by service name...
+Fetching cost data by location...
+Fetching cost data by resource group...
 # Azure Cost Overview
 
-> An error occured building the summary report for the cloud-shell-storage-eastus resource group.
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/17/2023**
 
+## Totals
+
+|Period|Amount|
+|---|---:|
+|Today|0.00 USD|
+|Yesterday|0.01 USD|
+|Last 7 days|1.07 USD|
+|Last 30 days|5.56 USD|
+
+```mermaid
+gantt
+   title Accumulated cost
+   dateFormat  X
+   axisFormat %s
+   section 01 Sep
+   USD 0.50 :0, 50
+   section 02 Sep
+   USD 1.00 :0, 100
+   section 03 Sep
+   USD 1.50 :0, 150
+   section 04 Sep
+   USD 2.00 :0, 200
+   section 05 Sep
+   USD 2.49 :0, 249
+   section 06 Sep
+   USD 2.98 :0, 298
+   section 07 Sep
+   USD 3.48 :0, 348
+   section 08 Sep
+   USD 3.98 :0, 398
+   section 09 Sep
+   USD 4.48 :0, 448
+   section 10 Sep
+   USD 4.98 :0, 498
+   section 11 Sep
+   USD 5.48 :0, 548
+   section 12 Sep
+   USD 5.51 :0, 551
+   section 13 Sep
+   USD 5.52 :0, 552
+   section 14 Sep
+   USD 5.53 :0, 553
+   section 15 Sep
+   USD 5.54 :0, 554
+   section 16 Sep
+   USD 5.55 :0, 555
+   section 17 Sep
+   USD 5.56 :0, 556
+   section 18 Sep
+   USD 5.79 : done, 0, 579
+   section 19 Sep
+   USD 6.00 : done, 0, 600
+   section 20 Sep
+   USD 6.21 : done, 0, 621
+   section 21 Sep
+   USD 6.40 : done, 0, 640
+   section 22 Sep
+   USD 6.58 : done, 0, 658
+   section 23 Sep
+   USD 6.75 : done, 0, 675
+   section 24 Sep
+   USD 6.91 : done, 0, 691
+   section 25 Sep
+   USD 7.06 : done, 0, 706
+   section 26 Sep
+   USD 7.19 : done, 0, 719
+   section 27 Sep
+   USD 7.31 : done, 0, 731
+   section 28 Sep
+   USD 7.43 : done, 0, 743
+   section 29 Sep
+   USD 7.53 : done, 0, 753
+   section 30 Sep
+   USD 7.62 : done, 0, 762
+```
+
+## By Service Name
+
+|Service|Amount|
+|---|---:|
+|Advanced Threat Protection|3.55 USD|
+|Security Center|1.84 USD|
+|Storage|0.16 USD|
+
+```mermaid
+pie
+   title Cost by service
+   "Advanced Threat Protection" : 3.55
+   "Security Center" : 1.84
+   "Storage" : 0.16
+```
+
+## By Location
+
+|Location|Amount|
+|---|---:|
+|US East|5.56 USD|
+
+```mermaid
+pie
+   title Cost by location
+   "US East" : 5.56
+```
+
+## By Resource Group
+
+|Resource Group|Amount|
+|---|---:|
+|cloud-shell-storage-eastus|5.56 USD|
+
+```mermaid
+pie
+   title Cost by resource group
+   "cloud-shell-storage-eastus" : 5.56
+```
+
+<sup>Generated at 2023-09-17 20:10:25 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
