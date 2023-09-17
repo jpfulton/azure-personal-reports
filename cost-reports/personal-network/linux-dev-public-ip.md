@@ -1,4 +1,2 @@
-Fetching subscription details...
-Fetching cost data...
-[38;5;9mError:[0m The delegate executed asynchronously through TimeoutPolicy did not 
-complete within the timeout.
+[38;5;9mError:[0m Could not resolve type 
+'AzureCostCli.Commands.ShowCommand.AccumulatedCostCommand'.
