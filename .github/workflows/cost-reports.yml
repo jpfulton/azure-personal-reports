@@ -143,24 +143,28 @@ jobs:
         run: |
           OUTPUT=$(azure-cost dailyCosts --dimension ResourceGroup --output Markdown)
           if [ $? -eq 0 ]; then echo "$OUTPUT" > ./cost-reports/daily-costs.md; fi
+          if [ $? -ne 0 ]; then echo "Error code was: $?"; fi
 
       - name: "Run Cost by Resource Report"
         continue-on-error: true
         run: |
           OUTPUT=$(azure-cost costByResource --output Markdown)
           if [ $? -eq 0 ]; then echo "$OUTPUT" > ./cost-reports/cost-by-resource.md; fi
+          if [ $? -ne 0 ]; then echo "Error code was: $?"; fi
           
       - name: "Run Cost Anomalies by Resource Report"
         continue-on-error: true
         run: |
           OUTPUT=$(azure-cost detectAnomalies --dimension "ResourceId" --recent-activity-days 30 --output Markdown)
           if [ $? -eq 0 ]; then echo "$OUTPUT" > ./cost-reports/anomalies-by-resource.md; fi
+          if [ $? -ne 0 ]; then echo "Error code was: $?"; fi
 
       - name: "Run Accumulated Cost Report for All Resources"
         continue-on-error: true
         run: |
           OUTPUT=$(azure-cost accumulatedCost --output Markdown)
           if [ $? -eq 0 ]; then echo "$OUTPUT" > ./cost-reports/accumulated-cost.md; fi
+          if [ $? -ne 0 ]; then echo "Error code was: $?"; fi
 
       - name: "Run Summary Report Generation"
         continue-on-error: true

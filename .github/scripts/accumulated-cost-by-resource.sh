@@ -103,6 +103,7 @@ for rg in ${RESOURCE_GROUPS[@]}; do
               echo "$OUTPUT" > ${RG_DIR}/README.md;
             else
               echo "Error running accumulated cost report for group: ${rg}.";
+              echo "Error code was: $?";
               echo "---";
 
               echo "# Azure Cost Overview" > ${RG_DIR}/README.md;
@@ -137,6 +138,7 @@ for rg in ${RESOURCE_GROUPS[@]}; do
           then
             echo "Error running accumulated cost report for ${RESOURCE_NAME} in group: ${rg}.";
             echo "Resource ID: ${id}";
+            echo "Error code was: $?";
             echo "---";
 
             echo "# Azure Cost Overview" > $OUTPUT_FILE_NAME;
