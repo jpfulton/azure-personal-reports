@@ -149,6 +149,12 @@ jobs:
         run: |
           OUTPUT=$(azure-cost costByResource --output Markdown)
           if [ $? -eq 0 ]; then echo "$OUTPUT" > ./cost-reports/cost-by-resource.md; fi
+          
+      - name: "Run Cost Anomalies by Resource Report"
+        continue-on-error: true
+        run: |
+          OUTPUT=$(azure-cost detectAnomalies --dimension "ResourceId" --recent-activity-days 30 --output Markdown)
+          if [ $? -eq 0 ]; then echo "$OUTPUT" > ./cost-reports/anomalies-by-resource.md; fi
 
       - name: "Run Accumulated Cost Report for All Resources"
         continue-on-error: true

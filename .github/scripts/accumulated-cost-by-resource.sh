@@ -71,6 +71,7 @@ echo "" >> $SUMMARY_FILE;
 echo "- [Total Accumulated Costs](./accumulated-cost.md)" >> $SUMMARY_FILE;
 echo "- [Total Cost by Resource](./cost-by-resource.md)" >> $SUMMARY_FILE;
 echo "- [Total Daily Costs](./daily-costs.md)" >> $SUMMARY_FILE;
+echo "- [Cost Anomalies by Resource](./anomalies-by-resource.md)" >> $SUMMARY_FILE;
 echo "" >> $SUMMARY_FILE;
 
 for rg in ${RESOURCE_GROUPS[@]}; do
