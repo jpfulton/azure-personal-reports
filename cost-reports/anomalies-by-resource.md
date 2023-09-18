@@ -34,7 +34,7 @@
 
 | Anomaly Type | Message |
 |---|---|
-|SignificantChange| Significant cost change detected at 09/16/2023 when it went from 2.74 to 10.67 (difference of 7.92)|
+|SignificantChange| Significant cost change detected at 09/17/2023 when it went from 10.67 to 23.43 (difference of 12.76)|
 
 
-<sup>Generated at 2023-09-17 20:43:35 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-18 11:39:53 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
