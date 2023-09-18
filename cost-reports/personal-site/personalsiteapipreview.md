@@ -14,7 +14,7 @@ Fetching cost data by resource group...
 |---|---:|
 |Today|0.00 USD|
 |Yesterday|0.00 USD|
-|Last 7 days|1.01 USD|
+|Last 7 days|0.52 USD|
 |Last 30 days|5.42 USD|
 
 ```mermaid
@@ -57,31 +57,31 @@ gantt
    section 17 Sep
    USD 5.42 :0, 542
    section 18 Sep
-   USD 5.65 : done, 0, 565
+   USD 5.61 : done, 0, 561
    section 19 Sep
-   USD 5.86 : done, 0, 586
+   USD 5.77 : done, 0, 577
    section 20 Sep
-   USD 6.05 : done, 0, 605
+   USD 5.92 : done, 0, 592
    section 21 Sep
-   USD 6.24 : done, 0, 624
+   USD 6.06 : done, 0, 606
    section 22 Sep
-   USD 6.41 : done, 0, 641
+   USD 6.17 : done, 0, 617
    section 23 Sep
-   USD 6.58 : done, 0, 658
+   USD 6.28 : done, 0, 628
    section 24 Sep
-   USD 6.73 : done, 0, 673
+   USD 6.38 : done, 0, 638
    section 25 Sep
-   USD 6.86 : done, 0, 686
+   USD 6.46 : done, 0, 646
    section 26 Sep
-   USD 6.99 : done, 0, 699
+   USD 6.53 : done, 0, 653
    section 27 Sep
-   USD 7.11 : done, 0, 711
+   USD 6.58 : done, 0, 658
    section 28 Sep
-   USD 7.21 : done, 0, 721
+   USD 6.62 : done, 0, 662
    section 29 Sep
-   USD 7.30 : done, 0, 730
+   USD 6.63 : done, 0, 663
    section 30 Sep
-   USD 7.38 : done, 0, 738
+   USD 6.64 : done, 0, 664
 ```
 
 ## By Service Name
@@ -124,4 +124,4 @@ pie
    "personal-site" : 5.42
 ```
 
-<sup>Generated at 2023-09-17 20:30:33 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-18 11:25:36 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

@@ -12,10 +12,10 @@ Fetching cost data by resource group...
 
 |Period|Amount|
 |---|---:|
-|Today|0.15 USD|
-|Yesterday|0.59 USD|
-|Last 7 days|6.31 USD|
-|Last 30 days|20.46 USD|
+|Today|0.00 USD|
+|Yesterday|0.54 USD|
+|Last 7 days|5.13 USD|
+|Last 30 days|20.86 USD|
 
 ```mermaid
 gantt
@@ -55,43 +55,43 @@ gantt
    section 16 Sep
    USD 20.32 :0, 2032
    section 17 Sep
-   USD 20.46 :0, 2046
+   USD 20.86 :0, 2086
    section 18 Sep
-   USD 21.50 : done, 0, 2150
+   USD 21.81 : done, 0, 2181
    section 19 Sep
-   USD 22.51 : done, 0, 2251
+   USD 22.74 : done, 0, 2274
    section 20 Sep
-   USD 23.50 : done, 0, 2350
+   USD 23.63 : done, 0, 2363
    section 21 Sep
-   USD 24.46 : done, 0, 2446
+   USD 24.50 : done, 0, 2450
    section 22 Sep
-   USD 25.40 : done, 0, 2540
+   USD 25.31 : done, 0, 2531
    section 23 Sep
-   USD 26.32 : done, 0, 2632
+   USD 26.13 : done, 0, 2613
    section 24 Sep
-   USD 27.21 : done, 0, 2721
+   USD 26.91 : done, 0, 2691
    section 25 Sep
-   USD 28.08 : done, 0, 2808
+   USD 27.66 : done, 0, 2766
    section 26 Sep
-   USD 28.93 : done, 0, 2893
+   USD 28.39 : done, 0, 2839
    section 27 Sep
-   USD 29.74 : done, 0, 2974
+   USD 29.09 : done, 0, 2909
    section 28 Sep
-   USD 30.54 : done, 0, 3054
+   USD 29.76 : done, 0, 2976
    section 29 Sep
-   USD 31.32 : done, 0, 3132
+   USD 30.37 : done, 0, 3037
    section 30 Sep
-   USD 32.07 : done, 0, 3207
+   USD 30.98 : done, 0, 3098
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|9.62 USD|
+|Azure App Service|10.01 USD|
 |Advanced Threat Protection|7.10 USD|
 |Security Center|3.68 USD|
-|Storage|0.06 USD|
+|Storage|0.07 USD|
 |Bandwidth|0.00 USD|
 |Azure Active Directory for External Identities|0.00 USD|
 |Functions|0.00 USD|
@@ -100,10 +100,10 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 9.62
+   "Azure App Service" : 10.01
    "Advanced Threat Protection" : 7.10
    "Security Center" : 3.68
-   "Storage" : 0.06
+   "Storage" : 0.07
    "Bandwidth" : 0.00
    "Azure Active Directory for External Identities" : 0.00
    "Functions" : 0.00
@@ -114,7 +114,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|20.46 USD|
+|US Central|20.86 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |Unknown|0.00 USD|
@@ -124,7 +124,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 20.46
+   "US Central" : 20.86
    "AP East" : 0.00
    "EU West" : 0.00
    "Unknown" : 0.00
@@ -136,12 +136,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|20.46 USD|
+|personal-site|20.86 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 20.46
+   "personal-site" : 20.86
 ```
 
-<sup>Generated at 2023-09-17 20:11:24 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-18 11:05:31 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
