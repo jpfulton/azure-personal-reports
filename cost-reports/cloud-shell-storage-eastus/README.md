@@ -14,7 +14,7 @@ Fetching cost data by resource group...
 |---|---:|
 |Today|0.00 USD|
 |Yesterday|0.01 USD|
-|Last 7 days|1.07 USD|
+|Last 7 days|0.58 USD|
 |Last 30 days|5.56 USD|
 
 ```mermaid
@@ -57,31 +57,31 @@ gantt
    section 17 Sep
    USD 5.56 :0, 556
    section 18 Sep
-   USD 5.79 : done, 0, 579
+   USD 5.75 : done, 0, 575
    section 19 Sep
-   USD 6.00 : done, 0, 600
+   USD 5.92 : done, 0, 592
    section 20 Sep
-   USD 6.21 : done, 0, 621
+   USD 6.08 : done, 0, 608
    section 21 Sep
-   USD 6.40 : done, 0, 640
+   USD 6.23 : done, 0, 623
    section 22 Sep
-   USD 6.58 : done, 0, 658
+   USD 6.35 : done, 0, 635
    section 23 Sep
-   USD 6.75 : done, 0, 675
+   USD 6.47 : done, 0, 647
    section 24 Sep
-   USD 6.91 : done, 0, 691
+   USD 6.57 : done, 0, 657
    section 25 Sep
-   USD 7.06 : done, 0, 706
+   USD 6.66 : done, 0, 666
    section 26 Sep
-   USD 7.19 : done, 0, 719
+   USD 6.74 : done, 0, 674
    section 27 Sep
-   USD 7.31 : done, 0, 731
+   USD 6.79 : done, 0, 679
    section 28 Sep
-   USD 7.43 : done, 0, 743
+   USD 6.84 : done, 0, 684
    section 29 Sep
-   USD 7.53 : done, 0, 753
+   USD 6.86 : done, 0, 686
    section 30 Sep
-   USD 7.62 : done, 0, 762
+   USD 6.88 : done, 0, 688
 ```
 
 ## By Service Name
@@ -90,14 +90,14 @@ gantt
 |---|---:|
 |Advanced Threat Protection|3.55 USD|
 |Security Center|1.84 USD|
-|Storage|0.16 USD|
+|Storage|0.17 USD|
 
 ```mermaid
 pie
    title Cost by service
    "Advanced Threat Protection" : 3.55
    "Security Center" : 1.84
-   "Storage" : 0.16
+   "Storage" : 0.17
 ```
 
 ## By Location
@@ -124,4 +124,4 @@ pie
    "cloud-shell-storage-eastus" : 5.56
 ```
 
-<sup>Generated at 2023-09-17 20:10:25 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-18 11:03:32 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
