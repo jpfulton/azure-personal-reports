@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/17/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/18/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
-|Today|5.41 USD|
-|Yesterday|13.01 USD|
-|Last 7 days|122.59 USD|
-|Last 30 days|150.29 USD|
+|Today|0.08 USD|
+|Yesterday|25.69 USD|
+|Last 7 days|140.20 USD|
+|Last 30 days|170.64 USD|
 
 ```mermaid
 gantt
@@ -55,56 +55,32 @@ gantt
    section 16 Sep
    USD 144.87 :0, 14487
    section 17 Sep
-   USD 150.29 :0, 15029
+   USD 170.56 :0, 17056
    section 18 Sep
-   USD 165.10 : done, 0, 16510
-   section 19 Sep
-   USD 180.49 : done, 0, 18049
-   section 20 Sep
-   USD 196.43 : done, 0, 19643
-   section 21 Sep
-   USD 212.87 : done, 0, 21287
-   section 22 Sep
-   USD 229.95 : done, 0, 22995
-   section 23 Sep
-   USD 247.35 : done, 0, 24735
-   section 24 Sep
-   USD 265.33 : done, 0, 26533
-   section 25 Sep
-   USD 283.79 : done, 0, 28379
-   section 26 Sep
-   USD 302.83 : done, 0, 30283
-   section 27 Sep
-   USD 322.41 : done, 0, 32241
-   section 28 Sep
-   USD 342.49 : done, 0, 34249
-   section 29 Sep
-   USD 363.23 : done, 0, 36323
-   section 30 Sep
-   USD 384.27 : done, 0, 38427
+   USD 170.64 :0, 17064
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|131.22 USD|
-|Virtual Machines|6.25 USD|
-|Virtual Network|6.16 USD|
+|Storage|151.13 USD|
+|Virtual Machines|6.46 USD|
+|Virtual Network|6.38 USD|
 |Security Center|3.70 USD|
 |Bandwidth|2.69 USD|
-|Azure DNS|0.26 USD|
+|Azure DNS|0.27 USD|
 |Advanced Threat Protection|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 131.22
-   "Virtual Machines" : 6.25
-   "Virtual Network" : 6.16
+   "Storage" : 151.13
+   "Virtual Machines" : 6.46
+   "Virtual Network" : 6.38
    "Security Center" : 3.70
    "Bandwidth" : 2.69
-   "Azure DNS" : 0.26
+   "Azure DNS" : 0.27
    "Advanced Threat Protection" : 0.00
 ```
 
@@ -112,15 +88,15 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|150.02 USD|
-|Unknown|0.26 USD|
+|US North Central|170.37 USD|
+|Unknown|0.27 USD|
 |Intercontinental|0.00 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 150.02
-   "Unknown" : 0.26
+   "US North Central" : 170.37
+   "Unknown" : 0.27
    "Intercontinental" : 0.00
 ```
 
@@ -128,12 +104,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|150.29 USD|
+|personal-network|170.64 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 150.29
+   "personal-network" : 170.64
 ```
 
-<sup>Generated at 2023-09-17 20:10:26 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-18 11:09:32 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

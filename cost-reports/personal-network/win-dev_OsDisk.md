@@ -12,10 +12,10 @@ Fetching cost data by resource group...
 
 |Period|Amount|
 |---|---:|
-|Today|0.01 USD|
+|Today|0.00 USD|
 |Yesterday|0.05 USD|
-|Last 7 days|0.37 USD|
-|Last 30 days|0.84 USD|
+|Last 7 days|0.36 USD|
+|Last 30 days|0.88 USD|
 
 ```mermaid
 gantt
@@ -55,69 +55,69 @@ gantt
    section 16 Sep
    USD 0.83 :0, 83
    section 17 Sep
-   USD 0.84 :0, 84
+   USD 0.88 :0, 88
    section 18 Sep
-   USD 0.90 : done, 0, 90
+   USD 0.93 : done, 0, 93
    section 19 Sep
-   USD 0.95 : done, 0, 95
+   USD 0.98 : done, 0, 98
    section 20 Sep
-   USD 1.00 : done, 0, 100
+   USD 1.03 : done, 0, 103
    section 21 Sep
-   USD 1.05 : done, 0, 105
+   USD 1.08 : done, 0, 108
    section 22 Sep
-   USD 1.10 : done, 0, 110
+   USD 1.13 : done, 0, 113
    section 23 Sep
-   USD 1.15 : done, 0, 115
+   USD 1.19 : done, 0, 119
    section 24 Sep
-   USD 1.20 : done, 0, 120
+   USD 1.24 : done, 0, 124
    section 25 Sep
-   USD 1.25 : done, 0, 125
+   USD 1.29 : done, 0, 129
    section 26 Sep
-   USD 1.30 : done, 0, 130
+   USD 1.34 : done, 0, 134
    section 27 Sep
-   USD 1.36 : done, 0, 136
+   USD 1.39 : done, 0, 139
    section 28 Sep
-   USD 1.41 : done, 0, 141
+   USD 1.45 : done, 0, 145
    section 29 Sep
-   USD 1.46 : done, 0, 146
+   USD 1.50 : done, 0, 150
    section 30 Sep
-   USD 1.51 : done, 0, 151
+   USD 1.55 : done, 0, 155
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|0.84 USD|
+|Storage|0.88 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.84
+   "Storage" : 0.88
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|0.84 USD|
+|US North Central|0.88 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 0.84
+   "US North Central" : 0.88
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.84 USD|
+|personal-network|0.88 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.84
+   "personal-network" : 0.88
 ```
 
-<sup>Generated at 2023-09-17 20:42:35 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-18 11:38:52 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

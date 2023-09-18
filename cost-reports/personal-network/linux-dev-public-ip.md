@@ -12,10 +12,10 @@ Fetching cost data by resource group...
 
 |Period|Amount|
 |---|---:|
-|Today|0.04 USD|
+|Today|0.00 USD|
 |Yesterday|0.12 USD|
-|Last 7 days|0.88 USD|
-|Last 30 days|1.96 USD|
+|Last 7 days|0.83 USD|
+|Last 30 days|2.04 USD|
 
 ```mermaid
 gantt
@@ -55,69 +55,69 @@ gantt
    section 16 Sep
    USD 1.92 :0, 192
    section 17 Sep
-   USD 1.96 :0, 196
+   USD 2.04 :0, 204
    section 18 Sep
-   USD 2.08 : done, 0, 208
+   USD 2.16 : done, 0, 216
    section 19 Sep
-   USD 2.21 : done, 0, 221
+   USD 2.28 : done, 0, 228
    section 20 Sep
-   USD 2.33 : done, 0, 233
+   USD 2.40 : done, 0, 240
    section 21 Sep
-   USD 2.45 : done, 0, 245
+   USD 2.52 : done, 0, 252
    section 22 Sep
-   USD 2.57 : done, 0, 257
+   USD 2.65 : done, 0, 265
    section 23 Sep
-   USD 2.70 : done, 0, 270
+   USD 2.77 : done, 0, 277
    section 24 Sep
-   USD 2.82 : done, 0, 282
+   USD 2.89 : done, 0, 289
    section 25 Sep
-   USD 2.95 : done, 0, 295
+   USD 3.02 : done, 0, 302
    section 26 Sep
-   USD 3.07 : done, 0, 307
+   USD 3.14 : done, 0, 314
    section 27 Sep
-   USD 3.19 : done, 0, 319
+   USD 3.27 : done, 0, 327
    section 28 Sep
-   USD 3.32 : done, 0, 332
+   USD 3.39 : done, 0, 339
    section 29 Sep
-   USD 3.44 : done, 0, 344
+   USD 3.51 : done, 0, 351
    section 30 Sep
-   USD 3.57 : done, 0, 357
+   USD 3.64 : done, 0, 364
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Network|1.96 USD|
+|Virtual Network|2.04 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Network" : 1.96
+   "Virtual Network" : 2.04
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|1.96 USD|
+|US North Central|2.04 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 1.96
+   "US North Central" : 2.04
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|1.96 USD|
+|personal-network|2.04 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 1.96
+   "personal-network" : 2.04
 ```
 
-<sup>Generated at 2023-09-17 20:29:31 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-18 11:25:36 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

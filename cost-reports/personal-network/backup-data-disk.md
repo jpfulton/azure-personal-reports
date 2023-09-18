@@ -12,10 +12,10 @@ Fetching cost data by resource group...
 
 |Period|Amount|
 |---|---:|
-|Today|0.40 USD|
-|Yesterday|1.37 USD|
-|Last 7 days|10.09 USD|
-|Last 30 days|22.68 USD|
+|Today|0.00 USD|
+|Yesterday|1.31 USD|
+|Last 7 days|9.62 USD|
+|Last 30 days|23.59 USD|
 
 ```mermaid
 gantt
@@ -55,69 +55,69 @@ gantt
    section 16 Sep
    USD 22.28 :0, 2228
    section 17 Sep
-   USD 22.68 :0, 2268
+   USD 23.59 :0, 2359
    section 18 Sep
-   USD 24.10 : done, 0, 2410
+   USD 25.00 : done, 0, 2500
    section 19 Sep
-   USD 25.51 : done, 0, 2551
+   USD 26.40 : done, 0, 2640
    section 20 Sep
-   USD 26.93 : done, 0, 2693
+   USD 27.82 : done, 0, 2782
    section 21 Sep
-   USD 28.34 : done, 0, 2834
+   USD 29.22 : done, 0, 2922
    section 22 Sep
-   USD 29.77 : done, 0, 2977
+   USD 30.65 : done, 0, 3065
    section 23 Sep
-   USD 31.19 : done, 0, 3119
+   USD 32.06 : done, 0, 3206
    section 24 Sep
-   USD 32.60 : done, 0, 3260
+   USD 33.47 : done, 0, 3347
    section 25 Sep
-   USD 34.04 : done, 0, 3404
+   USD 34.89 : done, 0, 3489
    section 26 Sep
-   USD 35.46 : done, 0, 3546
+   USD 36.31 : done, 0, 3631
    section 27 Sep
-   USD 36.90 : done, 0, 3690
+   USD 37.73 : done, 0, 3773
    section 28 Sep
-   USD 38.33 : done, 0, 3833
+   USD 39.15 : done, 0, 3915
    section 29 Sep
-   USD 39.77 : done, 0, 3977
+   USD 40.60 : done, 0, 4060
    section 30 Sep
-   USD 41.20 : done, 0, 4120
+   USD 42.02 : done, 0, 4202
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|22.68 USD|
+|Storage|23.59 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 22.68
+   "Storage" : 23.59
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|22.68 USD|
+|US North Central|23.59 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 22.68
+   "US North Central" : 23.59
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|22.68 USD|
+|personal-network|23.59 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 22.68
+   "personal-network" : 23.59
 ```
 
-<sup>Generated at 2023-09-17 20:15:27 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-18 11:11:35 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
