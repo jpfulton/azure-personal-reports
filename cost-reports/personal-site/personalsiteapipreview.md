@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/19/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/20/2023**
 
 ## Totals
 
@@ -61,27 +61,27 @@ gantt
    section 19 Sep
    USD 5.43 :0, 543
    section 20 Sep
-   USD 5.51 : done, 0, 551
+   USD 5.43 :0, 543
    section 21 Sep
-   USD 5.57 : done, 0, 557
+   USD 5.43 : done, 0, 543
    section 22 Sep
-   USD 5.60 : done, 0, 560
+   USD 5.43 : done, 0, 543
    section 23 Sep
-   USD 5.62 : done, 0, 562
+   USD 5.43 : done, 0, 543
    section 24 Sep
-   USD 5.63 : done, 0, 563
+   USD 5.43 : done, 0, 543
    section 25 Sep
-   USD 5.63 : done, 0, 563
+   USD 5.43 : done, 0, 543
    section 26 Sep
-   USD 5.63 : done, 0, 563
+   USD 5.43 : done, 0, 543
    section 27 Sep
-   USD 5.63 : done, 0, 563
+   USD 5.43 : done, 0, 543
    section 28 Sep
-   USD 5.63 : done, 0, 563
+   USD 5.43 : done, 0, 543
    section 29 Sep
-   USD 5.63 : done, 0, 563
+   USD 5.43 : done, 0, 543
    section 30 Sep
-   USD 5.63 : done, 0, 563
+   USD 5.44 : done, 0, 544
 ```
 
 ## By Service Name
@@ -90,14 +90,14 @@ gantt
 |---|---:|
 |Advanced Threat Protection|3.55 USD|
 |Security Center|1.84 USD|
-|Storage|0.03 USD|
+|Storage|0.04 USD|
 
 ```mermaid
 pie
    title Cost by service
    "Advanced Threat Protection" : 3.55
    "Security Center" : 1.84
-   "Storage" : 0.03
+   "Storage" : 0.04
 ```
 
 ## By Location
@@ -124,4 +124,4 @@ pie
    "personal-site" : 5.43
 ```
 
-<sup>Generated at 2023-09-20 11:27:35 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-21 11:24:34 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
