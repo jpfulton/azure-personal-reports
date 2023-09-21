@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/20/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/21/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.12 USD|
-|Yesterday|12.03 USD|
-|Last 7 days|153.21 USD|
-|Last 30 days|198.96 USD|
+|Yesterday|2.75 USD|
+|Last 7 days|112.80 USD|
+|Last 30 days|204.67 USD|
 
 ```mermaid
 gantt
@@ -59,52 +59,52 @@ gantt
    section 18 Sep
    USD 186.81 :0, 18681
    section 19 Sep
-   USD 198.84 :0, 19884
+   USD 201.80 :0, 20180
    section 20 Sep
-   USD 198.96 :0, 19896
+   USD 204.55 :0, 20455
    section 21 Sep
-   USD 218.20 : done, 0, 21820
+   USD 204.67 :0, 20467
    section 22 Sep
-   USD 238.28 : done, 0, 23828
+   USD 224.77 : done, 0, 22477
    section 23 Sep
-   USD 258.98 : done, 0, 25898
+   USD 245.52 : done, 0, 24552
    section 24 Sep
-   USD 280.27 : done, 0, 28027
+   USD 266.88 : done, 0, 26688
    section 25 Sep
-   USD 302.22 : done, 0, 30222
+   USD 288.91 : done, 0, 28891
    section 26 Sep
-   USD 324.90 : done, 0, 32490
+   USD 311.79 : done, 0, 31179
    section 27 Sep
-   USD 348.29 : done, 0, 34829
+   USD 335.31 : done, 0, 33531
    section 28 Sep
-   USD 372.34 : done, 0, 37234
+   USD 359.51 : done, 0, 35951
    section 29 Sep
-   USD 397.22 : done, 0, 39722
+   USD 384.56 : done, 0, 38456
    section 30 Sep
-   USD 422.72 : done, 0, 42272
+   USD 410.24 : done, 0, 41024
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|178.04 USD|
-|Virtual Machines|7.19 USD|
-|Virtual Network|7.03 USD|
+|Storage|183.07 USD|
+|Virtual Machines|7.54 USD|
+|Virtual Network|7.34 USD|
 |Security Center|3.70 USD|
 |Bandwidth|2.69 USD|
-|Azure DNS|0.30 USD|
+|Azure DNS|0.32 USD|
 |Advanced Threat Protection|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 178.04
-   "Virtual Machines" : 7.19
-   "Virtual Network" : 7.03
+   "Storage" : 183.07
+   "Virtual Machines" : 7.54
+   "Virtual Network" : 7.34
    "Security Center" : 3.70
    "Bandwidth" : 2.69
-   "Azure DNS" : 0.30
+   "Azure DNS" : 0.32
    "Advanced Threat Protection" : 0.00
 ```
 
@@ -112,15 +112,15 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|198.65 USD|
-|Unknown|0.30 USD|
+|US North Central|204.34 USD|
+|Unknown|0.32 USD|
 |Intercontinental|0.00 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 198.65
-   "Unknown" : 0.30
+   "US North Central" : 204.34
+   "Unknown" : 0.32
    "Intercontinental" : 0.00
 ```
 
@@ -128,12 +128,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|198.96 USD|
+|personal-network|204.67 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 198.96
+   "personal-network" : 204.67
 ```
 
-<sup>Generated at 2023-09-20 11:06:22 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-21 11:07:30 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
