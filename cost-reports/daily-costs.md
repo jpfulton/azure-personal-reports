@@ -21,8 +21,9 @@ Fetching daily cost data...
 | **2023-09-16** | **13.68** | **personal-network**: `13.01` (_95.07%_), **personal-site**: `0.59` (_4.34%_), ****: `0.04` (_0.28%_), **personal-dns**: `0.03` (_0.24%_), **cloud-shell-storage-eastus**: `0.01` (_0.07%_), **Other**: `0.00` (_0.00%_) |
 | **2023-09-17** | **28.12** | **personal-network**: `27.45` (_97.61%_), **personal-site**: `0.59` (_2.11%_), ****: `0.04` (_0.13%_), **personal-dns**: `0.03` (_0.12%_), **cloud-shell-storage-eastus**: `0.01` (_0.04%_), **Other**: `0.00` (_0.00%_) |
 | **2023-09-18** | **15.16** | **personal-network**: `14.49` (_95.57%_), **personal-site**: `0.59` (_3.92%_), ****: `0.04` (_0.23%_), **personal-dns**: `0.03` (_0.22%_), **cloud-shell-storage-eastus**: `0.01` (_0.07%_), **azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com**: `0.00` (_0.00%_), **Other**: `0.00` (_0.00%_) |
-| **2023-09-19** | **12.51** | **personal-network**: `12.03` (_96.16%_), **personal-site**: `0.42` (_3.37%_), ****: `0.03` (_0.21%_), **personal-dns**: `0.02` (_0.20%_), **cloud-shell-storage-eastus**: `0.01` (_0.06%_), **Other**: `0.00` (_0.00%_) |
-| **2023-09-20** | **0.12** | **personal-network**: `0.12` (_100.00%_), **Other**: `0.00` (_0.00%_) |
+| **2023-09-19** | **15.66** | **personal-network**: `14.99` (_95.71%_), **personal-site**: `0.59` (_3.79%_), ****: `0.03` (_0.22%_), **personal-dns**: `0.03` (_0.21%_), **cloud-shell-storage-eastus**: `0.01` (_0.06%_), **Other**: `0.00` (_0.00%_) |
+| **2023-09-20** | **3.37** | **personal-network**: `2.75` (_81.66%_), **personal-site**: `0.54` (_16.17%_), ****: `0.03` (_0.95%_), **personal-dns**: `0.03` (_0.93%_), **cloud-shell-storage-eastus**: `0.01` (_0.28%_), **Other**: `0.00` (_0.00%_) |
+| **2023-09-21** | **0.12** | **personal-network**: `0.12` (_100.00%_), **Other**: `0.00` (_0.00%_) |
 
 
-<sup>Generated at 2023-09-20 11:33:13 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-21 11:31:19 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

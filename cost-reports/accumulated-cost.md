@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/20/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/21/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.12 USD|
-|Yesterday|12.51 USD|
-|Last 7 days|157.73 USD|
-|Last 30 days|238.84 USD|
+|Yesterday|3.37 USD|
+|Last 7 days|117.44 USD|
+|Last 30 days|245.36 USD|
 
 ```mermaid
 gantt
@@ -59,57 +59,57 @@ gantt
    section 18 Sep
    USD 226.22 :0, 22622
    section 19 Sep
-   USD 238.73 :0, 23873
+   USD 241.88 :0, 24188
    section 20 Sep
-   USD 238.84 :0, 23884
+   USD 245.25 :0, 24525
    section 21 Sep
-   USD 259.04 : done, 0, 25904
+   USD 245.36 :0, 24536
    section 22 Sep
-   USD 279.85 : done, 0, 27985
+   USD 266.08 : done, 0, 26608
    section 23 Sep
-   USD 301.36 : done, 0, 30136
+   USD 287.52 : done, 0, 28752
    section 24 Sep
-   USD 323.28 : done, 0, 32328
+   USD 309.37 : done, 0, 30937
    section 25 Sep
-   USD 345.72 : done, 0, 34572
+   USD 331.75 : done, 0, 33175
    section 26 Sep
-   USD 368.80 : done, 0, 36880
+   USD 354.89 : done, 0, 35489
    section 27 Sep
-   USD 392.52 : done, 0, 39252
+   USD 378.58 : done, 0, 37858
    section 28 Sep
-   USD 416.84 : done, 0, 41684
+   USD 402.88 : done, 0, 40288
    section 29 Sep
-   USD 441.76 : done, 0, 44176
+   USD 427.80 : done, 0, 42780
    section 30 Sep
-   USD 467.39 : done, 0, 46739
+   USD 453.43 : done, 0, 45343
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|178.29 USD|
+|Storage|183.34 USD|
 |Security Center|19.78 USD|
-|Advanced Threat Protection|11.86 USD|
-|Azure App Service|11.07 USD|
-|Virtual Machines|7.19 USD|
-|Virtual Network|7.03 USD|
+|Advanced Threat Protection|11.90 USD|
+|Azure App Service|11.79 USD|
+|Virtual Machines|7.54 USD|
+|Virtual Network|7.34 USD|
 |Bandwidth|2.69 USD|
-|Azure DNS|0.91 USD|
+|Azure DNS|0.97 USD|
 |Insight and Analytics|0.00 USD|
 |Others|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 178.29
+   "Storage" : 183.34
    "Security Center" : 19.78
-   "Advanced Threat Protection" : 11.86
-   "Azure App Service" : 11.07
-   "Virtual Machines" : 7.19
-   "Virtual Network" : 7.03
+   "Advanced Threat Protection" : 11.90
+   "Azure App Service" : 11.79
+   "Virtual Machines" : 7.54
+   "Virtual Network" : 7.34
    "Bandwidth" : 2.69
-   "Azure DNS" : 0.91
+   "Azure DNS" : 0.97
    "Insight and Analytics" : 0.00
    "Others" : 0.00
 ```
@@ -118,11 +118,11 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|198.65 USD|
-|US Central|21.92 USD|
-|Unassigned|11.77 USD|
-|US East|5.58 USD|
-|Unknown|0.91 USD|
+|US North Central|204.34 USD|
+|US Central|22.64 USD|
+|Unassigned|11.81 USD|
+|US East|5.59 USD|
+|Unknown|0.97 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |Intercontinental|0.00 USD|
@@ -132,11 +132,11 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 198.65
-   "US Central" : 21.92
-   "Unassigned" : 11.77
-   "US East" : 5.58
-   "Unknown" : 0.91
+   "US North Central" : 204.34
+   "US Central" : 22.64
+   "Unassigned" : 11.81
+   "US East" : 5.59
+   "Unknown" : 0.97
    "AP East" : 0.00
    "EU West" : 0.00
    "Intercontinental" : 0.00
@@ -148,24 +148,24 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|198.96 USD|
-|personal-site|21.92 USD|
-||11.77 USD|
-|cloud-shell-storage-eastus|5.58 USD|
-|personal-dns|0.61 USD|
+|personal-network|204.67 USD|
+|personal-site|22.64 USD|
+||11.81 USD|
+|cloud-shell-storage-eastus|5.59 USD|
+|personal-dns|0.65 USD|
 |defaultresourcegroup-ncus|0.00 USD|
 |azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com|0.00 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 198.96
-   "personal-site" : 21.92
-   "(Unknown)" : 11.77
-   "cloud-shell-storage-eastus" : 5.58
-   "personal-dns" : 0.61
+   "personal-network" : 204.67
+   "personal-site" : 22.64
+   "(Unknown)" : 11.81
+   "cloud-shell-storage-eastus" : 5.59
+   "personal-dns" : 0.65
    "defaultresourcegroup-ncus" : 0.00
    "azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com" : 0.00
 ```
 
-<sup>Generated at 2023-09-20 11:34:31 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-21 11:32:36 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
