@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/14/2023** to **09/20/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/14/2023** to **09/21/2023**
 
 ## Totals
 
@@ -14,8 +14,8 @@ Fetching cost data by resource group...
 |---|---:|
 |Today|0.00 USD|
 |Yesterday|0.12 USD|
-|Last 7 days|0.82 USD|
-|Last 30 days|0.82 USD|
+|Last 7 days|0.83 USD|
+|Last 30 days|0.94 USD|
 
 ```mermaid
 gantt
@@ -35,63 +35,63 @@ gantt
    section 19 Sep
    USD 0.71 :0, 71
    section 20 Sep
-   USD 0.82 :0, 82
+   USD 0.83 :0, 83
    section 21 Sep
-   USD 0.93 : done, 0, 93
+   USD 0.94 :0, 94
    section 22 Sep
-   USD 1.05 : done, 0, 105
+   USD 1.06 : done, 0, 106
    section 23 Sep
-   USD 1.17 : done, 0, 117
+   USD 1.18 : done, 0, 118
    section 24 Sep
-   USD 1.29 : done, 0, 129
+   USD 1.30 : done, 0, 130
    section 25 Sep
-   USD 1.41 : done, 0, 141
+   USD 1.42 : done, 0, 142
    section 26 Sep
-   USD 1.53 : done, 0, 153
+   USD 1.54 : done, 0, 154
    section 27 Sep
-   USD 1.53 : done, 0, 153
+   USD 1.66 : done, 0, 166
    section 28 Sep
-   USD 1.64 : done, 0, 164
+   USD 1.77 : done, 0, 177
    section 29 Sep
-   USD 1.76 : done, 0, 176
+   USD 1.89 : done, 0, 189
    section 30 Sep
-   USD 1.88 : done, 0, 188
+   USD 2.01 : done, 0, 201
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Network|0.82 USD|
+|Virtual Network|0.94 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Network" : 0.82
+   "Virtual Network" : 0.94
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|0.82 USD|
+|US North Central|0.94 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 0.82
+   "US North Central" : 0.94
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.82 USD|
+|personal-network|0.94 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.82
+   "personal-network" : 0.94
 ```
 
-<sup>Generated at 2023-09-21 11:20:35 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-22 11:19:18 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

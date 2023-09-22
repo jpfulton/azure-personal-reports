@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/21/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/22/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
-|Today|0.12 USD|
+|Today|0.03 USD|
 |Yesterday|2.75 USD|
-|Last 7 days|112.80 USD|
-|Last 30 days|204.67 USD|
+|Last 7 days|81.18 USD|
+|Last 30 days|207.47 USD|
 
 ```mermaid
 gantt
@@ -45,66 +45,66 @@ gantt
    section 11 Sep
    USD 33.22 :0, 3322
    section 12 Sep
-   USD 45.74 :0, 4574
+   USD 45.75 :0, 4575
    section 13 Sep
-   USD 91.87 :0, 9187
+   USD 91.88 :0, 9188
    section 14 Sep
-   USD 126.28 :0, 12628
+   USD 126.29 :0, 12629
    section 15 Sep
-   USD 131.87 :0, 13187
+   USD 131.88 :0, 13188
    section 16 Sep
-   USD 144.87 :0, 14487
+   USD 144.89 :0, 14489
    section 17 Sep
-   USD 172.32 :0, 17232
+   USD 172.35 :0, 17235
    section 18 Sep
-   USD 186.81 :0, 18681
+   USD 186.84 :0, 18684
    section 19 Sep
-   USD 201.80 :0, 20180
+   USD 201.83 :0, 20183
    section 20 Sep
-   USD 204.55 :0, 20455
+   USD 204.69 :0, 20469
    section 21 Sep
-   USD 204.67 :0, 20467
+   USD 207.44 :0, 20744
    section 22 Sep
-   USD 224.77 : done, 0, 22477
+   USD 207.47 :0, 20747
    section 23 Sep
-   USD 245.52 : done, 0, 24552
+   USD 225.24 : done, 0, 22524
    section 24 Sep
-   USD 266.88 : done, 0, 26688
+   USD 243.53 : done, 0, 24353
    section 25 Sep
-   USD 288.91 : done, 0, 28891
+   USD 262.38 : done, 0, 26238
    section 26 Sep
-   USD 311.79 : done, 0, 31179
+   USD 286.68 : done, 0, 28668
    section 27 Sep
-   USD 335.31 : done, 0, 33531
+   USD 306.78 : done, 0, 30678
    section 28 Sep
-   USD 359.51 : done, 0, 35951
+   USD 327.52 : done, 0, 32752
    section 29 Sep
-   USD 384.56 : done, 0, 38456
+   USD 349.01 : done, 0, 34901
    section 30 Sep
-   USD 410.24 : done, 0, 41024
+   USD 371.04 : done, 0, 37104
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|183.07 USD|
-|Virtual Machines|7.54 USD|
-|Virtual Network|7.34 USD|
+|Storage|185.31 USD|
+|Virtual Machines|7.81 USD|
+|Virtual Network|7.58 USD|
 |Security Center|3.70 USD|
-|Bandwidth|2.69 USD|
-|Azure DNS|0.32 USD|
+|Bandwidth|2.74 USD|
+|Azure DNS|0.34 USD|
 |Advanced Threat Protection|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 183.07
-   "Virtual Machines" : 7.54
-   "Virtual Network" : 7.34
+   "Storage" : 185.31
+   "Virtual Machines" : 7.81
+   "Virtual Network" : 7.58
    "Security Center" : 3.70
-   "Bandwidth" : 2.69
-   "Azure DNS" : 0.32
+   "Bandwidth" : 2.74
+   "Azure DNS" : 0.34
    "Advanced Threat Protection" : 0.00
 ```
 
@@ -112,15 +112,15 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|204.34 USD|
-|Unknown|0.32 USD|
+|US North Central|207.13 USD|
+|Unknown|0.34 USD|
 |Intercontinental|0.00 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 204.34
-   "Unknown" : 0.32
+   "US North Central" : 207.13
+   "Unknown" : 0.34
    "Intercontinental" : 0.00
 ```
 
@@ -128,12 +128,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|204.67 USD|
+|personal-network|207.47 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 204.67
+   "personal-network" : 207.47
 ```
 
-<sup>Generated at 2023-09-21 11:07:30 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-22 11:08:14 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

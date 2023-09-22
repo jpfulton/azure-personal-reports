@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/14/2023** to **09/21/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/14/2023** to **09/22/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
-|Today|0.06 USD|
-|Yesterday|0.18 USD|
-|Last 7 days|1.27 USD|
-|Last 30 days|1.27 USD|
+|Today|0.01 USD|
+|Yesterday|0.17 USD|
+|Last 7 days|1.24 USD|
+|Last 30 days|1.40 USD|
 
 ```mermaid
 gantt
@@ -37,38 +37,38 @@ gantt
    section 20 Sep
    USD 1.21 :0, 121
    section 21 Sep
-   USD 1.27 :0, 127
+   USD 1.38 :0, 138
    section 22 Sep
-   USD 1.44 : done, 0, 144
+   USD 1.40 :0, 140
    section 23 Sep
-   USD 1.62 : done, 0, 162
+   USD 1.57 : done, 0, 157
    section 24 Sep
-   USD 1.79 : done, 0, 179
+   USD 1.75 : done, 0, 175
    section 25 Sep
-   USD 1.97 : done, 0, 197
+   USD 1.93 : done, 0, 193
    section 26 Sep
-   USD 2.14 : done, 0, 214
+   USD 2.10 : done, 0, 210
    section 27 Sep
-   USD 2.14 : done, 0, 214
+   USD 2.27 : done, 0, 227
    section 28 Sep
-   USD 2.30 : done, 0, 230
+   USD 2.44 : done, 0, 244
    section 29 Sep
-   USD 2.48 : done, 0, 248
+   USD 2.61 : done, 0, 261
    section 30 Sep
-   USD 2.65 : done, 0, 265
+   USD 2.78 : done, 0, 278
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Machines|1.27 USD|
+|Virtual Machines|1.40 USD|
 |Bandwidth|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Machines" : 1.27
+   "Virtual Machines" : 1.40
    "Bandwidth" : 0.00
 ```
 
@@ -76,24 +76,24 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|1.27 USD|
+|US North Central|1.40 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 1.27
+   "US North Central" : 1.40
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|1.27 USD|
+|personal-network|1.40 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 1.27
+   "personal-network" : 1.40
 ```
 
-<sup>Generated at 2023-09-21 11:16:34 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-22 11:16:17 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
