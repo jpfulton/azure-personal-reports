@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/20/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/21/2023**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.01 USD|
 |Last 7 days|0.07 USD|
-|Last 30 days|5.59 USD|
+|Last 30 days|5.60 USD|
 
 ```mermaid
 gantt
@@ -63,7 +63,7 @@ gantt
    section 20 Sep
    USD 5.59 :0, 559
    section 21 Sep
-   USD 5.60 : done, 0, 560
+   USD 5.60 :0, 560
    section 22 Sep
    USD 5.61 : done, 0, 561
    section 23 Sep
@@ -75,13 +75,13 @@ gantt
    section 26 Sep
    USD 5.65 : done, 0, 565
    section 27 Sep
-   USD 5.65 : done, 0, 565
-   section 28 Sep
    USD 5.66 : done, 0, 566
-   section 29 Sep
+   section 28 Sep
    USD 5.67 : done, 0, 567
-   section 30 Sep
+   section 29 Sep
    USD 5.68 : done, 0, 568
+   section 30 Sep
+   USD 5.69 : done, 0, 569
 ```
 
 ## By Service Name
@@ -90,38 +90,38 @@ gantt
 |---|---:|
 |Advanced Threat Protection|3.55 USD|
 |Security Center|1.84 USD|
-|Storage|0.20 USD|
+|Storage|0.21 USD|
 
 ```mermaid
 pie
    title Cost by service
    "Advanced Threat Protection" : 3.55
    "Security Center" : 1.84
-   "Storage" : 0.20
+   "Storage" : 0.21
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US East|5.59 USD|
+|US East|5.60 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US East" : 5.59
+   "US East" : 5.60
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|cloud-shell-storage-eastus|5.59 USD|
+|cloud-shell-storage-eastus|5.60 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "cloud-shell-storage-eastus" : 5.59
+   "cloud-shell-storage-eastus" : 5.60
 ```
 
-<sup>Generated at 2023-09-21 11:09:30 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-22 11:05:13 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
