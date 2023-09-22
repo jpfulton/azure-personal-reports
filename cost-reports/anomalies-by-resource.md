@@ -4,7 +4,7 @@
 
 | Anomaly Type | Message |
 |---|---|
-|RemovedCost| Cost is removed at 09/09/2023|
+|RemovedCost| Cost is removed at 09/21/2023|
 
 ## ResourceId: /subscriptions/4913be3f-a345-4652-9bba-767418dd25e3/resourcegroups/personal-site/providers/microsoft.web/sites/personal-site-api/slots/staging
 
@@ -16,7 +16,7 @@
 
 | Anomaly Type | Message |
 |---|---|
-|RemovedCost| Cost is removed at 09/07/2023|
+|RemovedCost| Cost is removed at 09/13/2023|
 
 ## ResourceId: /subscriptions/4913be3f-a345-4652-9bba-767418dd25e3/resourcegroups/personal-site/providers/microsoft.web/sites/personal-site-api-preview/slots/staging
 
@@ -37,4 +37,4 @@
 |SignificantChange| Significant cost change detected at 09/17/2023 when it went from 10.67 to 25.10 (difference of 14.44)|
 
 
-<sup>Generated at 2023-09-21 11:31:28 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-22 11:32:08 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
