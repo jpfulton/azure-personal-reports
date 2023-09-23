@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/14/2023** to **09/21/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/14/2023** to **09/22/2023**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.06 USD|
 |Last 7 days|0.44 USD|
-|Last 30 days|0.50 USD|
+|Last 30 days|0.56 USD|
 
 ```mermaid
 gantt
@@ -39,59 +39,59 @@ gantt
    section 21 Sep
    USD 0.50 :0, 50
    section 22 Sep
-   USD 0.56 : done, 0, 56
+   USD 0.56 :0, 56
    section 23 Sep
    USD 0.63 : done, 0, 63
    section 24 Sep
-   USD 0.69 : done, 0, 69
+   USD 0.70 : done, 0, 70
    section 25 Sep
-   USD 0.76 : done, 0, 76
+   USD 0.77 : done, 0, 77
    section 26 Sep
-   USD 0.82 : done, 0, 82
+   USD 0.83 : done, 0, 83
    section 27 Sep
-   USD 0.88 : done, 0, 88
+   USD 0.90 : done, 0, 90
    section 28 Sep
-   USD 0.94 : done, 0, 94
+   USD 0.97 : done, 0, 97
    section 29 Sep
-   USD 1.00 : done, 0, 100
+   USD 1.04 : done, 0, 104
    section 30 Sep
-   USD 1.07 : done, 0, 107
+   USD 1.11 : done, 0, 111
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|0.50 USD|
+|Storage|0.56 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.50
+   "Storage" : 0.56
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|0.50 USD|
+|US North Central|0.56 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 0.50
+   "US North Central" : 0.56
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.50 USD|
+|personal-network|0.56 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.50
+   "personal-network" : 0.56
 ```
 
-<sup>Generated at 2023-09-22 11:22:18 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-23 11:22:13 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
