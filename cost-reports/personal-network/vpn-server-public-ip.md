@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/15/2023** to **09/22/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/15/2023** to **09/23/2023**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.12 USD|
 |Last 7 days|0.83 USD|
-|Last 30 days|0.95 USD|
+|Last 30 days|1.07 USD|
 
 ```mermaid
 gantt
@@ -39,57 +39,57 @@ gantt
    section 22 Sep
    USD 0.95 :0, 95
    section 23 Sep
-   USD 1.07 : done, 0, 107
+   USD 1.07 :0, 107
    section 24 Sep
    USD 1.19 : done, 0, 119
    section 25 Sep
-   USD 1.31 : done, 0, 131
+   USD 1.32 : done, 0, 132
    section 26 Sep
-   USD 1.43 : done, 0, 143
+   USD 1.44 : done, 0, 144
    section 27 Sep
-   USD 1.55 : done, 0, 155
+   USD 1.57 : done, 0, 157
    section 28 Sep
-   USD 1.67 : done, 0, 167
+   USD 1.69 : done, 0, 169
    section 29 Sep
-   USD 1.78 : done, 0, 178
+   USD 1.82 : done, 0, 182
    section 30 Sep
-   USD 1.90 : done, 0, 190
+   USD 1.95 : done, 0, 195
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Network|0.95 USD|
+|Virtual Network|1.07 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Network" : 0.95
+   "Virtual Network" : 1.07
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|0.95 USD|
+|US North Central|1.07 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 0.95
+   "US North Central" : 1.07
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.95 USD|
+|personal-network|1.07 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.95
+   "personal-network" : 1.07
 ```
 
-<sup>Generated at 2023-09-23 11:29:16 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-24 11:31:08 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
