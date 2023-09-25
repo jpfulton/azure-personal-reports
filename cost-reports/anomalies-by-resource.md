@@ -31,4 +31,4 @@
 |SignificantChange| Significant cost change detected at 09/17/2023 when it went from 10.67 to 25.10 (difference of 14.44)|
 
 
-<sup>Generated at 2023-09-24 11:33:03 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-25 11:33:41 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
