@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/14/2023** to **09/23/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/14/2023** to **09/24/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.12 USD|
+|Yesterday|0.11 USD|
 |Last 7 days|0.83 USD|
-|Last 30 days|1.18 USD|
+|Last 30 days|1.30 USD|
 
 ```mermaid
 gantt
@@ -41,57 +41,57 @@ gantt
    section 22 Sep
    USD 1.07 :0, 107
    section 23 Sep
-   USD 1.18 :0, 118
+   USD 1.19 :0, 119
    section 24 Sep
-   USD 1.31 : done, 0, 131
+   USD 1.30 :0, 130
    section 25 Sep
-   USD 1.43 : done, 0, 143
+   USD 1.42 : done, 0, 142
    section 26 Sep
-   USD 1.56 : done, 0, 156
+   USD 1.54 : done, 0, 154
    section 27 Sep
-   USD 1.68 : done, 0, 168
+   USD 1.67 : done, 0, 167
    section 28 Sep
-   USD 1.81 : done, 0, 181
+   USD 1.79 : done, 0, 179
    section 29 Sep
-   USD 1.93 : done, 0, 193
+   USD 1.91 : done, 0, 191
    section 30 Sep
-   USD 2.06 : done, 0, 206
+   USD 2.04 : done, 0, 204
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Network|1.18 USD|
+|Virtual Network|1.30 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Network" : 1.18
+   "Virtual Network" : 1.30
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|1.18 USD|
+|US North Central|1.30 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 1.18
+   "US North Central" : 1.30
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|1.18 USD|
+|personal-network|1.30 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 1.18
+   "personal-network" : 1.30
 ```
 
-<sup>Generated at 2023-09-24 11:22:04 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-25 11:20:25 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/23/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/24/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|1.31 USD|
-|Last 7 days|9.50 USD|
-|Last 30 days|31.79 USD|
+|Yesterday|1.25 USD|
+|Last 7 days|9.44 USD|
+|Last 30 days|33.09 USD|
 
 ```mermaid
 gantt
@@ -67,57 +67,57 @@ gantt
    section 22 Sep
    USD 30.48 :0, 3048
    section 23 Sep
-   USD 31.79 :0, 3179
+   USD 31.84 :0, 3184
    section 24 Sep
-   USD 33.17 : done, 0, 3317
+   USD 33.09 :0, 3309
    section 25 Sep
-   USD 34.56 : done, 0, 3456
+   USD 34.48 : done, 0, 3448
    section 26 Sep
-   USD 35.94 : done, 0, 3594
+   USD 35.86 : done, 0, 3586
    section 27 Sep
-   USD 37.33 : done, 0, 3733
+   USD 37.24 : done, 0, 3724
    section 28 Sep
-   USD 38.72 : done, 0, 3872
+   USD 38.62 : done, 0, 3862
    section 29 Sep
-   USD 40.11 : done, 0, 4011
+   USD 40.01 : done, 0, 4001
    section 30 Sep
-   USD 41.50 : done, 0, 4150
+   USD 41.39 : done, 0, 4139
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|31.79 USD|
+|Storage|33.09 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 31.79
+   "Storage" : 33.09
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|31.79 USD|
+|US North Central|33.09 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 31.79
+   "US North Central" : 33.09
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|31.79 USD|
+|personal-network|33.09 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 31.79
+   "personal-network" : 33.09
 ```
 
-<sup>Generated at 2023-09-24 11:12:01 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-25 11:11:23 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
