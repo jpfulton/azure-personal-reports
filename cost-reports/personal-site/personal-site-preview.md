@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/26/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/27/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.27 USD|
-|Last 7 days|2.05 USD|
-|Last 30 days|7.67 USD|
+|Yesterday|0.23 USD|
+|Last 7 days|2.01 USD|
+|Last 30 days|7.93 USD|
 
 ```mermaid
 gantt
@@ -73,34 +73,34 @@ gantt
    section 25 Sep
    USD 7.40 :0, 740
    section 26 Sep
-   USD 7.67 :0, 767
+   USD 7.69 :0, 769
    section 27 Sep
-   USD 7.96 : done, 0, 796
+   USD 7.93 :0, 793
    section 28 Sep
-   USD 8.26 : done, 0, 826
+   USD 8.22 : done, 0, 822
    section 29 Sep
-   USD 8.56 : done, 0, 856
+   USD 8.52 : done, 0, 852
    section 30 Sep
-   USD 8.85 : done, 0, 885
+   USD 8.81 : done, 0, 881
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|7.67 USD|
+|Azure App Service|7.93 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 7.67
+   "Azure App Service" : 7.93
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US Central|7.67 USD|
+|US Central|7.93 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
 |US West 2|0.00 USD|
@@ -108,7 +108,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 7.67
+   "US Central" : 7.93
    "EU West" : 0.00
    "US East 2" : 0.00
    "US West 2" : 0.00
@@ -118,12 +118,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|7.67 USD|
+|personal-site|7.93 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 7.67
+   "personal-site" : 7.93
 ```
 
-<sup>Generated at 2023-09-27 11:25:29 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-28 11:18:22 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
