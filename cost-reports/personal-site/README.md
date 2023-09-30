@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/28/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2023** to **09/29/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.52 USD|
-|Last 7 days|4.08 USD|
-|Last 30 days|27.37 USD|
+|Yesterday|0.54 USD|
+|Last 7 days|4.11 USD|
+|Last 30 days|27.99 USD|
 
 ```mermaid
 gantt
@@ -77,18 +77,18 @@ gantt
    section 27 Sep
    USD 26.85 :0, 2685
    section 28 Sep
-   USD 27.37 :0, 2737
+   USD 27.44 :0, 2744
    section 29 Sep
-   USD 27.78 : done, 0, 2778
+   USD 27.99 :0, 2799
    section 30 Sep
-   USD 28.15 : done, 0, 2815
+   USD 28.48 : done, 0, 2848
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|16.49 USD|
+|Azure App Service|17.11 USD|
 |Advanced Threat Protection|7.10 USD|
 |Security Center|3.68 USD|
 |Storage|0.09 USD|
@@ -100,7 +100,7 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 16.49
+   "Azure App Service" : 17.11
    "Advanced Threat Protection" : 7.10
    "Security Center" : 3.68
    "Storage" : 0.09
@@ -114,7 +114,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|27.37 USD|
+|US Central|27.99 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |Unknown|0.00 USD|
@@ -124,7 +124,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 27.37
+   "US Central" : 27.99
    "AP East" : 0.00
    "EU West" : 0.00
    "Unknown" : 0.00
@@ -136,12 +136,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|27.37 USD|
+|personal-site|27.99 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 27.37
+   "personal-site" : 27.99
 ```
 
-<sup>Generated at 2023-09-29 11:05:07 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-09-30 11:04:57 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
