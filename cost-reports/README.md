@@ -1,6 +1,6 @@
 # Cost Reports Summary
 
-> Generated on: Mon Oct  2 11:29:23 UTC 2023 <br />
+> Generated on: Tue Oct  3 11:32:14 UTC 2023 <br />
 > Running Version: 0.0.5.0 <br />
 > Resources and resource groups with no costs are omitted from details reports. <br />
 > Resources that have been deleted will be included in summary calculations but will not have details reports.
@@ -35,7 +35,6 @@
 ## personal-network
 
 - [Resource Group Summary](./personal-network/README.md)
-- [backup-data-disk](./personal-network/backup-data-disk.md)
 - [backup-server](./personal-network/backup-server.md)
 - [backup-server-data-disk](./personal-network/backup-server-data-disk.md)
 - [backup-server-public-ip](./personal-network/backup-server-public-ip.md)
