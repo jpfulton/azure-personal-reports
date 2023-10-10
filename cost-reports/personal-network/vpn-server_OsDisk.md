@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/08/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/09/2023**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.06 USD|
 |Last 7 days|0.43 USD|
-|Last 30 days|0.49 USD|
+|Last 30 days|0.55 USD|
 
 ```mermaid
 gantt
@@ -37,9 +37,9 @@ gantt
    section 07 Oct
    USD 0.44 :0, 44
    section 08 Oct
-   USD 0.49 :0, 49
+   USD 0.50 :0, 50
    section 09 Oct
-   USD 0.56 : done, 0, 56
+   USD 0.55 :0, 55
    section 10 Oct
    USD 0.62 : done, 0, 62
    section 11 Oct
@@ -47,9 +47,9 @@ gantt
    section 12 Oct
    USD 0.74 : done, 0, 74
    section 13 Oct
-   USD 0.81 : done, 0, 81
+   USD 0.80 : done, 0, 80
    section 14 Oct
-   USD 0.87 : done, 0, 87
+   USD 0.86 : done, 0, 86
    section 15 Oct
    USD 0.93 : done, 0, 93
    section 16 Oct
@@ -57,69 +57,69 @@ gantt
    section 17 Oct
    USD 1.05 : done, 0, 105
    section 18 Oct
-   USD 1.12 : done, 0, 112
+   USD 1.11 : done, 0, 111
    section 19 Oct
-   USD 1.18 : done, 0, 118
+   USD 1.17 : done, 0, 117
    section 20 Oct
-   USD 1.24 : done, 0, 124
+   USD 1.23 : done, 0, 123
    section 21 Oct
    USD 1.30 : done, 0, 130
    section 22 Oct
    USD 1.36 : done, 0, 136
    section 23 Oct
-   USD 1.43 : done, 0, 143
+   USD 1.42 : done, 0, 142
    section 24 Oct
-   USD 1.49 : done, 0, 149
+   USD 1.48 : done, 0, 148
    section 25 Oct
-   USD 1.55 : done, 0, 155
+   USD 1.54 : done, 0, 154
    section 26 Oct
-   USD 1.61 : done, 0, 161
+   USD 1.60 : done, 0, 160
    section 27 Oct
-   USD 1.67 : done, 0, 167
+   USD 1.66 : done, 0, 166
    section 28 Oct
    USD 1.73 : done, 0, 173
    section 29 Oct
-   USD 1.80 : done, 0, 180
+   USD 1.79 : done, 0, 179
    section 30 Oct
-   USD 1.86 : done, 0, 186
+   USD 1.85 : done, 0, 185
    section 31 Oct
-   USD 1.92 : done, 0, 192
+   USD 1.91 : done, 0, 191
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|0.49 USD|
+|Storage|0.55 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.49
+   "Storage" : 0.55
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|0.49 USD|
+|US North Central|0.55 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 0.49
+   "US North Central" : 0.55
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.49 USD|
+|personal-network|0.55 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.49
+   "personal-network" : 0.55
 ```
 
-<sup>Generated at 2023-10-09 11:29:34 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-10-10 11:31:21 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
