@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/09/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/10/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.02 USD|
+|Yesterday|0.01 USD|
 |Last 7 days|0.11 USD|
-|Last 30 days|0.15 USD|
+|Last 30 days|0.16 USD|
 
 ```mermaid
 gantt
@@ -41,17 +41,17 @@ gantt
    section 09 Oct
    USD 0.15 :0, 15
    section 10 Oct
-   USD 0.16 : done, 0, 16
+   USD 0.16 :0, 16
    section 11 Oct
    USD 0.18 : done, 0, 18
    section 12 Oct
-   USD 0.20 : done, 0, 20
+   USD 0.19 : done, 0, 19
    section 13 Oct
    USD 0.21 : done, 0, 21
    section 14 Oct
    USD 0.23 : done, 0, 23
    section 15 Oct
-   USD 0.25 : done, 0, 25
+   USD 0.24 : done, 0, 24
    section 16 Oct
    USD 0.26 : done, 0, 26
    section 17 Oct
@@ -73,13 +73,13 @@ gantt
    section 25 Oct
    USD 0.41 : done, 0, 41
    section 26 Oct
-   USD 0.43 : done, 0, 43
+   USD 0.42 : done, 0, 42
    section 27 Oct
    USD 0.44 : done, 0, 44
    section 28 Oct
    USD 0.46 : done, 0, 46
    section 29 Oct
-   USD 0.48 : done, 0, 48
+   USD 0.47 : done, 0, 47
    section 30 Oct
    USD 0.49 : done, 0, 49
    section 31 Oct
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.15 USD|
+|Azure DNS|0.16 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.15
+   "Azure DNS" : 0.16
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.15 USD|
+|Unknown|0.16 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.15
+   "Unknown" : 0.16
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-dns|0.15 USD|
+|personal-dns|0.16 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-dns" : 0.15
+   "personal-dns" : 0.16
 ```
 
-<sup>Generated at 2023-10-10 11:16:11 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-10-11 11:15:11 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
