@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/10/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/11/2023**
 
 ## Totals
 
@@ -14,8 +14,8 @@ Fetching cost data by resource group...
 |---|---:|
 |Today|0.00 USD|
 |Yesterday|0.05 USD|
-|Last 7 days|0.43 USD|
-|Last 30 days|0.61 USD|
+|Last 7 days|0.42 USD|
+|Last 30 days|0.67 USD|
 
 ```mermaid
 gantt
@@ -41,9 +41,9 @@ gantt
    section 09 Oct
    USD 0.56 :0, 56
    section 10 Oct
-   USD 0.61 :0, 61
+   USD 0.62 :0, 62
    section 11 Oct
-   USD 0.68 : done, 0, 68
+   USD 0.67 :0, 67
    section 12 Oct
    USD 0.74 : done, 0, 74
    section 13 Oct
@@ -55,7 +55,7 @@ gantt
    section 16 Oct
    USD 0.98 : done, 0, 98
    section 17 Oct
-   USD 1.05 : done, 0, 105
+   USD 1.04 : done, 0, 104
    section 18 Oct
    USD 1.11 : done, 0, 111
    section 19 Oct
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Storage|0.61 USD|
+|Storage|0.67 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.61
+   "Storage" : 0.67
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|0.61 USD|
+|US North Central|0.67 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 0.61
+   "US North Central" : 0.67
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.61 USD|
+|personal-network|0.67 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.61
+   "personal-network" : 0.67
 ```
 
-<sup>Generated at 2023-10-11 11:29:18 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-10-12 11:28:16 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

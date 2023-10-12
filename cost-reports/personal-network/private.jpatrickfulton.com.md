@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/10/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/11/2023**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.01 USD|
 |Last 7 days|0.11 USD|
-|Last 30 days|0.16 USD|
+|Last 30 days|0.17 USD|
 
 ```mermaid
 gantt
@@ -39,11 +39,11 @@ gantt
    section 08 Oct
    USD 0.13 :0, 13
    section 09 Oct
-   USD 0.15 :0, 15
+   USD 0.14 :0, 14
    section 10 Oct
    USD 0.16 :0, 16
    section 11 Oct
-   USD 0.18 : done, 0, 18
+   USD 0.17 :0, 17
    section 12 Oct
    USD 0.19 : done, 0, 19
    section 13 Oct
@@ -53,7 +53,7 @@ gantt
    section 15 Oct
    USD 0.24 : done, 0, 24
    section 16 Oct
-   USD 0.26 : done, 0, 26
+   USD 0.25 : done, 0, 25
    section 17 Oct
    USD 0.27 : done, 0, 27
    section 18 Oct
@@ -69,7 +69,7 @@ gantt
    section 23 Oct
    USD 0.37 : done, 0, 37
    section 24 Oct
-   USD 0.39 : done, 0, 39
+   USD 0.38 : done, 0, 38
    section 25 Oct
    USD 0.40 : done, 0, 40
    section 26 Oct
@@ -79,7 +79,7 @@ gantt
    section 28 Oct
    USD 0.45 : done, 0, 45
    section 29 Oct
-   USD 0.47 : done, 0, 47
+   USD 0.46 : done, 0, 46
    section 30 Oct
    USD 0.48 : done, 0, 48
    section 31 Oct
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.16 USD|
+|Azure DNS|0.17 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.16
+   "Azure DNS" : 0.17
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.16 USD|
+|Unknown|0.17 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.16
+   "Unknown" : 0.17
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.16 USD|
+|personal-network|0.17 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.16
+   "personal-network" : 0.17
 ```
 
-<sup>Generated at 2023-10-11 11:22:16 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-10-12 11:23:09 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
