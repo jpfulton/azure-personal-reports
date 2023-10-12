@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/10/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/11/2023**
 
 ## Totals
 
@@ -39,11 +39,11 @@ gantt
    section 08 Oct
    USD 0.01 :0, 1
    section 09 Oct
-   USD 0.01 :0, 1
+   USD 0.02 :0, 2
    section 10 Oct
    USD 0.02 :0, 2
    section 11 Oct
-   USD 0.02 : done, 0, 2
+   USD 0.02 :0, 2
    section 12 Oct
    USD 0.02 : done, 0, 2
    section 13 Oct
@@ -51,7 +51,7 @@ gantt
    section 14 Oct
    USD 0.02 : done, 0, 2
    section 15 Oct
-   USD 0.02 : done, 0, 2
+   USD 0.03 : done, 0, 3
    section 16 Oct
    USD 0.03 : done, 0, 3
    section 17 Oct
@@ -61,7 +61,7 @@ gantt
    section 19 Oct
    USD 0.03 : done, 0, 3
    section 20 Oct
-   USD 0.03 : done, 0, 3
+   USD 0.04 : done, 0, 4
    section 21 Oct
    USD 0.04 : done, 0, 4
    section 22 Oct
@@ -71,7 +71,7 @@ gantt
    section 24 Oct
    USD 0.04 : done, 0, 4
    section 25 Oct
-   USD 0.04 : done, 0, 4
+   USD 0.05 : done, 0, 5
    section 26 Oct
    USD 0.05 : done, 0, 5
    section 27 Oct
@@ -79,7 +79,7 @@ gantt
    section 28 Oct
    USD 0.05 : done, 0, 5
    section 29 Oct
-   USD 0.05 : done, 0, 5
+   USD 0.06 : done, 0, 6
    section 30 Oct
    USD 0.06 : done, 0, 6
    section 31 Oct
@@ -122,4 +122,4 @@ pie
    "personal-site" : 0.02
 ```
 
-<sup>Generated at 2023-10-11 11:29:14 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-10-12 11:26:11 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
