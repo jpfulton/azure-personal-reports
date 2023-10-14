@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/12/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/13/2023**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.12 USD|
 |Last 7 days|0.83 USD|
-|Last 30 days|1.43 USD|
+|Last 30 days|1.55 USD|
 
 ```mermaid
 gantt
@@ -45,9 +45,9 @@ gantt
    section 11 Oct
    USD 1.32 :0, 132
    section 12 Oct
-   USD 1.43 :0, 143
+   USD 1.44 :0, 144
    section 13 Oct
-   USD 1.56 : done, 0, 156
+   USD 1.55 :0, 155
    section 14 Oct
    USD 1.68 : done, 0, 168
    section 15 Oct
@@ -65,9 +65,9 @@ gantt
    section 21 Oct
    USD 2.52 : done, 0, 252
    section 22 Oct
-   USD 2.65 : done, 0, 265
+   USD 2.64 : done, 0, 264
    section 23 Oct
-   USD 2.77 : done, 0, 277
+   USD 2.76 : done, 0, 276
    section 24 Oct
    USD 2.89 : done, 0, 289
    section 25 Oct
@@ -77,9 +77,9 @@ gantt
    section 27 Oct
    USD 3.25 : done, 0, 325
    section 28 Oct
-   USD 3.38 : done, 0, 338
+   USD 3.37 : done, 0, 337
    section 29 Oct
-   USD 3.50 : done, 0, 350
+   USD 3.49 : done, 0, 349
    section 30 Oct
    USD 3.62 : done, 0, 362
    section 31 Oct
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Virtual Network|1.43 USD|
+|Virtual Network|1.55 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Network" : 1.43
+   "Virtual Network" : 1.55
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|1.43 USD|
+|US North Central|1.55 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 1.43
+   "US North Central" : 1.55
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|1.43 USD|
+|personal-network|1.55 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 1.43
+   "personal-network" : 1.55
 ```
 
-<sup>Generated at 2023-10-13 11:28:58 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-10-14 11:29:22 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

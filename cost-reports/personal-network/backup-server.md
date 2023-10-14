@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/13/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/14/2023**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.04 USD|
 |Yesterday|0.18 USD|
 |Last 7 days|1.29 USD|
-|Last 30 days|2.18 USD|
+|Last 30 days|2.36 USD|
 
 ```mermaid
 gantt
@@ -47,15 +47,15 @@ gantt
    section 12 Oct
    USD 2.14 :0, 214
    section 13 Oct
-   USD 2.18 :0, 218
+   USD 2.32 :0, 232
    section 14 Oct
-   USD 2.36 : done, 0, 236
+   USD 2.36 :0, 236
    section 15 Oct
    USD 2.54 : done, 0, 254
    section 16 Oct
    USD 2.72 : done, 0, 272
    section 17 Oct
-   USD 2.91 : done, 0, 291
+   USD 2.90 : done, 0, 290
    section 18 Oct
    USD 3.09 : done, 0, 309
    section 19 Oct
@@ -81,7 +81,7 @@ gantt
    section 29 Oct
    USD 5.09 : done, 0, 509
    section 30 Oct
-   USD 5.28 : done, 0, 528
+   USD 5.27 : done, 0, 527
    section 31 Oct
    USD 5.46 : done, 0, 546
 ```
@@ -90,13 +90,13 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Virtual Machines|2.18 USD|
+|Virtual Machines|2.36 USD|
 |Bandwidth|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Machines" : 2.18
+   "Virtual Machines" : 2.36
    "Bandwidth" : 0.00
 ```
 
@@ -104,24 +104,24 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|2.18 USD|
+|US North Central|2.36 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 2.18
+   "US North Central" : 2.36
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|2.18 USD|
+|personal-network|2.36 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 2.18
+   "personal-network" : 2.36
 ```
 
-<sup>Generated at 2023-10-13 11:12:36 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-10-14 11:11:13 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
