@@ -18,8 +18,9 @@ Fetching daily cost data...
 | **2023-10-13** | **2.12** | **personal-network**: `1.45` (_68.51%_), **personal-site**: `0.59` (_28.00%_), **personal-dns**: `0.03` (_1.54%_), ****: `0.03` (_1.49%_), **cloud-shell-storage-eastus**: `0.01` (_0.46%_), **Other**: `0.00` (_0.00%_) |
 | **2023-10-14** | **2.10** | **personal-network**: `1.44` (_68.56%_), **personal-site**: `0.59` (_28.33%_), **personal-dns**: `0.03` (_1.56%_), ****: `0.02` (_1.09%_), **cloud-shell-storage-eastus**: `0.01` (_0.46%_), **Other**: `0.00` (_0.00%_) |
 | **2023-10-15** | **2.10** | **personal-network**: `1.44` (_68.73%_), **personal-site**: `0.59` (_28.31%_), **personal-dns**: `0.03` (_1.56%_), ****: `0.02` (_0.94%_), **cloud-shell-storage-eastus**: `0.01` (_0.46%_), **Other**: `0.00` (_0.00%_) |
-| **2023-10-16** | **1.58** | **personal-network**: `1.13` (_71.77%_), **personal-site**: `0.40` (_25.05%_), **personal-dns**: `0.02` (_1.47%_), ****: `0.02` (_1.29%_), **cloud-shell-storage-eastus**: `0.01` (_0.43%_), **Other**: `0.00` (_0.00%_) |
-| **2023-10-17** | **0.10** | **personal-network**: `0.10` (_100.00%_), **Other**: `0.00` (_0.00%_) |
+| **2023-10-16** | **2.12** | **personal-network**: `1.46` (_68.67%_), **personal-site**: `0.59` (_28.00%_), **personal-dns**: `0.03` (_1.54%_), ****: `0.03` (_1.33%_), **cloud-shell-storage-eastus**: `0.01` (_0.46%_), **Other**: `0.00` (_0.00%_) |
+| **2023-10-17** | **1.94** | **personal-network**: `1.37` (_70.39%_), **personal-site**: `0.52` (_26.71%_), **personal-dns**: `0.03` (_1.54%_), ****: `0.02` (_0.92%_), **cloud-shell-storage-eastus**: `0.01` (_0.44%_), **azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com**: `0.00` (_0.00%_), **Other**: `0.00` (_0.00%_) |
+| **2023-10-18** | **0.12** | **personal-network**: `0.12` (_100.00%_), **Other**: `0.00` (_0.00%_) |
 
 
-<sup>Generated at 2023-10-17 11:29:17 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-10-18 11:32:17 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
