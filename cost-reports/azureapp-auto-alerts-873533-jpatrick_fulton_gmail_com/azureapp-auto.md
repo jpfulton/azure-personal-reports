@@ -24,34 +24,6 @@ gantt
    axisFormat %s
    section 17 Oct
    USD 0.00 :0, 0
-   section 18 Oct
-   USD 0.00 : done, 0, 0
-   section 19 Oct
-   USD 0.00 : done, 0, 0
-   section 20 Oct
-   USD 0.00 : done, 0, 0
-   section 21 Oct
-   USD 0.00 : done, 0, 0
-   section 22 Oct
-   USD 0.00 : done, 0, 0
-   section 23 Oct
-   USD 0.00 : done, 0, 0
-   section 24 Oct
-   USD 0.00 : done, 0, 0
-   section 25 Oct
-   USD 0.00 : done, 0, 0
-   section 26 Oct
-   USD 0.00 : done, 0, 0
-   section 27 Oct
-   USD 0.00 : done, 0, 0
-   section 28 Oct
-   USD 0.00 : done, 0, 0
-   section 29 Oct
-   USD 0.00 : done, 0, 0
-   section 30 Oct
-   USD 0.00 : done, 0, 0
-   section 31 Oct
-   USD 0.00 : done, 0, 0
 ```
 
 ## By Service Name
@@ -90,4 +62,4 @@ pie
    "azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com" : 0.00
 ```
 
-<sup>Generated at 2023-10-19 11:09:21 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-10-20 11:12:11 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
