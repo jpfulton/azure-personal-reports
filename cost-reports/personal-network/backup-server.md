@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/22/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/23/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
-|Today|0.06 USD|
+|Today|0.05 USD|
 |Yesterday|0.18 USD|
-|Last 7 days|1.31 USD|
-|Last 30 days|3.80 USD|
+|Last 7 days|1.30 USD|
+|Last 30 days|3.97 USD|
 
 ```mermaid
 gantt
@@ -65,38 +65,38 @@ gantt
    section 21 Oct
    USD 3.74 :0, 374
    section 22 Oct
-   USD 3.80 :0, 380
+   USD 3.92 :0, 392
    section 23 Oct
-   USD 3.98 : done, 0, 398
+   USD 3.97 :0, 397
    section 24 Oct
-   USD 4.16 : done, 0, 416
+   USD 4.15 : done, 0, 415
    section 25 Oct
-   USD 4.34 : done, 0, 434
+   USD 4.33 : done, 0, 433
    section 26 Oct
-   USD 4.52 : done, 0, 452
+   USD 4.51 : done, 0, 451
    section 27 Oct
-   USD 4.70 : done, 0, 470
+   USD 4.69 : done, 0, 469
    section 28 Oct
-   USD 4.88 : done, 0, 488
+   USD 4.87 : done, 0, 487
    section 29 Oct
-   USD 5.06 : done, 0, 506
+   USD 5.05 : done, 0, 505
    section 30 Oct
-   USD 5.24 : done, 0, 524
+   USD 5.23 : done, 0, 523
    section 31 Oct
-   USD 5.42 : done, 0, 542
+   USD 5.41 : done, 0, 541
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Machines|3.80 USD|
+|Virtual Machines|3.97 USD|
 |Bandwidth|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Machines" : 3.80
+   "Virtual Machines" : 3.97
    "Bandwidth" : 0.00
 ```
 
@@ -104,24 +104,24 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|3.80 USD|
+|US North Central|3.97 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 3.80
+   "US North Central" : 3.97
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|3.80 USD|
+|personal-network|3.97 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 3.80
+   "personal-network" : 3.97
 ```
 
-<sup>Generated at 2023-10-22 11:13:15 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-10-23 11:12:06 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
