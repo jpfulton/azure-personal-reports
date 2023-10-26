@@ -42,12 +42,12 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|0.00 USD|
+|North Central US|0.00 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 0.00
+   "North Central US" : 0.00
 ```
 
 ## By Resource Group
@@ -62,4 +62,4 @@ pie
    "azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com" : 0.00
 ```
 
-<sup>Generated at 2023-10-25 11:09:11 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-10-26 11:15:49 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
