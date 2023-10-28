@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/26/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/27/2023**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.01 USD|
 |Last 7 days|0.11 USD|
-|Last 30 days|0.42 USD|
+|Last 30 days|0.43 USD|
 
 ```mermaid
 gantt
@@ -75,11 +75,11 @@ gantt
    section 26 Oct
    USD 0.42 :0, 42
    section 27 Oct
-   USD 0.43 : done, 0, 43
+   USD 0.43 :0, 43
    section 28 Oct
    USD 0.45 : done, 0, 45
    section 29 Oct
-   USD 0.46 : done, 0, 46
+   USD 0.47 : done, 0, 47
    section 30 Oct
    USD 0.48 : done, 0, 48
    section 31 Oct
@@ -90,25 +90,25 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.42 USD|
+|Azure DNS|0.43 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.42
+   "Azure DNS" : 0.43
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|global|0.27 USD|
+|global|0.29 USD|
 |Unknown|0.14 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "global" : 0.27
+   "global" : 0.29
    "Unknown" : 0.14
 ```
 
@@ -116,12 +116,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.42 USD|
+|personal-network|0.43 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.42
+   "personal-network" : 0.43
 ```
 
-<sup>Generated at 2023-10-27 11:27:34 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-10-28 11:27:24 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
