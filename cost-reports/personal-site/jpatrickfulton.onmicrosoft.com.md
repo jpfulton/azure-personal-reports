@@ -42,12 +42,12 @@ pie
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.00 USD|
+|Unassigned|0.00 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.00
+   "Unassigned" : 0.00
 ```
 
 ## By Resource Group
@@ -62,4 +62,4 @@ pie
    "personal-site" : 0.00
 ```
 
-<sup>Generated at 2023-10-28 11:12:19 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-10-29 11:12:29 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
