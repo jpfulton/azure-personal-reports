@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/28/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/29/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.04 USD|
-|Yesterday|0.31 USD|
-|Last 7 days|2.20 USD|
-|Last 30 days|10.84 USD|
+|Yesterday|0.24 USD|
+|Last 7 days|2.09 USD|
+|Last 30 days|11.34 USD|
 
 ```mermaid
 gantt
@@ -41,89 +41,87 @@ gantt
    section 09 Oct
    USD 4.42 :0, 442
    section 10 Oct
-   USD 4.72 :0, 472
+   USD 4.73 :0, 473
    section 11 Oct
-   USD 5.03 :0, 503
+   USD 5.05 :0, 505
    section 12 Oct
-   USD 5.40 :0, 540
+   USD 5.44 :0, 544
    section 13 Oct
-   USD 5.74 :0, 574
+   USD 5.78 :0, 578
    section 14 Oct
-   USD 5.92 :0, 592
+   USD 5.96 :0, 596
    section 15 Oct
-   USD 6.12 :0, 612
+   USD 6.17 :0, 617
    section 16 Oct
-   USD 6.55 :0, 655
+   USD 6.61 :0, 661
    section 17 Oct
-   USD 7.06 :0, 706
+   USD 7.15 :0, 715
    section 18 Oct
-   USD 7.59 :0, 759
+   USD 7.70 :0, 770
    section 19 Oct
-   USD 8.09 :0, 809
+   USD 8.23 :0, 823
    section 20 Oct
-   USD 8.64 :0, 864
+   USD 8.80 :0, 880
    section 21 Oct
-   USD 9.07 :0, 907
+   USD 9.25 :0, 925
    section 22 Oct
-   USD 9.30 :0, 930
+   USD 9.48 :0, 948
    section 23 Oct
-   USD 9.59 :0, 959
+   USD 9.78 :0, 978
    section 24 Oct
-   USD 9.91 :0, 991
+   USD 10.12 :0, 1012
    section 25 Oct
-   USD 10.22 :0, 1022
+   USD 10.43 :0, 1043
    section 26 Oct
-   USD 10.49 :0, 1049
+   USD 10.71 :0, 1071
    section 27 Oct
-   USD 10.80 :0, 1080
+   USD 11.05 :0, 1105
    section 28 Oct
-   USD 10.84 :0, 1084
+   USD 11.29 :0, 1129
    section 29 Oct
-   USD 10.95 : done, 0, 1095
+   USD 11.34 :0, 1134
    section 30 Oct
-   USD 11.20 : done, 0, 1120
+   USD 11.62 : done, 0, 1162
    section 31 Oct
-   USD 11.48 : done, 0, 1148
+   USD 11.94 : done, 0, 1194
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Bandwidth|5.99 USD|
-|Virtual Machines|4.86 USD|
+|Bandwidth|6.30 USD|
+|Virtual Machines|5.03 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Bandwidth" : 5.99
-   "Virtual Machines" : 4.86
+   "Bandwidth" : 6.30
+   "Virtual Machines" : 5.03
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|North Central US|8.05 USD|
-|US North Central|2.79 USD|
+|North Central US|11.34 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "North Central US" : 8.05
-   "US North Central" : 2.79
+   "North Central US" : 11.34
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|10.84 USD|
+|personal-network|11.34 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 10.84
+   "personal-network" : 11.34
 ```
 
-<sup>Generated at 2023-10-28 11:29:30 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-10-29 11:29:37 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
