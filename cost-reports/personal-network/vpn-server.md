@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/29/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/30/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.04 USD|
-|Yesterday|0.24 USD|
-|Last 7 days|2.09 USD|
-|Last 30 days|11.34 USD|
+|Yesterday|0.18 USD|
+|Last 7 days|2.03 USD|
+|Last 30 days|11.52 USD|
 
 ```mermaid
 gantt
@@ -65,13 +65,13 @@ gantt
    section 21 Oct
    USD 9.25 :0, 925
    section 22 Oct
-   USD 9.48 :0, 948
+   USD 9.49 :0, 949
    section 23 Oct
    USD 9.78 :0, 978
    section 24 Oct
    USD 10.12 :0, 1012
    section 25 Oct
-   USD 10.43 :0, 1043
+   USD 10.44 :0, 1044
    section 26 Oct
    USD 10.71 :0, 1071
    section 27 Oct
@@ -79,11 +79,11 @@ gantt
    section 28 Oct
    USD 11.29 :0, 1129
    section 29 Oct
-   USD 11.34 :0, 1134
+   USD 11.47 :0, 1147
    section 30 Oct
-   USD 11.62 : done, 0, 1162
+   USD 11.52 :0, 1152
    section 31 Oct
-   USD 11.94 : done, 0, 1194
+   USD 11.81 : done, 0, 1181
 ```
 
 ## By Service Name
@@ -91,37 +91,37 @@ gantt
 |Service|Amount|
 |---|---:|
 |Bandwidth|6.30 USD|
-|Virtual Machines|5.03 USD|
+|Virtual Machines|5.21 USD|
 
 ```mermaid
 pie
    title Cost by service
    "Bandwidth" : 6.30
-   "Virtual Machines" : 5.03
+   "Virtual Machines" : 5.21
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|North Central US|11.34 USD|
+|North Central US|11.52 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "North Central US" : 11.34
+   "North Central US" : 11.52
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|11.34 USD|
+|personal-network|11.52 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 11.34
+   "personal-network" : 11.52
 ```
 
-<sup>Generated at 2023-10-29 11:29:37 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-10-30 11:29:11 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
