@@ -6,122 +6,118 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **10/01/2023** to **10/31/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/01/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.05 USD|
-|Yesterday|0.18 USD|
-|Last 7 days|1.30 USD|
-|Last 30 days|5.40 USD|
+|Yesterday|0.00 USD|
+|Last 7 days|0.05 USD|
+|Last 30 days|0.05 USD|
 
 ```mermaid
 gantt
    title Accumulated cost
    dateFormat  X
    axisFormat %s
-   section 01 Oct
-   USD 0.18 :0, 18
-   section 02 Oct
-   USD 0.36 :0, 36
-   section 03 Oct
-   USD 0.53 :0, 53
-   section 04 Oct
-   USD 0.71 :0, 71
-   section 05 Oct
-   USD 0.89 :0, 89
-   section 06 Oct
-   USD 1.07 :0, 107
-   section 07 Oct
-   USD 1.25 :0, 125
-   section 08 Oct
-   USD 1.43 :0, 143
-   section 09 Oct
-   USD 1.60 :0, 160
-   section 10 Oct
-   USD 1.78 :0, 178
-   section 11 Oct
-   USD 1.96 :0, 196
-   section 12 Oct
-   USD 2.14 :0, 214
-   section 13 Oct
-   USD 2.32 :0, 232
-   section 14 Oct
-   USD 2.49 :0, 249
-   section 15 Oct
-   USD 2.67 :0, 267
-   section 16 Oct
-   USD 2.85 :0, 285
-   section 17 Oct
-   USD 3.03 :0, 303
-   section 18 Oct
-   USD 3.21 :0, 321
-   section 19 Oct
-   USD 3.39 :0, 339
-   section 20 Oct
-   USD 3.56 :0, 356
-   section 21 Oct
-   USD 3.74 :0, 374
-   section 22 Oct
-   USD 3.92 :0, 392
-   section 23 Oct
-   USD 4.10 :0, 410
-   section 24 Oct
-   USD 4.28 :0, 428
-   section 25 Oct
-   USD 4.45 :0, 445
-   section 26 Oct
-   USD 4.63 :0, 463
-   section 27 Oct
-   USD 4.81 :0, 481
-   section 28 Oct
-   USD 4.99 :0, 499
-   section 29 Oct
-   USD 5.17 :0, 517
-   section 30 Oct
-   USD 5.35 :0, 535
-   section 31 Oct
-   USD 5.40 :0, 540
+   section 01 Nov
+   USD 0.05 :0, 5
+   section 02 Nov
+   USD 0.23 : done, 0, 23
+   section 03 Nov
+   USD 0.40 : done, 0, 40
+   section 04 Nov
+   USD 0.58 : done, 0, 58
+   section 05 Nov
+   USD 0.76 : done, 0, 76
+   section 06 Nov
+   USD 0.94 : done, 0, 94
+   section 07 Nov
+   USD 1.12 : done, 0, 112
+   section 08 Nov
+   USD 1.30 : done, 0, 130
+   section 09 Nov
+   USD 1.48 : done, 0, 148
+   section 10 Nov
+   USD 1.66 : done, 0, 166
+   section 11 Nov
+   USD 1.83 : done, 0, 183
+   section 12 Nov
+   USD 2.01 : done, 0, 201
+   section 13 Nov
+   USD 2.19 : done, 0, 219
+   section 14 Nov
+   USD 2.37 : done, 0, 237
+   section 15 Nov
+   USD 2.55 : done, 0, 255
+   section 16 Nov
+   USD 2.73 : done, 0, 273
+   section 17 Nov
+   USD 2.91 : done, 0, 291
+   section 18 Nov
+   USD 3.09 : done, 0, 309
+   section 19 Nov
+   USD 3.27 : done, 0, 327
+   section 20 Nov
+   USD 3.44 : done, 0, 344
+   section 21 Nov
+   USD 3.62 : done, 0, 362
+   section 22 Nov
+   USD 3.80 : done, 0, 380
+   section 23 Nov
+   USD 3.98 : done, 0, 398
+   section 24 Nov
+   USD 4.16 : done, 0, 416
+   section 25 Nov
+   USD 4.34 : done, 0, 434
+   section 26 Nov
+   USD 4.52 : done, 0, 452
+   section 27 Nov
+   USD 4.70 : done, 0, 470
+   section 28 Nov
+   USD 4.88 : done, 0, 488
+   section 29 Nov
+   USD 5.06 : done, 0, 506
+   section 30 Nov
+   USD 5.24 : done, 0, 524
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Machines|5.40 USD|
-|Bandwidth|0.00 USD|
+|Virtual Machines|0.05 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Machines" : 5.40
-   "Bandwidth" : 0.00
+   "Virtual Machines" : 0.05
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|North Central US|5.40 USD|
+|North Central US|0.05 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "North Central US" : 5.40
+   "North Central US" : 0.05
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|5.40 USD|
+|personal-network|0.05 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 5.40
+   "personal-network" : 0.05
 ```
 
-<sup>Generated at 2023-10-31 11:13:29 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-01 11:10:29 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
