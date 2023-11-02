@@ -3,5 +3,50 @@ Fetching cost data for resources...
 
 | ResourceName | ResourceType | Location | ResourceGroupName | ServiceName | ServiceTier | Meter | Amount |
 |---|---|---|---|---|---|---|---:|
-|backup-server | microsoft.compute/virtualmachines | North Central US | personal-network |  Virtual Machines | DSv2 Series VM | DS1 v2 Spot | 0.05 USD |
-|vpn-server | microsoft.compute/virtualmachines | North Central US | personal-network |  Virtual Machines | DSv2 Series VM | DS1 v2 Spot | 0.05 USD |
+|dns | microsoft.security/pricings | Unassigned |  |  Microsoft Defender for Cloud | Azure DNS service layers | Standard Queries | 0.02 USD |
+|cs2100300008c8d894b | microsoft.storage/storageaccounts | East US | cloud-shell-storage-eastus |  Storage | Files | LRS Data Stored | 0.01 USD |
+|cs2100300008c8d894b | microsoft.storage/storageaccounts | East US | cloud-shell-storage-eastus |  Storage | Tables | Batch Write Operations | 0.00 USD |
+|cs2100300008c8d894b | microsoft.storage/storageaccounts | US East | cloud-shell-storage-eastus |  Storage | Tiered Block Blob | All Other Operations | 0.00 USD |
+|jpatrickfulton.com | microsoft.network/dnszones | global | personal-dns |  Azure DNS |  | Public Queries | 0.00 USD |
+|jpatrickfulton.com | microsoft.network/dnszones | global | personal-dns |  Azure DNS |  | Public Zone | 0.01 USD |
+|jpatrickfulton.dev | microsoft.network/dnszones | global | personal-dns |  Azure DNS |  | Public Queries | 0.00 USD |
+|jpatrickfulton.dev | microsoft.network/dnszones | global | personal-dns |  Azure DNS |  | Public Zone | 0.01 USD |
+|backup-server_osdisk | microsoft.compute/disks | North Central US | personal-network |  Storage | Standard HDD Managed Disks | Disk Operations | 0.01 USD |
+|backup-server_osdisk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S4 Disks | 0.03 USD |
+|backup-server-data-disk | microsoft.compute/disks | North Central US | personal-network |  Storage | Standard HDD Managed Disks | Disk Operations | 0.01 USD |
+|backup-server-data-disk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S20 Disks | 0.48 USD |
+|vpn-server_osdisk | microsoft.compute/disks | North Central US | personal-network |  Storage | Standard HDD Managed Disks | Disk Operations | 0.01 USD |
+|vpn-server_osdisk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S4 Disks | 0.03 USD |
+|backup-server | microsoft.compute/virtualmachines | North Central US | personal-network |  Bandwidth |  | Standard Data Transfer Out | 0.00 USD |
+|backup-server | microsoft.compute/virtualmachines | North Central US | personal-network |  Bandwidth | Inter-Region | Intra Continent Data Transfer Out | 0.00 USD |
+|backup-server | microsoft.compute/virtualmachines | North Central US | personal-network |  Virtual Machines | DSv2 Series VM | DS1 v2 Spot | 0.24 USD |
+|vpn-server | microsoft.compute/virtualmachines | North Central US | personal-network |  Bandwidth |  | Standard Data Transfer Out | 0.14 USD |
+|vpn-server | microsoft.compute/virtualmachines | North Central US | personal-network |  Bandwidth | Inter-Region | Intra Continent Data Transfer Out | 0.00 USD |
+|vpn-server | microsoft.compute/virtualmachines | North Central US | personal-network |  Virtual Machines | DSv2 Series VM | DS1 v2 Spot | 0.24 USD |
+|private.jpatrickfulton.com | microsoft.network/privatednszones | global | personal-network |  Azure DNS |  | Private Queries | 0.00 USD |
+|private.jpatrickfulton.com | microsoft.network/privatednszones | global | personal-network |  Azure DNS |  | Private Zone | 0.01 USD |
+|backup-server-public-ip | microsoft.network/publicipaddresses | North Central US | personal-network |  Virtual Network | IP Addresses | Standard IPv4 Static Public IP | 0.08 USD |
+|vpn-server-public-ip | microsoft.network/publicipaddresses | North Central US | personal-network |  Virtual Network | IP Addresses | Standard IPv4 Static Public IP | 0.08 USD |
+|personalsiteapipreview | microsoft.storage/storageaccounts | Central US | personal-site |  Storage | Files | LRS Data Stored | 0.00 USD |
+|personalsiteapipreview | microsoft.storage/storageaccounts | Central US | personal-site |  Storage | Files | LRS Write Operations | 0.00 USD |
+|personalsiteapipreview | microsoft.storage/storageaccounts | Central US | personal-site |  Storage | Files | Protocol Operations | 0.00 USD |
+|personalsiteapipreview | microsoft.storage/storageaccounts | Central US | personal-site |  Storage | Files | Read Operations | 0.00 USD |
+|personalsiteapipreview | microsoft.storage/storageaccounts | Central US | personal-site |  Storage | General Block Blob | Read Operations | 0.00 USD |
+|personalsiteapipreview | microsoft.storage/storageaccounts | Central US | personal-site |  Storage | Tables | Batch Write Operations | 0.00 USD |
+|personalsiteapistorage | microsoft.storage/storageaccounts | Central US | personal-site |  Storage | Files | LRS Data Stored | 0.00 USD |
+|personalsiteapistorage | microsoft.storage/storageaccounts | Central US | personal-site |  Storage | Files | LRS Write Operations | 0.00 USD |
+|personalsiteapistorage | microsoft.storage/storageaccounts | Central US | personal-site |  Storage | Files | Protocol Operations | 0.00 USD |
+|personalsiteapistorage | microsoft.storage/storageaccounts | Central US | personal-site |  Storage | Files | Read Operations | 0.00 USD |
+|personalsiteapistorage | microsoft.storage/storageaccounts | Central US | personal-site |  Storage | General Block Blob | Read Operations | 0.00 USD |
+|personalsiteapistorage | microsoft.storage/storageaccounts | Central US | personal-site |  Storage | Tables | Batch Write Operations | 0.00 USD |
+|personal-site-api | microsoft.web/sites | Central US | personal-site |  Azure App Service | Free Plan | F1 App | 0.00 USD |
+|staging | microsoft.web/sites | Central US | personal-site |  Azure App Service | Free Plan | F1 App | 0.00 USD |
+|personal-site-api-preview | microsoft.web/sites | Central US | personal-site |  Azure App Service | Free Plan | F1 App | 0.00 USD |
+|staging | microsoft.web/sites | Central US | personal-site |  Azure App Service | Free Plan | F1 App | 0.00 USD |
+|personal-site | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard App | 0.20 USD |
+|personal-site | microsoft.web/staticsites | AP East | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
+|personal-site | microsoft.web/staticsites | EU West | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
+|personal-site | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
+|personal-site | microsoft.web/staticsites | US East 2 | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
+|personal-site | microsoft.web/staticsites | US West 2 | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
+|personal-site-preview | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard App | 0.20 USD |
