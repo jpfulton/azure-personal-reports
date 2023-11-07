@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/06/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/07/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.08 USD|
-|Yesterday|1.61 USD|
-|Last 7 days|8.82 USD|
-|Last 30 days|8.82 USD|
+|Yesterday|1.69 USD|
+|Last 7 days|10.65 USD|
+|Last 30 days|10.65 USD|
 
 ```mermaid
 gantt
@@ -23,111 +23,111 @@ gantt
    dateFormat  X
    axisFormat %s
    section 01 Nov
-   USD 1.79 :0, 179
+   USD 1.80 :0, 180
    section 02 Nov
-   USD 3.47 :0, 347
+   USD 3.49 :0, 349
    section 03 Nov
-   USD 5.39 :0, 539
+   USD 5.42 :0, 542
    section 04 Nov
-   USD 7.14 :0, 714
+   USD 7.18 :0, 718
    section 05 Nov
-   USD 8.75 :0, 875
+   USD 8.88 :0, 888
    section 06 Nov
-   USD 8.82 :0, 882
+   USD 10.57 :0, 1057
    section 07 Nov
-   USD 10.55 : done, 0, 1055
+   USD 10.65 :0, 1065
    section 08 Nov
-   USD 12.28 : done, 0, 1228
+   USD 12.45 : done, 0, 1245
    section 09 Nov
-   USD 14.01 : done, 0, 1401
+   USD 14.24 : done, 0, 1424
    section 10 Nov
-   USD 15.82 : done, 0, 1582
+   USD 16.12 : done, 0, 1612
    section 11 Nov
-   USD 17.56 : done, 0, 1756
+   USD 17.83 : done, 0, 1783
    section 12 Nov
-   USD 19.05 : done, 0, 1905
+   USD 19.38 : done, 0, 1938
    section 13 Nov
-   USD 20.67 : done, 0, 2067
+   USD 21.07 : done, 0, 2107
    section 14 Nov
-   USD 22.38 : done, 0, 2238
+   USD 22.86 : done, 0, 2286
    section 15 Nov
-   USD 24.11 : done, 0, 2411
+   USD 24.66 : done, 0, 2466
    section 16 Nov
-   USD 25.82 : done, 0, 2582
+   USD 26.46 : done, 0, 2646
    section 17 Nov
-   USD 27.62 : done, 0, 2762
+   USD 28.34 : done, 0, 2834
    section 18 Nov
-   USD 29.35 : done, 0, 2935
+   USD 30.05 : done, 0, 3005
    section 19 Nov
-   USD 30.82 : done, 0, 3082
+   USD 31.60 : done, 0, 3160
    section 20 Nov
-   USD 32.43 : done, 0, 3243
+   USD 33.30 : done, 0, 3330
    section 21 Nov
-   USD 34.14 : done, 0, 3414
+   USD 35.09 : done, 0, 3509
    section 22 Nov
-   USD 35.85 : done, 0, 3585
+   USD 36.89 : done, 0, 3689
    section 23 Nov
-   USD 37.55 : done, 0, 3755
+   USD 38.68 : done, 0, 3868
    section 24 Nov
-   USD 39.34 : done, 0, 3934
+   USD 40.57 : done, 0, 4057
    section 25 Nov
-   USD 41.06 : done, 0, 4106
+   USD 42.28 : done, 0, 4228
    section 26 Nov
-   USD 42.52 : done, 0, 4252
+   USD 43.84 : done, 0, 4384
    section 27 Nov
-   USD 44.12 : done, 0, 4412
+   USD 45.53 : done, 0, 4553
    section 28 Nov
-   USD 45.81 : done, 0, 4581
+   USD 47.33 : done, 0, 4733
    section 29 Nov
-   USD 47.51 : done, 0, 4751
+   USD 49.13 : done, 0, 4913
    section 30 Nov
-   USD 49.20 : done, 0, 4920
+   USD 50.92 : done, 0, 5092
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|4.28 USD|
-|Virtual Machines|1.95 USD|
-|Bandwidth|1.32 USD|
-|Virtual Network|1.19 USD|
-|Azure DNS|0.08 USD|
+|Storage|5.15 USD|
+|Virtual Machines|2.32 USD|
+|Bandwidth|1.66 USD|
+|Virtual Network|1.42 USD|
+|Azure DNS|0.10 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 4.28
-   "Virtual Machines" : 1.95
-   "Bandwidth" : 1.32
-   "Virtual Network" : 1.19
-   "Azure DNS" : 0.08
+   "Storage" : 5.15
+   "Virtual Machines" : 2.32
+   "Bandwidth" : 1.66
+   "Virtual Network" : 1.42
+   "Azure DNS" : 0.10
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|8.74 USD|
-|Unknown|0.08 USD|
+|US North Central|10.55 USD|
+|Unknown|0.10 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 8.74
-   "Unknown" : 0.08
+   "US North Central" : 10.55
+   "Unknown" : 0.10
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|8.82 USD|
+|personal-network|10.65 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 8.82
+   "personal-network" : 10.65
 ```
 
-<sup>Generated at 2023-11-06 11:06:15 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-07 11:07:28 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
