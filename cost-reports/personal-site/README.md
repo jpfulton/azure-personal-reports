@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/05/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/06/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.54 USD|
-|Last 7 days|2.92 USD|
-|Last 30 days|2.92 USD|
+|Yesterday|0.52 USD|
+|Last 7 days|3.49 USD|
+|Last 30 days|3.49 USD|
 
 ```mermaid
 gantt
@@ -31,64 +31,64 @@ gantt
    section 04 Nov
    USD 2.38 :0, 238
    section 05 Nov
-   USD 2.92 :0, 292
+   USD 2.97 :0, 297
    section 06 Nov
-   USD 3.51 : done, 0, 351
+   USD 3.49 :0, 349
    section 07 Nov
-   USD 4.11 : done, 0, 411
+   USD 4.08 : done, 0, 408
    section 08 Nov
-   USD 4.70 : done, 0, 470
+   USD 4.68 : done, 0, 468
    section 09 Nov
-   USD 5.30 : done, 0, 530
+   USD 5.27 : done, 0, 527
    section 10 Nov
-   USD 5.89 : done, 0, 589
+   USD 5.87 : done, 0, 587
    section 11 Nov
-   USD 6.48 : done, 0, 648
+   USD 6.46 : done, 0, 646
    section 12 Nov
-   USD 7.08 : done, 0, 708
+   USD 7.05 : done, 0, 705
    section 13 Nov
-   USD 7.67 : done, 0, 767
+   USD 7.65 : done, 0, 765
    section 14 Nov
-   USD 8.26 : done, 0, 826
+   USD 8.24 : done, 0, 824
    section 15 Nov
-   USD 8.86 : done, 0, 886
+   USD 8.83 : done, 0, 883
    section 16 Nov
-   USD 9.45 : done, 0, 945
+   USD 9.43 : done, 0, 943
    section 17 Nov
-   USD 10.04 : done, 0, 1004
+   USD 10.02 : done, 0, 1002
    section 18 Nov
-   USD 10.64 : done, 0, 1064
+   USD 10.61 : done, 0, 1061
    section 19 Nov
-   USD 11.23 : done, 0, 1123
+   USD 11.21 : done, 0, 1121
    section 20 Nov
-   USD 11.82 : done, 0, 1182
+   USD 11.80 : done, 0, 1180
    section 21 Nov
-   USD 12.42 : done, 0, 1242
+   USD 12.39 : done, 0, 1239
    section 22 Nov
-   USD 13.01 : done, 0, 1301
+   USD 12.99 : done, 0, 1299
    section 23 Nov
-   USD 13.60 : done, 0, 1360
+   USD 13.58 : done, 0, 1358
    section 24 Nov
-   USD 14.20 : done, 0, 1420
+   USD 14.17 : done, 0, 1417
    section 25 Nov
-   USD 14.79 : done, 0, 1479
+   USD 14.77 : done, 0, 1477
    section 26 Nov
-   USD 15.38 : done, 0, 1538
+   USD 15.36 : done, 0, 1536
    section 27 Nov
-   USD 15.98 : done, 0, 1598
+   USD 15.95 : done, 0, 1595
    section 28 Nov
-   USD 16.57 : done, 0, 1657
+   USD 16.55 : done, 0, 1655
    section 29 Nov
-   USD 17.16 : done, 0, 1716
+   USD 17.14 : done, 0, 1714
    section 30 Nov
-   USD 17.75 : done, 0, 1775
+   USD 17.73 : done, 0, 1773
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|2.91 USD|
+|Azure App Service|3.48 USD|
 |Storage|0.01 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
@@ -97,7 +97,7 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 2.91
+   "Azure App Service" : 3.48
    "Storage" : 0.01
    "Bandwidth" : 0.00
    "Functions" : 0.00
@@ -108,7 +108,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|2.92 USD|
+|US Central|3.49 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -117,7 +117,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 2.92
+   "US Central" : 3.49
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -128,12 +128,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|2.92 USD|
+|personal-site|3.49 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 2.92
+   "personal-site" : 3.49
 ```
 
-<sup>Generated at 2023-11-06 11:09:15 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-07 11:08:28 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
