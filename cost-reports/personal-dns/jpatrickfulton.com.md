@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/06/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/07/2023**
 
 ## Totals
 
@@ -14,8 +14,8 @@ Fetching cost data by resource group...
 |---|---:|
 |Today|0.00 USD|
 |Yesterday|0.01 USD|
-|Last 7 days|0.10 USD|
-|Last 30 days|0.10 USD|
+|Last 7 days|0.11 USD|
+|Last 30 days|0.11 USD|
 
 ```mermaid
 gantt
@@ -35,11 +35,11 @@ gantt
    section 06 Nov
    USD 0.10 :0, 10
    section 07 Nov
-   USD 0.11 : done, 0, 11
+   USD 0.11 :0, 11
    section 08 Nov
    USD 0.13 : done, 0, 13
    section 09 Nov
-   USD 0.15 : done, 0, 15
+   USD 0.14 : done, 0, 14
    section 10 Nov
    USD 0.16 : done, 0, 16
    section 11 Nov
@@ -55,7 +55,7 @@ gantt
    section 16 Nov
    USD 0.26 : done, 0, 26
    section 17 Nov
-   USD 0.28 : done, 0, 28
+   USD 0.27 : done, 0, 27
    section 18 Nov
    USD 0.29 : done, 0, 29
    section 19 Nov
@@ -71,7 +71,7 @@ gantt
    section 24 Nov
    USD 0.39 : done, 0, 39
    section 25 Nov
-   USD 0.41 : done, 0, 41
+   USD 0.40 : done, 0, 40
    section 26 Nov
    USD 0.42 : done, 0, 42
    section 27 Nov
@@ -88,36 +88,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.10 USD|
+|Azure DNS|0.11 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.10
+   "Azure DNS" : 0.11
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.10 USD|
+|Unknown|0.11 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.10
+   "Unknown" : 0.11
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-dns|0.10 USD|
+|personal-dns|0.11 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-dns" : 0.10
+   "personal-dns" : 0.11
 ```
 
-<sup>Generated at 2023-11-07 11:13:29 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-08 11:12:02 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
