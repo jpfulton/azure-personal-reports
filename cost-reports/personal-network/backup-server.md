@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/08/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/09/2023**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.05 USD|
 |Yesterday|0.19 USD|
 |Last 7 days|1.36 USD|
-|Last 30 days|1.36 USD|
+|Last 30 days|1.55 USD|
 
 ```mermaid
 gantt
@@ -37,64 +37,64 @@ gantt
    section 07 Nov
    USD 1.31 :0, 131
    section 08 Nov
-   USD 1.36 :0, 136
+   USD 1.50 :0, 150
    section 09 Nov
-   USD 1.54 : done, 0, 154
+   USD 1.55 :0, 155
    section 10 Nov
-   USD 1.73 : done, 0, 173
+   USD 1.74 : done, 0, 174
    section 11 Nov
-   USD 1.91 : done, 0, 191
+   USD 1.92 : done, 0, 192
    section 12 Nov
-   USD 2.10 : done, 0, 210
+   USD 2.11 : done, 0, 211
    section 13 Nov
-   USD 2.29 : done, 0, 229
+   USD 2.30 : done, 0, 230
    section 14 Nov
-   USD 2.47 : done, 0, 247
+   USD 2.49 : done, 0, 249
    section 15 Nov
-   USD 2.66 : done, 0, 266
+   USD 2.67 : done, 0, 267
    section 16 Nov
-   USD 2.85 : done, 0, 285
+   USD 2.86 : done, 0, 286
    section 17 Nov
-   USD 3.03 : done, 0, 303
+   USD 3.05 : done, 0, 305
    section 18 Nov
-   USD 3.22 : done, 0, 322
+   USD 3.24 : done, 0, 324
    section 19 Nov
-   USD 3.41 : done, 0, 341
+   USD 3.43 : done, 0, 343
    section 20 Nov
-   USD 3.60 : done, 0, 360
+   USD 3.62 : done, 0, 362
    section 21 Nov
-   USD 3.79 : done, 0, 379
+   USD 3.81 : done, 0, 381
    section 22 Nov
-   USD 3.98 : done, 0, 398
+   USD 4.00 : done, 0, 400
    section 23 Nov
-   USD 4.17 : done, 0, 417
+   USD 4.19 : done, 0, 419
    section 24 Nov
-   USD 4.36 : done, 0, 436
+   USD 4.38 : done, 0, 438
    section 25 Nov
-   USD 4.55 : done, 0, 455
+   USD 4.57 : done, 0, 457
    section 26 Nov
-   USD 4.74 : done, 0, 474
+   USD 4.76 : done, 0, 476
    section 27 Nov
-   USD 4.93 : done, 0, 493
+   USD 4.95 : done, 0, 495
    section 28 Nov
-   USD 5.12 : done, 0, 512
+   USD 5.14 : done, 0, 514
    section 29 Nov
-   USD 5.31 : done, 0, 531
+   USD 5.34 : done, 0, 534
    section 30 Nov
-   USD 5.50 : done, 0, 550
+   USD 5.53 : done, 0, 553
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Machines|1.36 USD|
+|Virtual Machines|1.55 USD|
 |Bandwidth|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Machines" : 1.36
+   "Virtual Machines" : 1.55
    "Bandwidth" : 0.00
 ```
 
@@ -102,24 +102,24 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|1.36 USD|
+|US North Central|1.55 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 1.36
+   "US North Central" : 1.55
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|1.36 USD|
+|personal-network|1.55 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 1.36
+   "personal-network" : 1.55
 ```
 
-<sup>Generated at 2023-11-08 11:14:03 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-09 11:14:03 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
