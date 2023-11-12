@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/10/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/11/2023**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.03 USD|
 |Last 7 days|0.23 USD|
-|Last 30 days|0.32 USD|
+|Last 30 days|0.36 USD|
 
 ```mermaid
 gantt
@@ -41,43 +41,83 @@ gantt
    section 09 Nov
    USD 0.29 :0, 29
    section 10 Nov
-   USD 0.32 :0, 32
+   USD 0.33 :0, 33
+   section 11 Nov
+   USD 0.36 :0, 36
+   section 12 Nov
+   USD 0.39 : done, 0, 39
+   section 13 Nov
+   USD 0.42 : done, 0, 42
+   section 14 Nov
+   USD 0.46 : done, 0, 46
+   section 15 Nov
+   USD 0.49 : done, 0, 49
+   section 16 Nov
+   USD 0.52 : done, 0, 52
+   section 17 Nov
+   USD 0.55 : done, 0, 55
+   section 18 Nov
+   USD 0.59 : done, 0, 59
+   section 19 Nov
+   USD 0.62 : done, 0, 62
+   section 20 Nov
+   USD 0.65 : done, 0, 65
+   section 21 Nov
+   USD 0.68 : done, 0, 68
+   section 22 Nov
+   USD 0.72 : done, 0, 72
+   section 23 Nov
+   USD 0.75 : done, 0, 75
+   section 24 Nov
+   USD 0.78 : done, 0, 78
+   section 25 Nov
+   USD 0.81 : done, 0, 81
+   section 26 Nov
+   USD 0.85 : done, 0, 85
+   section 27 Nov
+   USD 0.88 : done, 0, 88
+   section 28 Nov
+   USD 0.91 : done, 0, 91
+   section 29 Nov
+   USD 0.95 : done, 0, 95
+   section 30 Nov
+   USD 0.98 : done, 0, 98
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.32 USD|
+|Azure DNS|0.36 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.32
+   "Azure DNS" : 0.36
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.32 USD|
+|Unknown|0.36 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.32
+   "Unknown" : 0.36
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-dns|0.32 USD|
+|personal-dns|0.36 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-dns" : 0.32
+   "personal-dns" : 0.36
 ```
 
-<sup>Generated at 2023-11-11 11:10:09 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-12 11:07:02 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
