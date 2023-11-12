@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/10/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/11/2023**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.00 USD|
 |Last 7 days|0.01 USD|
-|Last 30 days|0.01 USD|
+|Last 30 days|0.02 USD|
 
 ```mermaid
 gantt
@@ -29,7 +29,7 @@ gantt
    section 03 Nov
    USD 0.00 :0, 0
    section 04 Nov
-   USD 0.00 :0, 0
+   USD 0.01 :0, 1
    section 05 Nov
    USD 0.01 :0, 1
    section 06 Nov
@@ -41,9 +41,9 @@ gantt
    section 09 Nov
    USD 0.01 :0, 1
    section 10 Nov
-   USD 0.01 :0, 1
+   USD 0.02 :0, 2
    section 11 Nov
-   USD 0.02 : done, 0, 2
+   USD 0.02 :0, 2
    section 12 Nov
    USD 0.02 : done, 0, 2
    section 13 Nov
@@ -53,9 +53,9 @@ gantt
    section 15 Nov
    USD 0.02 : done, 0, 2
    section 16 Nov
-   USD 0.02 : done, 0, 2
+   USD 0.03 : done, 0, 3
    section 17 Nov
-   USD 0.02 : done, 0, 2
+   USD 0.03 : done, 0, 3
    section 18 Nov
    USD 0.03 : done, 0, 3
    section 19 Nov
@@ -65,9 +65,9 @@ gantt
    section 21 Nov
    USD 0.03 : done, 0, 3
    section 22 Nov
-   USD 0.03 : done, 0, 3
+   USD 0.04 : done, 0, 4
    section 23 Nov
-   USD 0.03 : done, 0, 3
+   USD 0.04 : done, 0, 4
    section 24 Nov
    USD 0.04 : done, 0, 4
    section 25 Nov
@@ -77,47 +77,47 @@ gantt
    section 27 Nov
    USD 0.04 : done, 0, 4
    section 28 Nov
-   USD 0.04 : done, 0, 4
+   USD 0.05 : done, 0, 5
    section 29 Nov
-   USD 0.04 : done, 0, 4
+   USD 0.05 : done, 0, 5
    section 30 Nov
-   USD 0.04 : done, 0, 4
+   USD 0.05 : done, 0, 5
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|0.01 USD|
+|Storage|0.02 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.01
+   "Storage" : 0.02
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US Central|0.01 USD|
+|US Central|0.02 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 0.01
+   "US Central" : 0.02
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|0.01 USD|
+|personal-site|0.02 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 0.01
+   "personal-site" : 0.02
 ```
 
-<sup>Generated at 2023-11-11 11:31:16 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-12 11:31:08 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
