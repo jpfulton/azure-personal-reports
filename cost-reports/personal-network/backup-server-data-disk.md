@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/17/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/18/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.68 USD|
-|Last 7 days|5.13 USD|
-|Last 30 days|12.59 USD|
+|Yesterday|0.70 USD|
+|Last 7 days|5.16 USD|
+|Last 30 days|13.36 USD|
 
 ```mermaid
 gantt
@@ -55,25 +55,25 @@ gantt
    section 16 Nov
    USD 11.91 :0, 1191
    section 17 Nov
-   USD 12.59 :0, 1259
+   USD 12.66 :0, 1266
    section 18 Nov
-   USD 13.34 : done, 0, 1334
+   USD 13.36 :0, 1336
    section 19 Nov
-   USD 14.09 : done, 0, 1409
+   USD 14.10 : done, 0, 1410
    section 20 Nov
-   USD 14.84 : done, 0, 1484
+   USD 14.85 : done, 0, 1485
    section 21 Nov
-   USD 15.58 : done, 0, 1558
+   USD 15.59 : done, 0, 1559
    section 22 Nov
-   USD 16.34 : done, 0, 1634
+   USD 16.35 : done, 0, 1635
    section 23 Nov
    USD 17.11 : done, 0, 1711
    section 24 Nov
-   USD 17.87 : done, 0, 1787
+   USD 17.88 : done, 0, 1788
    section 25 Nov
-   USD 18.63 : done, 0, 1863
+   USD 18.64 : done, 0, 1864
    section 26 Nov
-   USD 19.38 : done, 0, 1938
+   USD 19.39 : done, 0, 1939
    section 27 Nov
    USD 20.14 : done, 0, 2014
    section 28 Nov
@@ -88,36 +88,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Storage|12.59 USD|
+|Storage|13.36 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 12.59
+   "Storage" : 13.36
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|12.59 USD|
+|US North Central|13.36 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 12.59
+   "US North Central" : 13.36
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|12.59 USD|
+|personal-network|13.36 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 12.59
+   "personal-network" : 13.36
 ```
 
-<sup>Generated at 2023-11-18 11:17:01 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-19 11:15:59 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
