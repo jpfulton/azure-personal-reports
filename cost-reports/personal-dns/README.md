@@ -13,9 +13,9 @@ Fetching cost data by resource group...
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.02 USD|
-|Last 7 days|0.21 USD|
-|Last 30 days|0.60 USD|
+|Yesterday|0.00 USD|
+|Last 7 days|0.18 USD|
+|Last 30 days|0.61 USD|
 
 ```mermaid
 gantt
@@ -59,7 +59,7 @@ gantt
    section 18 Nov
    USD 0.59 :0, 59
    section 19 Nov
-   USD 0.60 :0, 60
+   USD 0.61 :0, 61
    section 20 Nov
    USD 0.64 : done, 0, 64
    section 21 Nov
@@ -67,57 +67,57 @@ gantt
    section 22 Nov
    USD 0.70 : done, 0, 70
    section 23 Nov
-   USD 0.74 : done, 0, 74
+   USD 0.73 : done, 0, 73
    section 24 Nov
-   USD 0.77 : done, 0, 77
+   USD 0.76 : done, 0, 76
    section 25 Nov
-   USD 0.80 : done, 0, 80
+   USD 0.79 : done, 0, 79
    section 26 Nov
    USD 0.83 : done, 0, 83
    section 27 Nov
-   USD 0.87 : done, 0, 87
+   USD 0.86 : done, 0, 86
    section 28 Nov
-   USD 0.90 : done, 0, 90
+   USD 0.89 : done, 0, 89
    section 29 Nov
-   USD 0.93 : done, 0, 93
+   USD 0.92 : done, 0, 92
    section 30 Nov
-   USD 0.97 : done, 0, 97
+   USD 0.95 : done, 0, 95
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.60 USD|
+|Azure DNS|0.62 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.60
+   "Azure DNS" : 0.62
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.60 USD|
+|Unknown|0.62 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.60
+   "Unknown" : 0.62
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-dns|0.60 USD|
+|personal-dns|0.61 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-dns" : 0.60
+   "personal-dns" : 0.61
 ```
 
-<sup>Generated at 2023-11-20 11:06:18 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-21 11:07:14 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
