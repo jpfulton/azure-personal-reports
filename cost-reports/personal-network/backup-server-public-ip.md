@@ -13,9 +13,9 @@ Fetching cost data by resource group...
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.06 USD|
-|Last 7 days|0.78 USD|
-|Last 30 days|2.22 USD|
+|Yesterday|0.00 USD|
+|Last 7 days|0.67 USD|
+|Last 30 days|2.24 USD|
 
 ```mermaid
 gantt
@@ -59,65 +59,65 @@ gantt
    section 18 Nov
    USD 2.16 :0, 216
    section 19 Nov
-   USD 2.22 :0, 222
+   USD 2.24 :0, 224
    section 20 Nov
-   USD 2.34 : done, 0, 234
+   USD 2.35 : done, 0, 235
    section 21 Nov
    USD 2.46 : done, 0, 246
    section 22 Nov
    USD 2.58 : done, 0, 258
    section 23 Nov
-   USD 2.70 : done, 0, 270
+   USD 2.69 : done, 0, 269
    section 24 Nov
-   USD 2.82 : done, 0, 282
+   USD 2.80 : done, 0, 280
    section 25 Nov
-   USD 2.94 : done, 0, 294
+   USD 2.91 : done, 0, 291
    section 26 Nov
-   USD 3.06 : done, 0, 306
+   USD 3.03 : done, 0, 303
    section 27 Nov
-   USD 3.18 : done, 0, 318
+   USD 3.14 : done, 0, 314
    section 28 Nov
-   USD 3.30 : done, 0, 330
+   USD 3.25 : done, 0, 325
    section 29 Nov
-   USD 3.42 : done, 0, 342
+   USD 3.36 : done, 0, 336
    section 30 Nov
-   USD 3.54 : done, 0, 354
+   USD 3.47 : done, 0, 347
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Network|2.21 USD|
+|Virtual Network|2.23 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Network" : 2.21
+   "Virtual Network" : 2.23
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|2.21 USD|
+|US North Central|2.23 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 2.21
+   "US North Central" : 2.23
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|2.21 USD|
+|personal-network|2.23 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 2.21
+   "personal-network" : 2.23
 ```
 
-<sup>Generated at 2023-11-20 11:21:19 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-21 11:20:17 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

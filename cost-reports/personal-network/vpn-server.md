@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/20/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/21/2023**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.05 USD|
 |Yesterday|0.19 USD|
 |Last 7 days|1.36 USD|
-|Last 30 days|6.26 USD|
+|Last 30 days|6.46 USD|
 
 ```mermaid
 gantt
@@ -61,40 +61,40 @@ gantt
    section 19 Nov
    USD 6.21 :0, 621
    section 20 Nov
-   USD 6.26 :0, 626
+   USD 6.40 :0, 640
    section 21 Nov
-   USD 6.53 : done, 0, 653
+   USD 6.46 :0, 646
    section 22 Nov
-   USD 6.81 : done, 0, 681
+   USD 6.80 : done, 0, 680
    section 23 Nov
-   USD 6.99 : done, 0, 699
+   USD 7.03 : done, 0, 703
    section 24 Nov
-   USD 7.11 : done, 0, 711
+   USD 7.22 : done, 0, 722
    section 25 Nov
-   USD 7.19 : done, 0, 719
+   USD 7.31 : done, 0, 731
    section 26 Nov
-   USD 7.20 : done, 0, 720
-   section 27 Nov
    USD 7.33 : done, 0, 733
+   section 27 Nov
+   USD 7.54 : done, 0, 754
    section 28 Nov
-   USD 7.53 : done, 0, 753
+   USD 7.80 : done, 0, 780
    section 29 Nov
-   USD 7.74 : done, 0, 774
+   USD 8.09 : done, 0, 809
    section 30 Nov
-   USD 7.84 : done, 0, 784
+   USD 8.27 : done, 0, 827
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Machines|3.60 USD|
+|Virtual Machines|3.80 USD|
 |Bandwidth|2.66 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Machines" : 3.60
+   "Virtual Machines" : 3.80
    "Bandwidth" : 2.66
 ```
 
@@ -102,24 +102,24 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|6.26 USD|
+|US North Central|6.46 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 6.26
+   "US North Central" : 6.46
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|6.26 USD|
+|personal-network|6.46 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 6.26
+   "personal-network" : 6.46
 ```
 
-<sup>Generated at 2023-11-20 11:29:27 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-21 11:29:19 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

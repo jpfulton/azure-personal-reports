@@ -13,8 +13,8 @@ Fetching cost data by resource group...
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.01 USD|
-|Last 7 days|0.10 USD|
+|Yesterday|0.00 USD|
+|Last 7 days|0.09 USD|
 |Last 30 days|0.30 USD|
 
 ```mermaid
@@ -61,7 +61,7 @@ gantt
    section 19 Nov
    USD 0.30 :0, 30
    section 20 Nov
-   USD 0.31 : done, 0, 31
+   USD 0.32 : done, 0, 32
    section 21 Nov
    USD 0.33 : done, 0, 33
    section 22 Nov
@@ -75,13 +75,13 @@ gantt
    section 26 Nov
    USD 0.41 : done, 0, 41
    section 27 Nov
-   USD 0.43 : done, 0, 43
+   USD 0.42 : done, 0, 42
    section 28 Nov
    USD 0.44 : done, 0, 44
    section 29 Nov
-   USD 0.46 : done, 0, 46
+   USD 0.45 : done, 0, 45
    section 30 Nov
-   USD 0.48 : done, 0, 48
+   USD 0.47 : done, 0, 47
 ```
 
 ## By Service Name
@@ -120,4 +120,4 @@ pie
    "personal-network" : 0.30
 ```
 
-<sup>Generated at 2023-11-20 11:27:30 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-21 11:26:21 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

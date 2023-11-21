@@ -13,9 +13,9 @@ Fetching cost data by resource group...
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.33 USD|
-|Last 7 days|4.78 USD|
-|Last 30 days|13.73 USD|
+|Yesterday|0.00 USD|
+|Last 7 days|4.12 USD|
+|Last 30 days|13.82 USD|
 
 ```mermaid
 gantt
@@ -59,65 +59,65 @@ gantt
    section 18 Nov
    USD 13.40 :0, 1340
    section 19 Nov
-   USD 13.73 :0, 1373
+   USD 13.82 :0, 1382
    section 20 Nov
-   USD 14.47 : done, 0, 1447
+   USD 14.52 : done, 0, 1452
    section 21 Nov
-   USD 15.21 : done, 0, 1521
+   USD 15.22 : done, 0, 1522
    section 22 Nov
-   USD 15.97 : done, 0, 1597
+   USD 15.94 : done, 0, 1594
    section 23 Nov
-   USD 16.73 : done, 0, 1673
+   USD 16.65 : done, 0, 1665
    section 24 Nov
-   USD 17.50 : done, 0, 1750
+   USD 17.36 : done, 0, 1736
    section 25 Nov
-   USD 18.26 : done, 0, 1826
+   USD 18.07 : done, 0, 1807
    section 26 Nov
-   USD 19.00 : done, 0, 1900
+   USD 18.75 : done, 0, 1875
    section 27 Nov
-   USD 19.75 : done, 0, 1975
+   USD 19.45 : done, 0, 1945
    section 28 Nov
-   USD 20.50 : done, 0, 2050
+   USD 20.14 : done, 0, 2014
    section 29 Nov
-   USD 21.27 : done, 0, 2127
+   USD 20.85 : done, 0, 2085
    section 30 Nov
-   USD 22.03 : done, 0, 2203
+   USD 21.55 : done, 0, 2155
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|13.73 USD|
+|Storage|14.21 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 13.73
+   "Storage" : 14.21
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|13.73 USD|
+|US North Central|14.21 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 13.73
+   "US North Central" : 14.21
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|13.73 USD|
+|personal-network|13.82 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 13.73
+   "personal-network" : 13.82
 ```
 
-<sup>Generated at 2023-11-20 11:18:21 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-21 11:17:17 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

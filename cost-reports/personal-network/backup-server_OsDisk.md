@@ -13,9 +13,9 @@ Fetching cost data by resource group...
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.03 USD|
-|Last 7 days|0.41 USD|
-|Last 30 days|1.16 USD|
+|Yesterday|0.00 USD|
+|Last 7 days|0.36 USD|
+|Last 30 days|1.17 USD|
 
 ```mermaid
 gantt
@@ -59,7 +59,7 @@ gantt
    section 18 Nov
    USD 1.14 :0, 114
    section 19 Nov
-   USD 1.16 :0, 116
+   USD 1.17 :0, 117
    section 20 Nov
    USD 1.23 : done, 0, 123
    section 21 Nov
@@ -73,51 +73,51 @@ gantt
    section 25 Nov
    USD 1.55 : done, 0, 155
    section 26 Nov
-   USD 1.61 : done, 0, 161
+   USD 1.62 : done, 0, 162
    section 27 Nov
    USD 1.68 : done, 0, 168
    section 28 Nov
-   USD 1.74 : done, 0, 174
+   USD 1.75 : done, 0, 175
    section 29 Nov
    USD 1.81 : done, 0, 181
    section 30 Nov
-   USD 1.87 : done, 0, 187
+   USD 1.88 : done, 0, 188
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|1.16 USD|
+|Storage|1.17 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 1.16
+   "Storage" : 1.17
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|1.16 USD|
+|US North Central|1.17 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 1.16
+   "US North Central" : 1.17
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|1.16 USD|
+|personal-network|1.21 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 1.16
+   "personal-network" : 1.21
 ```
 
-<sup>Generated at 2023-11-20 11:23:22 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-21 11:22:19 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
