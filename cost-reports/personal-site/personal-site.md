@@ -13,9 +13,9 @@ Fetching cost data by resource group...
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.12 USD|
-|Last 7 days|1.90 USD|
-|Last 30 days|5.45 USD|
+|Yesterday|0.00 USD|
+|Last 7 days|1.65 USD|
+|Last 30 days|5.50 USD|
 
 ```mermaid
 gantt
@@ -59,48 +59,48 @@ gantt
    section 18 Nov
    USD 5.33 :0, 533
    section 19 Nov
-   USD 5.45 :0, 545
+   USD 5.50 :0, 550
    section 20 Nov
-   USD 5.75 : done, 0, 575
+   USD 5.78 : done, 0, 578
    section 21 Nov
-   USD 6.04 : done, 0, 604
+   USD 6.06 : done, 0, 606
    section 22 Nov
-   USD 6.34 : done, 0, 634
+   USD 6.33 : done, 0, 633
    section 23 Nov
-   USD 6.63 : done, 0, 663
+   USD 6.61 : done, 0, 661
    section 24 Nov
-   USD 6.93 : done, 0, 693
+   USD 6.89 : done, 0, 689
    section 25 Nov
-   USD 7.23 : done, 0, 723
+   USD 7.16 : done, 0, 716
    section 26 Nov
-   USD 7.52 : done, 0, 752
+   USD 7.43 : done, 0, 743
    section 27 Nov
-   USD 7.82 : done, 0, 782
+   USD 7.71 : done, 0, 771
    section 28 Nov
-   USD 8.11 : done, 0, 811
+   USD 7.98 : done, 0, 798
    section 29 Nov
-   USD 8.41 : done, 0, 841
+   USD 8.25 : done, 0, 825
    section 30 Nov
-   USD 8.70 : done, 0, 870
+   USD 8.52 : done, 0, 852
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|5.45 USD|
+|Azure App Service|5.50 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 5.45
+   "Azure App Service" : 5.50
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US Central|5.45 USD|
+|US Central|5.50 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -109,7 +109,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 5.45
+   "US Central" : 5.50
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -120,12 +120,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|5.45 USD|
+|personal-site|5.50 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 5.45
+   "personal-site" : 5.50
 ```
 
-<sup>Generated at 2023-11-20 11:17:19 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-21 11:15:15 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
