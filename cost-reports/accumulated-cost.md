@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/21/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/22/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
-|Today|0.11 USD|
-|Yesterday|0.37 USD|
-|Last 7 days|12.70 USD|
-|Last 30 days|43.54 USD|
+|Today|0.09 USD|
+|Yesterday|2.02 USD|
+|Last 7 days|15.10 USD|
+|Last 30 days|48.09 USD|
 
 ```mermaid
 gantt
@@ -59,55 +59,55 @@ gantt
    section 18 Nov
    USD 41.64 :0, 4164
    section 19 Nov
-   USD 43.06 :0, 4306
+   USD 43.81 :0, 4381
    section 20 Nov
-   USD 43.43 :0, 4343
+   USD 45.98 :0, 4598
    section 21 Nov
-   USD 43.54 :0, 4354
+   USD 48.00 :0, 4800
    section 22 Nov
-   USD 45.77 : done, 0, 4577
+   USD 48.09 :0, 4809
    section 23 Nov
-   USD 47.88 : done, 0, 4788
+   USD 50.31 : done, 0, 5031
    section 24 Nov
-   USD 49.94 : done, 0, 4994
+   USD 52.49 : done, 0, 5249
    section 25 Nov
-   USD 51.89 : done, 0, 5189
+   USD 54.55 : done, 0, 5455
    section 26 Nov
-   USD 53.81 : done, 0, 5381
+   USD 56.59 : done, 0, 5659
    section 27 Nov
-   USD 55.85 : done, 0, 5585
+   USD 58.74 : done, 0, 5874
    section 28 Nov
-   USD 57.97 : done, 0, 5797
+   USD 61.00 : done, 0, 6100
    section 29 Nov
-   USD 60.12 : done, 0, 6012
+   USD 63.28 : done, 0, 6328
    section 30 Nov
-   USD 62.14 : done, 0, 6214
+   USD 65.45 : done, 0, 6545
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|16.41 USD|
-|Azure App Service|11.00 USD|
-|Virtual Machines|7.59 USD|
-|Virtual Network|4.47 USD|
+|Storage|18.51 USD|
+|Azure App Service|12.35 USD|
+|Virtual Machines|7.95 USD|
+|Virtual Network|5.03 USD|
 |Bandwidth|2.66 USD|
-|Azure DNS|0.91 USD|
-|Microsoft Defender for Cloud|0.51 USD|
+|Azure DNS|1.02 USD|
+|Microsoft Defender for Cloud|0.57 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 16.41
-   "Azure App Service" : 11.00
-   "Virtual Machines" : 7.59
-   "Virtual Network" : 4.47
+   "Storage" : 18.51
+   "Azure App Service" : 12.35
+   "Virtual Machines" : 7.95
+   "Virtual Network" : 5.03
    "Bandwidth" : 2.66
-   "Azure DNS" : 0.91
-   "Microsoft Defender for Cloud" : 0.51
+   "Azure DNS" : 1.02
+   "Microsoft Defender for Cloud" : 0.57
    "Functions" : 0.00
    "Log Analytics" : 0.00
 ```
@@ -116,11 +116,11 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|31.45 USD|
-|US Central|11.31 USD|
-|Unknown|0.93 USD|
-|Unassigned|0.52 USD|
-|US East|0.19 USD|
+|US North Central|33.89 USD|
+|US Central|12.40 USD|
+|Unknown|1.02 USD|
+|Unassigned|0.57 USD|
+|US East|0.21 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -129,11 +129,11 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 31.45
-   "US Central" : 11.31
-   "Unknown" : 0.93
-   "Unassigned" : 0.52
-   "US East" : 0.19
+   "US North Central" : 33.89
+   "US Central" : 12.40
+   "Unknown" : 1.02
+   "Unassigned" : 0.57
+   "US East" : 0.21
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -144,20 +144,20 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|31.20 USD|
-|personal-site|11.04 USD|
-|personal-dns|0.61 USD|
-||0.51 USD|
-|cloud-shell-storage-eastus|0.19 USD|
+|personal-network|34.22 USD|
+|personal-site|12.40 USD|
+|personal-dns|0.68 USD|
+||0.57 USD|
+|cloud-shell-storage-eastus|0.21 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 31.20
-   "personal-site" : 11.04
-   "personal-dns" : 0.61
-   "(Unknown)" : 0.51
-   "cloud-shell-storage-eastus" : 0.19
+   "personal-network" : 34.22
+   "personal-site" : 12.40
+   "personal-dns" : 0.68
+   "(Unknown)" : 0.57
+   "cloud-shell-storage-eastus" : 0.21
 ```
 
-<sup>Generated at 2023-11-21 11:34:30 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-22 11:35:24 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
