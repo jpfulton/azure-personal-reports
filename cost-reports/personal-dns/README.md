@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/19/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/21/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.00 USD|
-|Last 7 days|0.18 USD|
-|Last 30 days|0.61 USD|
+|Yesterday|0.03 USD|
+|Last 7 days|0.23 USD|
+|Last 30 days|0.68 USD|
 
 ```mermaid
 gantt
@@ -59,65 +59,65 @@ gantt
    section 18 Nov
    USD 0.59 :0, 59
    section 19 Nov
-   USD 0.61 :0, 61
+   USD 0.62 :0, 62
    section 20 Nov
-   USD 0.64 : done, 0, 64
+   USD 0.65 :0, 65
    section 21 Nov
-   USD 0.67 : done, 0, 67
+   USD 0.68 :0, 68
    section 22 Nov
-   USD 0.70 : done, 0, 70
+   USD 0.72 : done, 0, 72
    section 23 Nov
-   USD 0.73 : done, 0, 73
+   USD 0.75 : done, 0, 75
    section 24 Nov
-   USD 0.76 : done, 0, 76
+   USD 0.78 : done, 0, 78
    section 25 Nov
-   USD 0.79 : done, 0, 79
+   USD 0.82 : done, 0, 82
    section 26 Nov
-   USD 0.83 : done, 0, 83
+   USD 0.85 : done, 0, 85
    section 27 Nov
-   USD 0.86 : done, 0, 86
+   USD 0.88 : done, 0, 88
    section 28 Nov
-   USD 0.89 : done, 0, 89
+   USD 0.91 : done, 0, 91
    section 29 Nov
-   USD 0.92 : done, 0, 92
-   section 30 Nov
    USD 0.95 : done, 0, 95
+   section 30 Nov
+   USD 0.98 : done, 0, 98
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.62 USD|
+|Azure DNS|0.68 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.62
+   "Azure DNS" : 0.68
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.62 USD|
+|Unknown|0.68 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.62
+   "Unknown" : 0.68
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-dns|0.61 USD|
+|personal-dns|0.68 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-dns" : 0.61
+   "personal-dns" : 0.68
 ```
 
-<sup>Generated at 2023-11-21 11:07:14 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-22 11:07:16 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
