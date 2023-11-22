@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/19/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/21/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.00 USD|
-|Last 7 days|0.36 USD|
-|Last 30 days|1.17 USD|
+|Yesterday|0.06 USD|
+|Last 7 days|0.44 USD|
+|Last 30 days|1.32 USD|
 
 ```mermaid
 gantt
@@ -59,65 +59,65 @@ gantt
    section 18 Nov
    USD 1.14 :0, 114
    section 19 Nov
-   USD 1.17 :0, 117
+   USD 1.20 :0, 120
    section 20 Nov
-   USD 1.23 : done, 0, 123
+   USD 1.26 :0, 126
    section 21 Nov
-   USD 1.29 : done, 0, 129
+   USD 1.32 :0, 132
    section 22 Nov
-   USD 1.36 : done, 0, 136
+   USD 1.39 : done, 0, 139
    section 23 Nov
-   USD 1.42 : done, 0, 142
+   USD 1.45 : done, 0, 145
    section 24 Nov
-   USD 1.49 : done, 0, 149
+   USD 1.52 : done, 0, 152
    section 25 Nov
-   USD 1.55 : done, 0, 155
+   USD 1.58 : done, 0, 158
    section 26 Nov
-   USD 1.62 : done, 0, 162
+   USD 1.65 : done, 0, 165
    section 27 Nov
-   USD 1.68 : done, 0, 168
+   USD 1.71 : done, 0, 171
    section 28 Nov
-   USD 1.75 : done, 0, 175
+   USD 1.78 : done, 0, 178
    section 29 Nov
-   USD 1.81 : done, 0, 181
+   USD 1.84 : done, 0, 184
    section 30 Nov
-   USD 1.88 : done, 0, 188
+   USD 1.91 : done, 0, 191
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|1.17 USD|
+|Storage|1.32 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 1.17
+   "Storage" : 1.32
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|1.17 USD|
+|US North Central|1.32 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 1.17
+   "US North Central" : 1.32
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|1.21 USD|
+|personal-network|1.32 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 1.21
+   "personal-network" : 1.32
 ```
 
-<sup>Generated at 2023-11-21 11:22:19 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-22 11:23:28 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
