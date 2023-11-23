@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/21/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/22/2023**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.06 USD|
 |Last 7 days|0.44 USD|
-|Last 30 days|1.32 USD|
+|Last 30 days|1.39 USD|
 
 ```mermaid
 gantt
@@ -63,61 +63,61 @@ gantt
    section 20 Nov
    USD 1.26 :0, 126
    section 21 Nov
-   USD 1.32 :0, 132
+   USD 1.33 :0, 133
    section 22 Nov
-   USD 1.39 : done, 0, 139
+   USD 1.39 :0, 139
    section 23 Nov
    USD 1.45 : done, 0, 145
    section 24 Nov
-   USD 1.52 : done, 0, 152
+   USD 1.51 : done, 0, 151
    section 25 Nov
    USD 1.58 : done, 0, 158
    section 26 Nov
-   USD 1.65 : done, 0, 165
+   USD 1.64 : done, 0, 164
    section 27 Nov
    USD 1.71 : done, 0, 171
    section 28 Nov
-   USD 1.78 : done, 0, 178
+   USD 1.77 : done, 0, 177
    section 29 Nov
    USD 1.84 : done, 0, 184
    section 30 Nov
-   USD 1.91 : done, 0, 191
+   USD 1.90 : done, 0, 190
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|1.32 USD|
+|Storage|1.39 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 1.32
+   "Storage" : 1.39
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|1.32 USD|
+|US North Central|1.39 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 1.32
+   "US North Central" : 1.39
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|1.32 USD|
+|personal-network|1.39 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 1.32
+   "personal-network" : 1.39
 ```
 
-<sup>Generated at 2023-11-22 11:23:28 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-23 11:20:08 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
