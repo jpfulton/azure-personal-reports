@@ -24,8 +24,9 @@ Fetching daily cost data...
 | **2023-11-19** | **2.16** | **personal-network**: `1.50` (_69.50%_), **personal-site**: `0.59` (_27.45%_), **personal-dns**: `0.03` (_1.51%_), ****: `0.02` (_1.08%_), **cloud-shell-storage-eastus**: `0.01` (_0.46%_), **Other**: `0.00` (_0.00%_) |
 | **2023-11-20** | **2.17** | **personal-network**: `1.51` (_69.52%_), **personal-site**: `0.59` (_27.37%_), **personal-dns**: `0.03` (_1.51%_), ****: `0.02` (_1.14%_), **cloud-shell-storage-eastus**: `0.01` (_0.46%_), **Other**: `0.00` (_0.00%_) |
 | **2023-11-21** | **2.19** | **personal-network**: `1.52` (_69.45%_), **personal-site**: `0.59` (_27.18%_), **personal-dns**: `0.03` (_1.50%_), ****: `0.03` (_1.42%_), **cloud-shell-storage-eastus**: `0.01` (_0.46%_), **Other**: `0.00` (_0.00%_) |
-| **2023-11-22** | **1.99** | **personal-network**: `1.41` (_70.74%_), **personal-site**: `0.52` (_26.14%_), **personal-dns**: `0.03` (_1.51%_), ****: `0.02` (_1.15%_), **cloud-shell-storage-eastus**: `0.01` (_0.46%_), **Other**: `0.00` (_0.00%_) |
-| **2023-11-23** | **0.09** | **personal-network**: `0.09` (_100.00%_), **Other**: `0.00` (_0.00%_) |
+| **2023-11-22** | **2.16** | **personal-network**: `1.50` (_69.41%_), **personal-site**: `0.59` (_27.43%_), **personal-dns**: `0.03` (_1.51%_), ****: `0.03` (_1.18%_), **cloud-shell-storage-eastus**: `0.01` (_0.46%_), **Other**: `0.00` (_0.00%_) |
+| **2023-11-23** | **2.08** | **personal-network**: `1.47` (_70.65%_), **personal-site**: `0.54` (_26.22%_), **personal-dns**: `0.03` (_1.51%_), ****: `0.02` (_1.15%_), **cloud-shell-storage-eastus**: `0.01` (_0.46%_), **Other**: `0.00` (_0.00%_) |
+| **2023-11-24** | **0.09** | **personal-network**: `0.09` (_100.00%_), **Other**: `0.00` (_0.00%_) |
 
 
-<sup>Generated at 2023-11-23 11:32:03 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-24 11:32:45 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
