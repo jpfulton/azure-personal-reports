@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/27/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/28/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
-|Today|0.09 USD|
-|Yesterday|1.48 USD|
-|Last 7 days|11.21 USD|
-|Last 30 days|43.00 USD|
+|Today|0.08 USD|
+|Yesterday|1.39 USD|
+|Last 7 days|11.15 USD|
+|Last 30 days|44.66 USD|
 
 ```mermaid
 gantt
@@ -41,93 +41,93 @@ gantt
    section 09 Nov
    USD 16.19 :0, 1619
    section 10 Nov
-   USD 17.75 :0, 1775
+   USD 17.77 :0, 1777
    section 11 Nov
-   USD 19.31 :0, 1931
+   USD 19.33 :0, 1933
    section 12 Nov
-   USD 20.90 :0, 2090
+   USD 20.93 :0, 2093
    section 13 Nov
-   USD 22.49 :0, 2249
+   USD 22.55 :0, 2255
    section 14 Nov
-   USD 23.99 :0, 2399
+   USD 24.04 :0, 2404
    section 15 Nov
-   USD 25.56 :0, 2556
+   USD 25.63 :0, 2563
    section 16 Nov
-   USD 27.11 :0, 2711
+   USD 27.18 :0, 2718
    section 17 Nov
-   USD 28.68 :0, 2868
+   USD 28.77 :0, 2877
    section 18 Nov
-   USD 30.23 :0, 3023
+   USD 30.33 :0, 3033
    section 19 Nov
-   USD 31.79 :0, 3179
+   USD 31.89 :0, 3189
    section 20 Nov
-   USD 33.38 :0, 3338
+   USD 33.50 :0, 3350
    section 21 Nov
-   USD 35.07 :0, 3507
+   USD 35.22 :0, 3522
    section 22 Nov
-   USD 36.63 :0, 3663
+   USD 36.80 :0, 3680
    section 23 Nov
-   USD 38.26 :0, 3826
+   USD 38.45 :0, 3845
    section 24 Nov
-   USD 39.84 :0, 3984
+   USD 40.04 :0, 4004
    section 25 Nov
-   USD 41.43 :0, 4143
+   USD 41.64 :0, 4164
    section 26 Nov
-   USD 42.91 :0, 4291
+   USD 43.18 :0, 4318
    section 27 Nov
-   USD 43.00 :0, 4300
+   USD 44.58 :0, 4458
    section 28 Nov
-   USD 44.63 : done, 0, 4463
+   USD 44.66 :0, 4466
    section 29 Nov
-   USD 46.25 : done, 0, 4625
+   USD 46.28 : done, 0, 4628
    section 30 Nov
-   USD 47.82 : done, 0, 4782
+   USD 47.87 : done, 0, 4787
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|22.65 USD|
-|Virtual Machines|9.82 USD|
-|Virtual Network|6.23 USD|
-|Bandwidth|3.87 USD|
-|Azure DNS|0.42 USD|
+|Storage|23.45 USD|
+|Virtual Machines|10.18 USD|
+|Virtual Network|6.46 USD|
+|Bandwidth|4.13 USD|
+|Azure DNS|0.43 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 22.65
-   "Virtual Machines" : 9.82
-   "Virtual Network" : 6.23
-   "Bandwidth" : 3.87
-   "Azure DNS" : 0.42
+   "Storage" : 23.45
+   "Virtual Machines" : 10.18
+   "Virtual Network" : 6.46
+   "Bandwidth" : 4.13
+   "Azure DNS" : 0.43
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|42.58 USD|
-|Unknown|0.42 USD|
+|US North Central|44.22 USD|
+|Unknown|0.43 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 42.58
-   "Unknown" : 0.42
+   "US North Central" : 44.22
+   "Unknown" : 0.43
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|43.00 USD|
+|personal-network|44.66 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 43.00
+   "personal-network" : 44.66
 ```
 
-<sup>Generated at 2023-11-27 11:07:15 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-28 11:08:04 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
