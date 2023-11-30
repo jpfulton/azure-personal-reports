@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/28/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **11/01/2023** to **11/29/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.49 USD|
+|Yesterday|0.50 USD|
 |Last 7 days|4.06 USD|
-|Last 30 days|16.54 USD|
+|Last 30 days|17.13 USD|
 
 ```mermaid
 gantt
@@ -77,9 +77,9 @@ gantt
    section 27 Nov
    USD 16.04 :0, 1604
    section 28 Nov
-   USD 16.54 :0, 1654
+   USD 16.64 :0, 1664
    section 29 Nov
-   USD 17.13 : done, 0, 1713
+   USD 17.13 :0, 1713
    section 30 Nov
    USD 17.72 : done, 0, 1772
 ```
@@ -88,8 +88,8 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|16.47 USD|
-|Storage|0.06 USD|
+|Azure App Service|17.06 USD|
+|Storage|0.07 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
@@ -97,8 +97,8 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 16.47
-   "Storage" : 0.06
+   "Azure App Service" : 17.06
+   "Storage" : 0.07
    "Bandwidth" : 0.00
    "Functions" : 0.00
    "Log Analytics" : 0.00
@@ -108,7 +108,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|16.54 USD|
+|US Central|17.13 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -117,7 +117,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 16.54
+   "US Central" : 17.13
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -128,12 +128,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|16.54 USD|
+|personal-site|17.13 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 16.54
+   "personal-site" : 17.13
 ```
 
-<sup>Generated at 2023-11-29 11:08:42 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-11-30 11:04:11 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
