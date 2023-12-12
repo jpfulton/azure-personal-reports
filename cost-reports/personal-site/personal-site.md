@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/10/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/11/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.27 USD|
-|Last 7 days|2.05 USD|
-|Last 30 days|2.93 USD|
+|Yesterday|0.12 USD|
+|Last 7 days|1.90 USD|
+|Last 30 days|3.08 USD|
 
 ```mermaid
 gantt
@@ -33,7 +33,7 @@ gantt
    section 05 Dec
    USD 1.48 :0, 148
    section 06 Dec
-   USD 1.78 :0, 178
+   USD 1.77 :0, 177
    section 07 Dec
    USD 2.07 :0, 207
    section 08 Dec
@@ -41,68 +41,68 @@ gantt
    section 09 Dec
    USD 2.66 :0, 266
    section 10 Dec
-   USD 2.93 :0, 293
+   USD 2.96 :0, 296
    section 11 Dec
-   USD 3.23 : done, 0, 323
+   USD 3.08 :0, 308
    section 12 Dec
-   USD 3.53 : done, 0, 353
+   USD 3.38 : done, 0, 338
    section 13 Dec
-   USD 3.82 : done, 0, 382
+   USD 3.67 : done, 0, 367
    section 14 Dec
-   USD 4.12 : done, 0, 412
+   USD 3.97 : done, 0, 397
    section 15 Dec
-   USD 4.41 : done, 0, 441
+   USD 4.27 : done, 0, 427
    section 16 Dec
-   USD 4.71 : done, 0, 471
+   USD 4.56 : done, 0, 456
    section 17 Dec
-   USD 5.01 : done, 0, 501
+   USD 4.86 : done, 0, 486
    section 18 Dec
-   USD 5.30 : done, 0, 530
+   USD 5.15 : done, 0, 515
    section 19 Dec
-   USD 5.60 : done, 0, 560
+   USD 5.45 : done, 0, 545
    section 20 Dec
-   USD 5.89 : done, 0, 589
+   USD 5.74 : done, 0, 574
    section 21 Dec
-   USD 6.19 : done, 0, 619
+   USD 6.04 : done, 0, 604
    section 22 Dec
-   USD 6.48 : done, 0, 648
+   USD 6.34 : done, 0, 634
    section 23 Dec
-   USD 6.78 : done, 0, 678
+   USD 6.63 : done, 0, 663
    section 24 Dec
-   USD 7.08 : done, 0, 708
+   USD 6.93 : done, 0, 693
    section 25 Dec
-   USD 7.37 : done, 0, 737
+   USD 7.22 : done, 0, 722
    section 26 Dec
-   USD 7.67 : done, 0, 767
+   USD 7.52 : done, 0, 752
    section 27 Dec
-   USD 7.96 : done, 0, 796
+   USD 7.82 : done, 0, 782
    section 28 Dec
-   USD 8.26 : done, 0, 826
+   USD 8.11 : done, 0, 811
    section 29 Dec
-   USD 8.56 : done, 0, 856
+   USD 8.41 : done, 0, 841
    section 30 Dec
-   USD 8.85 : done, 0, 885
+   USD 8.70 : done, 0, 870
    section 31 Dec
-   USD 9.15 : done, 0, 915
+   USD 9.00 : done, 0, 900
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|2.93 USD|
+|Azure App Service|3.08 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 2.93
+   "Azure App Service" : 3.08
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US Central|2.93 USD|
+|US Central|3.24 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -111,7 +111,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 2.93
+   "US Central" : 3.24
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -122,12 +122,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|2.93 USD|
+|personal-site|3.24 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 2.93
+   "personal-site" : 3.24
 ```
 
-<sup>Generated at 2023-12-11 11:16:40 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-12-12 11:15:59 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
