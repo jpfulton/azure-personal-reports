@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/11/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/12/2023**
 
 ## Totals
 
@@ -14,8 +14,8 @@ Fetching cost data by resource group...
 |---|---:|
 |Today|0.00 USD|
 |Yesterday|0.06 USD|
-|Last 7 days|0.44 USD|
-|Last 30 days|0.69 USD|
+|Last 7 days|0.43 USD|
+|Last 30 days|0.74 USD|
 
 ```mermaid
 gantt
@@ -45,7 +45,7 @@ gantt
    section 11 Dec
    USD 0.69 :0, 69
    section 12 Dec
-   USD 0.75 : done, 0, 75
+   USD 0.74 :0, 74
    section 13 Dec
    USD 0.81 : done, 0, 81
    section 14 Dec
@@ -55,9 +55,9 @@ gantt
    section 16 Dec
    USD 0.99 : done, 0, 99
    section 17 Dec
-   USD 1.06 : done, 0, 106
+   USD 1.05 : done, 0, 105
    section 18 Dec
-   USD 1.12 : done, 0, 112
+   USD 1.11 : done, 0, 111
    section 19 Dec
    USD 1.18 : done, 0, 118
    section 20 Dec
@@ -69,13 +69,13 @@ gantt
    section 23 Dec
    USD 1.42 : done, 0, 142
    section 24 Dec
-   USD 1.49 : done, 0, 149
+   USD 1.48 : done, 0, 148
    section 25 Dec
-   USD 1.55 : done, 0, 155
+   USD 1.54 : done, 0, 154
    section 26 Dec
-   USD 1.61 : done, 0, 161
+   USD 1.60 : done, 0, 160
    section 27 Dec
-   USD 1.67 : done, 0, 167
+   USD 1.66 : done, 0, 166
    section 28 Dec
    USD 1.73 : done, 0, 173
    section 29 Dec
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Storage|0.69 USD|
+|Storage|0.74 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.69
+   "Storage" : 0.74
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|0.69 USD|
+|US North Central|0.74 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 0.69
+   "US North Central" : 0.74
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.69 USD|
+|personal-network|0.74 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.69
+   "personal-network" : 0.74
 ```
 
-<sup>Generated at 2023-12-12 11:32:12 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-12-13 11:32:29 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

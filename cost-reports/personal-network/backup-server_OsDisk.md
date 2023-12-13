@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/11/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/12/2023**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.06 USD|
 |Last 7 days|0.43 USD|
-|Last 30 days|0.68 USD|
+|Last 30 days|0.74 USD|
 
 ```mermaid
 gantt
@@ -45,11 +45,11 @@ gantt
    section 11 Dec
    USD 0.68 :0, 68
    section 12 Dec
-   USD 0.74 : done, 0, 74
+   USD 0.74 :0, 74
    section 13 Dec
-   USD 0.81 : done, 0, 81
+   USD 0.80 : done, 0, 80
    section 14 Dec
-   USD 0.87 : done, 0, 87
+   USD 0.86 : done, 0, 86
    section 15 Dec
    USD 0.93 : done, 0, 93
    section 16 Dec
@@ -63,15 +63,15 @@ gantt
    section 20 Dec
    USD 1.23 : done, 0, 123
    section 21 Dec
-   USD 1.30 : done, 0, 130
+   USD 1.29 : done, 0, 129
    section 22 Dec
-   USD 1.36 : done, 0, 136
+   USD 1.35 : done, 0, 135
    section 23 Dec
-   USD 1.42 : done, 0, 142
+   USD 1.41 : done, 0, 141
    section 24 Dec
-   USD 1.48 : done, 0, 148
+   USD 1.47 : done, 0, 147
    section 25 Dec
-   USD 1.54 : done, 0, 154
+   USD 1.53 : done, 0, 153
    section 26 Dec
    USD 1.60 : done, 0, 160
    section 27 Dec
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Storage|0.68 USD|
+|Storage|0.74 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.68
+   "Storage" : 0.74
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|0.68 USD|
+|US North Central|0.74 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 0.68
+   "US North Central" : 0.74
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.68 USD|
+|personal-network|0.74 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.68
+   "personal-network" : 0.74
 ```
 
-<sup>Generated at 2023-12-12 11:22:04 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-12-13 11:21:27 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
