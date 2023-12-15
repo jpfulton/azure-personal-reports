@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/13/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/14/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.02 USD|
+|Yesterday|0.01 USD|
 |Last 7 days|0.11 USD|
-|Last 30 days|0.21 USD|
+|Last 30 days|0.22 USD|
 
 ```mermaid
 gantt
@@ -49,11 +49,11 @@ gantt
    section 13 Dec
    USD 0.21 :0, 21
    section 14 Dec
-   USD 0.22 : done, 0, 22
+   USD 0.22 :0, 22
    section 15 Dec
    USD 0.24 : done, 0, 24
    section 16 Dec
-   USD 0.26 : done, 0, 26
+   USD 0.25 : done, 0, 25
    section 17 Dec
    USD 0.27 : done, 0, 27
    section 18 Dec
@@ -63,7 +63,7 @@ gantt
    section 20 Dec
    USD 0.32 : done, 0, 32
    section 21 Dec
-   USD 0.34 : done, 0, 34
+   USD 0.33 : done, 0, 33
    section 22 Dec
    USD 0.35 : done, 0, 35
    section 23 Dec
@@ -79,7 +79,7 @@ gantt
    section 28 Dec
    USD 0.45 : done, 0, 45
    section 29 Dec
-   USD 0.47 : done, 0, 47
+   USD 0.46 : done, 0, 46
    section 30 Dec
    USD 0.48 : done, 0, 48
    section 31 Dec
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.21 USD|
+|Azure DNS|0.22 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.21
+   "Azure DNS" : 0.22
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.21 USD|
+|Unknown|0.22 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.21
+   "Unknown" : 0.22
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.21 USD|
+|personal-network|0.22 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.21
+   "personal-network" : 0.22
 ```
 
-<sup>Generated at 2023-12-14 11:28:14 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-12-15 11:27:27 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
