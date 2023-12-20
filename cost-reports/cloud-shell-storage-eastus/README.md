@@ -1,5 +1,125 @@
+Fetching subscription details...
+Fetching cost data...
+Fetching forecasted cost data...
+Fetching cost data by service name...
+Fetching cost data by location...
+Fetching cost data by resource group...
 # Azure Cost Overview
 
-> An error occured building the summary report for the cloud-shell-storage-eastus resource group.
-> Running Version: 0.0.6.0
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/19/2023**
 
+## Totals
+
+|Period|Amount|
+|---|---:|
+|Today|0.00 USD|
+|Yesterday|0.01 USD|
+|Last 7 days|0.07 USD|
+|Last 30 days|0.18 USD|
+
+```mermaid
+gantt
+   title Accumulated cost
+   dateFormat  X
+   axisFormat %s
+   section 01 Dec
+   USD 0.01 :0, 1
+   section 02 Dec
+   USD 0.02 :0, 2
+   section 03 Dec
+   USD 0.03 :0, 3
+   section 04 Dec
+   USD 0.04 :0, 4
+   section 05 Dec
+   USD 0.05 :0, 5
+   section 06 Dec
+   USD 0.06 :0, 6
+   section 07 Dec
+   USD 0.07 :0, 7
+   section 08 Dec
+   USD 0.08 :0, 8
+   section 09 Dec
+   USD 0.09 :0, 9
+   section 10 Dec
+   USD 0.10 :0, 10
+   section 11 Dec
+   USD 0.11 :0, 11
+   section 12 Dec
+   USD 0.12 :0, 12
+   section 13 Dec
+   USD 0.13 :0, 13
+   section 14 Dec
+   USD 0.14 :0, 14
+   section 15 Dec
+   USD 0.15 :0, 15
+   section 16 Dec
+   USD 0.16 :0, 16
+   section 17 Dec
+   USD 0.16 :0, 16
+   section 18 Dec
+   USD 0.17 :0, 17
+   section 19 Dec
+   USD 0.18 :0, 18
+   section 20 Dec
+   USD 0.19 : done, 0, 19
+   section 21 Dec
+   USD 0.20 : done, 0, 20
+   section 22 Dec
+   USD 0.21 : done, 0, 21
+   section 23 Dec
+   USD 0.22 : done, 0, 22
+   section 24 Dec
+   USD 0.23 : done, 0, 23
+   section 25 Dec
+   USD 0.24 : done, 0, 24
+   section 26 Dec
+   USD 0.25 : done, 0, 25
+   section 27 Dec
+   USD 0.26 : done, 0, 26
+   section 28 Dec
+   USD 0.27 : done, 0, 27
+   section 29 Dec
+   USD 0.28 : done, 0, 28
+   section 30 Dec
+   USD 0.29 : done, 0, 29
+   section 31 Dec
+   USD 0.30 : done, 0, 30
+```
+
+## By Service Name
+
+|Service|Amount|
+|---|---:|
+|Storage|0.18 USD|
+
+```mermaid
+pie
+   title Cost by service
+   "Storage" : 0.18
+```
+
+## By Location
+
+|Location|Amount|
+|---|---:|
+|US East|0.18 USD|
+
+```mermaid
+pie
+   title Cost by location
+   "US East" : 0.18
+```
+
+## By Resource Group
+
+|Resource Group|Amount|
+|---|---:|
+|cloud-shell-storage-eastus|0.18 USD|
+
+```mermaid
+pie
+   title Cost by resource group
+   "cloud-shell-storage-eastus" : 0.18
+```
+
+<sup>Generated at 2023-12-20 11:07:15 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
