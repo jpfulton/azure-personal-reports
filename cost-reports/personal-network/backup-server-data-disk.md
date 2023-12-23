@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/21/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/22/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.62 USD|
-|Last 7 days|4.97 USD|
-|Last 30 days|15.23 USD|
+|Yesterday|0.69 USD|
+|Last 7 days|5.03 USD|
+|Last 30 days|16.00 USD|
 
 ```mermaid
 gantt
@@ -63,63 +63,63 @@ gantt
    section 20 Dec
    USD 14.61 :0, 1461
    section 21 Dec
-   USD 15.23 :0, 1523
+   USD 15.32 :0, 1532
    section 22 Dec
-   USD 15.94 : done, 0, 1594
+   USD 16.00 :0, 1600
    section 23 Dec
-   USD 16.66 : done, 0, 1666
+   USD 16.72 : done, 0, 1672
    section 24 Dec
-   USD 17.37 : done, 0, 1737
+   USD 17.43 : done, 0, 1743
    section 25 Dec
-   USD 18.10 : done, 0, 1810
+   USD 18.16 : done, 0, 1816
    section 26 Dec
-   USD 18.83 : done, 0, 1883
+   USD 18.89 : done, 0, 1889
    section 27 Dec
-   USD 19.56 : done, 0, 1956
+   USD 19.60 : done, 0, 1960
    section 28 Dec
-   USD 20.28 : done, 0, 2028
+   USD 20.32 : done, 0, 2032
    section 29 Dec
-   USD 20.98 : done, 0, 2098
+   USD 21.02 : done, 0, 2102
    section 30 Dec
-   USD 21.70 : done, 0, 2170
+   USD 21.73 : done, 0, 2173
    section 31 Dec
-   USD 22.41 : done, 0, 2241
+   USD 22.44 : done, 0, 2244
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|15.23 USD|
+|Storage|16.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 15.23
+   "Storage" : 16.00
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|15.23 USD|
+|US North Central|16.00 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 15.23
+   "US North Central" : 16.00
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|15.23 USD|
+|personal-network|16.00 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 15.23
+   "personal-network" : 16.00
 ```
 
-<sup>Generated at 2023-12-22 11:16:10 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-12-23 11:15:55 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
