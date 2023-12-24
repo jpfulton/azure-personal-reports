@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/23/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/24/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.05 USD|
-|Yesterday|0.21 USD|
-|Last 7 days|1.61 USD|
-|Last 30 days|7.60 USD|
+|Yesterday|0.20 USD|
+|Last 7 days|1.59 USD|
+|Last 30 days|7.80 USD|
 
 ```mermaid
 gantt
@@ -61,42 +61,42 @@ gantt
    section 19 Dec
    USD 6.94 :0, 694
    section 20 Dec
-   USD 7.14 :0, 714
+   USD 7.15 :0, 715
    section 21 Dec
    USD 7.34 :0, 734
    section 22 Dec
    USD 7.55 :0, 755
    section 23 Dec
-   USD 7.60 :0, 760
+   USD 7.75 :0, 775
    section 24 Dec
-   USD 7.76 : done, 0, 776
+   USD 7.80 :0, 780
    section 25 Dec
-   USD 7.88 : done, 0, 788
+   USD 7.95 : done, 0, 795
    section 26 Dec
-   USD 7.96 : done, 0, 796
+   USD 8.08 : done, 0, 808
    section 27 Dec
-   USD 8.00 : done, 0, 800
+   USD 8.17 : done, 0, 817
    section 28 Dec
-   USD 8.13 : done, 0, 813
+   USD 8.29 : done, 0, 829
    section 29 Dec
-   USD 8.23 : done, 0, 823
+   USD 8.31 : done, 0, 831
    section 30 Dec
-   USD 8.46 : done, 0, 846
+   USD 8.60 : done, 0, 860
    section 31 Dec
-   USD 8.53 : done, 0, 853
+   USD 8.72 : done, 0, 872
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Machines|4.37 USD|
+|Virtual Machines|4.57 USD|
 |Bandwidth|3.23 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Machines" : 4.37
+   "Virtual Machines" : 4.57
    "Bandwidth" : 3.23
 ```
 
@@ -104,24 +104,24 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|7.60 USD|
+|US North Central|7.80 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 7.60
+   "US North Central" : 7.80
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|7.60 USD|
+|personal-network|7.80 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 7.60
+   "personal-network" : 7.80
 ```
 
-<sup>Generated at 2023-12-23 11:28:57 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-12-24 11:30:14 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
