@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/24/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/25/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.10 USD|
-|Yesterday|2.03 USD|
-|Last 7 days|15.31 USD|
-|Last 30 days|53.09 USD|
+|Yesterday|2.04 USD|
+|Last 7 days|15.26 USD|
+|Last 30 days|55.24 USD|
 
 ```mermaid
 gantt
@@ -47,7 +47,7 @@ gantt
    section 12 Dec
    USD 29.02 :0, 2902
    section 13 Dec
-   USD 31.23 :0, 3123
+   USD 31.24 :0, 3124
    section 14 Dec
    USD 33.45 :0, 3345
    section 15 Dec
@@ -55,7 +55,7 @@ gantt
    section 16 Dec
    USD 37.79 :0, 3779
    section 17 Dec
-   USD 39.97 :0, 3997
+   USD 39.98 :0, 3998
    section 18 Dec
    USD 42.24 :0, 4224
    section 19 Dec
@@ -67,49 +67,49 @@ gantt
    section 22 Dec
    USD 50.96 :0, 5096
    section 23 Dec
-   USD 53.00 :0, 5300
-   section 24 Dec
    USD 53.09 :0, 5309
+   section 24 Dec
+   USD 55.14 :0, 5514
    section 25 Dec
-   USD 55.22 : done, 0, 5522
+   USD 55.24 :0, 5524
    section 26 Dec
-   USD 57.32 : done, 0, 5732
+   USD 57.31 : done, 0, 5731
    section 27 Dec
-   USD 59.38 : done, 0, 5938
+   USD 59.36 : done, 0, 5936
    section 28 Dec
-   USD 61.48 : done, 0, 6148
+   USD 61.43 : done, 0, 6143
    section 29 Dec
-   USD 63.46 : done, 0, 6346
+   USD 63.39 : done, 0, 6339
    section 30 Dec
-   USD 65.73 : done, 0, 6573
+   USD 65.58 : done, 0, 6558
    section 31 Dec
-   USD 67.85 : done, 0, 6785
+   USD 67.67 : done, 0, 6767
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|19.82 USD|
-|Azure App Service|13.56 USD|
-|Virtual Machines|9.13 USD|
-|Virtual Network|5.51 USD|
+|Storage|20.66 USD|
+|Azure App Service|14.15 USD|
+|Virtual Machines|9.52 USD|
+|Virtual Network|5.76 USD|
 |Bandwidth|3.23 USD|
-|Azure DNS|1.12 USD|
-|Microsoft Defender for Cloud|0.72 USD|
+|Azure DNS|1.17 USD|
+|Microsoft Defender for Cloud|0.74 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 19.82
-   "Azure App Service" : 13.56
-   "Virtual Machines" : 9.13
-   "Virtual Network" : 5.51
+   "Storage" : 20.66
+   "Azure App Service" : 14.15
+   "Virtual Machines" : 9.52
+   "Virtual Network" : 5.76
    "Bandwidth" : 3.23
-   "Azure DNS" : 1.12
-   "Microsoft Defender for Cloud" : 0.72
+   "Azure DNS" : 1.17
+   "Microsoft Defender for Cloud" : 0.74
    "Functions" : 0.00
    "Log Analytics" : 0.00
 ```
@@ -118,11 +118,11 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|37.42 USD|
-|US Central|13.61 USD|
-|Unknown|1.12 USD|
-|Unassigned|0.72 USD|
-|US East|0.22 USD|
+|US North Central|38.89 USD|
+|US Central|14.20 USD|
+|Unknown|1.17 USD|
+|Unassigned|0.74 USD|
+|US East|0.23 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -131,11 +131,11 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 37.42
-   "US Central" : 13.61
-   "Unknown" : 1.12
-   "Unassigned" : 0.72
-   "US East" : 0.22
+   "US North Central" : 38.89
+   "US Central" : 14.20
+   "Unknown" : 1.17
+   "Unassigned" : 0.74
+   "US East" : 0.23
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -146,20 +146,20 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|37.79 USD|
-|personal-site|13.61 USD|
-|personal-dns|0.75 USD|
-||0.72 USD|
-|cloud-shell-storage-eastus|0.22 USD|
+|personal-network|39.28 USD|
+|personal-site|14.20 USD|
+|personal-dns|0.79 USD|
+||0.74 USD|
+|cloud-shell-storage-eastus|0.23 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 37.79
-   "personal-site" : 13.61
-   "personal-dns" : 0.75
-   "(Unknown)" : 0.72
-   "cloud-shell-storage-eastus" : 0.22
+   "personal-network" : 39.28
+   "personal-site" : 14.20
+   "personal-dns" : 0.79
+   "(Unknown)" : 0.74
+   "cloud-shell-storage-eastus" : 0.23
 ```
 
-<sup>Generated at 2023-12-24 11:35:16 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-12-25 11:35:05 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
