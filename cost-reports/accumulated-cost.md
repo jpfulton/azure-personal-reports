@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/26/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/27/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.10 USD|
-|Yesterday|2.02 USD|
-|Last 7 days|15.11 USD|
-|Last 30 days|57.35 USD|
+|Yesterday|1.74 USD|
+|Last 7 days|14.70 USD|
+|Last 30 days|59.20 USD|
 
 ```mermaid
 gantt
@@ -65,51 +65,51 @@ gantt
    section 21 Dec
    USD 48.80 :0, 4880
    section 22 Dec
-   USD 50.96 :0, 5096
+   USD 50.97 :0, 5097
    section 23 Dec
    USD 53.10 :0, 5310
    section 24 Dec
    USD 55.23 :0, 5523
    section 25 Dec
-   USD 57.25 :0, 5725
+   USD 57.36 :0, 5736
    section 26 Dec
-   USD 57.35 :0, 5735
+   USD 59.10 :0, 5910
    section 27 Dec
-   USD 59.39 : done, 0, 5939
+   USD 59.20 :0, 5920
    section 28 Dec
-   USD 61.47 : done, 0, 6147
+   USD 61.27 : done, 0, 6127
    section 29 Dec
-   USD 63.43 : done, 0, 6343
+   USD 63.21 : done, 0, 6321
    section 30 Dec
-   USD 65.52 : done, 0, 6552
+   USD 65.28 : done, 0, 6528
    section 31 Dec
-   USD 67.60 : done, 0, 6760
+   USD 67.30 : done, 0, 6730
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|21.50 USD|
-|Azure App Service|14.74 USD|
-|Virtual Machines|9.92 USD|
-|Virtual Network|5.98 USD|
+|Storage|22.20 USD|
+|Azure App Service|15.24 USD|
+|Virtual Machines|10.31 USD|
+|Virtual Network|6.19 USD|
 |Bandwidth|3.23 USD|
-|Azure DNS|1.22 USD|
-|Microsoft Defender for Cloud|0.75 USD|
+|Azure DNS|1.26 USD|
+|Microsoft Defender for Cloud|0.77 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 21.50
-   "Azure App Service" : 14.74
-   "Virtual Machines" : 9.92
-   "Virtual Network" : 5.98
+   "Storage" : 22.20
+   "Azure App Service" : 15.24
+   "Virtual Machines" : 10.31
+   "Virtual Network" : 6.19
    "Bandwidth" : 3.23
-   "Azure DNS" : 1.22
-   "Microsoft Defender for Cloud" : 0.75
+   "Azure DNS" : 1.26
+   "Microsoft Defender for Cloud" : 0.77
    "Functions" : 0.00
    "Log Analytics" : 0.00
 ```
@@ -118,11 +118,11 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|40.33 USD|
-|US Central|14.80 USD|
-|Unknown|1.22 USD|
-|Unassigned|0.75 USD|
-|US East|0.24 USD|
+|US North Central|41.62 USD|
+|US Central|15.29 USD|
+|Unknown|1.26 USD|
+|Unassigned|0.77 USD|
+|US East|0.25 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -131,11 +131,11 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 40.33
-   "US Central" : 14.80
-   "Unknown" : 1.22
-   "Unassigned" : 0.75
-   "US East" : 0.24
+   "US North Central" : 41.62
+   "US Central" : 15.29
+   "Unknown" : 1.26
+   "Unassigned" : 0.77
+   "US East" : 0.25
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -146,20 +146,20 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|40.73 USD|
-|personal-site|14.80 USD|
-|personal-dns|0.82 USD|
-||0.75 USD|
-|cloud-shell-storage-eastus|0.24 USD|
+|personal-network|42.04 USD|
+|personal-site|15.29 USD|
+|personal-dns|0.85 USD|
+||0.77 USD|
+|cloud-shell-storage-eastus|0.25 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 40.73
-   "personal-site" : 14.80
-   "personal-dns" : 0.82
-   "(Unknown)" : 0.75
-   "cloud-shell-storage-eastus" : 0.24
+   "personal-network" : 42.04
+   "personal-site" : 15.29
+   "personal-dns" : 0.85
+   "(Unknown)" : 0.77
+   "cloud-shell-storage-eastus" : 0.25
 ```
 
-<sup>Generated at 2023-12-26 11:35:14 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-12-27 11:35:19 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
