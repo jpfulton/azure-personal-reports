@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/30/2023**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **12/01/2023** to **12/31/2023**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.08 USD|
-|Yesterday|2.18 USD|
-|Last 7 days|15.16 USD|
-|Last 30 days|67.01 USD|
+|Yesterday|1.29 USD|
+|Last 7 days|14.47 USD|
+|Last 30 days|68.95 USD|
 
 ```mermaid
 gantt
@@ -39,77 +39,77 @@ gantt
    section 08 Dec
    USD 19.73 :0, 1973
    section 09 Dec
-   USD 22.15 :0, 2215
+   USD 22.16 :0, 2216
    section 10 Dec
-   USD 24.69 :0, 2469
+   USD 24.80 :0, 2480
    section 11 Dec
-   USD 27.20 :0, 2720
+   USD 27.43 :0, 2743
    section 12 Dec
-   USD 29.48 :0, 2948
+   USD 29.74 :0, 2974
    section 13 Dec
-   USD 31.75 :0, 3175
+   USD 32.04 :0, 3204
    section 14 Dec
-   USD 34.01 :0, 3401
+   USD 34.33 :0, 3433
    section 15 Dec
-   USD 36.17 :0, 3617
+   USD 36.49 :0, 3649
    section 16 Dec
-   USD 38.39 :0, 3839
+   USD 38.73 :0, 3873
    section 17 Dec
-   USD 40.63 :0, 4063
+   USD 41.00 :0, 4100
    section 18 Dec
-   USD 42.98 :0, 4298
+   USD 43.39 :0, 4339
    section 19 Dec
-   USD 45.34 :0, 4534
+   USD 45.82 :0, 4582
    section 20 Dec
-   USD 47.52 :0, 4752
+   USD 48.01 :0, 4801
    section 21 Dec
-   USD 49.67 :0, 4967
+   USD 50.16 :0, 5016
    section 22 Dec
-   USD 51.85 :0, 5185
+   USD 52.35 :0, 5235
    section 23 Dec
-   USD 53.98 :0, 5398
+   USD 54.48 :0, 5448
    section 24 Dec
-   USD 56.11 :0, 5611
+   USD 56.61 :0, 5661
    section 25 Dec
-   USD 58.24 :0, 5824
+   USD 58.74 :0, 5874
    section 26 Dec
-   USD 60.37 :0, 6037
+   USD 60.87 :0, 6087
    section 27 Dec
-   USD 62.55 :0, 6255
+   USD 63.05 :0, 6305
    section 28 Dec
-   USD 64.75 :0, 6475
+   USD 65.26 :0, 6526
    section 29 Dec
-   USD 66.92 :0, 6692
+   USD 67.58 :0, 6758
    section 30 Dec
-   USD 67.01 :0, 6701
+   USD 68.87 :0, 6887
    section 31 Dec
-   USD 69.19 : done, 0, 6919
+   USD 68.95 :0, 6895
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|24.91 USD|
-|Azure App Service|17.11 USD|
-|Virtual Machines|11.47 USD|
-|Virtual Network|6.95 USD|
-|Bandwidth|4.28 USD|
-|Azure DNS|1.42 USD|
-|Microsoft Defender for Cloud|0.87 USD|
+|Storage|25.32 USD|
+|Azure App Service|17.41 USD|
+|Virtual Machines|11.86 USD|
+|Virtual Network|7.06 USD|
+|Bandwidth|4.98 USD|
+|Azure DNS|1.44 USD|
+|Microsoft Defender for Cloud|0.88 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 24.91
-   "Azure App Service" : 17.11
-   "Virtual Machines" : 11.47
-   "Virtual Network" : 6.95
-   "Bandwidth" : 4.28
-   "Azure DNS" : 1.42
-   "Microsoft Defender for Cloud" : 0.87
+   "Storage" : 25.32
+   "Azure App Service" : 17.41
+   "Virtual Machines" : 11.86
+   "Virtual Network" : 7.06
+   "Bandwidth" : 4.98
+   "Azure DNS" : 1.44
+   "Microsoft Defender for Cloud" : 0.88
    "Functions" : 0.00
    "Log Analytics" : 0.00
 ```
@@ -118,11 +118,11 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|47.27 USD|
-|US Central|17.17 USD|
-|Unknown|1.42 USD|
-|Unassigned|0.87 USD|
-|US East|0.28 USD|
+|US North Central|48.87 USD|
+|US Central|17.47 USD|
+|Unknown|1.44 USD|
+|Unassigned|0.88 USD|
+|US East|0.29 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -131,11 +131,11 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 47.27
-   "US Central" : 17.17
-   "Unknown" : 1.42
-   "Unassigned" : 0.87
-   "US East" : 0.28
+   "US North Central" : 48.87
+   "US Central" : 17.47
+   "Unknown" : 1.44
+   "Unassigned" : 0.88
+   "US East" : 0.29
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -146,20 +146,20 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|47.73 USD|
-|personal-site|17.17 USD|
-|personal-dns|0.95 USD|
-||0.87 USD|
-|cloud-shell-storage-eastus|0.28 USD|
+|personal-network|49.35 USD|
+|personal-site|17.47 USD|
+|personal-dns|0.97 USD|
+||0.88 USD|
+|cloud-shell-storage-eastus|0.29 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 47.73
-   "personal-site" : 17.17
-   "personal-dns" : 0.95
-   "(Unknown)" : 0.87
-   "cloud-shell-storage-eastus" : 0.28
+   "personal-network" : 49.35
+   "personal-site" : 17.47
+   "personal-dns" : 0.97
+   "(Unknown)" : 0.88
+   "cloud-shell-storage-eastus" : 0.29
 ```
 
-<sup>Generated at 2023-12-30 11:34:25 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2023-12-31 11:35:01 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
