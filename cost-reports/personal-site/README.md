@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/02/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/03/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.47 USD|
-|Last 7 days|1.06 USD|
-|Last 30 days|1.06 USD|
+|Yesterday|0.49 USD|
+|Last 7 days|1.68 USD|
+|Last 30 days|1.68 USD|
 
 ```mermaid
 gantt
@@ -25,73 +25,73 @@ gantt
    section 01 Jan
    USD 0.59 :0, 59
    section 02 Jan
-   USD 1.06 :0, 106
+   USD 1.19 :0, 119
    section 03 Jan
-   USD 1.66 : done, 0, 166
+   USD 1.68 :0, 168
    section 04 Jan
-   USD 2.25 : done, 0, 225
+   USD 2.28 : done, 0, 228
    section 05 Jan
-   USD 2.85 : done, 0, 285
+   USD 2.87 : done, 0, 287
    section 06 Jan
-   USD 3.44 : done, 0, 344
+   USD 3.47 : done, 0, 347
    section 07 Jan
-   USD 4.03 : done, 0, 403
+   USD 4.06 : done, 0, 406
    section 08 Jan
-   USD 4.63 : done, 0, 463
+   USD 4.65 : done, 0, 465
    section 09 Jan
-   USD 5.22 : done, 0, 522
+   USD 5.25 : done, 0, 525
    section 10 Jan
-   USD 5.82 : done, 0, 582
+   USD 5.84 : done, 0, 584
    section 11 Jan
-   USD 6.41 : done, 0, 641
+   USD 6.44 : done, 0, 644
    section 12 Jan
-   USD 7.00 : done, 0, 700
+   USD 7.03 : done, 0, 703
    section 13 Jan
-   USD 7.60 : done, 0, 760
+   USD 7.62 : done, 0, 762
    section 14 Jan
-   USD 8.19 : done, 0, 819
+   USD 8.22 : done, 0, 822
    section 15 Jan
-   USD 8.79 : done, 0, 879
+   USD 8.81 : done, 0, 881
    section 16 Jan
-   USD 9.38 : done, 0, 938
+   USD 9.41 : done, 0, 941
    section 17 Jan
-   USD 9.98 : done, 0, 998
+   USD 10.00 : done, 0, 1000
    section 18 Jan
-   USD 10.57 : done, 0, 1057
+   USD 10.59 : done, 0, 1059
    section 19 Jan
-   USD 11.16 : done, 0, 1116
+   USD 11.19 : done, 0, 1119
    section 20 Jan
-   USD 11.76 : done, 0, 1176
+   USD 11.78 : done, 0, 1178
    section 21 Jan
-   USD 12.35 : done, 0, 1235
+   USD 12.38 : done, 0, 1238
    section 22 Jan
-   USD 12.95 : done, 0, 1295
+   USD 12.97 : done, 0, 1297
    section 23 Jan
-   USD 13.54 : done, 0, 1354
+   USD 13.56 : done, 0, 1356
    section 24 Jan
-   USD 14.13 : done, 0, 1413
+   USD 14.16 : done, 0, 1416
    section 25 Jan
-   USD 14.73 : done, 0, 1473
+   USD 14.75 : done, 0, 1475
    section 26 Jan
-   USD 15.32 : done, 0, 1532
+   USD 15.35 : done, 0, 1535
    section 27 Jan
-   USD 15.92 : done, 0, 1592
+   USD 15.94 : done, 0, 1594
    section 28 Jan
-   USD 16.51 : done, 0, 1651
+   USD 16.53 : done, 0, 1653
    section 29 Jan
-   USD 17.11 : done, 0, 1711
+   USD 17.13 : done, 0, 1713
    section 30 Jan
-   USD 17.70 : done, 0, 1770
+   USD 17.72 : done, 0, 1772
    section 31 Jan
-   USD 18.29 : done, 0, 1829
+   USD 18.32 : done, 0, 1832
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|1.06 USD|
-|Storage|0.00 USD|
+|Azure App Service|1.68 USD|
+|Storage|0.01 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
@@ -99,8 +99,8 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 1.06
-   "Storage" : 0.00
+   "Azure App Service" : 1.68
+   "Storage" : 0.01
    "Bandwidth" : 0.00
    "Functions" : 0.00
    "Log Analytics" : 0.00
@@ -110,7 +110,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|1.06 USD|
+|US Central|1.68 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -119,7 +119,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 1.06
+   "US Central" : 1.68
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -130,12 +130,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|1.06 USD|
+|personal-site|1.68 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 1.06
+   "personal-site" : 1.68
 ```
 
-<sup>Generated at 2024-01-03 11:07:20 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-01-04 11:07:07 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
