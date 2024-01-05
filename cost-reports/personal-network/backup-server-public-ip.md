@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/03/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/04/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.10 USD|
-|Last 7 days|0.34 USD|
-|Last 30 days|0.34 USD|
+|Yesterday|0.11 USD|
+|Last 7 days|0.47 USD|
+|Last 30 days|0.47 USD|
 
 ```mermaid
 gantt
@@ -27,21 +27,21 @@ gantt
    section 02 Jan
    USD 0.24 :0, 24
    section 03 Jan
-   USD 0.34 :0, 34
+   USD 0.36 :0, 36
    section 04 Jan
-   USD 0.46 : done, 0, 46
+   USD 0.47 :0, 47
    section 05 Jan
-   USD 0.58 : done, 0, 58
+   USD 0.59 : done, 0, 59
    section 06 Jan
-   USD 0.70 : done, 0, 70
+   USD 0.71 : done, 0, 71
    section 07 Jan
-   USD 0.82 : done, 0, 82
+   USD 0.83 : done, 0, 83
    section 08 Jan
-   USD 0.94 : done, 0, 94
+   USD 0.95 : done, 0, 95
    section 09 Jan
-   USD 1.06 : done, 0, 106
+   USD 1.07 : done, 0, 107
    section 10 Jan
-   USD 1.18 : done, 0, 118
+   USD 1.19 : done, 0, 119
    section 11 Jan
    USD 1.31 : done, 0, 131
    section 12 Jan
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Virtual Network|0.34 USD|
+|Virtual Network|0.47 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Network" : 0.34
+   "Virtual Network" : 0.47
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|0.34 USD|
+|US North Central|0.47 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 0.34
+   "US North Central" : 0.47
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.34 USD|
+|personal-network|0.47 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.34
+   "personal-network" : 0.47
 ```
 
-<sup>Generated at 2024-01-04 11:18:09 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-01-05 11:19:09 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
