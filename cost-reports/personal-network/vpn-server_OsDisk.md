@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/04/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/05/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.05 USD|
-|Last 7 days|0.24 USD|
-|Last 30 days|0.24 USD|
+|Yesterday|0.06 USD|
+|Last 7 days|0.31 USD|
+|Last 30 days|0.31 USD|
 
 ```mermaid
 gantt
@@ -29,9 +29,9 @@ gantt
    section 03 Jan
    USD 0.19 :0, 19
    section 04 Jan
-   USD 0.24 :0, 24
+   USD 0.25 :0, 25
    section 05 Jan
-   USD 0.30 : done, 0, 30
+   USD 0.31 :0, 31
    section 06 Jan
    USD 0.37 : done, 0, 37
    section 07 Jan
@@ -67,21 +67,21 @@ gantt
    section 22 Jan
    USD 1.37 : done, 0, 137
    section 23 Jan
-   USD 1.44 : done, 0, 144
+   USD 1.43 : done, 0, 143
    section 24 Jan
    USD 1.50 : done, 0, 150
    section 25 Jan
    USD 1.56 : done, 0, 156
    section 26 Jan
-   USD 1.63 : done, 0, 163
+   USD 1.62 : done, 0, 162
    section 27 Jan
    USD 1.69 : done, 0, 169
    section 28 Jan
    USD 1.75 : done, 0, 175
    section 29 Jan
-   USD 1.82 : done, 0, 182
+   USD 1.81 : done, 0, 181
    section 30 Jan
-   USD 1.88 : done, 0, 188
+   USD 1.87 : done, 0, 187
    section 31 Jan
    USD 1.94 : done, 0, 194
 ```
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Storage|0.24 USD|
+|Storage|0.31 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.24
+   "Storage" : 0.31
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|0.24 USD|
+|US North Central|0.31 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 0.24
+   "US North Central" : 0.31
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.24 USD|
+|personal-network|0.31 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.24
+   "personal-network" : 0.31
 ```
 
-<sup>Generated at 2024-01-05 11:33:12 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-01-06 11:33:11 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
