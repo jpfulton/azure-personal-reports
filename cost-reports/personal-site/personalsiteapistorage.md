@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/11/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/12/2024**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.00 USD|
 |Last 7 days|0.01 USD|
-|Last 30 days|0.01 USD|
+|Last 30 days|0.02 USD|
 
 ```mermaid
 gantt
@@ -45,7 +45,7 @@ gantt
    section 11 Jan
    USD 0.01 :0, 1
    section 12 Jan
-   USD 0.02 : done, 0, 2
+   USD 0.02 :0, 2
    section 13 Jan
    USD 0.02 : done, 0, 2
    section 14 Jan
@@ -57,7 +57,7 @@ gantt
    section 17 Jan
    USD 0.02 : done, 0, 2
    section 18 Jan
-   USD 0.02 : done, 0, 2
+   USD 0.03 : done, 0, 3
    section 19 Jan
    USD 0.03 : done, 0, 3
    section 20 Jan
@@ -71,7 +71,7 @@ gantt
    section 24 Jan
    USD 0.03 : done, 0, 3
    section 25 Jan
-   USD 0.03 : done, 0, 3
+   USD 0.04 : done, 0, 4
    section 26 Jan
    USD 0.04 : done, 0, 4
    section 27 Jan
@@ -83,43 +83,43 @@ gantt
    section 30 Jan
    USD 0.04 : done, 0, 4
    section 31 Jan
-   USD 0.04 : done, 0, 4
+   USD 0.05 : done, 0, 5
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|0.01 USD|
+|Storage|0.02 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.01
+   "Storage" : 0.02
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US Central|0.01 USD|
+|US Central|0.02 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 0.01
+   "US Central" : 0.02
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|0.01 USD|
+|personal-site|0.02 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 0.01
+   "personal-site" : 0.02
 ```
 
-<sup>Generated at 2024-01-12 11:34:00 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-01-13 11:32:58 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
