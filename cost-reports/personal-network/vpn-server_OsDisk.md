@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/11/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/13/2024**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.06 USD|
 |Last 7 days|0.43 USD|
-|Last 30 days|0.68 USD|
+|Last 30 days|0.80 USD|
 
 ```mermaid
 gantt
@@ -45,9 +45,9 @@ gantt
    section 11 Jan
    USD 0.68 :0, 68
    section 12 Jan
-   USD 0.74 : done, 0, 74
+   USD 0.75 :0, 75
    section 13 Jan
-   USD 0.80 : done, 0, 80
+   USD 0.80 :0, 80
    section 14 Jan
    USD 0.87 : done, 0, 87
    section 15 Jan
@@ -57,7 +57,7 @@ gantt
    section 17 Jan
    USD 1.05 : done, 0, 105
    section 18 Jan
-   USD 1.11 : done, 0, 111
+   USD 1.12 : done, 0, 112
    section 19 Jan
    USD 1.18 : done, 0, 118
    section 20 Jan
@@ -67,7 +67,7 @@ gantt
    section 22 Jan
    USD 1.36 : done, 0, 136
    section 23 Jan
-   USD 1.42 : done, 0, 142
+   USD 1.43 : done, 0, 143
    section 24 Jan
    USD 1.49 : done, 0, 149
    section 25 Jan
@@ -79,7 +79,7 @@ gantt
    section 28 Jan
    USD 1.73 : done, 0, 173
    section 29 Jan
-   USD 1.79 : done, 0, 179
+   USD 1.80 : done, 0, 180
    section 30 Jan
    USD 1.86 : done, 0, 186
    section 31 Jan
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Storage|0.68 USD|
+|Storage|0.80 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.68
+   "Storage" : 0.80
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|0.68 USD|
+|US North Central|0.80 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 0.68
+   "US North Central" : 0.80
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.68 USD|
+|personal-network|0.80 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.68
+   "personal-network" : 0.80
 ```
 
-<sup>Generated at 2024-01-12 11:35:01 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-01-14 11:32:55 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
