@@ -15,8 +15,9 @@ Fetching daily cost data...
 | **2024-01-10** | **2.19** | **personal-network**: `1.52` (_69.44%_), **personal-site**: `0.59` (_27.12%_), ****: `0.03` (_1.50%_), **personal-dns**: `0.03` (_1.50%_), **cloud-shell-storage-eastus**: `0.01` (_0.44%_), **Other**: `0.00` (_0.00%_) |
 | **2024-01-11** | **2.20** | **personal-network**: `1.52` (_69.41%_), **personal-site**: `0.60` (_27.10%_), ****: `0.03` (_1.56%_), **personal-dns**: `0.03` (_1.49%_), **cloud-shell-storage-eastus**: `0.01` (_0.44%_), **Other**: `0.00` (_0.00%_) |
 | **2024-01-12** | **2.17** | **personal-network**: `1.51` (_69.38%_), **personal-site**: `0.59` (_27.39%_), **personal-dns**: `0.03` (_1.51%_), ****: `0.03` (_1.27%_), **cloud-shell-storage-eastus**: `0.01` (_0.45%_), **azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com**: `0.00` (_0.00%_), **Other**: `0.00` (_0.00%_) |
-| **2024-01-13** | **2.08** | **personal-network**: `1.49` (_71.62%_), **personal-site**: `0.52` (_25.00%_), **personal-dns**: `0.03` (_1.51%_), ****: `0.03` (_1.43%_), **cloud-shell-storage-eastus**: `0.01` (_0.45%_), **azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com**: `0.00` (_0.00%_), **Other**: `0.00` (_0.00%_) |
-| **2024-01-14** | **0.10** | **personal-network**: `0.10` (_100.00%_), **Other**: `0.00` (_0.00%_) |
+| **2024-01-13** | **2.20** | **personal-network**: `1.53` (_69.70%_), **personal-site**: `0.59` (_26.98%_), **personal-dns**: `0.03` (_1.49%_), ****: `0.03` (_1.40%_), **cloud-shell-storage-eastus**: `0.01` (_0.44%_), **azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com**: `0.00` (_0.00%_), **Other**: `0.00` (_0.00%_) |
+| **2024-01-14** | **2.06** | **personal-network**: `1.45` (_70.44%_), **personal-site**: `0.54` (_26.40%_), **personal-dns**: `0.03` (_1.52%_), ****: `0.02` (_1.19%_), **cloud-shell-storage-eastus**: `0.01` (_0.45%_), **azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com**: `0.00` (_0.00%_), **Other**: `0.00` (_0.00%_) |
+| **2024-01-15** | **0.12** | **personal-network**: `0.12` (_100.00%_), **Other**: `0.00` (_0.00%_) |
 
 
-<sup>Generated at 2024-01-14 11:33:44 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-01-15 11:34:14 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
