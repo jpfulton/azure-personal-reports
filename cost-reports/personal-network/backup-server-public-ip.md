@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/19/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/20/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.12 USD|
-|Last 7 days|0.83 USD|
-|Last 30 days|2.28 USD|
+|Yesterday|0.07 USD|
+|Last 7 days|0.79 USD|
+|Last 30 days|2.36 USD|
 
 ```mermaid
 gantt
@@ -61,65 +61,65 @@ gantt
    section 19 Jan
    USD 2.28 :0, 228
    section 20 Jan
-   USD 2.40 : done, 0, 240
+   USD 2.36 :0, 236
    section 21 Jan
-   USD 2.52 : done, 0, 252
+   USD 2.48 : done, 0, 248
    section 22 Jan
-   USD 2.64 : done, 0, 264
+   USD 2.60 : done, 0, 260
    section 23 Jan
-   USD 2.76 : done, 0, 276
+   USD 2.72 : done, 0, 272
    section 24 Jan
-   USD 2.88 : done, 0, 288
+   USD 2.84 : done, 0, 284
    section 25 Jan
-   USD 3.00 : done, 0, 300
+   USD 2.96 : done, 0, 296
    section 26 Jan
-   USD 3.12 : done, 0, 312
+   USD 3.08 : done, 0, 308
    section 27 Jan
-   USD 3.24 : done, 0, 324
+   USD 3.20 : done, 0, 320
    section 28 Jan
-   USD 3.36 : done, 0, 336
+   USD 3.32 : done, 0, 332
    section 29 Jan
-   USD 3.48 : done, 0, 348
+   USD 3.44 : done, 0, 344
    section 30 Jan
-   USD 3.60 : done, 0, 360
+   USD 3.56 : done, 0, 356
    section 31 Jan
-   USD 3.72 : done, 0, 372
+   USD 3.68 : done, 0, 368
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Network|2.27 USD|
+|Virtual Network|2.35 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Network" : 2.27
+   "Virtual Network" : 2.35
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|2.27 USD|
+|US North Central|2.35 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 2.27
+   "US North Central" : 2.35
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|2.27 USD|
+|personal-network|2.35 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 2.27
+   "personal-network" : 2.35
 ```
 
-<sup>Generated at 2024-01-20 11:16:01 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-01-21 11:19:31 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

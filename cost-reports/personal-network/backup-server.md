@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/20/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/21/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
-|Today|0.02 USD|
+|Today|0.01 USD|
 |Yesterday|0.21 USD|
-|Last 7 days|1.46 USD|
-|Last 30 days|3.94 USD|
+|Last 7 days|1.45 USD|
+|Last 30 days|4.13 USD|
 
 ```mermaid
 gantt
@@ -61,20 +61,42 @@ gantt
    section 19 Jan
    USD 3.92 :0, 392
    section 20 Jan
-   USD 3.94 :0, 394
+   USD 4.12 :0, 412
+   section 21 Jan
+   USD 4.13 :0, 413
+   section 22 Jan
+   USD 4.34 : done, 0, 434
+   section 23 Jan
+   USD 4.56 : done, 0, 456
+   section 24 Jan
+   USD 4.77 : done, 0, 477
+   section 25 Jan
+   USD 4.98 : done, 0, 498
+   section 26 Jan
+   USD 5.19 : done, 0, 519
+   section 27 Jan
+   USD 5.40 : done, 0, 540
+   section 28 Jan
+   USD 5.61 : done, 0, 561
+   section 29 Jan
+   USD 5.83 : done, 0, 583
+   section 30 Jan
+   USD 6.04 : done, 0, 604
+   section 31 Jan
+   USD 6.26 : done, 0, 626
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Machines|3.94 USD|
+|Virtual Machines|4.13 USD|
 |Bandwidth|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Machines" : 3.94
+   "Virtual Machines" : 4.13
    "Bandwidth" : 0.00
 ```
 
@@ -82,24 +104,24 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|3.94 USD|
+|US North Central|4.13 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 3.94
+   "US North Central" : 4.13
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|3.94 USD|
+|personal-network|4.13 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 3.94
+   "personal-network" : 4.13
 ```
 
-<sup>Generated at 2024-01-20 11:11:00 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-01-21 11:09:29 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
