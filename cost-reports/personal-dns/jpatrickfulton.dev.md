@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/20/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/21/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.01 USD|
+|Yesterday|0.02 USD|
 |Last 7 days|0.11 USD|
-|Last 30 days|0.32 USD|
+|Last 30 days|0.34 USD|
 
 ```mermaid
 gantt
@@ -61,65 +61,65 @@ gantt
    section 19 Jan
    USD 0.31 :0, 31
    section 20 Jan
-   USD 0.32 :0, 32
+   USD 0.33 :0, 33
    section 21 Jan
-   USD 0.34 : done, 0, 34
+   USD 0.34 :0, 34
    section 22 Jan
    USD 0.36 : done, 0, 36
    section 23 Jan
-   USD 0.37 : done, 0, 37
+   USD 0.38 : done, 0, 38
    section 24 Jan
    USD 0.39 : done, 0, 39
    section 25 Jan
    USD 0.41 : done, 0, 41
    section 26 Jan
-   USD 0.42 : done, 0, 42
+   USD 0.43 : done, 0, 43
    section 27 Jan
    USD 0.44 : done, 0, 44
    section 28 Jan
    USD 0.46 : done, 0, 46
    section 29 Jan
-   USD 0.47 : done, 0, 47
+   USD 0.48 : done, 0, 48
    section 30 Jan
    USD 0.49 : done, 0, 49
    section 31 Jan
-   USD 0.50 : done, 0, 50
+   USD 0.51 : done, 0, 51
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.32 USD|
+|Azure DNS|0.34 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.32
+   "Azure DNS" : 0.34
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.32 USD|
+|Unknown|0.34 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.32
+   "Unknown" : 0.34
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-dns|0.32 USD|
+|personal-dns|0.34 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-dns" : 0.32
+   "personal-dns" : 0.34
 ```
 
-<sup>Generated at 2024-01-21 11:16:32 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-01-22 11:18:25 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
