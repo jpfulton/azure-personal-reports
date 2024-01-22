@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/20/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/21/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.47 USD|
-|Last 7 days|4.87 USD|
-|Last 30 days|14.43 USD|
+|Yesterday|0.67 USD|
+|Last 7 days|5.12 USD|
+|Last 30 days|15.39 USD|
 
 ```mermaid
 gantt
@@ -61,65 +61,65 @@ gantt
    section 19 Jan
    USD 13.96 :0, 1396
    section 20 Jan
-   USD 14.43 :0, 1443
+   USD 14.72 :0, 1472
    section 21 Jan
-   USD 15.16 : done, 0, 1516
+   USD 15.39 :0, 1539
    section 22 Jan
-   USD 15.89 : done, 0, 1589
+   USD 16.13 : done, 0, 1613
    section 23 Jan
-   USD 16.65 : done, 0, 1665
+   USD 16.88 : done, 0, 1688
    section 24 Jan
-   USD 17.39 : done, 0, 1739
+   USD 17.62 : done, 0, 1762
    section 25 Jan
-   USD 18.14 : done, 0, 1814
+   USD 18.37 : done, 0, 1837
    section 26 Jan
-   USD 18.89 : done, 0, 1889
+   USD 19.12 : done, 0, 1912
    section 27 Jan
-   USD 19.65 : done, 0, 1965
+   USD 19.88 : done, 0, 1988
    section 28 Jan
-   USD 20.39 : done, 0, 2039
+   USD 20.62 : done, 0, 2062
    section 29 Jan
-   USD 21.13 : done, 0, 2113
+   USD 21.36 : done, 0, 2136
    section 30 Jan
-   USD 21.89 : done, 0, 2189
+   USD 22.12 : done, 0, 2212
    section 31 Jan
-   USD 22.64 : done, 0, 2264
+   USD 22.87 : done, 0, 2287
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|14.43 USD|
+|Storage|15.39 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 14.43
+   "Storage" : 15.39
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|14.43 USD|
+|US North Central|15.39 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 14.43
+   "US North Central" : 15.39
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|14.43 USD|
+|personal-network|15.39 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 14.43
+   "personal-network" : 15.39
 ```
 
-<sup>Generated at 2024-01-21 11:14:55 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-01-22 11:16:24 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
