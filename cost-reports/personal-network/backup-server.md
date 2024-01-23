@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/22/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/23/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
-|Today|0.02 USD|
-|Yesterday|0.20 USD|
-|Last 7 days|1.45 USD|
-|Last 30 days|4.34 USD|
+|Today|0.05 USD|
+|Yesterday|0.21 USD|
+|Last 7 days|1.49 USD|
+|Last 30 days|4.59 USD|
 
 ```mermaid
 gantt
@@ -63,40 +63,40 @@ gantt
    section 20 Jan
    USD 4.12 :0, 412
    section 21 Jan
-   USD 4.32 :0, 432
+   USD 4.33 :0, 433
    section 22 Jan
-   USD 4.34 :0, 434
+   USD 4.54 :0, 454
    section 23 Jan
-   USD 4.55 : done, 0, 455
+   USD 4.59 :0, 459
    section 24 Jan
-   USD 4.76 : done, 0, 476
+   USD 4.80 : done, 0, 480
    section 25 Jan
-   USD 4.97 : done, 0, 497
+   USD 5.01 : done, 0, 501
    section 26 Jan
-   USD 5.18 : done, 0, 518
+   USD 5.22 : done, 0, 522
    section 27 Jan
-   USD 5.40 : done, 0, 540
+   USD 5.43 : done, 0, 543
    section 28 Jan
-   USD 5.61 : done, 0, 561
+   USD 5.64 : done, 0, 564
    section 29 Jan
-   USD 5.82 : done, 0, 582
+   USD 5.86 : done, 0, 586
    section 30 Jan
-   USD 6.03 : done, 0, 603
+   USD 6.07 : done, 0, 607
    section 31 Jan
-   USD 6.25 : done, 0, 625
+   USD 6.28 : done, 0, 628
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Machines|4.34 USD|
+|Virtual Machines|4.59 USD|
 |Bandwidth|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Machines" : 4.34
+   "Virtual Machines" : 4.59
    "Bandwidth" : 0.00
 ```
 
@@ -104,24 +104,24 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|4.34 USD|
+|US North Central|4.59 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 4.34
+   "US North Central" : 4.59
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|4.34 USD|
+|personal-network|4.59 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 4.34
+   "personal-network" : 4.59
 ```
 
-<sup>Generated at 2024-01-22 11:12:24 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-01-23 11:14:04 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
