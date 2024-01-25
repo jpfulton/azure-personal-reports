@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/23/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/24/2024**
 
 ## Totals
 
@@ -69,7 +69,7 @@ gantt
    section 23 Jan
    USD 0.02 :0, 2
    section 24 Jan
-   USD 0.02 : done, 0, 2
+   USD 0.02 :0, 2
    section 25 Jan
    USD 0.02 : done, 0, 2
    section 26 Jan
@@ -122,4 +122,4 @@ pie
    "personal-site" : 0.02
 ```
 
-<sup>Generated at 2024-01-24 11:33:44 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-01-25 11:32:51 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
