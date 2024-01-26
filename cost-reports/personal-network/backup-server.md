@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/25/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/26/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
-|Today|0.06 USD|
+|Today|0.03 USD|
 |Yesterday|0.21 USD|
-|Last 7 days|1.50 USD|
-|Last 30 days|5.01 USD|
+|Last 7 days|1.47 USD|
+|Last 30 days|5.18 USD|
 
 ```mermaid
 gantt
@@ -71,32 +71,32 @@ gantt
    section 24 Jan
    USD 4.95 :0, 495
    section 25 Jan
-   USD 5.01 :0, 501
+   USD 5.16 :0, 516
    section 26 Jan
-   USD 5.22 : done, 0, 522
+   USD 5.18 :0, 518
    section 27 Jan
-   USD 5.43 : done, 0, 543
+   USD 5.39 : done, 0, 539
    section 28 Jan
-   USD 5.64 : done, 0, 564
+   USD 5.60 : done, 0, 560
    section 29 Jan
-   USD 5.85 : done, 0, 585
+   USD 5.81 : done, 0, 581
    section 30 Jan
-   USD 6.06 : done, 0, 606
+   USD 6.02 : done, 0, 602
    section 31 Jan
-   USD 6.27 : done, 0, 627
+   USD 6.23 : done, 0, 623
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Machines|5.01 USD|
+|Virtual Machines|5.18 USD|
 |Bandwidth|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Machines" : 5.01
+   "Virtual Machines" : 5.18
    "Bandwidth" : 0.00
 ```
 
@@ -104,24 +104,24 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|5.01 USD|
+|US North Central|5.18 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 5.01
+   "US North Central" : 5.18
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|5.01 USD|
+|personal-network|5.18 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 5.01
+   "personal-network" : 5.18
 ```
 
-<sup>Generated at 2024-01-25 11:15:49 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-01-26 11:13:09 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
