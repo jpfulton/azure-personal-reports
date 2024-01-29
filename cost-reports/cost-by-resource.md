@@ -3,33 +3,33 @@ Fetching cost data for resources...
 
 | ResourceName | ResourceType | Location | ResourceGroupName | ServiceName | ServiceTier | Meter | Amount |
 |---|---|---|---|---|---|---|---:|
-|dns | microsoft.security/pricings | Unassigned |  |  Microsoft Defender for Cloud | Azure DNS service layers | Standard Queries | 0.82 USD |
+|dns | microsoft.security/pricings | Unassigned |  |  Microsoft Defender for Cloud | Azure DNS service layers | Standard Queries | 0.85 USD |
 |azureapp-auto | microsoft.insights/actiongroups | US North Central | azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com |  Azure Monitor |  | Notifications Push Notification | 0.00 USD |
 |azureapp-auto | microsoft.insights/actiongroups | US West | azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com |  Azure Monitor |  | Notifications Push Notification | 0.00 USD |
 |azureapp-auto | microsoft.insights/actiongroups | US West 2 | azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com |  Azure Monitor |  | Notifications Push Notification | 0.00 USD |
-|cs2100300008c8d894b | microsoft.storage/storageaccounts | US East | cloud-shell-storage-eastus |  Storage | Files | LRS Data Stored | 0.26 USD |
+|cs2100300008c8d894b | microsoft.storage/storageaccounts | US East | cloud-shell-storage-eastus |  Storage | Files | LRS Data Stored | 0.27 USD |
 |cs2100300008c8d894b | microsoft.storage/storageaccounts | US East | cloud-shell-storage-eastus |  Storage | Tables | Batch Write Operations | 0.00 USD |
 |cs2100300008c8d894b | microsoft.storage/storageaccounts | US East | cloud-shell-storage-eastus |  Storage | Tiered Block Blob | All Other Operations | 0.00 USD |
 |jpatrickfulton.com | microsoft.network/dnszones | Unknown | personal-dns |  Azure DNS |  | Public Queries | 0.01 USD |
-|jpatrickfulton.com | microsoft.network/dnszones | Unknown | personal-dns |  Azure DNS |  | Public Zone | 0.43 USD |
+|jpatrickfulton.com | microsoft.network/dnszones | Unknown | personal-dns |  Azure DNS |  | Public Zone | 0.45 USD |
 |jpatrickfulton.dev | microsoft.network/dnszones | Unknown | personal-dns |  Azure DNS |  | Public Queries | 0.01 USD |
-|jpatrickfulton.dev | microsoft.network/dnszones | Unknown | personal-dns |  Azure DNS |  | Public Zone | 0.43 USD |
-|backup-server_osdisk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S4 LRS Disk | 1.34 USD |
-|backup-server_osdisk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S4 LRS Disk Operations | 0.32 USD |
-|backup-server-data-disk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S20 LRS Disk | 18.92 USD |
-|backup-server-data-disk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S4 LRS Disk Operations | 0.92 USD |
-|vpn-server_osdisk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S4 LRS Disk | 1.34 USD |
-|vpn-server_osdisk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S4 LRS Disk Operations | 0.34 USD |
+|jpatrickfulton.dev | microsoft.network/dnszones | Unknown | personal-dns |  Azure DNS |  | Public Zone | 0.45 USD |
+|backup-server_osdisk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S4 LRS Disk | 1.38 USD |
+|backup-server_osdisk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S4 LRS Disk Operations | 0.33 USD |
+|backup-server-data-disk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S20 LRS Disk | 19.62 USD |
+|backup-server-data-disk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S4 LRS Disk Operations | 0.96 USD |
+|vpn-server_osdisk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S4 LRS Disk | 1.38 USD |
+|vpn-server_osdisk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S4 LRS Disk Operations | 0.35 USD |
 |backup-server | microsoft.compute/virtualmachines | US North Central | personal-network |  Bandwidth |  | Standard Data Transfer Out | 0.00 USD |
 |backup-server | microsoft.compute/virtualmachines | US North Central | personal-network |  Bandwidth | Inter-Region | Intra Continent Data Transfer Out | 0.00 USD |
-|backup-server | microsoft.compute/virtualmachines | US North Central | personal-network |  Virtual Machines | DSv2 Series VM | DS1 v2 Spot | 5.61 USD |
-|vpn-server | microsoft.compute/virtualmachines | US North Central | personal-network |  Bandwidth |  | Standard Data Transfer Out | 14.74 USD |
+|backup-server | microsoft.compute/virtualmachines | US North Central | personal-network |  Virtual Machines | DSv2 Series VM | DS1 v2 Spot | 5.83 USD |
+|vpn-server | microsoft.compute/virtualmachines | US North Central | personal-network |  Bandwidth |  | Standard Data Transfer Out | 15.71 USD |
 |vpn-server | microsoft.compute/virtualmachines | US North Central | personal-network |  Bandwidth | Inter-Region | Intra Continent Data Transfer Out | 0.00 USD |
-|vpn-server | microsoft.compute/virtualmachines | US North Central | personal-network |  Virtual Machines | DSv2 Series VM | DS1 v2 Spot | 5.61 USD |
+|vpn-server | microsoft.compute/virtualmachines | US North Central | personal-network |  Virtual Machines | DSv2 Series VM | DS1 v2 Spot | 5.83 USD |
 |private.jpatrickfulton.com | microsoft.network/privatednszones | Unknown | personal-network |  Azure DNS |  | Private Queries | 0.00 USD |
-|private.jpatrickfulton.com | microsoft.network/privatednszones | Unknown | personal-network |  Azure DNS |  | Private Zone | 0.43 USD |
-|backup-server-public-ip | microsoft.network/publicipaddresses | US North Central | personal-network |  Virtual Network | IP Addresses | Standard IPv4 Static Public IP | 3.24 USD |
-|vpn-server-public-ip | microsoft.network/publicipaddresses | US North Central | personal-network |  Virtual Network | IP Addresses | Standard IPv4 Static Public IP | 3.24 USD |
+|private.jpatrickfulton.com | microsoft.network/privatednszones | Unknown | personal-network |  Azure DNS |  | Private Zone | 0.45 USD |
+|backup-server-public-ip | microsoft.network/publicipaddresses | US North Central | personal-network |  Virtual Network | IP Addresses | Standard IPv4 Static Public IP | 3.35 USD |
+|vpn-server-public-ip | microsoft.network/publicipaddresses | US North Central | personal-network |  Virtual Network | IP Addresses | Standard IPv4 Static Public IP | 3.35 USD |
 |defaultworkspace-4913be3f-a345-4652-9bba-767418dd25e3-cus | microsoft.operationalinsights/workspaces | US Central | personal-site |  Log Analytics |  | Pay-as-you-go Data Ingestion | 0.00 USD |
 |personalsiteapipreview | microsoft.storage/storageaccounts | US Central | personal-site |  Storage | Files | LRS Data Stored | 0.00 USD |
 |personalsiteapipreview | microsoft.storage/storageaccounts | US Central | personal-site |  Storage | Files | LRS Write Operations | 0.02 USD |
@@ -39,7 +39,7 @@ Fetching cost data for resources...
 |personalsiteapipreview | microsoft.storage/storageaccounts | US Central | personal-site |  Storage | General Block Blob | Read Operations | 0.00 USD |
 |personalsiteapipreview | microsoft.storage/storageaccounts | US Central | personal-site |  Storage | Tables | Batch Write Operations | 0.00 USD |
 |personalsiteapistorage | microsoft.storage/storageaccounts | US Central | personal-site |  Storage | Files | LRS Data Stored | 0.01 USD |
-|personalsiteapistorage | microsoft.storage/storageaccounts | US Central | personal-site |  Storage | Files | LRS Write Operations | 0.02 USD |
+|personalsiteapistorage | microsoft.storage/storageaccounts | US Central | personal-site |  Storage | Files | LRS Write Operations | 0.03 USD |
 |personalsiteapistorage | microsoft.storage/storageaccounts | US Central | personal-site |  Storage | Files | Protocol Operations | 0.00 USD |
 |personalsiteapistorage | microsoft.storage/storageaccounts | US Central | personal-site |  Storage | Files | Read Operations | 0.00 USD |
 |personalsiteapistorage | microsoft.storage/storageaccounts | US Central | personal-site |  Storage | General Block Blob | LRS Write Operations | 0.00 USD |
@@ -53,13 +53,13 @@ Fetching cost data for resources...
 |personal-site-api-preview | microsoft.web/sites | US Central | personal-site |  Bandwidth |  | Standard Data Transfer Out | 0.00 USD |
 |personal-site-api-preview | microsoft.web/sites | US Central | personal-site |  Functions |  | Standard Execution Time | 0.00 USD |
 |staging | microsoft.web/sites | US Central | personal-site |  Azure App Service | Free Plan | F1 App | 0.00 USD |
-|personal-site | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard App | 7.97 USD |
+|personal-site | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard App | 8.26 USD |
 |personal-site | microsoft.web/staticsites | AP East | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site | microsoft.web/staticsites | EU West | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site | microsoft.web/staticsites | US East 2 | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site | microsoft.web/staticsites | US West 2 | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
-|personal-site-preview | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard App | 7.97 USD |
+|personal-site-preview | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard App | 8.26 USD |
 |personal-site-preview | microsoft.web/staticsites | AP East | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site-preview | microsoft.web/staticsites | EU West | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site-preview | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
