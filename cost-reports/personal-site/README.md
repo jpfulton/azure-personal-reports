@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/27/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **01/01/2024** to **01/28/2024**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.54 USD|
 |Last 7 days|4.11 USD|
-|Last 30 days|15.99 USD|
+|Last 30 days|16.59 USD|
 
 ```mermaid
 gantt
@@ -75,22 +75,16 @@ gantt
    section 26 Jan
    USD 15.45 :0, 1545
    section 27 Jan
-   USD 15.99 :0, 1599
+   USD 16.04 :0, 1604
    section 28 Jan
-   USD 16.59 : done, 0, 1659
-   section 29 Jan
-   USD 17.18 : done, 0, 1718
-   section 30 Jan
-   USD 17.77 : done, 0, 1777
-   section 31 Jan
-   USD 18.37 : done, 0, 1837
+   USD 16.59 :0, 1659
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|15.93 USD|
+|Azure App Service|16.52 USD|
 |Storage|0.06 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
@@ -99,7 +93,7 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 15.93
+   "Azure App Service" : 16.52
    "Storage" : 0.06
    "Bandwidth" : 0.00
    "Functions" : 0.00
@@ -110,7 +104,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|15.99 USD|
+|US Central|16.59 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -119,7 +113,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 15.99
+   "US Central" : 16.59
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -130,12 +124,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|15.99 USD|
+|personal-site|16.59 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 15.99
+   "personal-site" : 16.59
 ```
 
-<sup>Generated at 2024-01-28 11:06:59 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-01-29 11:13:13 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
