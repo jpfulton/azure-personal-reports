@@ -6,4 +6,116 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-[38;5;9mError:[0m Sequence contains no elements
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/01/2024**
+
+## Totals
+
+|Period|Amount|
+|---|---:|
+|Today|0.00 USD|
+|Yesterday|0.03 USD|
+|Last 7 days|0.03 USD|
+|Last 30 days|0.03 USD|
+
+```mermaid
+gantt
+   title Accumulated cost
+   dateFormat  X
+   axisFormat %s
+   section 01 Feb
+   USD 0.03 :0, 3
+   section 02 Feb
+   USD 0.10 : done, 0, 10
+   section 03 Feb
+   USD 0.16 : done, 0, 16
+   section 04 Feb
+   USD 0.22 : done, 0, 22
+   section 05 Feb
+   USD 0.28 : done, 0, 28
+   section 06 Feb
+   USD 0.35 : done, 0, 35
+   section 07 Feb
+   USD 0.41 : done, 0, 41
+   section 08 Feb
+   USD 0.47 : done, 0, 47
+   section 09 Feb
+   USD 0.53 : done, 0, 53
+   section 10 Feb
+   USD 0.60 : done, 0, 60
+   section 11 Feb
+   USD 0.66 : done, 0, 66
+   section 12 Feb
+   USD 0.72 : done, 0, 72
+   section 13 Feb
+   USD 0.78 : done, 0, 78
+   section 14 Feb
+   USD 0.85 : done, 0, 85
+   section 15 Feb
+   USD 0.91 : done, 0, 91
+   section 16 Feb
+   USD 0.97 : done, 0, 97
+   section 17 Feb
+   USD 1.04 : done, 0, 104
+   section 18 Feb
+   USD 1.10 : done, 0, 110
+   section 19 Feb
+   USD 1.16 : done, 0, 116
+   section 20 Feb
+   USD 1.22 : done, 0, 122
+   section 21 Feb
+   USD 1.29 : done, 0, 129
+   section 22 Feb
+   USD 1.35 : done, 0, 135
+   section 23 Feb
+   USD 1.41 : done, 0, 141
+   section 24 Feb
+   USD 1.48 : done, 0, 148
+   section 25 Feb
+   USD 1.54 : done, 0, 154
+   section 26 Feb
+   USD 1.60 : done, 0, 160
+   section 27 Feb
+   USD 1.67 : done, 0, 167
+   section 28 Feb
+   USD 1.73 : done, 0, 173
+   section 29 Feb
+   USD 1.79 : done, 0, 179
+```
+
+## By Service Name
+
+|Service|Amount|
+|---|---:|
+|Storage|0.03 USD|
+
+```mermaid
+pie
+   title Cost by service
+   "Storage" : 0.03
+```
+
+## By Location
+
+|Location|Amount|
+|---|---:|
+|US North Central|0.03 USD|
+
+```mermaid
+pie
+   title Cost by location
+   "US North Central" : 0.03
+```
+
+## By Resource Group
+
+|Resource Group|Amount|
+|---|---:|
+|personal-network|0.03 USD|
+
+```mermaid
+pie
+   title Cost by resource group
+   "personal-network" : 0.03
+```
+
+<sup>Generated at 2024-02-02 11:34:09 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
