@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/06/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/07/2024**
 
 ## Totals
 
@@ -14,8 +14,8 @@ Fetching cost data by resource group...
 |---|---:|
 |Today|0.00 USD|
 |Yesterday|0.01 USD|
-|Last 7 days|0.10 USD|
-|Last 30 days|0.10 USD|
+|Last 7 days|0.11 USD|
+|Last 30 days|0.11 USD|
 
 ```mermaid
 gantt
@@ -35,7 +35,7 @@ gantt
    section 06 Feb
    USD 0.10 :0, 10
    section 07 Feb
-   USD 0.11 : done, 0, 11
+   USD 0.11 :0, 11
    section 08 Feb
    USD 0.13 : done, 0, 13
    section 09 Feb
@@ -49,19 +49,19 @@ gantt
    section 13 Feb
    USD 0.21 : done, 0, 21
    section 14 Feb
-   USD 0.23 : done, 0, 23
+   USD 0.22 : done, 0, 22
    section 15 Feb
    USD 0.24 : done, 0, 24
    section 16 Feb
    USD 0.26 : done, 0, 26
    section 17 Feb
-   USD 0.28 : done, 0, 28
+   USD 0.27 : done, 0, 27
    section 18 Feb
    USD 0.29 : done, 0, 29
    section 19 Feb
    USD 0.31 : done, 0, 31
    section 20 Feb
-   USD 0.33 : done, 0, 33
+   USD 0.32 : done, 0, 32
    section 21 Feb
    USD 0.34 : done, 0, 34
    section 22 Feb
@@ -86,36 +86,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.10 USD|
+|Azure DNS|0.11 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.10
+   "Azure DNS" : 0.11
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.10 USD|
+|Unknown|0.11 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.10
+   "Unknown" : 0.11
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-dns|0.10 USD|
+|personal-dns|0.11 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-dns" : 0.10
+   "personal-dns" : 0.11
 ```
 
-<sup>Generated at 2024-02-07 11:15:00 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-02-08 11:13:50 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
