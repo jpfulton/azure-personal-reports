@@ -64,4 +64,4 @@ pie
    "azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com" : 0.00
 ```
 
-<sup>Generated at 2024-02-08 11:06:49 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-02-09 11:07:12 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
