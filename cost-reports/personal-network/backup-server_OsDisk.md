@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/07/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/08/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.05 USD|
-|Last 7 days|0.43 USD|
-|Last 30 days|0.43 USD|
+|Yesterday|0.06 USD|
+|Last 7 days|0.45 USD|
+|Last 30 days|0.52 USD|
 
 ```mermaid
 gantt
@@ -35,87 +35,87 @@ gantt
    section 06 Feb
    USD 0.39 :0, 39
    section 07 Feb
-   USD 0.43 :0, 43
+   USD 0.45 :0, 45
    section 08 Feb
-   USD 0.50 : done, 0, 50
+   USD 0.52 :0, 52
    section 09 Feb
-   USD 0.56 : done, 0, 56
+   USD 0.58 : done, 0, 58
    section 10 Feb
-   USD 0.63 : done, 0, 63
+   USD 0.65 : done, 0, 65
    section 11 Feb
-   USD 0.69 : done, 0, 69
+   USD 0.71 : done, 0, 71
    section 12 Feb
-   USD 0.76 : done, 0, 76
+   USD 0.78 : done, 0, 78
    section 13 Feb
-   USD 0.82 : done, 0, 82
+   USD 0.84 : done, 0, 84
    section 14 Feb
-   USD 0.89 : done, 0, 89
+   USD 0.91 : done, 0, 91
    section 15 Feb
-   USD 0.95 : done, 0, 95
+   USD 0.97 : done, 0, 97
    section 16 Feb
-   USD 1.02 : done, 0, 102
+   USD 1.04 : done, 0, 104
    section 17 Feb
-   USD 1.08 : done, 0, 108
+   USD 1.10 : done, 0, 110
    section 18 Feb
-   USD 1.15 : done, 0, 115
+   USD 1.17 : done, 0, 117
    section 19 Feb
-   USD 1.21 : done, 0, 121
+   USD 1.23 : done, 0, 123
    section 20 Feb
-   USD 1.28 : done, 0, 128
+   USD 1.30 : done, 0, 130
    section 21 Feb
-   USD 1.34 : done, 0, 134
+   USD 1.36 : done, 0, 136
    section 22 Feb
-   USD 1.41 : done, 0, 141
+   USD 1.43 : done, 0, 143
    section 23 Feb
-   USD 1.48 : done, 0, 148
+   USD 1.50 : done, 0, 150
    section 24 Feb
-   USD 1.54 : done, 0, 154
+   USD 1.56 : done, 0, 156
    section 25 Feb
-   USD 1.61 : done, 0, 161
+   USD 1.63 : done, 0, 163
    section 26 Feb
-   USD 1.67 : done, 0, 167
+   USD 1.70 : done, 0, 170
    section 27 Feb
-   USD 1.74 : done, 0, 174
+   USD 1.76 : done, 0, 176
    section 28 Feb
-   USD 1.81 : done, 0, 181
+   USD 1.83 : done, 0, 183
    section 29 Feb
-   USD 1.87 : done, 0, 187
+   USD 1.90 : done, 0, 190
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|0.43 USD|
+|Storage|0.52 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.43
+   "Storage" : 0.52
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|0.43 USD|
+|US North Central|0.52 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 0.43
+   "US North Central" : 0.52
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.43 USD|
+|personal-network|0.52 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.43
+   "personal-network" : 0.52
 ```
 
-<sup>Generated at 2024-02-08 11:19:52 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-02-09 11:21:14 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
