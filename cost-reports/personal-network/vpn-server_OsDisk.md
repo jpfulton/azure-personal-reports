@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/09/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/10/2024**
 
 ## Totals
 
@@ -14,8 +14,8 @@ Fetching cost data by resource group...
 |---|---:|
 |Today|0.00 USD|
 |Yesterday|0.06 USD|
-|Last 7 days|0.46 USD|
-|Last 30 days|0.59 USD|
+|Last 7 days|0.45 USD|
+|Last 30 days|0.65 USD|
 
 ```mermaid
 gantt
@@ -41,15 +41,15 @@ gantt
    section 09 Feb
    USD 0.59 :0, 59
    section 10 Feb
-   USD 0.65 : done, 0, 65
+   USD 0.65 :0, 65
    section 11 Feb
    USD 0.72 : done, 0, 72
    section 12 Feb
-   USD 0.79 : done, 0, 79
+   USD 0.78 : done, 0, 78
    section 13 Feb
    USD 0.85 : done, 0, 85
    section 14 Feb
-   USD 0.92 : done, 0, 92
+   USD 0.91 : done, 0, 91
    section 15 Feb
    USD 0.98 : done, 0, 98
    section 16 Feb
@@ -71,7 +71,7 @@ gantt
    section 24 Feb
    USD 1.59 : done, 0, 159
    section 25 Feb
-   USD 1.66 : done, 0, 166
+   USD 1.65 : done, 0, 165
    section 26 Feb
    USD 1.72 : done, 0, 172
    section 27 Feb
@@ -86,36 +86,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Storage|0.59 USD|
+|Storage|0.65 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.59
+   "Storage" : 0.65
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|0.59 USD|
+|US North Central|0.65 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 0.59
+   "US North Central" : 0.65
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|0.59 USD|
+|personal-network|0.65 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 0.59
+   "personal-network" : 0.65
 ```
 
-<sup>Generated at 2024-02-10 11:33:17 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-02-11 11:33:48 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
