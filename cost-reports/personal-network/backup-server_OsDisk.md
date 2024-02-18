@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/16/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/17/2024**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.06 USD|
 |Last 7 days|0.45 USD|
-|Last 30 days|1.04 USD|
+|Last 30 days|1.10 USD|
 
 ```mermaid
 gantt
@@ -55,67 +55,67 @@ gantt
    section 16 Feb
    USD 1.04 :0, 104
    section 17 Feb
-   USD 1.10 : done, 0, 110
+   USD 1.10 :0, 110
    section 18 Feb
    USD 1.17 : done, 0, 117
    section 19 Feb
-   USD 1.24 : done, 0, 124
+   USD 1.23 : done, 0, 123
    section 20 Feb
    USD 1.30 : done, 0, 130
    section 21 Feb
-   USD 1.37 : done, 0, 137
+   USD 1.36 : done, 0, 136
    section 22 Feb
-   USD 1.44 : done, 0, 144
+   USD 1.43 : done, 0, 143
    section 23 Feb
-   USD 1.51 : done, 0, 151
+   USD 1.50 : done, 0, 150
    section 24 Feb
    USD 1.57 : done, 0, 157
    section 25 Feb
-   USD 1.64 : done, 0, 164
+   USD 1.63 : done, 0, 163
    section 26 Feb
-   USD 1.71 : done, 0, 171
+   USD 1.70 : done, 0, 170
    section 27 Feb
-   USD 1.78 : done, 0, 178
+   USD 1.77 : done, 0, 177
    section 28 Feb
-   USD 1.85 : done, 0, 185
+   USD 1.83 : done, 0, 183
    section 29 Feb
-   USD 1.92 : done, 0, 192
+   USD 1.90 : done, 0, 190
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|1.04 USD|
+|Storage|1.10 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 1.04
+   "Storage" : 1.10
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|1.04 USD|
+|US North Central|1.10 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 1.04
+   "US North Central" : 1.10
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|1.04 USD|
+|personal-network|1.10 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 1.04
+   "personal-network" : 1.10
 ```
 
-<sup>Generated at 2024-02-17 11:22:03 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-02-18 11:20:10 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
