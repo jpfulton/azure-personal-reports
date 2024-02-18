@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/16/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/17/2024**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.54 USD|
 |Last 7 days|4.11 USD|
-|Last 30 days|9.46 USD|
+|Last 30 days|10.05 USD|
 
 ```mermaid
 gantt
@@ -53,15 +53,15 @@ gantt
    section 15 Feb
    USD 8.91 :0, 891
    section 16 Feb
-   USD 9.46 :0, 946
+   USD 9.51 :0, 951
    section 17 Feb
-   USD 10.05 : done, 0, 1005
+   USD 10.05 :0, 1005
    section 18 Feb
    USD 10.65 : done, 0, 1065
    section 19 Feb
    USD 11.24 : done, 0, 1124
    section 20 Feb
-   USD 11.83 : done, 0, 1183
+   USD 11.84 : done, 0, 1184
    section 21 Feb
    USD 12.43 : done, 0, 1243
    section 22 Feb
@@ -71,7 +71,7 @@ gantt
    section 24 Feb
    USD 14.21 : done, 0, 1421
    section 25 Feb
-   USD 14.80 : done, 0, 1480
+   USD 14.81 : done, 0, 1481
    section 26 Feb
    USD 15.40 : done, 0, 1540
    section 27 Feb
@@ -86,7 +86,7 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|9.42 USD|
+|Azure App Service|10.01 USD|
 |Storage|0.04 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
@@ -95,7 +95,7 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 9.42
+   "Azure App Service" : 10.01
    "Storage" : 0.04
    "Bandwidth" : 0.00
    "Functions" : 0.00
@@ -106,7 +106,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|9.46 USD|
+|US Central|10.05 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -115,7 +115,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 9.46
+   "US Central" : 10.05
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -126,12 +126,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|9.46 USD|
+|personal-site|10.05 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 9.46
+   "personal-site" : 10.05
 ```
 
-<sup>Generated at 2024-02-17 11:06:59 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-02-18 11:07:08 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
