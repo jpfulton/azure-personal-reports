@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/18/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/19/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.04 USD|
-|Yesterday|0.17 USD|
+|Yesterday|0.18 USD|
 |Last 7 days|1.27 USD|
-|Last 30 days|11.18 USD|
+|Last 30 days|11.36 USD|
 
 ```mermaid
 gantt
@@ -57,29 +57,29 @@ gantt
    section 17 Feb
    USD 11.14 :0, 1114
    section 18 Feb
-   USD 11.18 :0, 1118
+   USD 11.31 :0, 1131
    section 19 Feb
-   USD 11.28 : done, 0, 1128
+   USD 11.36 :0, 1136
    section 20 Feb
-   USD 11.58 : done, 0, 1158
+   USD 11.53 : done, 0, 1153
    section 21 Feb
-   USD 11.58 : done, 0, 1158
+   USD 11.71 : done, 0, 1171
    section 22 Feb
-   USD 11.80 : done, 0, 1180
+   USD 11.88 : done, 0, 1188
    section 23 Feb
-   USD 12.10 : done, 0, 1210
+   USD 12.06 : done, 0, 1206
    section 24 Feb
-   USD 12.78 : done, 0, 1278
+   USD 12.23 : done, 0, 1223
    section 25 Feb
-   USD 13.00 : done, 0, 1300
+   USD 12.23 : done, 0, 1223
    section 26 Feb
-   USD 13.00 : done, 0, 1300
+   USD 12.41 : done, 0, 1241
    section 27 Feb
-   USD 13.11 : done, 0, 1311
+   USD 12.58 : done, 0, 1258
    section 28 Feb
-   USD 13.11 : done, 0, 1311
+   USD 12.76 : done, 0, 1276
    section 29 Feb
-   USD 13.14 : done, 0, 1314
+   USD 12.93 : done, 0, 1293
 ```
 
 ## By Service Name
@@ -87,37 +87,37 @@ gantt
 |Service|Amount|
 |---|---:|
 |Bandwidth|8.16 USD|
-|Virtual Machines|3.02 USD|
+|Virtual Machines|3.20 USD|
 
 ```mermaid
 pie
    title Cost by service
    "Bandwidth" : 8.16
-   "Virtual Machines" : 3.02
+   "Virtual Machines" : 3.20
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|11.18 USD|
+|US North Central|11.36 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 11.18
+   "US North Central" : 11.36
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|11.18 USD|
+|personal-network|11.36 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 11.18
+   "personal-network" : 11.36
 ```
 
-<sup>Generated at 2024-02-18 11:27:12 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-02-19 11:27:08 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
