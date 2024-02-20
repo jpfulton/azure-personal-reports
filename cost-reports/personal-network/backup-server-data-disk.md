@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/18/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/19/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.75 USD|
-|Last 7 days|5.40 USD|
-|Last 30 days|14.01 USD|
+|Yesterday|0.74 USD|
+|Last 7 days|5.43 USD|
+|Last 30 days|14.79 USD|
 
 ```mermaid
 gantt
@@ -57,11 +57,11 @@ gantt
    section 17 Feb
    USD 13.27 :0, 1327
    section 18 Feb
-   USD 14.01 :0, 1401
+   USD 14.05 :0, 1405
    section 19 Feb
-   USD 14.78 : done, 0, 1478
+   USD 14.79 :0, 1479
    section 20 Feb
-   USD 15.57 : done, 0, 1557
+   USD 15.58 : done, 0, 1558
    section 21 Feb
    USD 16.36 : done, 0, 1636
    section 22 Feb
@@ -69,53 +69,53 @@ gantt
    section 23 Feb
    USD 17.98 : done, 0, 1798
    section 24 Feb
-   USD 18.78 : done, 0, 1878
+   USD 18.79 : done, 0, 1879
    section 25 Feb
-   USD 19.57 : done, 0, 1957
+   USD 19.58 : done, 0, 1958
    section 26 Feb
-   USD 20.35 : done, 0, 2035
+   USD 20.36 : done, 0, 2036
    section 27 Feb
-   USD 21.15 : done, 0, 2115
+   USD 21.17 : done, 0, 2117
    section 28 Feb
-   USD 21.94 : done, 0, 2194
+   USD 21.96 : done, 0, 2196
    section 29 Feb
-   USD 22.77 : done, 0, 2277
+   USD 22.78 : done, 0, 2278
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|14.01 USD|
+|Storage|14.79 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 14.01
+   "Storage" : 14.79
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|14.01 USD|
+|US North Central|14.79 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 14.01
+   "US North Central" : 14.79
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|14.01 USD|
+|personal-network|14.79 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 14.01
+   "personal-network" : 14.79
 ```
 
-<sup>Generated at 2024-02-19 11:15:03 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-02-20 11:16:24 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

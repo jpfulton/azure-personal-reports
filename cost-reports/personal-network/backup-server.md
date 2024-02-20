@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/19/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/20/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
-|Today|0.04 USD|
+|Today|0.06 USD|
 |Yesterday|0.18 USD|
-|Last 7 days|1.27 USD|
-|Last 30 days|3.20 USD|
+|Last 7 days|1.28 USD|
+|Last 30 days|3.39 USD|
 
 ```mermaid
 gantt
@@ -59,40 +59,40 @@ gantt
    section 18 Feb
    USD 3.15 :0, 315
    section 19 Feb
-   USD 3.20 :0, 320
+   USD 3.33 :0, 333
    section 20 Feb
-   USD 3.37 : done, 0, 337
+   USD 3.39 :0, 339
    section 21 Feb
-   USD 3.54 : done, 0, 354
+   USD 3.56 : done, 0, 356
    section 22 Feb
-   USD 3.69 : done, 0, 369
+   USD 3.72 : done, 0, 372
    section 23 Feb
-   USD 3.84 : done, 0, 384
+   USD 3.87 : done, 0, 387
    section 24 Feb
-   USD 3.99 : done, 0, 399
+   USD 4.02 : done, 0, 402
    section 25 Feb
-   USD 4.15 : done, 0, 415
+   USD 4.17 : done, 0, 417
    section 26 Feb
-   USD 4.31 : done, 0, 431
+   USD 4.34 : done, 0, 434
    section 27 Feb
-   USD 4.48 : done, 0, 448
+   USD 4.50 : done, 0, 450
    section 28 Feb
-   USD 4.63 : done, 0, 463
+   USD 4.67 : done, 0, 467
    section 29 Feb
-   USD 4.78 : done, 0, 478
+   USD 4.81 : done, 0, 481
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Machines|3.20 USD|
+|Virtual Machines|3.39 USD|
 |Bandwidth|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Machines" : 3.20
+   "Virtual Machines" : 3.39
    "Bandwidth" : 0.00
 ```
 
@@ -100,24 +100,24 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|3.20 USD|
+|US North Central|3.39 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 3.20
+   "US North Central" : 3.39
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|3.20 USD|
+|personal-network|3.39 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 3.20
+   "personal-network" : 3.39
 ```
 
-<sup>Generated at 2024-02-19 11:12:01 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-02-20 11:12:20 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
