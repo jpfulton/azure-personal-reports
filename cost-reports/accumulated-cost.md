@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/19/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/20/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
-|Today|0.09 USD|
-|Yesterday|2.09 USD|
-|Last 7 days|15.21 USD|
-|Last 30 days|47.38 USD|
+|Today|0.12 USD|
+|Yesterday|2.05 USD|
+|Last 7 days|15.24 USD|
+|Last 30 days|49.54 USD|
 
 ```mermaid
 gantt
@@ -57,42 +57,42 @@ gantt
    section 17 Feb
    USD 45.20 :0, 4520
    section 18 Feb
-   USD 47.29 :0, 4729
-   section 19 Feb
    USD 47.38 :0, 4738
+   section 19 Feb
+   USD 49.43 :0, 4943
    section 20 Feb
-   USD 49.57 : done, 0, 4957
+   USD 49.54 :0, 4954
    section 21 Feb
-   USD 51.41 : done, 0, 5141
+   USD 51.47 : done, 0, 5147
    section 22 Feb
-   USD 53.51 : done, 0, 5351
+   USD 53.66 : done, 0, 5366
    section 23 Feb
-   USD 55.74 : done, 0, 5574
+   USD 55.98 : done, 0, 5598
    section 24 Feb
-   USD 58.12 : done, 0, 5812
+   USD 57.97 : done, 0, 5797
    section 25 Feb
-   USD 60.17 : done, 0, 6017
+   USD 60.09 : done, 0, 6009
    section 26 Feb
-   USD 61.89 : done, 0, 6189
+   USD 61.90 : done, 0, 6190
    section 27 Feb
-   USD 63.84 : done, 0, 6384
+   USD 63.94 : done, 0, 6394
    section 28 Feb
-   USD 65.45 : done, 0, 6545
+   USD 65.64 : done, 0, 6564
    section 29 Feb
-   USD 67.31 : done, 0, 6731
+   USD 67.59 : done, 0, 6759
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|16.59 USD|
-|Azure App Service|10.60 USD|
+|Storage|17.50 USD|
+|Azure App Service|11.17 USD|
 |Bandwidth|8.16 USD|
-|Virtual Machines|6.39 USD|
-|Virtual Network|4.32 USD|
-|Azure DNS|0.88 USD|
-|Microsoft Defender for Cloud|0.43 USD|
+|Virtual Machines|6.77 USD|
+|Virtual Network|4.55 USD|
+|Azure DNS|0.93 USD|
+|Microsoft Defender for Cloud|0.46 USD|
 |Azure Monitor|0.00 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
@@ -100,13 +100,13 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 16.59
-   "Azure App Service" : 10.60
+   "Storage" : 17.50
+   "Azure App Service" : 11.17
    "Bandwidth" : 8.16
-   "Virtual Machines" : 6.39
-   "Virtual Network" : 4.32
-   "Azure DNS" : 0.88
-   "Microsoft Defender for Cloud" : 0.43
+   "Virtual Machines" : 6.77
+   "Virtual Network" : 4.55
+   "Azure DNS" : 0.93
+   "Microsoft Defender for Cloud" : 0.46
    "Azure Monitor" : 0.00
    "Functions" : 0.00
    "Log Analytics" : 0.00
@@ -116,11 +116,11 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|35.23 USD|
-|US Central|10.65 USD|
-|Unknown|0.88 USD|
-|Unassigned|0.43 USD|
-|US East|0.19 USD|
+|US North Central|36.74 USD|
+|US Central|11.22 USD|
+|Unknown|0.93 USD|
+|Unassigned|0.46 USD|
+|US East|0.20 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -130,11 +130,11 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 35.23
-   "US Central" : 10.65
-   "Unknown" : 0.88
-   "Unassigned" : 0.43
-   "US East" : 0.19
+   "US North Central" : 36.74
+   "US Central" : 11.22
+   "Unknown" : 0.93
+   "Unassigned" : 0.46
+   "US East" : 0.20
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -146,22 +146,22 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|35.52 USD|
-|personal-site|10.65 USD|
-|personal-dns|0.59 USD|
-||0.43 USD|
-|cloud-shell-storage-eastus|0.19 USD|
+|personal-network|37.05 USD|
+|personal-site|11.22 USD|
+|personal-dns|0.62 USD|
+||0.46 USD|
+|cloud-shell-storage-eastus|0.20 USD|
 |azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com|0.00 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 35.52
-   "personal-site" : 10.65
-   "personal-dns" : 0.59
-   "(Unknown)" : 0.43
-   "cloud-shell-storage-eastus" : 0.19
+   "personal-network" : 37.05
+   "personal-site" : 11.22
+   "personal-dns" : 0.62
+   "(Unknown)" : 0.46
+   "cloud-shell-storage-eastus" : 0.20
    "azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com" : 0.00
 ```
 
-<sup>Generated at 2024-02-19 11:34:11 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-02-20 11:36:27 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

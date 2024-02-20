@@ -20,8 +20,9 @@ Fetching daily cost data...
 | **2024-02-15** | **2.17** | **personal-network**: `1.51` (_69.47%_), **personal-site**: `0.59` (_27.35%_), **personal-dns**: `0.03` (_1.51%_), ****: `0.03` (_1.19%_), **cloud-shell-storage-eastus**: `0.01` (_0.48%_), **azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com**: `0.00` (_0.00%_), **Other**: `0.00` (_0.00%_) |
 | **2024-02-16** | **2.19** | **personal-network**: `1.53` (_69.64%_), **personal-site**: `0.59` (_27.09%_), **personal-dns**: `0.03` (_1.49%_), ****: `0.03` (_1.31%_), **cloud-shell-storage-eastus**: `0.01` (_0.47%_), **azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com**: `0.00` (_0.00%_), **Other**: `0.00` (_0.00%_) |
 | **2024-02-17** | **2.16** | **personal-network**: `1.50` (_69.47%_), **personal-site**: `0.59` (_27.51%_), **personal-dns**: `0.03` (_1.51%_), ****: `0.02` (_1.03%_), **cloud-shell-storage-eastus**: `0.01` (_0.48%_), **azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com**: `0.00` (_0.00%_), **Other**: `0.00` (_0.00%_) |
-| **2024-02-18** | **2.09** | **personal-network**: `1.48` (_70.81%_), **personal-site**: `0.54` (_26.12%_), **personal-dns**: `0.03` (_1.51%_), ****: `0.02` (_1.08%_), **cloud-shell-storage-eastus**: `0.01` (_0.48%_), **Other**: `0.00` (_0.00%_) |
-| **2024-02-19** | **0.09** | **personal-network**: `0.09` (_100.00%_), **Other**: `0.00` (_0.00%_) |
+| **2024-02-18** | **2.17** | **personal-network**: `1.51` (_69.62%_), **personal-site**: `0.59` (_27.32%_), **personal-dns**: `0.03` (_1.51%_), ****: `0.02` (_1.08%_), **cloud-shell-storage-eastus**: `0.01` (_0.48%_), **Other**: `0.00` (_0.00%_) |
+| **2024-02-19** | **2.05** | **personal-network**: `1.46` (_71.49%_), **personal-site**: `0.52` (_25.41%_), **personal-dns**: `0.03` (_1.54%_), ****: `0.02` (_1.10%_), **cloud-shell-storage-eastus**: `0.01` (_0.46%_), **Other**: `0.00` (_0.00%_) |
+| **2024-02-20** | **0.12** | **personal-network**: `0.12` (_100.00%_), **Other**: `0.00` (_0.00%_) |
 
 
-<sup>Generated at 2024-02-19 11:33:06 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-02-20 11:35:14 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
