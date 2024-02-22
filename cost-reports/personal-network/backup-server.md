@@ -12,10 +12,10 @@ Fetching cost data by resource group...
 
 |Period|Amount|
 |---|---:|
-|Today|0.04 USD|
-|Yesterday|0.18 USD|
-|Last 7 days|1.27 USD|
-|Last 30 days|3.55 USD|
+|Today|0.00 USD|
+|Yesterday|0.10 USD|
+|Last 7 days|1.15 USD|
+|Last 30 days|3.61 USD|
 
 ```mermaid
 gantt
@@ -63,36 +63,36 @@ gantt
    section 20 Feb
    USD 3.50 :0, 350
    section 21 Feb
-   USD 3.55 :0, 355
+   USD 3.61 :0, 361
    section 22 Feb
-   USD 3.71 : done, 0, 371
+   USD 3.77 : done, 0, 377
    section 23 Feb
-   USD 3.86 : done, 0, 386
+   USD 3.93 : done, 0, 393
    section 24 Feb
-   USD 4.02 : done, 0, 402
+   USD 4.09 : done, 0, 409
    section 25 Feb
-   USD 4.18 : done, 0, 418
+   USD 4.25 : done, 0, 425
    section 26 Feb
-   USD 4.33 : done, 0, 433
+   USD 4.40 : done, 0, 440
    section 27 Feb
-   USD 4.50 : done, 0, 450
+   USD 4.56 : done, 0, 456
    section 28 Feb
-   USD 4.66 : done, 0, 466
+   USD 4.73 : done, 0, 473
    section 29 Feb
-   USD 4.81 : done, 0, 481
+   USD 4.88 : done, 0, 488
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Virtual Machines|3.55 USD|
+|Virtual Machines|3.61 USD|
 |Bandwidth|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Machines" : 3.55
+   "Virtual Machines" : 3.61
    "Bandwidth" : 0.00
 ```
 
@@ -100,24 +100,24 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|3.55 USD|
+|US North Central|3.61 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 3.55
+   "US North Central" : 3.61
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|3.55 USD|
+|personal-network|3.61 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 3.55
+   "personal-network" : 3.61
 ```
 
-<sup>Generated at 2024-02-21 11:13:23 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-02-22 11:11:23 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
