@@ -34,22 +34,6 @@ gantt
    USD 0.00 :0, 0
    section 21 Feb
    USD 0.00 :0, 0
-   section 22 Feb
-   USD 0.00 : done, 0, 0
-   section 23 Feb
-   USD 0.00 : done, 0, 0
-   section 24 Feb
-   USD 0.00 : done, 0, 0
-   section 25 Feb
-   USD 0.00 : done, 0, 0
-   section 26 Feb
-   USD 0.00 : done, 0, 0
-   section 27 Feb
-   USD 0.00 : done, 0, 0
-   section 28 Feb
-   USD 0.00 : done, 0, 0
-   section 29 Feb
-   USD 0.00 : done, 0, 0
 ```
 
 ## By Service Name
@@ -92,4 +76,4 @@ pie
    "azureapp-auto-alerts-873533-jpatrick_fulton_gmail_com" : 0.00
 ```
 
-<sup>Generated at 2024-02-22 11:07:23 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-02-23 11:09:53 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
