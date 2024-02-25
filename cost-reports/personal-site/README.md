@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/23/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/24/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.55 USD|
+|Yesterday|0.54 USD|
 |Last 7 days|4.11 USD|
-|Last 30 days|13.62 USD|
+|Last 30 days|14.21 USD|
 
 ```mermaid
 gantt
@@ -67,9 +67,9 @@ gantt
    section 22 Feb
    USD 13.07 :0, 1307
    section 23 Feb
-   USD 13.62 :0, 1362
+   USD 13.67 :0, 1367
    section 24 Feb
-   USD 14.21 : done, 0, 1421
+   USD 14.21 :0, 1421
    section 25 Feb
    USD 14.81 : done, 0, 1481
    section 26 Feb
@@ -86,8 +86,8 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|13.56 USD|
-|Storage|0.05 USD|
+|Azure App Service|14.15 USD|
+|Storage|0.06 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
@@ -95,8 +95,8 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 13.56
-   "Storage" : 0.05
+   "Azure App Service" : 14.15
+   "Storage" : 0.06
    "Bandwidth" : 0.00
    "Functions" : 0.00
    "Log Analytics" : 0.00
@@ -106,7 +106,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|13.62 USD|
+|US Central|14.21 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -115,7 +115,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 13.62
+   "US Central" : 14.21
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -126,12 +126,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|13.62 USD|
+|personal-site|14.21 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 13.62
+   "personal-site" : 14.21
 ```
 
-<sup>Generated at 2024-02-24 11:06:56 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-02-25 11:06:49 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
