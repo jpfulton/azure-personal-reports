@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/26/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **02/01/2024** to **02/27/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.10 USD|
-|Yesterday|2.07 USD|
-|Last 7 days|12.20 USD|
-|Last 30 days|50.09 USD|
+|Yesterday|1.44 USD|
+|Last 7 days|11.98 USD|
+|Last 30 days|51.62 USD|
 
 ```mermaid
 gantt
@@ -71,61 +71,61 @@ gantt
    section 24 Feb
    USD 47.92 :0, 4792
    section 25 Feb
-   USD 49.99 :0, 4999
+   USD 50.08 :0, 5008
    section 26 Feb
-   USD 50.09 :0, 5009
+   USD 51.52 :0, 5152
    section 27 Feb
-   USD 51.63 : done, 0, 5163
+   USD 51.62 :0, 5162
    section 28 Feb
-   USD 52.91 : done, 0, 5291
+   USD 53.10 : done, 0, 5310
    section 29 Feb
-   USD 54.33 : done, 0, 5433
+   USD 54.74 : done, 0, 5474
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|22.62 USD|
+|Storage|23.54 USD|
 |Bandwidth|12.22 USD|
-|Virtual Machines|8.86 USD|
-|Virtual Network|5.98 USD|
-|Azure DNS|0.40 USD|
+|Virtual Machines|9.21 USD|
+|Virtual Network|6.23 USD|
+|Azure DNS|0.42 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 22.62
+   "Storage" : 23.54
    "Bandwidth" : 12.22
-   "Virtual Machines" : 8.86
-   "Virtual Network" : 5.98
-   "Azure DNS" : 0.40
+   "Virtual Machines" : 9.21
+   "Virtual Network" : 6.23
+   "Azure DNS" : 0.42
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|49.69 USD|
-|Unknown|0.40 USD|
+|US North Central|51.21 USD|
+|Unknown|0.42 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 49.69
-   "Unknown" : 0.40
+   "US North Central" : 51.21
+   "Unknown" : 0.42
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|50.09 USD|
+|personal-network|51.62 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 50.09
+   "personal-network" : 51.62
 ```
 
-<sup>Generated at 2024-02-26 11:04:13 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-02-27 11:08:51 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
