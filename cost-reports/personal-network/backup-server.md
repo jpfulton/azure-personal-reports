@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/08/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/09/2024**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.04 USD|
 |Yesterday|0.18 USD|
 |Last 7 days|1.27 USD|
-|Last 30 days|1.27 USD|
+|Last 30 days|1.44 USD|
 
 ```mermaid
 gantt
@@ -37,13 +37,13 @@ gantt
    section 07 Mar
    USD 1.23 :0, 123
    section 08 Mar
-   USD 1.27 :0, 127
+   USD 1.40 :0, 140
    section 09 Mar
-   USD 1.44 : done, 0, 144
+   USD 1.44 :0, 144
    section 10 Mar
    USD 1.62 : done, 0, 162
    section 11 Mar
-   USD 1.79 : done, 0, 179
+   USD 1.80 : done, 0, 180
    section 12 Mar
    USD 1.97 : done, 0, 197
    section 13 Mar
@@ -90,13 +90,13 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Virtual Machines|1.27 USD|
+|Virtual Machines|1.42 USD|
 |Bandwidth|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Virtual Machines" : 1.27
+   "Virtual Machines" : 1.42
    "Bandwidth" : 0.00
 ```
 
@@ -104,24 +104,24 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|1.27 USD|
+|US North Central|1.44 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 1.27
+   "US North Central" : 1.44
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|1.27 USD|
+|personal-network|1.44 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 1.27
+   "personal-network" : 1.44
 ```
 
-<sup>Generated at 2024-03-08 11:13:08 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-03-09 11:12:52 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
