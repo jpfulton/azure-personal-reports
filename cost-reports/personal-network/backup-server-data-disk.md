@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/08/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/09/2024**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.67 USD|
 |Last 7 days|4.88 USD|
-|Last 30 days|5.65 USD|
+|Last 30 days|6.35 USD|
 
 ```mermaid
 gantt
@@ -37,89 +37,89 @@ gantt
    section 07 Mar
    USD 4.97 :0, 497
    section 08 Mar
-   USD 5.65 :0, 565
+   USD 5.68 :0, 568
    section 09 Mar
-   USD 6.36 : done, 0, 636
+   USD 6.35 :0, 635
    section 10 Mar
-   USD 7.07 : done, 0, 707
+   USD 7.06 : done, 0, 706
    section 11 Mar
-   USD 7.77 : done, 0, 777
+   USD 7.75 : done, 0, 775
    section 12 Mar
-   USD 8.47 : done, 0, 847
+   USD 8.45 : done, 0, 845
    section 13 Mar
-   USD 9.17 : done, 0, 917
+   USD 9.15 : done, 0, 915
    section 14 Mar
-   USD 9.86 : done, 0, 986
+   USD 9.84 : done, 0, 984
    section 15 Mar
-   USD 10.56 : done, 0, 1056
+   USD 10.53 : done, 0, 1053
    section 16 Mar
-   USD 11.26 : done, 0, 1126
+   USD 11.23 : done, 0, 1123
    section 17 Mar
-   USD 11.95 : done, 0, 1195
+   USD 11.91 : done, 0, 1191
    section 18 Mar
-   USD 12.62 : done, 0, 1262
+   USD 12.59 : done, 0, 1259
    section 19 Mar
-   USD 13.31 : done, 0, 1331
+   USD 13.27 : done, 0, 1327
    section 20 Mar
-   USD 13.99 : done, 0, 1399
+   USD 13.95 : done, 0, 1395
    section 21 Mar
-   USD 14.66 : done, 0, 1466
+   USD 14.62 : done, 0, 1462
    section 22 Mar
-   USD 15.34 : done, 0, 1534
+   USD 15.29 : done, 0, 1529
    section 23 Mar
-   USD 16.02 : done, 0, 1602
+   USD 15.96 : done, 0, 1596
    section 24 Mar
-   USD 16.69 : done, 0, 1669
+   USD 16.63 : done, 0, 1663
    section 25 Mar
-   USD 17.35 : done, 0, 1735
+   USD 17.28 : done, 0, 1728
    section 26 Mar
-   USD 18.01 : done, 0, 1801
+   USD 17.94 : done, 0, 1794
    section 27 Mar
-   USD 18.67 : done, 0, 1867
+   USD 18.60 : done, 0, 1860
    section 28 Mar
-   USD 19.33 : done, 0, 1933
+   USD 19.25 : done, 0, 1925
    section 29 Mar
-   USD 19.99 : done, 0, 1999
+   USD 19.90 : done, 0, 1990
    section 30 Mar
-   USD 20.64 : done, 0, 2064
+   USD 20.55 : done, 0, 2055
    section 31 Mar
-   USD 21.30 : done, 0, 2130
+   USD 21.20 : done, 0, 2120
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|5.65 USD|
+|Storage|6.35 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 5.65
+   "Storage" : 6.35
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US North Central|5.65 USD|
+|US North Central|6.26 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 5.65
+   "US North Central" : 6.26
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|5.65 USD|
+|personal-network|6.26 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 5.65
+   "personal-network" : 6.26
 ```
 
-<sup>Generated at 2024-03-09 11:16:51 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-03-10 11:16:00 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
