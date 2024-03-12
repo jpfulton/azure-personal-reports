@@ -12,10 +12,10 @@ Fetching cost data by resource group...
 
 |Period|Amount|
 |---|---:|
-|Today|0.07 USD|
-|Yesterday|1.98 USD|
-|Last 7 days|14.54 USD|
-|Last 30 days|22.01 USD|
+|Today|0.00 USD|
+|Yesterday|0.96 USD|
+|Last 7 days|13.44 USD|
+|Last 30 days|22.99 USD|
 
 ```mermaid
 gantt
@@ -27,7 +27,7 @@ gantt
    section 02 Mar
    USD 5.40 :0, 540
    section 03 Mar
-   USD 7.47 :0, 747
+   USD 7.48 :0, 748
    section 04 Mar
    USD 9.55 :0, 955
    section 05 Mar
@@ -37,79 +37,79 @@ gantt
    section 07 Mar
    USD 15.80 :0, 1580
    section 08 Mar
-   USD 17.87 :0, 1787
+   USD 17.88 :0, 1788
    section 09 Mar
    USD 19.96 :0, 1996
    section 10 Mar
-   USD 21.94 :0, 2194
+   USD 22.04 :0, 2204
    section 11 Mar
-   USD 22.01 :0, 2201
+   USD 22.99 :0, 2299
    section 12 Mar
-   USD 24.12 : done, 0, 2412
+   USD 25.17 : done, 0, 2517
    section 13 Mar
-   USD 26.14 : done, 0, 2614
+   USD 27.26 : done, 0, 2726
    section 14 Mar
-   USD 28.04 : done, 0, 2804
+   USD 29.23 : done, 0, 2923
    section 15 Mar
-   USD 30.18 : done, 0, 3018
+   USD 31.44 : done, 0, 3144
    section 16 Mar
-   USD 32.19 : done, 0, 3219
+   USD 33.39 : done, 0, 3339
    section 17 Mar
-   USD 34.17 : done, 0, 3417
+   USD 35.27 : done, 0, 3527
    section 18 Mar
-   USD 35.92 : done, 0, 3592
+   USD 37.10 : done, 0, 3710
    section 19 Mar
-   USD 37.89 : done, 0, 3789
+   USD 39.15 : done, 0, 3915
    section 20 Mar
-   USD 39.77 : done, 0, 3977
+   USD 41.11 : done, 0, 4111
    section 21 Mar
-   USD 41.54 : done, 0, 4154
+   USD 42.96 : done, 0, 4296
    section 22 Mar
-   USD 43.54 : done, 0, 4354
+   USD 45.04 : done, 0, 4504
    section 23 Mar
-   USD 45.42 : done, 0, 4542
+   USD 46.87 : done, 0, 4687
    section 24 Mar
-   USD 47.26 : done, 0, 4726
+   USD 48.63 : done, 0, 4863
    section 25 Mar
-   USD 48.87 : done, 0, 4887
+   USD 50.33 : done, 0, 5033
    section 26 Mar
-   USD 50.71 : done, 0, 5071
+   USD 52.26 : done, 0, 5226
    section 27 Mar
-   USD 52.46 : done, 0, 5246
+   USD 54.09 : done, 0, 5409
    section 28 Mar
-   USD 54.08 : done, 0, 5408
+   USD 55.81 : done, 0, 5581
    section 29 Mar
-   USD 55.95 : done, 0, 5595
+   USD 57.77 : done, 0, 5777
    section 30 Mar
-   USD 57.70 : done, 0, 5770
+   USD 59.47 : done, 0, 5947
    section 31 Mar
-   USD 59.40 : done, 0, 5940
+   USD 61.11 : done, 0, 6111
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|8.41 USD|
-|Azure App Service|5.87 USD|
-|Virtual Machines|3.58 USD|
-|Virtual Network|2.39 USD|
+|Storage|8.66 USD|
+|Azure App Service|6.46 USD|
+||3.59 USD|
+|Virtual Network|2.47 USD|
 |Bandwidth|1.19 USD|
-|Azure DNS|0.49 USD|
-|Microsoft Defender for Cloud|0.09 USD|
+|Azure DNS|0.53 USD|
+|Microsoft Defender for Cloud|0.10 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 8.41
-   "Azure App Service" : 5.87
-   "Virtual Machines" : 3.58
-   "Virtual Network" : 2.39
+   "Storage" : 8.66
+   "Azure App Service" : 6.46
+   "(Unknown)" : 3.59
+   "Virtual Network" : 2.47
    "Bandwidth" : 1.19
-   "Azure DNS" : 0.49
-   "Microsoft Defender for Cloud" : 0.09
+   "Azure DNS" : 0.53
+   "Microsoft Defender for Cloud" : 0.10
    "Functions" : 0.00
    "Log Analytics" : 0.00
 ```
@@ -118,11 +118,11 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US North Central|15.44 USD|
-|US Central|5.89 USD|
-|Unknown|0.49 USD|
-|US East|0.10 USD|
-|Unassigned|0.09 USD|
+|US North Central|15.77 USD|
+|US Central|6.49 USD|
+|Unknown|0.53 USD|
+|US East|0.11 USD|
+|Unassigned|0.10 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -131,11 +131,11 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US North Central" : 15.44
-   "US Central" : 5.89
-   "Unknown" : 0.49
-   "US East" : 0.10
-   "Unassigned" : 0.09
+   "US North Central" : 15.77
+   "US Central" : 6.49
+   "Unknown" : 0.53
+   "US East" : 0.11
+   "Unassigned" : 0.10
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -146,20 +146,20 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-network|15.60 USD|
-|personal-site|5.89 USD|
-|personal-dns|0.33 USD|
-|cloud-shell-storage-eastus|0.10 USD|
-||0.09 USD|
+|personal-network|15.94 USD|
+|personal-site|6.49 USD|
+|personal-dns|0.36 USD|
+|cloud-shell-storage-eastus|0.11 USD|
+||0.10 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-network" : 15.60
-   "personal-site" : 5.89
-   "personal-dns" : 0.33
-   "cloud-shell-storage-eastus" : 0.10
-   "(Unknown)" : 0.09
+   "personal-network" : 15.94
+   "personal-site" : 6.49
+   "personal-dns" : 0.36
+   "cloud-shell-storage-eastus" : 0.11
+   "(Unknown)" : 0.10
 ```
 
-<sup>Generated at 2024-03-11 11:22:41 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-03-12 11:23:32 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
