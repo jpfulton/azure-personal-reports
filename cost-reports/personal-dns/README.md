@@ -6,15 +6,15 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/11/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/12/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.03 USD|
-|Last 7 days|0.23 USD|
+|Yesterday|0.01 USD|
+|Last 7 days|0.20 USD|
 |Last 30 days|0.36 USD|
 
 ```mermaid
@@ -43,47 +43,47 @@ gantt
    section 10 Mar
    USD 0.33 :0, 33
    section 11 Mar
-   USD 0.36 :0, 36
+   USD 0.35 :0, 35
    section 12 Mar
-   USD 0.39 : done, 0, 39
+   USD 0.36 :0, 36
    section 13 Mar
-   USD 0.43 : done, 0, 43
+   USD 0.39 : done, 0, 39
    section 14 Mar
-   USD 0.46 : done, 0, 46
+   USD 0.43 : done, 0, 43
    section 15 Mar
-   USD 0.49 : done, 0, 49
+   USD 0.46 : done, 0, 46
    section 16 Mar
-   USD 0.53 : done, 0, 53
+   USD 0.49 : done, 0, 49
    section 17 Mar
-   USD 0.56 : done, 0, 56
+   USD 0.52 : done, 0, 52
    section 18 Mar
-   USD 0.59 : done, 0, 59
+   USD 0.55 : done, 0, 55
    section 19 Mar
-   USD 0.63 : done, 0, 63
+   USD 0.58 : done, 0, 58
    section 20 Mar
-   USD 0.66 : done, 0, 66
+   USD 0.62 : done, 0, 62
    section 21 Mar
-   USD 0.69 : done, 0, 69
+   USD 0.65 : done, 0, 65
    section 22 Mar
-   USD 0.72 : done, 0, 72
+   USD 0.68 : done, 0, 68
    section 23 Mar
-   USD 0.76 : done, 0, 76
+   USD 0.71 : done, 0, 71
    section 24 Mar
-   USD 0.79 : done, 0, 79
+   USD 0.74 : done, 0, 74
    section 25 Mar
-   USD 0.82 : done, 0, 82
+   USD 0.77 : done, 0, 77
    section 26 Mar
-   USD 0.86 : done, 0, 86
+   USD 0.80 : done, 0, 80
    section 27 Mar
-   USD 0.89 : done, 0, 89
+   USD 0.83 : done, 0, 83
    section 28 Mar
-   USD 0.92 : done, 0, 92
+   USD 0.86 : done, 0, 86
    section 29 Mar
-   USD 0.96 : done, 0, 96
+   USD 0.90 : done, 0, 90
    section 30 Mar
-   USD 0.99 : done, 0, 99
+   USD 0.93 : done, 0, 93
    section 31 Mar
-   USD 1.02 : done, 0, 102
+   USD 0.96 : done, 0, 96
 ```
 
 ## By Service Name
@@ -122,4 +122,4 @@ pie
    "personal-dns" : 0.36
 ```
 
-<sup>Generated at 2024-03-12 11:08:21 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-03-13 11:02:51 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>

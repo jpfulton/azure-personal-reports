@@ -6,15 +6,15 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/11/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/12/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.02 USD|
-|Last 7 days|0.12 USD|
+|Yesterday|0.00 USD|
+|Last 7 days|0.10 USD|
 |Last 30 days|0.18 USD|
 
 ```mermaid
@@ -45,45 +45,45 @@ gantt
    section 11 Mar
    USD 0.18 :0, 18
    section 12 Mar
-   USD 0.20 : done, 0, 20
+   USD 0.18 :0, 18
    section 13 Mar
-   USD 0.21 : done, 0, 21
+   USD 0.20 : done, 0, 20
    section 14 Mar
-   USD 0.23 : done, 0, 23
+   USD 0.21 : done, 0, 21
    section 15 Mar
-   USD 0.25 : done, 0, 25
+   USD 0.23 : done, 0, 23
    section 16 Mar
-   USD 0.26 : done, 0, 26
+   USD 0.25 : done, 0, 25
    section 17 Mar
-   USD 0.28 : done, 0, 28
+   USD 0.26 : done, 0, 26
    section 18 Mar
-   USD 0.30 : done, 0, 30
+   USD 0.28 : done, 0, 28
    section 19 Mar
-   USD 0.31 : done, 0, 31
+   USD 0.29 : done, 0, 29
    section 20 Mar
-   USD 0.33 : done, 0, 33
+   USD 0.31 : done, 0, 31
    section 21 Mar
-   USD 0.35 : done, 0, 35
+   USD 0.32 : done, 0, 32
    section 22 Mar
-   USD 0.36 : done, 0, 36
+   USD 0.34 : done, 0, 34
    section 23 Mar
-   USD 0.38 : done, 0, 38
+   USD 0.36 : done, 0, 36
    section 24 Mar
-   USD 0.40 : done, 0, 40
+   USD 0.37 : done, 0, 37
    section 25 Mar
-   USD 0.41 : done, 0, 41
+   USD 0.39 : done, 0, 39
    section 26 Mar
-   USD 0.43 : done, 0, 43
+   USD 0.40 : done, 0, 40
    section 27 Mar
-   USD 0.45 : done, 0, 45
+   USD 0.42 : done, 0, 42
    section 28 Mar
-   USD 0.46 : done, 0, 46
+   USD 0.43 : done, 0, 43
    section 29 Mar
-   USD 0.48 : done, 0, 48
+   USD 0.45 : done, 0, 45
    section 30 Mar
-   USD 0.50 : done, 0, 50
+   USD 0.46 : done, 0, 46
    section 31 Mar
-   USD 0.51 : done, 0, 51
+   USD 0.48 : done, 0, 48
 ```
 
 ## By Service Name
@@ -122,4 +122,4 @@ pie
    "personal-dns" : 0.18
 ```
 
-<sup>Generated at 2024-03-12 11:13:25 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-03-13 11:12:53 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
