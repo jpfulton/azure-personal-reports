@@ -17,10 +17,10 @@ Fetching cost data for resources...
 |backup-server_osdisk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S4 LRS Disk Operations | 0.13 USD |
 |vpn-server_osdisk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S4 LRS Disk | 0.51 USD |
 |vpn-server_osdisk | microsoft.compute/disks | US North Central | personal-network |  Storage | Standard HDD Managed Disks | S4 LRS Disk Operations | 0.13 USD |
-|backup-server | microsoft.compute/virtualmachines | US North Central | personal-network |   |  |  | 1.79 USD |
+|backup-server | microsoft.compute/virtualmachines | US North Central | personal-network |   |  |  | 48.41 USD |
 |backup-server | microsoft.compute/virtualmachines | US North Central | personal-network |  Bandwidth |  | Standard Data Transfer Out | 0.00 USD |
 |backup-server | microsoft.compute/virtualmachines | US North Central | personal-network |  Bandwidth | Inter-Region | Intra Continent Data Transfer Out | 0.00 USD |
-|vpn-server | microsoft.compute/virtualmachines | US North Central | personal-network |   |  |  | 1.79 USD |
+|vpn-server | microsoft.compute/virtualmachines | US North Central | personal-network |   |  |  | 48.42 USD |
 |vpn-server | microsoft.compute/virtualmachines | US North Central | personal-network |  Bandwidth |  | Standard Data Transfer Out | 1.19 USD |
 |vpn-server | microsoft.compute/virtualmachines | US North Central | personal-network |  Bandwidth | Inter-Region | Intra Continent Data Transfer Out | 0.00 USD |
 |private.jpatrickfulton.com | microsoft.network/privatednszones | Unknown | personal-network |  Azure DNS |  | Private Queries | 0.00 USD |
@@ -47,13 +47,13 @@ Fetching cost data for resources...
 |personal-site-api-preview | microsoft.web/sites | US Central | personal-site |  Azure App Service | Free Plan | F1 App | 0.00 USD |
 |staging | microsoft.web/sites | US Central | personal-site |  Azure App Service | Free Plan | F1 App | 0.00 USD |
 |staging | microsoft.web/sites | US Central | personal-site |  Azure App Service | Free Plan | F1 App | 0.00 USD |
-|personal-site | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard App | 3.23 USD |
+|personal-site | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard App | 3.24 USD |
 |personal-site | microsoft.web/staticsites | AP East | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site | microsoft.web/staticsites | EU West | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site | microsoft.web/staticsites | US East 2 | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site | microsoft.web/staticsites | US West 2 | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
-|personal-site-preview | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard App | 3.23 USD |
+|personal-site-preview | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard App | 3.24 USD |
 |personal-site-preview | microsoft.web/staticsites | AP East | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site-preview | microsoft.web/staticsites | EU West | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site-preview | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
