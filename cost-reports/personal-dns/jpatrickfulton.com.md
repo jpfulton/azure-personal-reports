@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/12/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/13/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.00 USD|
+|Yesterday|0.02 USD|
 |Last 7 days|0.10 USD|
-|Last 30 days|0.18 USD|
+|Last 30 days|0.20 USD|
 
 ```mermaid
 gantt
@@ -47,7 +47,7 @@ gantt
    section 12 Mar
    USD 0.18 :0, 18
    section 13 Mar
-   USD 0.20 : done, 0, 20
+   USD 0.20 :0, 20
    section 14 Mar
    USD 0.21 : done, 0, 21
    section 15 Mar
@@ -57,69 +57,69 @@ gantt
    section 17 Mar
    USD 0.26 : done, 0, 26
    section 18 Mar
-   USD 0.28 : done, 0, 28
+   USD 0.27 : done, 0, 27
    section 19 Mar
    USD 0.29 : done, 0, 29
    section 20 Mar
-   USD 0.31 : done, 0, 31
+   USD 0.30 : done, 0, 30
    section 21 Mar
-   USD 0.32 : done, 0, 32
+   USD 0.31 : done, 0, 31
    section 22 Mar
-   USD 0.34 : done, 0, 34
+   USD 0.33 : done, 0, 33
    section 23 Mar
-   USD 0.35 : done, 0, 35
+   USD 0.34 : done, 0, 34
    section 24 Mar
-   USD 0.37 : done, 0, 37
+   USD 0.36 : done, 0, 36
    section 25 Mar
-   USD 0.38 : done, 0, 38
+   USD 0.37 : done, 0, 37
    section 26 Mar
-   USD 0.40 : done, 0, 40
+   USD 0.38 : done, 0, 38
    section 27 Mar
-   USD 0.42 : done, 0, 42
+   USD 0.40 : done, 0, 40
    section 28 Mar
-   USD 0.43 : done, 0, 43
+   USD 0.41 : done, 0, 41
    section 29 Mar
-   USD 0.45 : done, 0, 45
+   USD 0.42 : done, 0, 42
    section 30 Mar
-   USD 0.46 : done, 0, 46
+   USD 0.44 : done, 0, 44
    section 31 Mar
-   USD 0.48 : done, 0, 48
+   USD 0.45 : done, 0, 45
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.18 USD|
+|Azure DNS|0.20 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.18
+   "Azure DNS" : 0.20
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.18 USD|
+|Unknown|0.20 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.18
+   "Unknown" : 0.20
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-dns|0.18 USD|
+|personal-dns|0.20 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-dns" : 0.18
+   "personal-dns" : 0.20
 ```
 
-<sup>Generated at 2024-03-13 11:07:51 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-03-14 11:09:48 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
