@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/14/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/15/2024**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.01 USD|
 |Last 7 days|0.06 USD|
-|Last 30 days|0.13 USD|
+|Last 30 days|0.14 USD|
 
 ```mermaid
 gantt
@@ -51,7 +51,7 @@ gantt
    section 14 Mar
    USD 0.13 :0, 13
    section 15 Mar
-   USD 0.14 : done, 0, 14
+   USD 0.14 :0, 14
    section 16 Mar
    USD 0.15 : done, 0, 15
    section 17 Mar
@@ -61,7 +61,7 @@ gantt
    section 19 Mar
    USD 0.18 : done, 0, 18
    section 20 Mar
-   USD 0.18 : done, 0, 18
+   USD 0.19 : done, 0, 19
    section 21 Mar
    USD 0.19 : done, 0, 19
    section 22 Mar
@@ -73,7 +73,7 @@ gantt
    section 25 Mar
    USD 0.23 : done, 0, 23
    section 26 Mar
-   USD 0.23 : done, 0, 23
+   USD 0.24 : done, 0, 24
    section 27 Mar
    USD 0.24 : done, 0, 24
    section 28 Mar
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Storage|0.13 USD|
+|Storage|0.14 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.13
+   "Storage" : 0.14
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US East|0.13 USD|
+|US East|0.14 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US East" : 0.13
+   "US East" : 0.14
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|cloud-shell-storage-eastus|0.13 USD|
+|cloud-shell-storage-eastus|0.14 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "cloud-shell-storage-eastus" : 0.13
+   "cloud-shell-storage-eastus" : 0.14
 ```
 
-<sup>Generated at 2024-03-15 11:06:46 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-03-16 11:07:58 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
