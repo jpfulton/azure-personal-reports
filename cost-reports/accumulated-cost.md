@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/14/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/15/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.59 USD|
-|Last 7 days|8.81 USD|
-|Last 30 days|24.61 USD|
+|Yesterday|0.58 USD|
+|Last 7 days|7.37 USD|
+|Last 30 days|25.25 USD|
 
 ```mermaid
 gantt
@@ -49,53 +49,53 @@ gantt
    section 13 Mar
    USD 24.03 :0, 2403
    section 14 Mar
-   USD 24.61 :0, 2461
+   USD 24.66 :0, 2466
    section 15 Mar
-   USD 26.28 : done, 0, 2628
+   USD 25.25 :0, 2525
    section 16 Mar
-   USD 27.64 : done, 0, 2764
+   USD 26.50 : done, 0, 2650
    section 17 Mar
-   USD 29.03 : done, 0, 2903
+   USD 27.77 : done, 0, 2777
    section 18 Mar
-   USD 30.18 : done, 0, 3018
+   USD 28.79 : done, 0, 2879
    section 19 Mar
-   USD 31.29 : done, 0, 3129
+   USD 29.77 : done, 0, 2977
    section 20 Mar
-   USD 32.40 : done, 0, 3240
+   USD 30.70 : done, 0, 3070
    section 21 Mar
-   USD 33.51 : done, 0, 3351
+   USD 31.66 : done, 0, 3166
    section 22 Mar
-   USD 34.84 : done, 0, 3484
+   USD 32.84 : done, 0, 3284
    section 23 Mar
-   USD 35.88 : done, 0, 3588
+   USD 33.72 : done, 0, 3372
    section 24 Mar
-   USD 36.93 : done, 0, 3693
+   USD 34.61 : done, 0, 3461
    section 25 Mar
-   USD 37.75 : done, 0, 3775
+   USD 35.26 : done, 0, 3526
    section 26 Mar
-   USD 38.53 : done, 0, 3853
+   USD 35.86 : done, 0, 3586
    section 27 Mar
-   USD 39.31 : done, 0, 3931
+   USD 36.42 : done, 0, 3642
    section 28 Mar
-   USD 40.09 : done, 0, 4009
+   USD 37.01 : done, 0, 3701
    section 29 Mar
-   USD 41.09 : done, 0, 4109
+   USD 37.81 : done, 0, 3781
    section 30 Mar
-   USD 41.79 : done, 0, 4179
+   USD 38.32 : done, 0, 3832
    section 31 Mar
-   USD 42.51 : done, 0, 4251
+   USD 38.83 : done, 0, 3883
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|8.69 USD|
-|Azure App Service|7.97 USD|
+|Storage|8.70 USD|
+|Azure App Service|8.56 USD|
 |Virtual Machines|3.59 USD|
 |Virtual Network|2.47 USD|
 |Bandwidth|1.19 USD|
-|Azure DNS|0.61 USD|
+|Azure DNS|0.64 USD|
 |Microsoft Defender for Cloud|0.10 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
@@ -103,12 +103,12 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 8.69
-   "Azure App Service" : 7.97
+   "Storage" : 8.70
+   "Azure App Service" : 8.56
    "Virtual Machines" : 3.59
    "Virtual Network" : 2.47
    "Bandwidth" : 1.19
-   "Azure DNS" : 0.61
+   "Azure DNS" : 0.64
    "Microsoft Defender for Cloud" : 0.10
    "Functions" : 0.00
    "Log Analytics" : 0.00
@@ -119,9 +119,9 @@ pie
 |Location|Amount|
 |---|---:|
 |US North Central|15.77 USD|
-|US Central|8.00 USD|
-|Unknown|0.61 USD|
-|US East|0.13 USD|
+|US Central|8.59 USD|
+|Unknown|0.64 USD|
+|US East|0.14 USD|
 |Unassigned|0.10 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
@@ -132,9 +132,9 @@ pie
 pie
    title Cost by location
    "US North Central" : 15.77
-   "US Central" : 8.00
-   "Unknown" : 0.61
-   "US East" : 0.13
+   "US Central" : 8.59
+   "Unknown" : 0.64
+   "US East" : 0.14
    "Unassigned" : 0.10
    "AP East" : 0.00
    "EU West" : 0.00
@@ -147,19 +147,19 @@ pie
 |Resource Group|Amount|
 |---|---:|
 |personal-network|15.94 USD|
-|personal-site|8.00 USD|
-|personal-dns|0.45 USD|
-|cloud-shell-storage-eastus|0.13 USD|
+|personal-site|8.59 USD|
+|personal-dns|0.48 USD|
+|cloud-shell-storage-eastus|0.14 USD|
 ||0.10 USD|
 
 ```mermaid
 pie
    title Cost by resource group
    "personal-network" : 15.94
-   "personal-site" : 8.00
-   "personal-dns" : 0.45
-   "cloud-shell-storage-eastus" : 0.13
+   "personal-site" : 8.59
+   "personal-dns" : 0.48
+   "cloud-shell-storage-eastus" : 0.14
    "(Unknown)" : 0.10
 ```
 
-<sup>Generated at 2024-03-15 11:22:53 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-03-16 11:22:02 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
