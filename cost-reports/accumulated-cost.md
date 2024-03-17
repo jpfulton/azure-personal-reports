@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/15/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/16/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.58 USD|
-|Last 7 days|7.37 USD|
-|Last 30 days|25.25 USD|
+|Yesterday|0.59 USD|
+|Last 7 days|6.22 USD|
+|Last 30 days|26.18 USD|
 
 ```mermaid
 gantt
@@ -43,59 +43,59 @@ gantt
    section 10 Mar
    USD 22.04 :0, 2204
    section 11 Mar
-   USD 22.86 :0, 2286
+   USD 23.05 :0, 2305
    section 12 Mar
-   USD 23.39 :0, 2339
+   USD 23.68 :0, 2368
    section 13 Mar
-   USD 24.03 :0, 2403
+   USD 24.32 :0, 2432
    section 14 Mar
-   USD 24.66 :0, 2466
+   USD 24.96 :0, 2496
    section 15 Mar
-   USD 25.25 :0, 2525
+   USD 25.59 :0, 2559
    section 16 Mar
-   USD 26.50 : done, 0, 2650
+   USD 26.18 :0, 2618
    section 17 Mar
-   USD 27.77 : done, 0, 2777
+   USD 27.39 : done, 0, 2739
    section 18 Mar
-   USD 28.79 : done, 0, 2879
+   USD 28.35 : done, 0, 2835
    section 19 Mar
-   USD 29.77 : done, 0, 2977
+   USD 29.25 : done, 0, 2925
    section 20 Mar
-   USD 30.70 : done, 0, 3070
+   USD 30.10 : done, 0, 3010
    section 21 Mar
-   USD 31.66 : done, 0, 3166
+   USD 30.92 : done, 0, 3092
    section 22 Mar
-   USD 32.84 : done, 0, 3284
+   USD 31.69 : done, 0, 3169
    section 23 Mar
-   USD 33.72 : done, 0, 3372
+   USD 32.47 : done, 0, 3247
    section 24 Mar
-   USD 34.61 : done, 0, 3461
+   USD 33.25 : done, 0, 3325
    section 25 Mar
-   USD 35.26 : done, 0, 3526
+   USD 33.79 : done, 0, 3379
    section 26 Mar
-   USD 35.86 : done, 0, 3586
+   USD 34.27 : done, 0, 3427
    section 27 Mar
-   USD 36.42 : done, 0, 3642
+   USD 34.70 : done, 0, 3470
    section 28 Mar
-   USD 37.01 : done, 0, 3701
+   USD 35.10 : done, 0, 3510
    section 29 Mar
-   USD 37.81 : done, 0, 3781
+   USD 35.44 : done, 0, 3544
    section 30 Mar
-   USD 38.32 : done, 0, 3832
+   USD 35.80 : done, 0, 3580
    section 31 Mar
-   USD 38.83 : done, 0, 3883
+   USD 36.16 : done, 0, 3616
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|8.70 USD|
-|Azure App Service|8.56 USD|
+|Azure App Service|9.42 USD|
+|Storage|8.72 USD|
 |Virtual Machines|3.59 USD|
 |Virtual Network|2.47 USD|
 |Bandwidth|1.19 USD|
-|Azure DNS|0.64 USD|
+|Azure DNS|0.69 USD|
 |Microsoft Defender for Cloud|0.10 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
@@ -103,12 +103,12 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 8.70
-   "Azure App Service" : 8.56
+   "Azure App Service" : 9.42
+   "Storage" : 8.72
    "Virtual Machines" : 3.59
    "Virtual Network" : 2.47
    "Bandwidth" : 1.19
-   "Azure DNS" : 0.64
+   "Azure DNS" : 0.69
    "Microsoft Defender for Cloud" : 0.10
    "Functions" : 0.00
    "Log Analytics" : 0.00
@@ -119,9 +119,9 @@ pie
 |Location|Amount|
 |---|---:|
 |US North Central|15.77 USD|
-|US Central|8.59 USD|
-|Unknown|0.64 USD|
-|US East|0.14 USD|
+|US Central|9.46 USD|
+|Unknown|0.69 USD|
+|US East|0.16 USD|
 |Unassigned|0.10 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
@@ -132,9 +132,9 @@ pie
 pie
    title Cost by location
    "US North Central" : 15.77
-   "US Central" : 8.59
-   "Unknown" : 0.64
-   "US East" : 0.14
+   "US Central" : 9.46
+   "Unknown" : 0.69
+   "US East" : 0.16
    "Unassigned" : 0.10
    "AP East" : 0.00
    "EU West" : 0.00
@@ -147,19 +147,19 @@ pie
 |Resource Group|Amount|
 |---|---:|
 |personal-network|15.94 USD|
-|personal-site|8.59 USD|
-|personal-dns|0.48 USD|
-|cloud-shell-storage-eastus|0.14 USD|
+|personal-site|9.46 USD|
+|personal-dns|0.53 USD|
+|cloud-shell-storage-eastus|0.16 USD|
 ||0.10 USD|
 
 ```mermaid
 pie
    title Cost by resource group
    "personal-network" : 15.94
-   "personal-site" : 8.59
-   "personal-dns" : 0.48
-   "cloud-shell-storage-eastus" : 0.14
+   "personal-site" : 9.46
+   "personal-dns" : 0.53
+   "cloud-shell-storage-eastus" : 0.16
    "(Unknown)" : 0.10
 ```
 
-<sup>Generated at 2024-03-16 11:22:02 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-03-17 11:23:15 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
