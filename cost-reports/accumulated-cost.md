@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/17/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/18/2024**
 
 ## Totals
 
@@ -14,8 +14,8 @@ Fetching cost data by resource group...
 |---|---:|
 |Today|0.00 USD|
 |Yesterday|0.59 USD|
-|Last 7 days|4.78 USD|
-|Last 30 days|26.82 USD|
+|Last 7 days|4.41 USD|
+|Last 30 days|27.45 USD|
 
 ```mermaid
 gantt
@@ -55,47 +55,47 @@ gantt
    section 16 Mar
    USD 26.23 :0, 2623
    section 17 Mar
-   USD 26.82 :0, 2682
+   USD 26.87 :0, 2687
    section 18 Mar
-   USD 27.72 : done, 0, 2772
+   USD 27.45 :0, 2745
    section 19 Mar
-   USD 28.56 : done, 0, 2856
+   USD 28.22 : done, 0, 2822
    section 20 Mar
-   USD 29.35 : done, 0, 2935
+   USD 28.92 : done, 0, 2892
    section 21 Mar
-   USD 30.10 : done, 0, 3010
+   USD 29.58 : done, 0, 2958
    section 22 Mar
-   USD 30.75 : done, 0, 3075
+   USD 30.14 : done, 0, 3014
    section 23 Mar
-   USD 31.31 : done, 0, 3131
+   USD 30.59 : done, 0, 3059
    section 24 Mar
-   USD 32.02 : done, 0, 3202
+   USD 30.97 : done, 0, 3097
    section 25 Mar
-   USD 32.47 : done, 0, 3247
+   USD 31.30 : done, 0, 3130
    section 26 Mar
-   USD 32.86 : done, 0, 3286
+   USD 31.57 : done, 0, 3157
    section 27 Mar
-   USD 33.19 : done, 0, 3319
+   USD 31.77 : done, 0, 3177
    section 28 Mar
-   USD 33.49 : done, 0, 3349
+   USD 31.93 : done, 0, 3193
    section 29 Mar
-   USD 33.69 : done, 0, 3369
+   USD 31.98 : done, 0, 3198
    section 30 Mar
-   USD 33.80 : done, 0, 3380
+   USD 31.98 : done, 0, 3198
    section 31 Mar
-   USD 34.04 : done, 0, 3404
+   USD 31.98 : done, 0, 3198
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|10.01 USD|
-|Storage|8.74 USD|
+|Azure App Service|10.60 USD|
+|Storage|8.75 USD|
 |Virtual Machines|3.59 USD|
 |Virtual Network|2.47 USD|
 |Bandwidth|1.19 USD|
-|Azure DNS|0.72 USD|
+|Azure DNS|0.76 USD|
 |Microsoft Defender for Cloud|0.10 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
@@ -103,12 +103,12 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 10.01
-   "Storage" : 8.74
+   "Azure App Service" : 10.60
+   "Storage" : 8.75
    "Virtual Machines" : 3.59
    "Virtual Network" : 2.47
    "Bandwidth" : 1.19
-   "Azure DNS" : 0.72
+   "Azure DNS" : 0.76
    "Microsoft Defender for Cloud" : 0.10
    "Functions" : 0.00
    "Log Analytics" : 0.00
@@ -119,8 +119,8 @@ pie
 |Location|Amount|
 |---|---:|
 |US North Central|15.77 USD|
-|US Central|10.05 USD|
-|Unknown|0.72 USD|
+|US Central|10.65 USD|
+|Unknown|0.76 USD|
 |US East|0.17 USD|
 |Unassigned|0.10 USD|
 |AP East|0.00 USD|
@@ -132,8 +132,8 @@ pie
 pie
    title Cost by location
    "US North Central" : 15.77
-   "US Central" : 10.05
-   "Unknown" : 0.72
+   "US Central" : 10.65
+   "Unknown" : 0.76
    "US East" : 0.17
    "Unassigned" : 0.10
    "AP East" : 0.00
@@ -147,8 +147,8 @@ pie
 |Resource Group|Amount|
 |---|---:|
 |personal-network|15.94 USD|
-|personal-site|10.05 USD|
-|personal-dns|0.56 USD|
+|personal-site|10.65 USD|
+|personal-dns|0.59 USD|
 |cloud-shell-storage-eastus|0.17 USD|
 ||0.10 USD|
 
@@ -156,10 +156,10 @@ pie
 pie
    title Cost by resource group
    "personal-network" : 15.94
-   "personal-site" : 10.05
-   "personal-dns" : 0.56
+   "personal-site" : 10.65
+   "personal-dns" : 0.59
    "cloud-shell-storage-eastus" : 0.17
    "(Unknown)" : 0.10
 ```
 
-<sup>Generated at 2024-03-18 11:23:09 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-03-19 11:23:44 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
