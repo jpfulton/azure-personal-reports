@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/26/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **03/01/2024** to **03/27/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.32 USD|
-|Last 7 days|3.89 USD|
-|Last 30 days|15.18 USD|
+|Yesterday|0.35 USD|
+|Last 7 days|3.91 USD|
+|Last 30 days|15.80 USD|
 
 ```mermaid
 gantt
@@ -73,24 +73,24 @@ gantt
    section 25 Mar
    USD 14.85 :0, 1485
    section 26 Mar
-   USD 15.18 :0, 1518
+   USD 15.45 :0, 1545
    section 27 Mar
-   USD 15.77 : done, 0, 1577
+   USD 15.80 :0, 1580
    section 28 Mar
-   USD 16.37 : done, 0, 1637
+   USD 16.39 : done, 0, 1639
    section 29 Mar
-   USD 16.96 : done, 0, 1696
+   USD 16.98 : done, 0, 1698
    section 30 Mar
-   USD 17.55 : done, 0, 1755
+   USD 17.58 : done, 0, 1758
    section 31 Mar
-   USD 18.15 : done, 0, 1815
+   USD 18.17 : done, 0, 1817
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|15.12 USD|
+|Azure App Service|15.73 USD|
 |Storage|0.06 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
@@ -99,7 +99,7 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 15.12
+   "Azure App Service" : 15.73
    "Storage" : 0.06
    "Bandwidth" : 0.00
    "Functions" : 0.00
@@ -110,7 +110,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|15.18 USD|
+|US Central|15.80 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -119,7 +119,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 15.18
+   "US Central" : 15.80
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -130,12 +130,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|15.18 USD|
+|personal-site|15.80 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 15.18
+   "personal-site" : 15.80
 ```
 
-<sup>Generated at 2024-03-27 11:06:52 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-03-28 11:07:05 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
