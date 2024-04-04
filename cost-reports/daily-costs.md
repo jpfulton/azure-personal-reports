@@ -4,7 +4,8 @@ Fetching daily cost data...
 | Date | Cost (USD) | Breakdown |
 |------|----------------|-----------|
 | **2024-04-01** | **0.64** | **personal-site**: `0.59` (_93.28%_), **personal-dns**: `0.03` (_5.15%_), **cloud-shell-storage-eastus**: `0.01` (_1.57%_), **Other**: `0.00` (_0.00%_) |
-| **2024-04-02** | **0.35** | **personal-site**: `0.32` (_92.16%_), **personal-dns**: `0.02` (_5.58%_), **cloud-shell-storage-eastus**: `0.01` (_2.26%_), **Other**: `0.00` (_0.00%_) |
+| **2024-04-02** | **0.64** | **personal-site**: `0.59` (_93.23%_), **personal-dns**: `0.03` (_5.20%_), **cloud-shell-storage-eastus**: `0.01` (_1.57%_), **Other**: `0.00` (_0.00%_) |
+| **2024-04-03** | **0.16** | **personal-site**: `0.15` (_92.50%_), **personal-dns**: `0.01` (_5.94%_), **cloud-shell-storage-eastus**: `0.00` (_1.56%_), **Other**: `0.00` (_0.00%_) |
 
 
-<sup>Generated at 2024-04-03 11:18:48 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-04-04 11:21:12 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
