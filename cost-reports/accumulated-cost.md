@@ -31,57 +31,57 @@ gantt
    section 04 Apr
    USD 1.89 :0, 189
    section 05 Apr
-   USD 2.07 : done, 0, 207
+   USD 2.09 : done, 0, 209
    section 06 Apr
-   USD 2.22 : done, 0, 222
+   USD 2.24 : done, 0, 224
    section 07 Apr
-   USD 2.31 : done, 0, 231
+   USD 2.36 : done, 0, 236
    section 08 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.43 : done, 0, 243
    section 09 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 10 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 11 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 12 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 13 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 14 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 15 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 16 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 17 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 18 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 19 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 20 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 21 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 22 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 23 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 24 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 25 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 26 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 27 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 28 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 29 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
    section 30 Apr
-   USD 2.37 : done, 0, 237
+   USD 2.46 : done, 0, 246
 ```
 
 ## By Service Name
@@ -144,4 +144,4 @@ pie
    "cloud-shell-storage-eastus" : 0.03
 ```
 
-<sup>Generated at 2024-04-05 11:19:13 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-04-06 11:23:05 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
