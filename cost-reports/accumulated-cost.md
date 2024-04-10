@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **04/01/2024** to **04/08/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **04/01/2024** to **04/09/2024**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.56 USD|
 |Last 7 days|4.38 USD|
-|Last 30 days|5.02 USD|
+|Last 30 days|5.66 USD|
 
 ```mermaid
 gantt
@@ -37,60 +37,60 @@ gantt
    section 07 Apr
    USD 4.46 :0, 446
    section 08 Apr
-   USD 5.02 :0, 502
+   USD 5.10 :0, 510
    section 09 Apr
-   USD 5.52 : done, 0, 552
+   USD 5.66 :0, 566
    section 10 Apr
-   USD 6.01 : done, 0, 601
+   USD 6.27 : done, 0, 627
    section 11 Apr
-   USD 6.49 : done, 0, 649
+   USD 6.87 : done, 0, 687
    section 12 Apr
-   USD 6.96 : done, 0, 696
+   USD 7.48 : done, 0, 748
    section 13 Apr
-   USD 7.41 : done, 0, 741
+   USD 8.08 : done, 0, 808
    section 14 Apr
-   USD 7.85 : done, 0, 785
+   USD 8.68 : done, 0, 868
    section 15 Apr
-   USD 8.28 : done, 0, 828
+   USD 9.27 : done, 0, 927
    section 16 Apr
-   USD 8.70 : done, 0, 870
+   USD 9.87 : done, 0, 987
    section 17 Apr
-   USD 9.10 : done, 0, 910
+   USD 10.46 : done, 0, 1046
    section 18 Apr
-   USD 9.50 : done, 0, 950
+   USD 11.05 : done, 0, 1105
    section 19 Apr
-   USD 9.88 : done, 0, 988
+   USD 11.63 : done, 0, 1163
    section 20 Apr
-   USD 10.25 : done, 0, 1025
+   USD 12.22 : done, 0, 1222
    section 21 Apr
-   USD 10.60 : done, 0, 1060
+   USD 12.80 : done, 0, 1280
    section 22 Apr
-   USD 10.94 : done, 0, 1094
+   USD 13.38 : done, 0, 1338
    section 23 Apr
-   USD 11.28 : done, 0, 1128
+   USD 13.95 : done, 0, 1395
    section 24 Apr
-   USD 11.59 : done, 0, 1159
+   USD 14.53 : done, 0, 1453
    section 25 Apr
-   USD 11.90 : done, 0, 1190
+   USD 15.10 : done, 0, 1510
    section 26 Apr
-   USD 12.19 : done, 0, 1219
+   USD 15.67 : done, 0, 1567
    section 27 Apr
-   USD 12.48 : done, 0, 1248
+   USD 16.23 : done, 0, 1623
    section 28 Apr
-   USD 12.75 : done, 0, 1275
+   USD 16.80 : done, 0, 1680
    section 29 Apr
-   USD 13.00 : done, 0, 1300
+   USD 17.36 : done, 0, 1736
    section 30 Apr
-   USD 13.25 : done, 0, 1325
+   USD 17.92 : done, 0, 1792
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|4.66 USD|
-|Azure DNS|0.26 USD|
-|Storage|0.10 USD|
+|Azure App Service|5.25 USD|
+|Azure DNS|0.29 USD|
+|Storage|0.11 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
@@ -98,9 +98,9 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 4.66
-   "Azure DNS" : 0.26
-   "Storage" : 0.10
+   "Azure App Service" : 5.25
+   "Azure DNS" : 0.29
+   "Storage" : 0.11
    "Bandwidth" : 0.00
    "Functions" : 0.00
    "Log Analytics" : 0.00
@@ -110,9 +110,9 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|4.68 USD|
-|Unknown|0.26 USD|
-|US East|0.08 USD|
+|US Central|5.28 USD|
+|Unknown|0.29 USD|
+|US East|0.09 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -121,9 +121,9 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 4.68
-   "Unknown" : 0.26
-   "US East" : 0.08
+   "US Central" : 5.28
+   "Unknown" : 0.29
+   "US East" : 0.09
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -134,16 +134,16 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|4.68 USD|
-|personal-dns|0.26 USD|
-|cloud-shell-storage-eastus|0.08 USD|
+|personal-site|5.28 USD|
+|personal-dns|0.29 USD|
+|cloud-shell-storage-eastus|0.09 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 4.68
-   "personal-dns" : 0.26
-   "cloud-shell-storage-eastus" : 0.08
+   "personal-site" : 5.28
+   "personal-dns" : 0.29
+   "cloud-shell-storage-eastus" : 0.09
 ```
 
-<sup>Generated at 2024-04-09 11:22:33 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-04-10 11:23:10 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
