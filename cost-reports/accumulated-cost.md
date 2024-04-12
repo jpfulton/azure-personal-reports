@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **04/01/2024** to **04/10/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **04/01/2024** to **04/11/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.24 USD|
-|Last 7 days|4.06 USD|
-|Last 30 days|5.98 USD|
+|Yesterday|0.37 USD|
+|Last 7 days|4.20 USD|
+|Last 30 days|6.75 USD|
 
 ```mermaid
 gantt
@@ -33,7 +33,7 @@ gantt
    section 05 Apr
    USD 3.19 :0, 319
    section 06 Apr
-   USD 3.82 :0, 382
+   USD 3.83 :0, 383
    section 07 Apr
    USD 4.46 :0, 446
    section 08 Apr
@@ -41,56 +41,56 @@ gantt
    section 09 Apr
    USD 5.74 :0, 574
    section 10 Apr
-   USD 5.98 :0, 598
+   USD 6.38 :0, 638
    section 11 Apr
-   USD 6.61 : done, 0, 661
+   USD 6.75 :0, 675
    section 12 Apr
-   USD 7.25 : done, 0, 725
+   USD 7.39 : done, 0, 739
    section 13 Apr
-   USD 7.89 : done, 0, 789
+   USD 8.02 : done, 0, 802
    section 14 Apr
-   USD 8.53 : done, 0, 853
+   USD 8.66 : done, 0, 866
    section 15 Apr
-   USD 9.16 : done, 0, 916
+   USD 9.30 : done, 0, 930
    section 16 Apr
-   USD 9.80 : done, 0, 980
+   USD 9.94 : done, 0, 994
    section 17 Apr
-   USD 10.44 : done, 0, 1044
+   USD 10.57 : done, 0, 1057
    section 18 Apr
-   USD 11.08 : done, 0, 1108
+   USD 11.21 : done, 0, 1121
    section 19 Apr
-   USD 11.71 : done, 0, 1171
+   USD 11.85 : done, 0, 1185
    section 20 Apr
-   USD 12.35 : done, 0, 1235
+   USD 12.49 : done, 0, 1249
    section 21 Apr
-   USD 12.99 : done, 0, 1299
+   USD 13.13 : done, 0, 1313
    section 22 Apr
-   USD 13.63 : done, 0, 1363
+   USD 13.76 : done, 0, 1376
    section 23 Apr
-   USD 14.26 : done, 0, 1426
+   USD 14.40 : done, 0, 1440
    section 24 Apr
-   USD 14.90 : done, 0, 1490
+   USD 15.04 : done, 0, 1504
    section 25 Apr
-   USD 15.54 : done, 0, 1554
+   USD 15.68 : done, 0, 1568
    section 26 Apr
-   USD 16.18 : done, 0, 1618
+   USD 16.31 : done, 0, 1631
    section 27 Apr
-   USD 16.81 : done, 0, 1681
+   USD 16.95 : done, 0, 1695
    section 28 Apr
-   USD 17.45 : done, 0, 1745
+   USD 17.59 : done, 0, 1759
    section 29 Apr
-   USD 18.09 : done, 0, 1809
+   USD 18.23 : done, 0, 1823
    section 30 Apr
-   USD 18.73 : done, 0, 1873
+   USD 18.87 : done, 0, 1887
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|5.55 USD|
-|Azure DNS|0.31 USD|
-|Storage|0.12 USD|
+|Azure App Service|6.26 USD|
+|Azure DNS|0.35 USD|
+|Storage|0.13 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
@@ -98,9 +98,9 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 5.55
-   "Azure DNS" : 0.31
-   "Storage" : 0.12
+   "Azure App Service" : 6.26
+   "Azure DNS" : 0.35
+   "Storage" : 0.13
    "Bandwidth" : 0.00
    "Functions" : 0.00
    "Log Analytics" : 0.00
@@ -110,9 +110,9 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|5.57 USD|
-|Unknown|0.31 USD|
-|US East|0.09 USD|
+|US Central|6.29 USD|
+|Unknown|0.35 USD|
+|US East|0.11 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -121,9 +121,9 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 5.57
-   "Unknown" : 0.31
-   "US East" : 0.09
+   "US Central" : 6.29
+   "Unknown" : 0.35
+   "US East" : 0.11
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -134,16 +134,16 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|5.57 USD|
-|personal-dns|0.31 USD|
-|cloud-shell-storage-eastus|0.09 USD|
+|personal-site|6.29 USD|
+|personal-dns|0.35 USD|
+|cloud-shell-storage-eastus|0.11 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 5.57
-   "personal-dns" : 0.31
-   "cloud-shell-storage-eastus" : 0.09
+   "personal-site" : 6.29
+   "personal-dns" : 0.35
+   "cloud-shell-storage-eastus" : 0.11
 ```
 
-<sup>Generated at 2024-04-11 11:23:20 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-04-12 11:22:17 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
