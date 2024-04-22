@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **04/01/2024** to **04/20/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **04/01/2024** to **04/21/2024**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.54 USD|
 |Last 7 days|4.11 USD|
-|Last 30 days|11.84 USD|
+|Last 30 days|12.43 USD|
 
 ```mermaid
 gantt
@@ -61,11 +61,11 @@ gantt
    section 19 Apr
    USD 11.29 :0, 1129
    section 20 Apr
-   USD 11.84 :0, 1184
+   USD 11.89 :0, 1189
    section 21 Apr
-   USD 12.43 : done, 0, 1243
+   USD 12.43 :0, 1243
    section 22 Apr
-   USD 13.03 : done, 0, 1303
+   USD 13.02 : done, 0, 1302
    section 23 Apr
    USD 13.62 : done, 0, 1362
    section 24 Apr
@@ -88,7 +88,7 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|11.79 USD|
+|Azure App Service|12.38 USD|
 |Storage|0.05 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
@@ -97,7 +97,7 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 11.79
+   "Azure App Service" : 12.38
    "Storage" : 0.05
    "Bandwidth" : 0.00
    "Functions" : 0.00
@@ -108,7 +108,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|11.84 USD|
+|US Central|12.43 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -117,7 +117,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 11.84
+   "US Central" : 12.43
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -128,12 +128,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|11.84 USD|
+|personal-site|12.43 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 11.84
+   "personal-site" : 12.43
 ```
 
-<sup>Generated at 2024-04-21 11:06:38 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-04-22 11:07:56 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
