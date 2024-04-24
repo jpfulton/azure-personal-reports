@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **04/01/2024** to **04/22/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **04/01/2024** to **04/23/2024**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.54 USD|
 |Last 7 days|4.11 USD|
-|Last 30 days|13.02 USD|
+|Last 30 days|13.62 USD|
 
 ```mermaid
 gantt
@@ -65,9 +65,9 @@ gantt
    section 21 Apr
    USD 12.48 :0, 1248
    section 22 Apr
-   USD 13.02 :0, 1302
+   USD 13.07 :0, 1307
    section 23 Apr
-   USD 13.62 : done, 0, 1362
+   USD 13.62 :0, 1362
    section 24 Apr
    USD 14.21 : done, 0, 1421
    section 25 Apr
@@ -75,7 +75,7 @@ gantt
    section 26 Apr
    USD 15.40 : done, 0, 1540
    section 27 Apr
-   USD 15.99 : done, 0, 1599
+   USD 16.00 : done, 0, 1600
    section 28 Apr
    USD 16.59 : done, 0, 1659
    section 29 Apr
@@ -88,8 +88,8 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|12.97 USD|
-|Storage|0.05 USD|
+|Azure App Service|13.56 USD|
+|Storage|0.06 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
@@ -97,8 +97,8 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 12.97
-   "Storage" : 0.05
+   "Azure App Service" : 13.56
+   "Storage" : 0.06
    "Bandwidth" : 0.00
    "Functions" : 0.00
    "Log Analytics" : 0.00
@@ -108,7 +108,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|13.02 USD|
+|US Central|13.62 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -117,7 +117,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 13.02
+   "US Central" : 13.62
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -128,12 +128,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|13.02 USD|
+|personal-site|13.62 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 13.02
+   "personal-site" : 13.62
 ```
 
-<sup>Generated at 2024-04-23 11:02:45 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-04-24 11:03:07 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
