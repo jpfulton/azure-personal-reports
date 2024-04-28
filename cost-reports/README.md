@@ -1,6 +1,6 @@
 # Cost Reports Summary
 
-> Generated on: Sat Apr 27 11:23:13 UTC 2024 <br />
+> Generated on: Sun Apr 28 11:22:56 UTC 2024 <br />
 > Running Version: 0.0.6.0 <br />
 > Resources and resource groups with no costs are omitted from details reports. <br />
 > Resources that have been deleted will be included in summary calculations but will not have details reports.
