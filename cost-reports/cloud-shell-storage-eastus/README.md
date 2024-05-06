@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **05/01/2024** to **05/04/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **05/01/2024** to **05/05/2024**
 
 ## Totals
 
@@ -14,8 +14,8 @@ Fetching cost data by resource group...
 |---|---:|
 |Today|0.00 USD|
 |Yesterday|0.01 USD|
-|Last 7 days|0.04 USD|
-|Last 30 days|0.04 USD|
+|Last 7 days|0.05 USD|
+|Last 30 days|0.05 USD|
 
 ```mermaid
 gantt
@@ -31,29 +31,29 @@ gantt
    section 04 May
    USD 0.04 :0, 4
    section 05 May
-   USD 0.05 : done, 0, 5
+   USD 0.05 :0, 5
    section 06 May
    USD 0.06 : done, 0, 6
    section 07 May
-   USD 0.06 : done, 0, 6
-   section 08 May
    USD 0.07 : done, 0, 7
-   section 09 May
+   section 08 May
    USD 0.08 : done, 0, 8
-   section 10 May
+   section 09 May
    USD 0.09 : done, 0, 9
-   section 11 May
+   section 10 May
    USD 0.10 : done, 0, 10
-   section 12 May
+   section 11 May
    USD 0.11 : done, 0, 11
-   section 13 May
+   section 12 May
    USD 0.12 : done, 0, 12
-   section 14 May
+   section 13 May
    USD 0.13 : done, 0, 13
-   section 15 May
+   section 14 May
    USD 0.14 : done, 0, 14
-   section 16 May
+   section 15 May
    USD 0.15 : done, 0, 15
+   section 16 May
+   USD 0.16 : done, 0, 16
    section 17 May
    USD 0.16 : done, 0, 16
    section 18 May
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Storage|0.04 USD|
+|Storage|0.05 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.04
+   "Storage" : 0.05
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US East|0.04 USD|
+|US East|0.05 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US East" : 0.04
+   "US East" : 0.05
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|cloud-shell-storage-eastus|0.04 USD|
+|cloud-shell-storage-eastus|0.05 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "cloud-shell-storage-eastus" : 0.04
+   "cloud-shell-storage-eastus" : 0.05
 ```
 
-<sup>Generated at 2024-05-05 11:06:55 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-05-06 11:03:49 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
