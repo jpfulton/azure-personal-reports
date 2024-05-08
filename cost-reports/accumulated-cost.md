@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **05/01/2024** to **05/06/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **05/01/2024** to **05/07/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.56 USD|
-|Last 7 days|3.74 USD|
-|Last 30 days|3.74 USD|
+|Yesterday|0.58 USD|
+|Last 7 days|4.40 USD|
+|Last 30 days|4.40 USD|
 
 ```mermaid
 gantt
@@ -33,66 +33,66 @@ gantt
    section 05 May
    USD 3.18 :0, 318
    section 06 May
-   USD 3.74 :0, 374
+   USD 3.82 :0, 382
    section 07 May
-   USD 4.38 : done, 0, 438
+   USD 4.40 :0, 440
    section 08 May
-   USD 5.01 : done, 0, 501
+   USD 5.04 : done, 0, 504
    section 09 May
-   USD 5.65 : done, 0, 565
+   USD 5.68 : done, 0, 568
    section 10 May
-   USD 6.29 : done, 0, 629
+   USD 6.31 : done, 0, 631
    section 11 May
-   USD 6.92 : done, 0, 692
+   USD 6.95 : done, 0, 695
    section 12 May
-   USD 7.56 : done, 0, 756
+   USD 7.59 : done, 0, 759
    section 13 May
-   USD 8.20 : done, 0, 820
+   USD 8.22 : done, 0, 822
    section 14 May
-   USD 8.83 : done, 0, 883
+   USD 8.86 : done, 0, 886
    section 15 May
-   USD 9.47 : done, 0, 947
+   USD 9.50 : done, 0, 950
    section 16 May
-   USD 10.11 : done, 0, 1011
+   USD 10.13 : done, 0, 1013
    section 17 May
-   USD 10.74 : done, 0, 1074
+   USD 10.77 : done, 0, 1077
    section 18 May
-   USD 11.38 : done, 0, 1138
+   USD 11.40 : done, 0, 1140
    section 19 May
-   USD 12.02 : done, 0, 1202
+   USD 12.04 : done, 0, 1204
    section 20 May
-   USD 12.65 : done, 0, 1265
+   USD 12.68 : done, 0, 1268
    section 21 May
-   USD 13.29 : done, 0, 1329
+   USD 13.31 : done, 0, 1331
    section 22 May
-   USD 13.93 : done, 0, 1393
+   USD 13.95 : done, 0, 1395
    section 23 May
-   USD 14.56 : done, 0, 1456
+   USD 14.59 : done, 0, 1459
    section 24 May
-   USD 15.20 : done, 0, 1520
+   USD 15.22 : done, 0, 1522
    section 25 May
-   USD 15.84 : done, 0, 1584
+   USD 15.86 : done, 0, 1586
    section 26 May
-   USD 16.47 : done, 0, 1647
+   USD 16.49 : done, 0, 1649
    section 27 May
-   USD 17.11 : done, 0, 1711
+   USD 17.13 : done, 0, 1713
    section 28 May
-   USD 17.75 : done, 0, 1775
+   USD 17.77 : done, 0, 1777
    section 29 May
-   USD 18.38 : done, 0, 1838
+   USD 18.40 : done, 0, 1840
    section 30 May
-   USD 19.02 : done, 0, 1902
+   USD 19.04 : done, 0, 1904
    section 31 May
-   USD 19.65 : done, 0, 1965
+   USD 19.68 : done, 0, 1968
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|3.48 USD|
-|Azure DNS|0.19 USD|
-|Storage|0.07 USD|
+|Azure App Service|4.09 USD|
+|Azure DNS|0.23 USD|
+|Storage|0.08 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
@@ -100,9 +100,9 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 3.48
-   "Azure DNS" : 0.19
-   "Storage" : 0.07
+   "Azure App Service" : 4.09
+   "Azure DNS" : 0.23
+   "Storage" : 0.08
    "Bandwidth" : 0.00
    "Functions" : 0.00
    "Log Analytics" : 0.00
@@ -112,9 +112,9 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|3.49 USD|
-|Unknown|0.19 USD|
-|US East|0.06 USD|
+|US Central|4.11 USD|
+|Unknown|0.23 USD|
+|US East|0.07 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -123,9 +123,9 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 3.49
-   "Unknown" : 0.19
-   "US East" : 0.06
+   "US Central" : 4.11
+   "Unknown" : 0.23
+   "US East" : 0.07
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -136,16 +136,16 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|3.49 USD|
-|personal-dns|0.19 USD|
-|cloud-shell-storage-eastus|0.06 USD|
+|personal-site|4.11 USD|
+|personal-dns|0.23 USD|
+|cloud-shell-storage-eastus|0.07 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 3.49
-   "personal-dns" : 0.19
-   "cloud-shell-storage-eastus" : 0.06
+   "personal-site" : 4.11
+   "personal-dns" : 0.23
+   "cloud-shell-storage-eastus" : 0.07
 ```
 
-<sup>Generated at 2024-05-07 11:22:09 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-05-08 11:22:10 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
