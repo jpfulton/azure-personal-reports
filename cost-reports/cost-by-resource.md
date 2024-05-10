@@ -33,13 +33,13 @@ Fetching cost data for resources...
 |personal-site-api-preview | microsoft.web/sites | US Central | personal-site |  Functions |  | Standard Execution Time | 0.00 USD |
 |staging | microsoft.web/sites | US Central | personal-site |  Azure App Service | Free Plan | F1 App | 0.00 USD |
 |staging | microsoft.web/sites | US Central | personal-site |  Azure App Service | Free Plan | F1 App | 0.00 USD |
-|personal-site | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard App | 2.34 USD |
+|personal-site | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard App | 2.44 USD |
 |personal-site | microsoft.web/staticsites | AP East | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site | microsoft.web/staticsites | EU West | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site | microsoft.web/staticsites | US East 2 | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site | microsoft.web/staticsites | US West 2 | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
-|personal-site-preview | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard App | 2.34 USD |
+|personal-site-preview | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard App | 2.44 USD |
 |personal-site-preview | microsoft.web/staticsites | AP East | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site-preview | microsoft.web/staticsites | EU West | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
 |personal-site-preview | microsoft.web/staticsites | US Central | personal-site |  Azure App Service | Static Web | Standard Bandwidth Usage | 0.00 USD |
