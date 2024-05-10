@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **05/01/2024** to **05/06/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **05/01/2024** to **05/09/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.03 USD|
-|Last 7 days|0.19 USD|
-|Last 30 days|0.19 USD|
+|Yesterday|0.01 USD|
+|Last 7 days|0.21 USD|
+|Last 30 days|0.27 USD|
 
 ```mermaid
 gantt
@@ -33,93 +33,93 @@ gantt
    section 05 May
    USD 0.16 :0, 16
    section 06 May
-   USD 0.19 :0, 19
+   USD 0.20 :0, 20
    section 07 May
-   USD 0.23 : done, 0, 23
+   USD 0.23 :0, 23
    section 08 May
-   USD 0.26 : done, 0, 26
+   USD 0.26 :0, 26
    section 09 May
-   USD 0.29 : done, 0, 29
+   USD 0.27 :0, 27
    section 10 May
-   USD 0.32 : done, 0, 32
+   USD 0.30 : done, 0, 30
    section 11 May
-   USD 0.36 : done, 0, 36
+   USD 0.34 : done, 0, 34
    section 12 May
-   USD 0.39 : done, 0, 39
+   USD 0.37 : done, 0, 37
    section 13 May
-   USD 0.42 : done, 0, 42
+   USD 0.40 : done, 0, 40
    section 14 May
-   USD 0.46 : done, 0, 46
+   USD 0.44 : done, 0, 44
    section 15 May
-   USD 0.49 : done, 0, 49
+   USD 0.47 : done, 0, 47
    section 16 May
-   USD 0.52 : done, 0, 52
+   USD 0.50 : done, 0, 50
    section 17 May
-   USD 0.55 : done, 0, 55
+   USD 0.53 : done, 0, 53
    section 18 May
-   USD 0.59 : done, 0, 59
+   USD 0.57 : done, 0, 57
    section 19 May
-   USD 0.62 : done, 0, 62
+   USD 0.60 : done, 0, 60
    section 20 May
-   USD 0.65 : done, 0, 65
+   USD 0.63 : done, 0, 63
    section 21 May
-   USD 0.68 : done, 0, 68
+   USD 0.66 : done, 0, 66
    section 22 May
-   USD 0.72 : done, 0, 72
+   USD 0.70 : done, 0, 70
    section 23 May
-   USD 0.75 : done, 0, 75
+   USD 0.73 : done, 0, 73
    section 24 May
-   USD 0.78 : done, 0, 78
+   USD 0.76 : done, 0, 76
    section 25 May
-   USD 0.82 : done, 0, 82
+   USD 0.79 : done, 0, 79
    section 26 May
-   USD 0.85 : done, 0, 85
+   USD 0.83 : done, 0, 83
    section 27 May
-   USD 0.88 : done, 0, 88
+   USD 0.86 : done, 0, 86
    section 28 May
-   USD 0.91 : done, 0, 91
+   USD 0.89 : done, 0, 89
    section 29 May
-   USD 0.95 : done, 0, 95
+   USD 0.93 : done, 0, 93
    section 30 May
-   USD 0.98 : done, 0, 98
+   USD 0.96 : done, 0, 96
    section 31 May
-   USD 1.01 : done, 0, 101
+   USD 0.99 : done, 0, 99
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.19 USD|
+|Azure DNS|0.27 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.19
+   "Azure DNS" : 0.27
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.19 USD|
+|Unknown|0.27 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.19
+   "Unknown" : 0.27
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-dns|0.19 USD|
+|personal-dns|0.27 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-dns" : 0.19
+   "personal-dns" : 0.27
 ```
 
-<sup>Generated at 2024-05-07 11:06:56 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-05-10 11:05:52 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
