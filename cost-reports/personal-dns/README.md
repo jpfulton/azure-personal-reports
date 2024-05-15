@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **05/01/2024** to **05/13/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **05/01/2024** to **05/14/2024**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.03 USD|
 |Last 7 days|0.23 USD|
-|Last 30 days|0.43 USD|
+|Last 30 days|0.46 USD|
 
 ```mermaid
 gantt
@@ -49,11 +49,11 @@ gantt
    section 13 May
    USD 0.43 :0, 43
    section 14 May
-   USD 0.46 : done, 0, 46
+   USD 0.46 :0, 46
    section 15 May
    USD 0.49 : done, 0, 49
    section 16 May
-   USD 0.52 : done, 0, 52
+   USD 0.53 : done, 0, 53
    section 17 May
    USD 0.56 : done, 0, 56
    section 18 May
@@ -67,7 +67,7 @@ gantt
    section 22 May
    USD 0.72 : done, 0, 72
    section 23 May
-   USD 0.75 : done, 0, 75
+   USD 0.76 : done, 0, 76
    section 24 May
    USD 0.79 : done, 0, 79
    section 25 May
@@ -81,7 +81,7 @@ gantt
    section 29 May
    USD 0.95 : done, 0, 95
    section 30 May
-   USD 0.98 : done, 0, 98
+   USD 0.99 : done, 0, 99
    section 31 May
    USD 1.02 : done, 0, 102
 ```
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.43 USD|
+|Azure DNS|0.46 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.43
+   "Azure DNS" : 0.46
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.43 USD|
+|Unknown|0.46 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.43
+   "Unknown" : 0.46
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-dns|0.43 USD|
+|personal-dns|0.46 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-dns" : 0.43
+   "personal-dns" : 0.46
 ```
 
-<sup>Generated at 2024-05-14 11:07:38 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-05-15 11:06:52 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
