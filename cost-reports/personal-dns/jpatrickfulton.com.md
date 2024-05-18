@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **05/01/2024** to **05/16/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **05/01/2024** to **05/17/2024**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.01 USD|
 |Last 7 days|0.11 USD|
-|Last 30 days|0.26 USD|
+|Last 30 days|0.27 USD|
 
 ```mermaid
 gantt
@@ -55,33 +55,33 @@ gantt
    section 16 May
    USD 0.26 :0, 26
    section 17 May
-   USD 0.28 : done, 0, 28
+   USD 0.27 :0, 27
    section 18 May
    USD 0.29 : done, 0, 29
    section 19 May
-   USD 0.31 : done, 0, 31
+   USD 0.30 : done, 0, 30
    section 20 May
-   USD 0.33 : done, 0, 33
+   USD 0.32 : done, 0, 32
    section 21 May
    USD 0.34 : done, 0, 34
    section 22 May
-   USD 0.36 : done, 0, 36
+   USD 0.35 : done, 0, 35
    section 23 May
    USD 0.37 : done, 0, 37
    section 24 May
    USD 0.39 : done, 0, 39
    section 25 May
-   USD 0.41 : done, 0, 41
+   USD 0.40 : done, 0, 40
    section 26 May
    USD 0.42 : done, 0, 42
    section 27 May
    USD 0.44 : done, 0, 44
    section 28 May
-   USD 0.46 : done, 0, 46
+   USD 0.45 : done, 0, 45
    section 29 May
    USD 0.47 : done, 0, 47
    section 30 May
-   USD 0.49 : done, 0, 49
+   USD 0.48 : done, 0, 48
    section 31 May
    USD 0.50 : done, 0, 50
 ```
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.26 USD|
+|Azure DNS|0.27 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.26
+   "Azure DNS" : 0.27
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.26 USD|
+|Unknown|0.27 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.26
+   "Unknown" : 0.27
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-dns|0.26 USD|
+|personal-dns|0.27 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-dns" : 0.26
+   "personal-dns" : 0.27
 ```
 
-<sup>Generated at 2024-05-17 11:12:27 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-05-18 11:12:22 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
