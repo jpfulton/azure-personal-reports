@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **05/01/2024** to **05/18/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **05/01/2024** to **05/19/2024**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.01 USD|
 |Last 7 days|0.07 USD|
-|Last 30 days|0.17 USD|
+|Last 30 days|0.18 USD|
 
 ```mermaid
 gantt
@@ -58,42 +58,68 @@ gantt
    USD 0.16 :0, 16
    section 18 May
    USD 0.17 :0, 17
+   section 19 May
+   USD 0.18 :0, 18
+   section 20 May
+   USD 0.19 : done, 0, 19
+   section 21 May
+   USD 0.20 : done, 0, 20
+   section 22 May
+   USD 0.21 : done, 0, 21
+   section 23 May
+   USD 0.22 : done, 0, 22
+   section 24 May
+   USD 0.23 : done, 0, 23
+   section 25 May
+   USD 0.24 : done, 0, 24
+   section 26 May
+   USD 0.25 : done, 0, 25
+   section 27 May
+   USD 0.26 : done, 0, 26
+   section 28 May
+   USD 0.27 : done, 0, 27
+   section 29 May
+   USD 0.28 : done, 0, 28
+   section 30 May
+   USD 0.29 : done, 0, 29
+   section 31 May
+   USD 0.30 : done, 0, 30
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|0.17 USD|
+|Storage|0.18 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.17
+   "Storage" : 0.18
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US East|0.17 USD|
+|US East|0.18 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US East" : 0.17
+   "US East" : 0.18
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|cloud-shell-storage-eastus|0.17 USD|
+|cloud-shell-storage-eastus|0.18 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "cloud-shell-storage-eastus" : 0.17
+   "cloud-shell-storage-eastus" : 0.18
 ```
 
-<sup>Generated at 2024-05-19 11:07:51 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-05-20 11:07:19 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
