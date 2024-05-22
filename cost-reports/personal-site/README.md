@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **05/01/2024** to **05/20/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **05/01/2024** to **05/21/2024**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.49 USD|
 |Last 7 days|4.05 USD|
-|Last 30 days|11.80 USD|
+|Last 30 days|12.39 USD|
 
 ```mermaid
 gantt
@@ -61,11 +61,11 @@ gantt
    section 19 May
    USD 11.30 :0, 1130
    section 20 May
-   USD 11.80 :0, 1180
+   USD 11.90 :0, 1190
    section 21 May
-   USD 12.39 : done, 0, 1239
+   USD 12.39 :0, 1239
    section 22 May
-   USD 12.99 : done, 0, 1299
+   USD 12.98 : done, 0, 1298
    section 23 May
    USD 13.58 : done, 0, 1358
    section 24 May
@@ -79,18 +79,18 @@ gantt
    section 28 May
    USD 16.55 : done, 0, 1655
    section 29 May
-   USD 17.15 : done, 0, 1715
+   USD 17.14 : done, 0, 1714
    section 30 May
    USD 17.74 : done, 0, 1774
    section 31 May
-   USD 18.34 : done, 0, 1834
+   USD 18.33 : done, 0, 1833
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|11.76 USD|
+|Azure App Service|12.35 USD|
 |Storage|0.04 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
@@ -99,7 +99,7 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 11.76
+   "Azure App Service" : 12.35
    "Storage" : 0.04
    "Bandwidth" : 0.00
    "Functions" : 0.00
@@ -110,7 +110,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|11.70 USD|
+|US Central|12.39 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -119,7 +119,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 11.70
+   "US Central" : 12.39
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -130,12 +130,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|11.70 USD|
+|personal-site|12.39 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 11.70
+   "personal-site" : 12.39
 ```
 
-<sup>Generated at 2024-05-21 11:05:56 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-05-22 11:05:56 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
