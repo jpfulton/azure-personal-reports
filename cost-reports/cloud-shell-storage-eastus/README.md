@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **06/01/2024** to **06/03/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **06/01/2024** to **06/04/2024**
 
 ## Totals
 
@@ -14,8 +14,8 @@ Fetching cost data by resource group...
 |---|---:|
 |Today|0.00 USD|
 |Yesterday|0.01 USD|
-|Last 7 days|0.03 USD|
-|Last 30 days|0.03 USD|
+|Last 7 days|0.04 USD|
+|Last 30 days|0.04 USD|
 
 ```mermaid
 gantt
@@ -29,7 +29,7 @@ gantt
    section 03 Jun
    USD 0.03 :0, 3
    section 04 Jun
-   USD 0.04 : done, 0, 4
+   USD 0.04 :0, 4
    section 05 Jun
    USD 0.05 : done, 0, 5
    section 06 Jun
@@ -67,57 +67,57 @@ gantt
    section 22 Jun
    USD 0.22 : done, 0, 22
    section 23 Jun
-   USD 0.22 : done, 0, 22
-   section 24 Jun
    USD 0.23 : done, 0, 23
-   section 25 Jun
+   section 24 Jun
    USD 0.24 : done, 0, 24
-   section 26 Jun
+   section 25 Jun
    USD 0.25 : done, 0, 25
-   section 27 Jun
+   section 26 Jun
    USD 0.26 : done, 0, 26
-   section 28 Jun
+   section 27 Jun
    USD 0.27 : done, 0, 27
-   section 29 Jun
+   section 28 Jun
    USD 0.28 : done, 0, 28
-   section 30 Jun
+   section 29 Jun
    USD 0.29 : done, 0, 29
+   section 30 Jun
+   USD 0.30 : done, 0, 30
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Storage|0.03 USD|
+|Storage|0.04 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.03
+   "Storage" : 0.04
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US East|0.03 USD|
+|US East|0.04 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US East" : 0.03
+   "US East" : 0.04
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|cloud-shell-storage-eastus|0.03 USD|
+|cloud-shell-storage-eastus|0.04 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "cloud-shell-storage-eastus" : 0.03
+   "cloud-shell-storage-eastus" : 0.04
 ```
 
-<sup>Generated at 2024-06-04 11:05:22 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-06-05 11:07:18 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
