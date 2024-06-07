@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **06/01/2024** to **06/05/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **06/01/2024** to **06/06/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.27 USD|
-|Last 7 days|2.81 USD|
-|Last 30 days|2.81 USD|
+|Yesterday|0.59 USD|
+|Last 7 days|3.77 USD|
+|Last 30 days|3.77 USD|
 
 ```mermaid
 gantt
@@ -31,75 +31,75 @@ gantt
    section 04 Jun
    USD 2.55 :0, 255
    section 05 Jun
-   USD 2.81 :0, 281
+   USD 3.18 :0, 318
    section 06 Jun
-   USD 3.45 : done, 0, 345
+   USD 3.77 :0, 377
    section 07 Jun
-   USD 4.08 : done, 0, 408
+   USD 4.40 : done, 0, 440
    section 08 Jun
-   USD 4.72 : done, 0, 472
+   USD 5.04 : done, 0, 504
    section 09 Jun
-   USD 5.35 : done, 0, 535
+   USD 5.67 : done, 0, 567
    section 10 Jun
-   USD 5.99 : done, 0, 599
+   USD 6.30 : done, 0, 630
    section 11 Jun
-   USD 6.62 : done, 0, 662
+   USD 6.94 : done, 0, 694
    section 12 Jun
-   USD 7.25 : done, 0, 725
+   USD 7.57 : done, 0, 757
    section 13 Jun
-   USD 7.89 : done, 0, 789
+   USD 8.21 : done, 0, 821
    section 14 Jun
-   USD 8.52 : done, 0, 852
+   USD 8.84 : done, 0, 884
    section 15 Jun
-   USD 9.15 : done, 0, 915
+   USD 9.47 : done, 0, 947
    section 16 Jun
-   USD 9.79 : done, 0, 979
+   USD 10.11 : done, 0, 1011
    section 17 Jun
-   USD 10.42 : done, 0, 1042
+   USD 10.74 : done, 0, 1074
    section 18 Jun
-   USD 11.06 : done, 0, 1106
+   USD 11.37 : done, 0, 1137
    section 19 Jun
-   USD 11.69 : done, 0, 1169
+   USD 12.01 : done, 0, 1201
    section 20 Jun
-   USD 12.32 : done, 0, 1232
+   USD 12.64 : done, 0, 1264
    section 21 Jun
-   USD 12.95 : done, 0, 1295
+   USD 13.27 : done, 0, 1327
    section 22 Jun
-   USD 13.59 : done, 0, 1359
+   USD 13.91 : done, 0, 1391
    section 23 Jun
-   USD 14.22 : done, 0, 1422
+   USD 14.54 : done, 0, 1454
    section 24 Jun
-   USD 14.85 : done, 0, 1485
+   USD 15.17 : done, 0, 1517
    section 25 Jun
-   USD 15.49 : done, 0, 1549
+   USD 15.80 : done, 0, 1580
    section 26 Jun
-   USD 16.12 : done, 0, 1612
+   USD 16.43 : done, 0, 1643
    section 27 Jun
-   USD 16.75 : done, 0, 1675
+   USD 17.07 : done, 0, 1707
    section 28 Jun
-   USD 17.38 : done, 0, 1738
+   USD 17.70 : done, 0, 1770
    section 29 Jun
-   USD 18.01 : done, 0, 1801
+   USD 18.33 : done, 0, 1833
    section 30 Jun
-   USD 18.65 : done, 0, 1865
+   USD 18.96 : done, 0, 1896
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|2.61 USD|
-|Azure DNS|0.15 USD|
-|Storage|0.05 USD|
+|Azure App Service|3.50 USD|
+|Azure DNS|0.20 USD|
+|Storage|0.07 USD|
 |Bandwidth|0.00 USD|
 |Log Analytics|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 2.61
-   "Azure DNS" : 0.15
-   "Storage" : 0.05
+   "Azure App Service" : 3.50
+   "Azure DNS" : 0.20
+   "Storage" : 0.07
    "Bandwidth" : 0.00
    "Log Analytics" : 0.00
 ```
@@ -108,9 +108,9 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|2.62 USD|
-|Unknown|0.15 USD|
-|US East|0.04 USD|
+|US Central|3.51 USD|
+|Unknown|0.20 USD|
+|US East|0.06 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -119,9 +119,9 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 2.62
-   "Unknown" : 0.15
-   "US East" : 0.04
+   "US Central" : 3.51
+   "Unknown" : 0.20
+   "US East" : 0.06
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -132,16 +132,16 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|2.62 USD|
-|personal-dns|0.15 USD|
-|cloud-shell-storage-eastus|0.04 USD|
+|personal-site|3.51 USD|
+|personal-dns|0.20 USD|
+|cloud-shell-storage-eastus|0.06 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 2.62
-   "personal-dns" : 0.15
-   "cloud-shell-storage-eastus" : 0.04
+   "personal-site" : 3.51
+   "personal-dns" : 0.20
+   "cloud-shell-storage-eastus" : 0.06
 ```
 
-<sup>Generated at 2024-06-06 11:23:36 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-06-07 11:22:31 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
