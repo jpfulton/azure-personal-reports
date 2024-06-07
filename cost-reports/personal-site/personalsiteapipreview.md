@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **06/01/2024** to **06/05/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **06/01/2024** to **06/06/2024**
 
 ## Totals
 
@@ -14,8 +14,8 @@ Fetching cost data by resource group...
 |---|---:|
 |Today|0.00 USD|
 |Yesterday|0.00 USD|
-|Last 7 days|0.00 USD|
-|Last 30 days|0.00 USD|
+|Last 7 days|0.01 USD|
+|Last 30 days|0.01 USD|
 
 ```mermaid
 gantt
@@ -33,7 +33,7 @@ gantt
    section 05 Jun
    USD 0.00 :0, 0
    section 06 Jun
-   USD 0.01 : done, 0, 1
+   USD 0.01 :0, 1
    section 07 Jun
    USD 0.01 : done, 0, 1
    section 08 Jun
@@ -53,7 +53,7 @@ gantt
    section 15 Jun
    USD 0.01 : done, 0, 1
    section 16 Jun
-   USD 0.01 : done, 0, 1
+   USD 0.02 : done, 0, 2
    section 17 Jun
    USD 0.02 : done, 0, 2
    section 18 Jun
@@ -71,9 +71,9 @@ gantt
    section 24 Jun
    USD 0.02 : done, 0, 2
    section 25 Jun
-   USD 0.02 : done, 0, 2
+   USD 0.03 : done, 0, 3
    section 26 Jun
-   USD 0.02 : done, 0, 2
+   USD 0.03 : done, 0, 3
    section 27 Jun
    USD 0.03 : done, 0, 3
    section 28 Jun
@@ -88,36 +88,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Storage|0.00 USD|
+|Storage|0.01 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Storage" : 0.00
+   "Storage" : 0.01
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US Central|0.00 USD|
+|US Central|0.01 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 0.00
+   "US Central" : 0.01
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|0.00 USD|
+|personal-site|0.01 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 0.00
+   "personal-site" : 0.01
 ```
 
-<sup>Generated at 2024-06-06 11:20:35 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-06-07 11:19:29 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
