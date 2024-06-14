@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **06/01/2024** to **06/12/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **06/01/2024** to **06/13/2024**
 
 ## Totals
 
@@ -47,41 +47,41 @@ gantt
    section 12 Jun
    USD 0.12 :0, 12
    section 13 Jun
-   USD 0.13 : done, 0, 13
+   USD 0.12 :0, 12
    section 14 Jun
-   USD 0.14 : done, 0, 14
+   USD 0.13 : done, 0, 13
    section 15 Jun
-   USD 0.15 : done, 0, 15
+   USD 0.14 : done, 0, 14
    section 16 Jun
-   USD 0.16 : done, 0, 16
+   USD 0.15 : done, 0, 15
    section 17 Jun
-   USD 0.17 : done, 0, 17
+   USD 0.16 : done, 0, 16
    section 18 Jun
-   USD 0.18 : done, 0, 18
+   USD 0.17 : done, 0, 17
    section 19 Jun
-   USD 0.19 : done, 0, 19
+   USD 0.18 : done, 0, 18
    section 20 Jun
-   USD 0.20 : done, 0, 20
+   USD 0.19 : done, 0, 19
    section 21 Jun
-   USD 0.21 : done, 0, 21
+   USD 0.19 : done, 0, 19
    section 22 Jun
-   USD 0.22 : done, 0, 22
+   USD 0.20 : done, 0, 20
    section 23 Jun
-   USD 0.23 : done, 0, 23
+   USD 0.21 : done, 0, 21
    section 24 Jun
-   USD 0.24 : done, 0, 24
+   USD 0.22 : done, 0, 22
    section 25 Jun
-   USD 0.25 : done, 0, 25
+   USD 0.23 : done, 0, 23
    section 26 Jun
-   USD 0.26 : done, 0, 26
+   USD 0.24 : done, 0, 24
    section 27 Jun
-   USD 0.27 : done, 0, 27
+   USD 0.25 : done, 0, 25
    section 28 Jun
-   USD 0.28 : done, 0, 28
+   USD 0.26 : done, 0, 26
    section 29 Jun
-   USD 0.29 : done, 0, 29
+   USD 0.27 : done, 0, 27
    section 30 Jun
-   USD 0.30 : done, 0, 30
+   USD 0.28 : done, 0, 28
 ```
 
 ## By Service Name
@@ -120,4 +120,4 @@ pie
    "cloud-shell-storage-eastus" : 0.12
 ```
 
-<sup>Generated at 2024-06-13 11:06:13 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-06-14 11:04:06 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
