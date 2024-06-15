@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **06/01/2024** to **06/13/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **06/01/2024** to **06/14/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.01 USD|
-|Last 7 days|0.19 USD|
-|Last 30 days|0.39 USD|
+|Yesterday|0.03 USD|
+|Last 7 days|0.23 USD|
+|Last 30 days|0.46 USD|
 
 ```mermaid
 gantt
@@ -45,79 +45,79 @@ gantt
    section 11 Jun
    USD 0.36 :0, 36
    section 12 Jun
-   USD 0.38 :0, 38
-   section 13 Jun
    USD 0.39 :0, 39
+   section 13 Jun
+   USD 0.43 :0, 43
    section 14 Jun
-   USD 0.42 : done, 0, 42
+   USD 0.46 :0, 46
    section 15 Jun
-   USD 0.45 : done, 0, 45
+   USD 0.49 : done, 0, 49
    section 16 Jun
-   USD 0.48 : done, 0, 48
-   section 17 Jun
    USD 0.52 : done, 0, 52
+   section 17 Jun
+   USD 0.56 : done, 0, 56
    section 18 Jun
-   USD 0.55 : done, 0, 55
+   USD 0.59 : done, 0, 59
    section 19 Jun
-   USD 0.58 : done, 0, 58
+   USD 0.62 : done, 0, 62
    section 20 Jun
-   USD 0.61 : done, 0, 61
+   USD 0.65 : done, 0, 65
    section 21 Jun
-   USD 0.64 : done, 0, 64
+   USD 0.69 : done, 0, 69
    section 22 Jun
-   USD 0.67 : done, 0, 67
+   USD 0.72 : done, 0, 72
    section 23 Jun
-   USD 0.70 : done, 0, 70
+   USD 0.75 : done, 0, 75
    section 24 Jun
-   USD 0.73 : done, 0, 73
-   section 25 Jun
-   USD 0.76 : done, 0, 76
-   section 26 Jun
    USD 0.79 : done, 0, 79
-   section 27 Jun
+   section 25 Jun
    USD 0.82 : done, 0, 82
-   section 28 Jun
+   section 26 Jun
    USD 0.85 : done, 0, 85
-   section 29 Jun
+   section 27 Jun
    USD 0.88 : done, 0, 88
+   section 28 Jun
+   USD 0.92 : done, 0, 92
+   section 29 Jun
+   USD 0.95 : done, 0, 95
    section 30 Jun
-   USD 0.91 : done, 0, 91
+   USD 0.98 : done, 0, 98
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.39 USD|
+|Azure DNS|0.46 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.39
+   "Azure DNS" : 0.46
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.39 USD|
+|Unknown|0.46 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.39
+   "Unknown" : 0.46
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-dns|0.39 USD|
+|personal-dns|0.46 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-dns" : 0.39
+   "personal-dns" : 0.46
 ```
 
-<sup>Generated at 2024-06-14 11:07:07 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-06-15 11:06:15 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
