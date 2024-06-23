@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **06/01/2024** to **06/21/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **06/01/2024** to **06/22/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.18 USD|
-|Last 7 days|1.96 USD|
-|Last 30 days|6.10 USD|
+|Yesterday|0.27 USD|
+|Last 7 days|2.05 USD|
+|Last 30 days|6.48 USD|
 
 ```mermaid
 gantt
@@ -63,44 +63,44 @@ gantt
    section 20 Jun
    USD 5.92 :0, 592
    section 21 Jun
-   USD 6.10 :0, 610
+   USD 6.21 :0, 621
    section 22 Jun
-   USD 6.40 : done, 0, 640
+   USD 6.48 :0, 648
    section 23 Jun
-   USD 6.69 : done, 0, 669
+   USD 6.78 : done, 0, 678
    section 24 Jun
-   USD 6.99 : done, 0, 699
+   USD 7.08 : done, 0, 708
    section 25 Jun
-   USD 7.29 : done, 0, 729
+   USD 7.37 : done, 0, 737
    section 26 Jun
-   USD 7.58 : done, 0, 758
+   USD 7.67 : done, 0, 767
    section 27 Jun
-   USD 7.88 : done, 0, 788
+   USD 7.96 : done, 0, 796
    section 28 Jun
-   USD 8.17 : done, 0, 817
+   USD 8.26 : done, 0, 826
    section 29 Jun
-   USD 8.47 : done, 0, 847
+   USD 8.56 : done, 0, 856
    section 30 Jun
-   USD 8.77 : done, 0, 877
+   USD 8.85 : done, 0, 885
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|6.10 USD|
+|Azure App Service|6.48 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 6.10
+   "Azure App Service" : 6.48
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US Central|6.10 USD|
+|US Central|6.48 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -109,7 +109,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 6.10
+   "US Central" : 6.48
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -120,12 +120,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|6.10 USD|
+|personal-site|6.48 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 6.10
+   "personal-site" : 6.48
 ```
 
-<sup>Generated at 2024-06-22 11:13:21 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-06-23 11:14:02 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
