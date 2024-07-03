@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **07/01/2024** to **07/01/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **07/01/2024** to **07/02/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.45 USD|
-|Last 7 days|0.45 USD|
-|Last 30 days|0.45 USD|
+|Yesterday|0.42 USD|
+|Last 7 days|1.01 USD|
+|Last 30 days|1.01 USD|
 
 ```mermaid
 gantt
@@ -23,74 +23,74 @@ gantt
    dateFormat  X
    axisFormat %s
    section 01 Jul
-   USD 0.45 :0, 45
+   USD 0.59 :0, 59
    section 02 Jul
-   USD 1.04 : done, 0, 104
+   USD 1.01 :0, 101
    section 03 Jul
-   USD 1.63 : done, 0, 163
+   USD 1.61 : done, 0, 161
    section 04 Jul
-   USD 2.23 : done, 0, 223
+   USD 2.20 : done, 0, 220
    section 05 Jul
-   USD 2.82 : done, 0, 282
+   USD 2.79 : done, 0, 279
    section 06 Jul
-   USD 3.41 : done, 0, 341
+   USD 3.39 : done, 0, 339
    section 07 Jul
-   USD 4.01 : done, 0, 401
+   USD 3.98 : done, 0, 398
    section 08 Jul
-   USD 4.60 : done, 0, 460
+   USD 4.58 : done, 0, 458
    section 09 Jul
-   USD 5.19 : done, 0, 519
+   USD 5.17 : done, 0, 517
    section 10 Jul
-   USD 5.79 : done, 0, 579
+   USD 5.76 : done, 0, 576
    section 11 Jul
-   USD 6.38 : done, 0, 638
+   USD 6.36 : done, 0, 636
    section 12 Jul
-   USD 6.97 : done, 0, 697
+   USD 6.95 : done, 0, 695
    section 13 Jul
-   USD 7.57 : done, 0, 757
+   USD 7.54 : done, 0, 754
    section 14 Jul
-   USD 8.16 : done, 0, 816
+   USD 8.14 : done, 0, 814
    section 15 Jul
-   USD 8.75 : done, 0, 875
+   USD 8.73 : done, 0, 873
    section 16 Jul
-   USD 9.35 : done, 0, 935
+   USD 9.32 : done, 0, 932
    section 17 Jul
-   USD 9.94 : done, 0, 994
+   USD 9.92 : done, 0, 992
    section 18 Jul
-   USD 10.53 : done, 0, 1053
+   USD 10.51 : done, 0, 1051
    section 19 Jul
-   USD 11.13 : done, 0, 1113
+   USD 11.10 : done, 0, 1110
    section 20 Jul
-   USD 11.72 : done, 0, 1172
+   USD 11.70 : done, 0, 1170
    section 21 Jul
-   USD 12.31 : done, 0, 1231
+   USD 12.29 : done, 0, 1229
    section 22 Jul
-   USD 12.91 : done, 0, 1291
+   USD 12.88 : done, 0, 1288
    section 23 Jul
-   USD 13.50 : done, 0, 1350
+   USD 13.48 : done, 0, 1348
    section 24 Jul
-   USD 14.09 : done, 0, 1409
+   USD 14.07 : done, 0, 1407
    section 25 Jul
-   USD 14.69 : done, 0, 1469
+   USD 14.66 : done, 0, 1466
    section 26 Jul
-   USD 15.28 : done, 0, 1528
+   USD 15.26 : done, 0, 1526
    section 27 Jul
-   USD 15.87 : done, 0, 1587
+   USD 15.85 : done, 0, 1585
    section 28 Jul
-   USD 16.47 : done, 0, 1647
+   USD 16.45 : done, 0, 1645
    section 29 Jul
-   USD 17.06 : done, 0, 1706
+   USD 17.04 : done, 0, 1704
    section 30 Jul
-   USD 17.65 : done, 0, 1765
+   USD 17.63 : done, 0, 1763
    section 31 Jul
-   USD 18.25 : done, 0, 1825
+   USD 18.23 : done, 0, 1823
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|0.44 USD|
+|Azure App Service|1.01 USD|
 |Storage|0.00 USD|
 |Bandwidth|0.00 USD|
 |Log Analytics|0.00 USD|
@@ -98,7 +98,7 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 0.44
+   "Azure App Service" : 1.01
    "Storage" : 0.00
    "Bandwidth" : 0.00
    "Log Analytics" : 0.00
@@ -108,7 +108,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|0.45 USD|
+|US Central|1.01 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -117,7 +117,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 0.45
+   "US Central" : 1.01
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -128,12 +128,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|0.45 USD|
+|personal-site|1.01 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 0.45
+   "personal-site" : 1.01
 ```
 
-<sup>Generated at 2024-07-02 11:05:50 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-07-03 11:03:12 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
