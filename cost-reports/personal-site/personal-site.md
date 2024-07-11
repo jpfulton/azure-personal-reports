@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **07/01/2024** to **07/09/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **07/01/2024** to **07/10/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.18 USD|
-|Last 7 days|1.96 USD|
-|Last 30 days|2.55 USD|
+|Yesterday|0.26 USD|
+|Last 7 days|2.03 USD|
+|Last 30 days|2.92 USD|
 
 ```mermaid
 gantt
@@ -39,70 +39,70 @@ gantt
    section 08 Jul
    USD 2.37 :0, 237
    section 09 Jul
-   USD 2.55 :0, 255
+   USD 2.66 :0, 266
    section 10 Jul
-   USD 2.85 : done, 0, 285
+   USD 2.92 :0, 292
    section 11 Jul
-   USD 3.14 : done, 0, 314
+   USD 3.22 : done, 0, 322
    section 12 Jul
-   USD 3.44 : done, 0, 344
+   USD 3.51 : done, 0, 351
    section 13 Jul
-   USD 3.74 : done, 0, 374
+   USD 3.81 : done, 0, 381
    section 14 Jul
-   USD 4.03 : done, 0, 403
+   USD 4.11 : done, 0, 411
    section 15 Jul
-   USD 4.33 : done, 0, 433
+   USD 4.40 : done, 0, 440
    section 16 Jul
-   USD 4.62 : done, 0, 462
+   USD 4.70 : done, 0, 470
    section 17 Jul
-   USD 4.92 : done, 0, 492
+   USD 4.99 : done, 0, 499
    section 18 Jul
-   USD 5.22 : done, 0, 522
+   USD 5.29 : done, 0, 529
    section 19 Jul
-   USD 5.51 : done, 0, 551
+   USD 5.58 : done, 0, 558
    section 20 Jul
-   USD 5.81 : done, 0, 581
+   USD 5.88 : done, 0, 588
    section 21 Jul
-   USD 6.10 : done, 0, 610
+   USD 6.18 : done, 0, 618
    section 22 Jul
-   USD 6.40 : done, 0, 640
+   USD 6.47 : done, 0, 647
    section 23 Jul
-   USD 6.69 : done, 0, 669
+   USD 6.77 : done, 0, 677
    section 24 Jul
-   USD 6.99 : done, 0, 699
+   USD 7.06 : done, 0, 706
    section 25 Jul
-   USD 7.29 : done, 0, 729
+   USD 7.36 : done, 0, 736
    section 26 Jul
-   USD 7.58 : done, 0, 758
+   USD 7.66 : done, 0, 766
    section 27 Jul
-   USD 7.88 : done, 0, 788
+   USD 7.95 : done, 0, 795
    section 28 Jul
-   USD 8.17 : done, 0, 817
+   USD 8.25 : done, 0, 825
    section 29 Jul
-   USD 8.47 : done, 0, 847
+   USD 8.54 : done, 0, 854
    section 30 Jul
-   USD 8.77 : done, 0, 877
+   USD 8.84 : done, 0, 884
    section 31 Jul
-   USD 9.06 : done, 0, 906
+   USD 9.14 : done, 0, 914
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|2.55 USD|
+|Azure App Service|2.92 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 2.55
+   "Azure App Service" : 2.92
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US Central|2.55 USD|
+|US Central|2.92 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -111,7 +111,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 2.55
+   "US Central" : 2.92
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -122,12 +122,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|2.55 USD|
+|personal-site|2.92 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 2.55
+   "personal-site" : 2.92
 ```
 
-<sup>Generated at 2024-07-10 11:12:48 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-07-11 11:14:19 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
