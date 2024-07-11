@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **07/01/2024** to **07/09/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **07/01/2024** to **07/10/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.40 USD|
-|Last 7 days|4.22 USD|
-|Last 30 days|5.49 USD|
+|Yesterday|0.56 USD|
+|Last 7 days|4.37 USD|
+|Last 30 days|6.28 USD|
 
 ```mermaid
 gantt
@@ -39,60 +39,60 @@ gantt
    section 08 Jul
    USD 5.09 :0, 509
    section 09 Jul
-   USD 5.49 :0, 549
+   USD 5.72 :0, 572
    section 10 Jul
-   USD 6.12 : done, 0, 612
+   USD 6.28 :0, 628
    section 11 Jul
-   USD 6.76 : done, 0, 676
+   USD 6.92 : done, 0, 692
    section 12 Jul
-   USD 7.40 : done, 0, 740
+   USD 7.55 : done, 0, 755
    section 13 Jul
-   USD 8.03 : done, 0, 803
+   USD 8.19 : done, 0, 819
    section 14 Jul
-   USD 8.67 : done, 0, 867
+   USD 8.83 : done, 0, 883
    section 15 Jul
-   USD 9.30 : done, 0, 930
+   USD 9.46 : done, 0, 946
    section 16 Jul
-   USD 9.94 : done, 0, 994
+   USD 10.10 : done, 0, 1010
    section 17 Jul
-   USD 10.58 : done, 0, 1058
+   USD 10.73 : done, 0, 1073
    section 18 Jul
-   USD 11.21 : done, 0, 1121
+   USD 11.37 : done, 0, 1137
    section 19 Jul
-   USD 11.85 : done, 0, 1185
+   USD 12.01 : done, 0, 1201
    section 20 Jul
-   USD 12.48 : done, 0, 1248
+   USD 12.64 : done, 0, 1264
    section 21 Jul
-   USD 13.12 : done, 0, 1312
+   USD 13.28 : done, 0, 1328
    section 22 Jul
-   USD 13.75 : done, 0, 1375
+   USD 13.91 : done, 0, 1391
    section 23 Jul
-   USD 14.39 : done, 0, 1439
+   USD 14.55 : done, 0, 1455
    section 24 Jul
-   USD 15.03 : done, 0, 1503
+   USD 15.18 : done, 0, 1518
    section 25 Jul
-   USD 15.66 : done, 0, 1566
+   USD 15.82 : done, 0, 1582
    section 26 Jul
-   USD 16.30 : done, 0, 1630
+   USD 16.46 : done, 0, 1646
    section 27 Jul
-   USD 16.93 : done, 0, 1693
+   USD 17.09 : done, 0, 1709
    section 28 Jul
-   USD 17.57 : done, 0, 1757
+   USD 17.73 : done, 0, 1773
    section 29 Jul
-   USD 18.21 : done, 0, 1821
+   USD 18.36 : done, 0, 1836
    section 30 Jul
-   USD 18.84 : done, 0, 1884
+   USD 19.00 : done, 0, 1900
    section 31 Jul
-   USD 19.48 : done, 0, 1948
+   USD 19.63 : done, 0, 1963
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|5.10 USD|
-|Azure DNS|0.28 USD|
-|Storage|0.10 USD|
+|Azure App Service|5.84 USD|
+|Azure DNS|0.33 USD|
+|Storage|0.11 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
@@ -100,9 +100,9 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 5.10
-   "Azure DNS" : 0.28
-   "Storage" : 0.10
+   "Azure App Service" : 5.84
+   "Azure DNS" : 0.33
+   "Storage" : 0.11
    "Bandwidth" : 0.00
    "Functions" : 0.00
    "Log Analytics" : 0.00
@@ -112,9 +112,9 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|5.12 USD|
-|Unknown|0.28 USD|
-|US East|0.08 USD|
+|US Central|5.86 USD|
+|Unknown|0.33 USD|
+|US East|0.10 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -123,9 +123,9 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 5.12
-   "Unknown" : 0.28
-   "US East" : 0.08
+   "US Central" : 5.86
+   "Unknown" : 0.33
+   "US East" : 0.10
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -136,16 +136,16 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|5.12 USD|
-|personal-dns|0.28 USD|
-|cloud-shell-storage-eastus|0.08 USD|
+|personal-site|5.86 USD|
+|personal-dns|0.33 USD|
+|cloud-shell-storage-eastus|0.10 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 5.12
-   "personal-dns" : 0.28
-   "cloud-shell-storage-eastus" : 0.08
+   "personal-site" : 5.86
+   "personal-dns" : 0.33
+   "cloud-shell-storage-eastus" : 0.10
 ```
 
-<sup>Generated at 2024-07-10 11:21:56 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-07-11 11:23:28 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
