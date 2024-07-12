@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **07/01/2024** to **07/10/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **07/01/2024** to **07/11/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.56 USD|
-|Last 7 days|4.37 USD|
-|Last 30 days|6.28 USD|
+|Yesterday|0.19 USD|
+|Last 7 days|4.00 USD|
+|Last 30 days|6.55 USD|
 
 ```mermaid
 gantt
@@ -29,7 +29,7 @@ gantt
    section 03 Jul
    USD 1.91 :0, 191
    section 04 Jul
-   USD 2.54 :0, 254
+   USD 2.55 :0, 255
    section 05 Jul
    USD 3.18 :0, 318
    section 06 Jul
@@ -39,60 +39,60 @@ gantt
    section 08 Jul
    USD 5.09 :0, 509
    section 09 Jul
-   USD 5.72 :0, 572
+   USD 5.73 :0, 573
    section 10 Jul
-   USD 6.28 :0, 628
+   USD 6.36 :0, 636
    section 11 Jul
-   USD 6.92 : done, 0, 692
+   USD 6.55 :0, 655
    section 12 Jul
-   USD 7.55 : done, 0, 755
+   USD 7.19 : done, 0, 719
    section 13 Jul
-   USD 8.19 : done, 0, 819
+   USD 7.82 : done, 0, 782
    section 14 Jul
-   USD 8.83 : done, 0, 883
+   USD 8.46 : done, 0, 846
    section 15 Jul
-   USD 9.46 : done, 0, 946
+   USD 9.10 : done, 0, 910
    section 16 Jul
-   USD 10.10 : done, 0, 1010
+   USD 9.73 : done, 0, 973
    section 17 Jul
-   USD 10.73 : done, 0, 1073
+   USD 10.37 : done, 0, 1037
    section 18 Jul
-   USD 11.37 : done, 0, 1137
+   USD 11.00 : done, 0, 1100
    section 19 Jul
-   USD 12.01 : done, 0, 1201
+   USD 11.64 : done, 0, 1164
    section 20 Jul
-   USD 12.64 : done, 0, 1264
+   USD 12.28 : done, 0, 1228
    section 21 Jul
-   USD 13.28 : done, 0, 1328
+   USD 12.91 : done, 0, 1291
    section 22 Jul
-   USD 13.91 : done, 0, 1391
+   USD 13.55 : done, 0, 1355
    section 23 Jul
-   USD 14.55 : done, 0, 1455
+   USD 14.18 : done, 0, 1418
    section 24 Jul
-   USD 15.18 : done, 0, 1518
+   USD 14.82 : done, 0, 1482
    section 25 Jul
-   USD 15.82 : done, 0, 1582
+   USD 15.45 : done, 0, 1545
    section 26 Jul
-   USD 16.46 : done, 0, 1646
+   USD 16.09 : done, 0, 1609
    section 27 Jul
-   USD 17.09 : done, 0, 1709
+   USD 16.73 : done, 0, 1673
    section 28 Jul
-   USD 17.73 : done, 0, 1773
+   USD 17.36 : done, 0, 1736
    section 29 Jul
-   USD 18.36 : done, 0, 1836
+   USD 18.00 : done, 0, 1800
    section 30 Jul
-   USD 19.00 : done, 0, 1900
+   USD 18.63 : done, 0, 1863
    section 31 Jul
-   USD 19.63 : done, 0, 1963
+   USD 19.27 : done, 0, 1927
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|5.84 USD|
-|Azure DNS|0.33 USD|
-|Storage|0.11 USD|
+|Azure App Service|6.09 USD|
+|Azure DNS|0.34 USD|
+|Storage|0.12 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
@@ -100,9 +100,9 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 5.84
-   "Azure DNS" : 0.33
-   "Storage" : 0.11
+   "Azure App Service" : 6.09
+   "Azure DNS" : 0.34
+   "Storage" : 0.12
    "Bandwidth" : 0.00
    "Functions" : 0.00
    "Log Analytics" : 0.00
@@ -112,8 +112,8 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|5.86 USD|
-|Unknown|0.33 USD|
+|US Central|6.11 USD|
+|Unknown|0.34 USD|
 |US East|0.10 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
@@ -123,8 +123,8 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 5.86
-   "Unknown" : 0.33
+   "US Central" : 6.11
+   "Unknown" : 0.34
    "US East" : 0.10
    "AP East" : 0.00
    "EU West" : 0.00
@@ -136,16 +136,16 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|5.86 USD|
-|personal-dns|0.33 USD|
+|personal-site|6.11 USD|
+|personal-dns|0.34 USD|
 |cloud-shell-storage-eastus|0.10 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 5.86
-   "personal-dns" : 0.33
+   "personal-site" : 6.11
+   "personal-dns" : 0.34
    "cloud-shell-storage-eastus" : 0.10
 ```
 
-<sup>Generated at 2024-07-11 11:23:28 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-07-12 11:23:02 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
