@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **07/01/2024** to **07/18/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **07/01/2024** to **07/19/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.40 USD|
-|Last 7 days|4.21 USD|
-|Last 30 days|11.21 USD|
+|Yesterday|0.68 USD|
+|Last 7 days|4.65 USD|
+|Last 30 days|12.28 USD|
 
 ```mermaid
 gantt
@@ -57,42 +57,42 @@ gantt
    section 17 Jul
    USD 10.81 :0, 1081
    section 18 Jul
-   USD 11.21 :0, 1121
+   USD 11.60 :0, 1160
    section 19 Jul
-   USD 11.85 : done, 0, 1185
+   USD 12.28 :0, 1228
    section 20 Jul
-   USD 12.49 : done, 0, 1249
+   USD 12.94 : done, 0, 1294
    section 21 Jul
-   USD 13.12 : done, 0, 1312
+   USD 13.60 : done, 0, 1360
    section 22 Jul
-   USD 13.76 : done, 0, 1376
+   USD 14.26 : done, 0, 1426
    section 23 Jul
-   USD 14.39 : done, 0, 1439
+   USD 14.92 : done, 0, 1492
    section 24 Jul
-   USD 15.03 : done, 0, 1503
+   USD 15.58 : done, 0, 1558
    section 25 Jul
-   USD 15.66 : done, 0, 1566
+   USD 16.24 : done, 0, 1624
    section 26 Jul
-   USD 16.30 : done, 0, 1630
+   USD 16.90 : done, 0, 1690
    section 27 Jul
-   USD 16.94 : done, 0, 1694
-   section 28 Jul
    USD 17.57 : done, 0, 1757
+   section 28 Jul
+   USD 18.23 : done, 0, 1823
    section 29 Jul
-   USD 18.21 : done, 0, 1821
+   USD 18.90 : done, 0, 1890
    section 30 Jul
-   USD 18.84 : done, 0, 1884
+   USD 19.57 : done, 0, 1957
    section 31 Jul
-   USD 19.48 : done, 0, 1948
+   USD 20.23 : done, 0, 2023
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|10.43 USD|
-|Azure DNS|0.58 USD|
-|Storage|0.20 USD|
+|Azure App Service|11.44 USD|
+|Azure DNS|0.62 USD|
+|Storage|0.22 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
@@ -100,9 +100,9 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 10.43
-   "Azure DNS" : 0.58
-   "Storage" : 0.20
+   "Azure App Service" : 11.44
+   "Azure DNS" : 0.62
+   "Storage" : 0.22
    "Bandwidth" : 0.00
    "Functions" : 0.00
    "Log Analytics" : 0.00
@@ -112,9 +112,9 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|10.46 USD|
-|Unknown|0.58 USD|
-|US East|0.17 USD|
+|US Central|11.47 USD|
+|Unknown|0.62 USD|
+|US East|0.18 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -123,9 +123,9 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 10.46
-   "Unknown" : 0.58
-   "US East" : 0.17
+   "US Central" : 11.47
+   "Unknown" : 0.62
+   "US East" : 0.18
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -136,16 +136,16 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|10.46 USD|
-|personal-dns|0.58 USD|
-|cloud-shell-storage-eastus|0.17 USD|
+|personal-site|11.47 USD|
+|personal-dns|0.62 USD|
+|cloud-shell-storage-eastus|0.18 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 10.46
-   "personal-dns" : 0.58
-   "cloud-shell-storage-eastus" : 0.17
+   "personal-site" : 11.47
+   "personal-dns" : 0.62
+   "cloud-shell-storage-eastus" : 0.18
 ```
 
-<sup>Generated at 2024-07-19 11:23:21 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-07-20 11:22:53 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
