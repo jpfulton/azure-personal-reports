@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **07/01/2024** to **07/25/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **07/01/2024** to **07/26/2024**
 
 ## Totals
 
@@ -14,8 +14,8 @@ Fetching cost data by resource group...
 |---|---:|
 |Today|0.00 USD|
 |Yesterday|0.54 USD|
-|Last 7 days|4.20 USD|
-|Last 30 days|15.03 USD|
+|Last 7 days|4.10 USD|
+|Last 30 days|15.63 USD|
 
 ```mermaid
 gantt
@@ -71,26 +71,26 @@ gantt
    section 24 Jul
    USD 14.49 :0, 1449
    section 25 Jul
-   USD 15.03 :0, 1503
+   USD 15.08 :0, 1508
    section 26 Jul
-   USD 15.65 : done, 0, 1565
+   USD 15.63 :0, 1563
    section 27 Jul
-   USD 16.27 : done, 0, 1627
+   USD 16.24 : done, 0, 1624
    section 28 Jul
-   USD 16.89 : done, 0, 1689
+   USD 16.86 : done, 0, 1686
    section 29 Jul
-   USD 17.51 : done, 0, 1751
+   USD 17.48 : done, 0, 1748
    section 30 Jul
-   USD 18.14 : done, 0, 1814
+   USD 18.10 : done, 0, 1810
    section 31 Jul
-   USD 18.76 : done, 0, 1876
+   USD 18.72 : done, 0, 1872
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|14.99 USD|
+|Azure App Service|15.58 USD|
 |Storage|0.04 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
@@ -99,7 +99,7 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 14.99
+   "Azure App Service" : 15.58
    "Storage" : 0.04
    "Bandwidth" : 0.00
    "Functions" : 0.00
@@ -110,7 +110,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|15.03 USD|
+|US Central|15.63 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -119,7 +119,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 15.03
+   "US Central" : 15.63
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -130,12 +130,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|15.03 USD|
+|personal-site|15.63 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 15.03
+   "personal-site" : 15.63
 ```
 
-<sup>Generated at 2024-07-26 11:08:00 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-07-27 11:05:55 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
