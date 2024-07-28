@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **07/01/2024** to **07/26/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **07/01/2024** to **07/27/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.27 USD|
-|Last 7 days|2.05 USD|
-|Last 30 days|7.79 USD|
+|Yesterday|0.26 USD|
+|Last 7 days|2.03 USD|
+|Last 30 days|8.08 USD|
 
 ```mermaid
 gantt
@@ -73,36 +73,36 @@ gantt
    section 25 Jul
    USD 7.52 :0, 752
    section 26 Jul
-   USD 7.79 :0, 779
+   USD 7.82 :0, 782
    section 27 Jul
-   USD 8.10 : done, 0, 810
+   USD 8.08 :0, 808
    section 28 Jul
-   USD 8.41 : done, 0, 841
+   USD 8.38 : done, 0, 838
    section 29 Jul
-   USD 8.72 : done, 0, 872
+   USD 8.69 : done, 0, 869
    section 30 Jul
-   USD 9.02 : done, 0, 902
+   USD 9.00 : done, 0, 900
    section 31 Jul
-   USD 9.33 : done, 0, 933
+   USD 9.30 : done, 0, 930
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|7.79 USD|
+|Azure App Service|8.08 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 7.79
+   "Azure App Service" : 8.08
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US Central|7.79 USD|
+|US Central|8.08 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -111,7 +111,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 7.79
+   "US Central" : 8.08
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -122,12 +122,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|7.79 USD|
+|personal-site|8.08 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 7.79
+   "personal-site" : 8.08
 ```
 
-<sup>Generated at 2024-07-27 11:18:58 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-07-28 11:19:26 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
