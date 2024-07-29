@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **07/01/2024** to **07/27/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **07/01/2024** to **07/28/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.52 USD|
-|Last 7 days|4.08 USD|
-|Last 30 days|16.20 USD|
+|Yesterday|0.54 USD|
+|Last 7 days|4.11 USD|
+|Last 30 days|16.81 USD|
 
 ```mermaid
 gantt
@@ -75,22 +75,22 @@ gantt
    section 26 Jul
    USD 15.68 :0, 1568
    section 27 Jul
-   USD 16.20 :0, 1620
+   USD 16.27 :0, 1627
    section 28 Jul
-   USD 16.81 : done, 0, 1681
+   USD 16.81 :0, 1681
    section 29 Jul
    USD 17.43 : done, 0, 1743
    section 30 Jul
    USD 18.04 : done, 0, 1804
    section 31 Jul
-   USD 18.66 : done, 0, 1866
+   USD 18.65 : done, 0, 1865
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|16.15 USD|
+|Azure App Service|16.77 USD|
 |Storage|0.05 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
@@ -99,7 +99,7 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 16.15
+   "Azure App Service" : 16.77
    "Storage" : 0.05
    "Bandwidth" : 0.00
    "Functions" : 0.00
@@ -110,7 +110,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|16.20 USD|
+|US Central|16.81 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -119,7 +119,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 16.20
+   "US Central" : 16.81
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -130,12 +130,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|16.20 USD|
+|personal-site|16.81 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 16.20
+   "personal-site" : 16.81
 ```
 
-<sup>Generated at 2024-07-28 11:07:22 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-07-29 11:05:55 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
