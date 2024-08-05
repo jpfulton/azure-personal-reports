@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **08/01/2024** to **08/03/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **08/01/2024** to **08/04/2024**
 
 ## Totals
 
@@ -14,8 +14,8 @@ Fetching cost data by resource group...
 |---|---:|
 |Today|0.00 USD|
 |Yesterday|0.01 USD|
-|Last 7 days|0.05 USD|
-|Last 30 days|0.05 USD|
+|Last 7 days|0.06 USD|
+|Last 30 days|0.06 USD|
 
 ```mermaid
 gantt
@@ -29,7 +29,7 @@ gantt
    section 03 Aug
    USD 0.05 :0, 5
    section 04 Aug
-   USD 0.06 : done, 0, 6
+   USD 0.06 :0, 6
    section 05 Aug
    USD 0.08 : done, 0, 8
    section 06 Aug
@@ -39,19 +39,19 @@ gantt
    section 08 Aug
    USD 0.13 : done, 0, 13
    section 09 Aug
-   USD 0.14 : done, 0, 14
+   USD 0.15 : done, 0, 15
    section 10 Aug
    USD 0.16 : done, 0, 16
    section 11 Aug
    USD 0.18 : done, 0, 18
    section 12 Aug
-   USD 0.19 : done, 0, 19
+   USD 0.20 : done, 0, 20
    section 13 Aug
    USD 0.21 : done, 0, 21
    section 14 Aug
    USD 0.23 : done, 0, 23
    section 15 Aug
-   USD 0.24 : done, 0, 24
+   USD 0.25 : done, 0, 25
    section 16 Aug
    USD 0.26 : done, 0, 26
    section 17 Aug
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.05 USD|
+|Azure DNS|0.06 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.05
+   "Azure DNS" : 0.06
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.05 USD|
+|Unknown|0.06 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.05
+   "Unknown" : 0.06
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-dns|0.05 USD|
+|personal-dns|0.06 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-dns" : 0.05
+   "personal-dns" : 0.06
 ```
 
-<sup>Generated at 2024-08-04 11:14:40 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-08-05 11:13:50 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
