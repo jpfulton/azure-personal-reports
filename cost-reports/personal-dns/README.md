@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **08/01/2024** to **08/05/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **08/01/2024** to **08/06/2024**
 
 ## Totals
 
@@ -14,8 +14,8 @@ Fetching cost data by resource group...
 |---|---:|
 |Today|0.00 USD|
 |Yesterday|0.03 USD|
-|Last 7 days|0.16 USD|
-|Last 30 days|0.16 USD|
+|Last 7 days|0.19 USD|
+|Last 30 days|0.19 USD|
 
 ```mermaid
 gantt
@@ -33,7 +33,7 @@ gantt
    section 05 Aug
    USD 0.16 :0, 16
    section 06 Aug
-   USD 0.20 : done, 0, 20
+   USD 0.19 :0, 19
    section 07 Aug
    USD 0.23 : done, 0, 23
    section 08 Aug
@@ -47,13 +47,13 @@ gantt
    section 12 Aug
    USD 0.39 : done, 0, 39
    section 13 Aug
-   USD 0.43 : done, 0, 43
+   USD 0.42 : done, 0, 42
    section 14 Aug
    USD 0.46 : done, 0, 46
    section 15 Aug
    USD 0.49 : done, 0, 49
    section 16 Aug
-   USD 0.53 : done, 0, 53
+   USD 0.52 : done, 0, 52
    section 17 Aug
    USD 0.56 : done, 0, 56
    section 18 Aug
@@ -67,7 +67,7 @@ gantt
    section 22 Aug
    USD 0.72 : done, 0, 72
    section 23 Aug
-   USD 0.76 : done, 0, 76
+   USD 0.75 : done, 0, 75
    section 24 Aug
    USD 0.79 : done, 0, 79
    section 25 Aug
@@ -81,7 +81,7 @@ gantt
    section 29 Aug
    USD 0.95 : done, 0, 95
    section 30 Aug
-   USD 0.99 : done, 0, 99
+   USD 0.98 : done, 0, 98
    section 31 Aug
    USD 1.02 : done, 0, 102
 ```
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.16 USD|
+|Azure DNS|0.19 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.16
+   "Azure DNS" : 0.19
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.16 USD|
+|Unknown|0.19 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.16
+   "Unknown" : 0.19
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-dns|0.16 USD|
+|personal-dns|0.19 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-dns" : 0.16
+   "personal-dns" : 0.19
 ```
 
-<sup>Generated at 2024-08-06 11:02:35 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-08-07 11:03:48 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
