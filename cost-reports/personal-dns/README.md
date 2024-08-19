@@ -6,7 +6,7 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **08/01/2024** to **08/17/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **08/01/2024** to **08/18/2024**
 
 ## Totals
 
@@ -15,7 +15,7 @@ Fetching cost data by resource group...
 |Today|0.00 USD|
 |Yesterday|0.03 USD|
 |Last 7 days|0.23 USD|
-|Last 30 days|0.56 USD|
+|Last 30 days|0.59 USD|
 
 ```mermaid
 gantt
@@ -57,11 +57,11 @@ gantt
    section 17 Aug
    USD 0.56 :0, 56
    section 18 Aug
-   USD 0.59 : done, 0, 59
+   USD 0.59 :0, 59
    section 19 Aug
    USD 0.62 : done, 0, 62
    section 20 Aug
-   USD 0.66 : done, 0, 66
+   USD 0.65 : done, 0, 65
    section 21 Aug
    USD 0.69 : done, 0, 69
    section 22 Aug
@@ -69,7 +69,7 @@ gantt
    section 23 Aug
    USD 0.75 : done, 0, 75
    section 24 Aug
-   USD 0.79 : done, 0, 79
+   USD 0.78 : done, 0, 78
    section 25 Aug
    USD 0.82 : done, 0, 82
    section 26 Aug
@@ -77,7 +77,7 @@ gantt
    section 27 Aug
    USD 0.88 : done, 0, 88
    section 28 Aug
-   USD 0.92 : done, 0, 92
+   USD 0.91 : done, 0, 91
    section 29 Aug
    USD 0.95 : done, 0, 95
    section 30 Aug
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.56 USD|
+|Azure DNS|0.59 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.56
+   "Azure DNS" : 0.59
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.56 USD|
+|Unknown|0.59 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.56
+   "Unknown" : 0.59
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-dns|0.56 USD|
+|personal-dns|0.59 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-dns" : 0.56
+   "personal-dns" : 0.59
 ```
 
-<sup>Generated at 2024-08-18 11:06:44 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-08-19 11:07:02 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
