@@ -21,7 +21,8 @@ Fetching daily cost data...
 | **2024-08-16** | **0.64** | **personal-site**: `0.59` (_93.31%_), **personal-dns**: `0.03` (_5.17%_), **cloud-shell-storage-eastus**: `0.01` (_1.52%_), **Other**: `0.00` (_0.00%_) |
 | **2024-08-17** | **0.64** | **personal-site**: `0.59` (_93.35%_), **personal-dns**: `0.03` (_5.13%_), **cloud-shell-storage-eastus**: `0.01` (_1.52%_), **Other**: `0.00` (_0.00%_) |
 | **2024-08-18** | **0.64** | **personal-site**: `0.59` (_93.33%_), **personal-dns**: `0.03` (_5.15%_), **cloud-shell-storage-eastus**: `0.01` (_1.52%_), **Other**: `0.00` (_0.00%_) |
-| **2024-08-19** | **0.35** | **personal-site**: `0.32` (_92.83%_), **personal-dns**: `0.02` (_5.54%_), **cloud-shell-storage-eastus**: `0.01` (_1.63%_), **Other**: `0.00` (_0.00%_) |
+| **2024-08-19** | **0.64** | **personal-site**: `0.59` (_93.30%_), **personal-dns**: `0.03` (_5.18%_), **cloud-shell-storage-eastus**: `0.01` (_1.52%_), **Other**: `0.00` (_0.00%_) |
+| **2024-08-20** | **0.48** | **personal-site**: `0.45` (_92.94%_), **personal-dns**: `0.03` (_5.46%_), **cloud-shell-storage-eastus**: `0.01` (_1.60%_), **Other**: `0.00` (_0.00%_) |
 
 
-<sup>Generated at 2024-08-20 11:22:07 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-08-21 11:21:57 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
