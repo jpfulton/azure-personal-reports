@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **08/01/2024** to **08/20/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **08/01/2024** to **08/21/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.45 USD|
-|Last 7 days|4.01 USD|
-|Last 30 days|11.72 USD|
+|Yesterday|0.40 USD|
+|Last 7 days|3.93 USD|
+|Last 30 days|12.24 USD|
 
 ```mermaid
 gantt
@@ -61,36 +61,36 @@ gantt
    section 19 Aug
    USD 11.28 :0, 1128
    section 20 Aug
-   USD 11.72 :0, 1172
+   USD 11.85 :0, 1185
    section 21 Aug
-   USD 12.32 : done, 0, 1232
+   USD 12.24 :0, 1224
    section 22 Aug
-   USD 12.91 : done, 0, 1291
+   USD 12.83 : done, 0, 1283
    section 23 Aug
-   USD 13.50 : done, 0, 1350
+   USD 13.42 : done, 0, 1342
    section 24 Aug
-   USD 14.10 : done, 0, 1410
+   USD 14.01 : done, 0, 1401
    section 25 Aug
-   USD 14.69 : done, 0, 1469
+   USD 14.60 : done, 0, 1460
    section 26 Aug
-   USD 15.29 : done, 0, 1529
+   USD 15.19 : done, 0, 1519
    section 27 Aug
-   USD 15.88 : done, 0, 1588
+   USD 15.78 : done, 0, 1578
    section 28 Aug
-   USD 16.47 : done, 0, 1647
+   USD 16.37 : done, 0, 1637
    section 29 Aug
-   USD 17.07 : done, 0, 1707
+   USD 16.96 : done, 0, 1696
    section 30 Aug
-   USD 17.66 : done, 0, 1766
+   USD 17.55 : done, 0, 1755
    section 31 Aug
-   USD 18.25 : done, 0, 1825
+   USD 18.14 : done, 0, 1814
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|11.69 USD|
+|Azure App Service|12.20 USD|
 |Storage|0.04 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
@@ -99,7 +99,7 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 11.69
+   "Azure App Service" : 12.20
    "Storage" : 0.04
    "Bandwidth" : 0.00
    "Functions" : 0.00
@@ -110,7 +110,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|11.72 USD|
+|US Central|12.24 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -119,7 +119,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 11.72
+   "US Central" : 12.24
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -130,12 +130,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|11.72 USD|
+|personal-site|12.24 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 11.72
+   "personal-site" : 12.24
 ```
 
-<sup>Generated at 2024-08-21 11:06:51 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-08-22 11:07:00 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
