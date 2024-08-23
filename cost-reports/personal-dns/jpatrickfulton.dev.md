@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **08/01/2024** to **08/21/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **08/01/2024** to **08/22/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.01 USD|
-|Last 7 days|0.11 USD|
-|Last 30 days|0.34 USD|
+|Yesterday|0.02 USD|
+|Last 7 days|0.12 USD|
+|Last 30 days|0.36 USD|
 
 ```mermaid
 gantt
@@ -63,25 +63,25 @@ gantt
    section 20 Aug
    USD 0.33 :0, 33
    section 21 Aug
-   USD 0.34 :0, 34
+   USD 0.35 :0, 35
    section 22 Aug
-   USD 0.36 : done, 0, 36
+   USD 0.36 :0, 36
    section 23 Aug
-   USD 0.37 : done, 0, 37
+   USD 0.38 : done, 0, 38
    section 24 Aug
-   USD 0.39 : done, 0, 39
+   USD 0.40 : done, 0, 40
    section 25 Aug
    USD 0.41 : done, 0, 41
    section 26 Aug
-   USD 0.42 : done, 0, 42
+   USD 0.43 : done, 0, 43
    section 27 Aug
-   USD 0.44 : done, 0, 44
+   USD 0.45 : done, 0, 45
    section 28 Aug
    USD 0.46 : done, 0, 46
    section 29 Aug
-   USD 0.47 : done, 0, 47
+   USD 0.48 : done, 0, 48
    section 30 Aug
-   USD 0.49 : done, 0, 49
+   USD 0.50 : done, 0, 50
    section 31 Aug
    USD 0.51 : done, 0, 51
 ```
@@ -90,36 +90,36 @@ gantt
 
 |Service|Amount|
 |---|---:|
-|Azure DNS|0.34 USD|
+|Azure DNS|0.36 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure DNS" : 0.34
+   "Azure DNS" : 0.36
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|Unknown|0.34 USD|
+|Unknown|0.36 USD|
 
 ```mermaid
 pie
    title Cost by location
-   "Unknown" : 0.34
+   "Unknown" : 0.36
 ```
 
 ## By Resource Group
 
 |Resource Group|Amount|
 |---|---:|
-|personal-dns|0.34 USD|
+|personal-dns|0.36 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-dns" : 0.34
+   "personal-dns" : 0.36
 ```
 
-<sup>Generated at 2024-08-22 11:13:01 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-08-23 11:13:05 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
