@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **08/01/2024** to **08/23/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **08/01/2024** to **08/24/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.23 USD|
-|Last 7 days|2.01 USD|
-|Last 30 days|6.74 USD|
+|Yesterday|0.27 USD|
+|Last 7 days|2.05 USD|
+|Last 30 days|7.08 USD|
 
 ```mermaid
 gantt
@@ -67,42 +67,42 @@ gantt
    section 22 Aug
    USD 6.51 :0, 651
    section 23 Aug
-   USD 6.74 :0, 674
+   USD 6.81 :0, 681
    section 24 Aug
-   USD 7.04 : done, 0, 704
+   USD 7.08 :0, 708
    section 25 Aug
-   USD 7.34 : done, 0, 734
+   USD 7.37 : done, 0, 737
    section 26 Aug
-   USD 7.63 : done, 0, 763
+   USD 7.67 : done, 0, 767
    section 27 Aug
-   USD 7.93 : done, 0, 793
+   USD 7.96 : done, 0, 796
    section 28 Aug
-   USD 8.22 : done, 0, 822
+   USD 8.26 : done, 0, 826
    section 29 Aug
-   USD 8.52 : done, 0, 852
+   USD 8.56 : done, 0, 856
    section 30 Aug
-   USD 8.81 : done, 0, 881
+   USD 8.85 : done, 0, 885
    section 31 Aug
-   USD 9.11 : done, 0, 911
+   USD 9.15 : done, 0, 915
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|6.74 USD|
+|Azure App Service|7.08 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 6.74
+   "Azure App Service" : 7.08
 ```
 
 ## By Location
 
 |Location|Amount|
 |---|---:|
-|US Central|6.78 USD|
+|US Central|7.08 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -111,7 +111,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 6.78
+   "US Central" : 7.08
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -122,12 +122,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|6.74 USD|
+|personal-site|7.08 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 6.74
+   "personal-site" : 7.08
 ```
 
-<sup>Generated at 2024-08-24 11:13:05 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-08-25 11:12:39 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
