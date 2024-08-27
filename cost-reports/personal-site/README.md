@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **08/01/2024** to **08/25/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **08/01/2024** to **08/26/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.47 USD|
-|Last 7 days|4.03 USD|
-|Last 30 days|14.72 USD|
+|Yesterday|0.37 USD|
+|Last 7 days|3.93 USD|
+|Last 30 days|15.21 USD|
 
 ```mermaid
 gantt
@@ -71,26 +71,26 @@ gantt
    section 24 Aug
    USD 14.25 :0, 1425
    section 25 Aug
-   USD 14.72 :0, 1472
+   USD 14.84 :0, 1484
    section 26 Aug
-   USD 15.31 : done, 0, 1531
+   USD 15.21 :0, 1521
    section 27 Aug
-   USD 15.90 : done, 0, 1590
+   USD 15.80 : done, 0, 1580
    section 28 Aug
-   USD 16.50 : done, 0, 1650
+   USD 16.40 : done, 0, 1640
    section 29 Aug
-   USD 17.09 : done, 0, 1709
+   USD 16.99 : done, 0, 1699
    section 30 Aug
-   USD 17.68 : done, 0, 1768
+   USD 17.59 : done, 0, 1759
    section 31 Aug
-   USD 18.28 : done, 0, 1828
+   USD 18.18 : done, 0, 1818
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|14.67 USD|
+|Azure App Service|15.16 USD|
 |Storage|0.05 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
@@ -99,7 +99,7 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 14.67
+   "Azure App Service" : 15.16
    "Storage" : 0.05
    "Bandwidth" : 0.00
    "Functions" : 0.00
@@ -110,7 +110,7 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|14.72 USD|
+|US Central|15.21 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -119,7 +119,7 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 14.72
+   "US Central" : 15.21
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -130,12 +130,12 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|14.72 USD|
+|personal-site|15.21 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 14.72
+   "personal-site" : 15.21
 ```
 
-<sup>Generated at 2024-08-26 11:06:49 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-08-27 11:04:06 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
