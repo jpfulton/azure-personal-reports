@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2024** to **09/02/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2024** to **09/03/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.29 USD|
-|Last 7 days|0.93 USD|
-|Last 30 days|0.93 USD|
+|Yesterday|0.08 USD|
+|Last 7 days|1.35 USD|
+|Last 30 days|1.35 USD|
 
 ```mermaid
 gantt
@@ -25,81 +25,81 @@ gantt
    section 01 Sep
    USD 0.64 :0, 64
    section 02 Sep
-   USD 0.93 :0, 93
+   USD 1.27 :0, 127
    section 03 Sep
-   USD 1.57 : done, 0, 157
+   USD 1.35 :0, 135
    section 04 Sep
-   USD 2.20 : done, 0, 220
+   USD 1.99 : done, 0, 199
    section 05 Sep
-   USD 2.84 : done, 0, 284
+   USD 2.63 : done, 0, 263
    section 06 Sep
-   USD 3.48 : done, 0, 348
+   USD 3.26 : done, 0, 326
    section 07 Sep
-   USD 4.11 : done, 0, 411
+   USD 3.90 : done, 0, 390
    section 08 Sep
-   USD 4.75 : done, 0, 475
+   USD 4.54 : done, 0, 454
    section 09 Sep
-   USD 5.39 : done, 0, 539
+   USD 5.17 : done, 0, 517
    section 10 Sep
-   USD 6.02 : done, 0, 602
+   USD 5.81 : done, 0, 581
    section 11 Sep
-   USD 6.66 : done, 0, 666
+   USD 6.44 : done, 0, 644
    section 12 Sep
-   USD 7.30 : done, 0, 730
+   USD 7.08 : done, 0, 708
    section 13 Sep
-   USD 7.93 : done, 0, 793
+   USD 7.72 : done, 0, 772
    section 14 Sep
-   USD 8.57 : done, 0, 857
+   USD 8.35 : done, 0, 835
    section 15 Sep
-   USD 9.21 : done, 0, 921
+   USD 8.99 : done, 0, 899
    section 16 Sep
-   USD 9.84 : done, 0, 984
+   USD 9.63 : done, 0, 963
    section 17 Sep
-   USD 10.48 : done, 0, 1048
+   USD 10.26 : done, 0, 1026
    section 18 Sep
-   USD 11.12 : done, 0, 1112
+   USD 10.90 : done, 0, 1090
    section 19 Sep
-   USD 11.75 : done, 0, 1175
+   USD 11.54 : done, 0, 1154
    section 20 Sep
-   USD 12.39 : done, 0, 1239
+   USD 12.17 : done, 0, 1217
    section 21 Sep
-   USD 13.03 : done, 0, 1303
+   USD 12.81 : done, 0, 1281
    section 22 Sep
-   USD 13.66 : done, 0, 1366
+   USD 13.45 : done, 0, 1345
    section 23 Sep
-   USD 14.30 : done, 0, 1430
+   USD 14.08 : done, 0, 1408
    section 24 Sep
-   USD 14.94 : done, 0, 1494
+   USD 14.72 : done, 0, 1472
    section 25 Sep
-   USD 15.57 : done, 0, 1557
+   USD 15.36 : done, 0, 1536
    section 26 Sep
-   USD 16.21 : done, 0, 1621
+   USD 15.99 : done, 0, 1599
    section 27 Sep
-   USD 16.85 : done, 0, 1685
+   USD 16.63 : done, 0, 1663
    section 28 Sep
-   USD 17.48 : done, 0, 1748
+   USD 17.26 : done, 0, 1726
    section 29 Sep
-   USD 18.12 : done, 0, 1812
+   USD 17.90 : done, 0, 1790
    section 30 Sep
-   USD 18.76 : done, 0, 1876
+   USD 18.54 : done, 0, 1854
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|0.86 USD|
-|Azure DNS|0.05 USD|
-|Storage|0.02 USD|
+|Azure App Service|1.26 USD|
+|Azure DNS|0.07 USD|
+|Storage|0.03 USD|
 |Bandwidth|0.00 USD|
 |Log Analytics|0.00 USD|
 
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 0.86
-   "Azure DNS" : 0.05
-   "Storage" : 0.02
+   "Azure App Service" : 1.26
+   "Azure DNS" : 0.07
+   "Storage" : 0.03
    "Bandwidth" : 0.00
    "Log Analytics" : 0.00
 ```
@@ -108,8 +108,8 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|0.87 USD|
-|Unknown|0.05 USD|
+|US Central|1.26 USD|
+|Unknown|0.07 USD|
 |US East|0.02 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
@@ -119,8 +119,8 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 0.87
-   "Unknown" : 0.05
+   "US Central" : 1.26
+   "Unknown" : 0.07
    "US East" : 0.02
    "AP East" : 0.00
    "EU West" : 0.00
@@ -132,16 +132,16 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|0.87 USD|
-|personal-dns|0.05 USD|
+|personal-site|1.26 USD|
+|personal-dns|0.07 USD|
 |cloud-shell-storage-eastus|0.02 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 0.87
-   "personal-dns" : 0.05
+   "personal-site" : 1.26
+   "personal-dns" : 0.07
    "cloud-shell-storage-eastus" : 0.02
 ```
 
-<sup>Generated at 2024-09-03 11:23:06 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-09-04 11:22:02 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
