@@ -6,16 +6,16 @@ Fetching cost data by location...
 Fetching cost data by resource group...
 # Azure Cost Overview
 
-> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2024** to **09/06/2024**
+> Accumulated cost for subscription id `JPF Pay-As-You-Go` from **09/01/2024** to **09/07/2024**
 
 ## Totals
 
 |Period|Amount|
 |---|---:|
 |Today|0.00 USD|
-|Yesterday|0.43 USD|
-|Last 7 days|3.61 USD|
-|Last 30 days|3.61 USD|
+|Yesterday|0.37 USD|
+|Last 7 days|4.19 USD|
+|Last 30 days|4.19 USD|
 
 ```mermaid
 gantt
@@ -33,64 +33,64 @@ gantt
    section 05 Sep
    USD 3.18 :0, 318
    section 06 Sep
-   USD 3.61 :0, 361
+   USD 3.82 :0, 382
    section 07 Sep
-   USD 4.25 : done, 0, 425
+   USD 4.19 :0, 419
    section 08 Sep
-   USD 4.88 : done, 0, 488
+   USD 4.83 : done, 0, 483
    section 09 Sep
-   USD 5.52 : done, 0, 552
+   USD 5.47 : done, 0, 547
    section 10 Sep
-   USD 6.16 : done, 0, 616
+   USD 6.10 : done, 0, 610
    section 11 Sep
-   USD 6.79 : done, 0, 679
+   USD 6.74 : done, 0, 674
    section 12 Sep
-   USD 7.43 : done, 0, 743
+   USD 7.38 : done, 0, 738
    section 13 Sep
-   USD 8.06 : done, 0, 806
+   USD 8.01 : done, 0, 801
    section 14 Sep
-   USD 8.70 : done, 0, 870
+   USD 8.65 : done, 0, 865
    section 15 Sep
-   USD 9.34 : done, 0, 934
+   USD 9.29 : done, 0, 929
    section 16 Sep
-   USD 9.97 : done, 0, 997
+   USD 9.92 : done, 0, 992
    section 17 Sep
-   USD 10.61 : done, 0, 1061
+   USD 10.56 : done, 0, 1056
    section 18 Sep
-   USD 11.25 : done, 0, 1125
+   USD 11.20 : done, 0, 1120
    section 19 Sep
-   USD 11.88 : done, 0, 1188
+   USD 11.83 : done, 0, 1183
    section 20 Sep
-   USD 12.52 : done, 0, 1252
+   USD 12.47 : done, 0, 1247
    section 21 Sep
-   USD 13.16 : done, 0, 1316
+   USD 13.11 : done, 0, 1311
    section 22 Sep
-   USD 13.79 : done, 0, 1379
+   USD 13.74 : done, 0, 1374
    section 23 Sep
-   USD 14.43 : done, 0, 1443
+   USD 14.38 : done, 0, 1438
    section 24 Sep
-   USD 15.07 : done, 0, 1507
+   USD 15.02 : done, 0, 1502
    section 25 Sep
-   USD 15.70 : done, 0, 1570
+   USD 15.65 : done, 0, 1565
    section 26 Sep
-   USD 16.34 : done, 0, 1634
+   USD 16.29 : done, 0, 1629
    section 27 Sep
-   USD 16.98 : done, 0, 1698
+   USD 16.93 : done, 0, 1693
    section 28 Sep
-   USD 17.61 : done, 0, 1761
+   USD 17.57 : done, 0, 1757
    section 29 Sep
-   USD 18.25 : done, 0, 1825
+   USD 18.20 : done, 0, 1820
    section 30 Sep
-   USD 18.89 : done, 0, 1889
+   USD 18.84 : done, 0, 1884
 ```
 
 ## By Service Name
 
 |Service|Amount|
 |---|---:|
-|Azure App Service|3.35 USD|
-|Azure DNS|0.19 USD|
-|Storage|0.07 USD|
+|Azure App Service|3.90 USD|
+|Azure DNS|0.22 USD|
+|Storage|0.08 USD|
 |Bandwidth|0.00 USD|
 |Functions|0.00 USD|
 |Log Analytics|0.00 USD|
@@ -98,9 +98,9 @@ gantt
 ```mermaid
 pie
    title Cost by service
-   "Azure App Service" : 3.35
-   "Azure DNS" : 0.19
-   "Storage" : 0.07
+   "Azure App Service" : 3.90
+   "Azure DNS" : 0.22
+   "Storage" : 0.08
    "Bandwidth" : 0.00
    "Functions" : 0.00
    "Log Analytics" : 0.00
@@ -110,9 +110,9 @@ pie
 
 |Location|Amount|
 |---|---:|
-|US Central|3.36 USD|
-|Unknown|0.19 USD|
-|US East|0.06 USD|
+|US Central|3.91 USD|
+|Unknown|0.22 USD|
+|US East|0.07 USD|
 |AP East|0.00 USD|
 |EU West|0.00 USD|
 |US East 2|0.00 USD|
@@ -121,9 +121,9 @@ pie
 ```mermaid
 pie
    title Cost by location
-   "US Central" : 3.36
-   "Unknown" : 0.19
-   "US East" : 0.06
+   "US Central" : 3.91
+   "Unknown" : 0.22
+   "US East" : 0.07
    "AP East" : 0.00
    "EU West" : 0.00
    "US East 2" : 0.00
@@ -134,16 +134,16 @@ pie
 
 |Resource Group|Amount|
 |---|---:|
-|personal-site|3.36 USD|
-|personal-dns|0.19 USD|
-|cloud-shell-storage-eastus|0.06 USD|
+|personal-site|3.91 USD|
+|personal-dns|0.22 USD|
+|cloud-shell-storage-eastus|0.07 USD|
 
 ```mermaid
 pie
    title Cost by resource group
-   "personal-site" : 3.36
-   "personal-dns" : 0.19
-   "cloud-shell-storage-eastus" : 0.06
+   "personal-site" : 3.91
+   "personal-dns" : 0.22
+   "cloud-shell-storage-eastus" : 0.07
 ```
 
-<sup>Generated at 2024-09-07 11:22:50 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
+<sup>Generated at 2024-09-08 11:22:05 for subscription with id `4913be3f-a345-4652-9bba-767418dd25e3`</sup>
